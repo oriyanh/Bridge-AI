@@ -53,7 +53,6 @@ class Game:
         for player, hand in self.hands.items():
             ret += f"\n{player}\n{hand}"
 
-
         return ret
 
     @staticmethod
