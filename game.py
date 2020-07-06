@@ -46,13 +46,14 @@ class Game:
         ret += f"Current trick:  "
         for player, card in self.curr_trick.items():
             ret += f"{player}:{card}  "
+        if len(self.curr_trick) == 4:
+            ret += f",  {self.curr_trick.get_winner()} won trick."
         ret += f"\n"
 
         for player, hand in self.hands.items():
             ret += f"\n{player}\n{hand}"
 
-        if len(self.curr_trick) == 4:
-            ret += f"\n{self.curr_trick.get_winner()} won trick"
+
         return ret
 
     @staticmethod

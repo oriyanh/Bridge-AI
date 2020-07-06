@@ -7,6 +7,8 @@ from typing import List
 from agents import *
 from game import Game
 
+NUM_GAMES = 3
+
 seed(0)
 
 
@@ -49,6 +51,6 @@ class Match:
 
 
 if __name__ == '__main__':
-    game = Match(RandomAgent(), SoftGreedyAgent(), 10)
+    game = Match(RandomAgent(), SoftGreedyAgent(), NUM_GAMES)
     game.run()
     input()
