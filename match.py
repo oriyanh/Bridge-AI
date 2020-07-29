@@ -3,6 +3,7 @@ from os import system
 from sys import stdout
 from tqdm import tqdm
 from typing import List
+from argparse import ArgumentParser
 
 from agents import *
 from game import Game
@@ -49,8 +50,16 @@ class Match:
             system('cls')
             print(self)
 
+def parse_args():
+    parser = ArgumentParser()
+    parser.add_argument('agent1')
+    parser.add_argument('agent2')
+    parser.add_argument('--rounds', default=100)
+    args = parser.parse_args()
+    return args
 
 if __name__ == '__main__':
+    args = parse_args()
     game = Match(RandomAgent(), SoftGreedyAgent(), NUM_GAMES)
     game.run()
     input()
