@@ -151,3 +151,20 @@ class HumanAgent(Agent):
 
             except ValueError or IndexError or TypeError:
                 print(f"{inp} is not a valid card, try again")
+
+class MinMaxAgent(Agent):  # with Alpha Beta pruning
+
+    def __init__(self):
+        super().__init__()
+
+    def get_action(self, player: Player, hands: Dict[Player, Hand], trick: Trick) -> Card:
+        pass
+
+
+class MCTSAgent(Agent):
+
+    def __init__(self):
+        super().__init__()
+
+    def get_action(self, player: Player, hands: Dict[Player, Hand], trick: Trick) -> Card:
+        pass
