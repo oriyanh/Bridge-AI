@@ -53,7 +53,7 @@ class Trick:
         """
         return self.trick[player] if player in self.trick else None
 
-    def get_winner(self) -> Player:
+    def get_winner(self, current_suit=None, trump=None) -> Player:
         """
         If all players played - return player with highest card.
         :return: Winning player.
