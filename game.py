@@ -18,7 +18,8 @@ class Game:
                  other_agent: Agent,
                  games_counter: List[int],
                  verbose_mode: bool = True):
-
+        # todo [oriyan\mar] think of life, its meaning, and everything
+        # todo also, think how to reproduce game from database - or randomly generate new game
         self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
@@ -85,12 +86,13 @@ class Game:
         :return: None
         """
         if TEAMS[0].has_player(player):
-            card = self.agent.get_action(
-                player, self.hands, self.curr_trick)
+            # TODO [oriyan/mar] Instead of passing hands and trick to get_action, pass State object
+            card = self.agent.get_action(player, self.hands, self.curr_trick)
         else:
             card = self.other_agent.get_action(
                 player, self.hands, self.curr_trick)
         self.hands[player].cards.remove(card)
+        # self.players[player].play_card(card)  TODO [oriyan/mar]
         self.curr_trick.add_card(player, card)
 
     def clear_trick(self) -> None:

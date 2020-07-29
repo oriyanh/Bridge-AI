@@ -191,9 +191,12 @@ class Deck:  # [oriyan] Probably should be singelton
                 card = Card(face, suit)
                 self.cards.append(card)
 
-    def deal(self):
-        shuffled_deck = np.random.permutation(self.cards).reshape(4,13)
-        return shuffled_deck.tolist()
+    def deal(self, recreate_game=''):
+        if not recreate_game:
+            shuffled_deck = np.random.permutation(self.cards).reshape(4,13)
+            return shuffled_deck.tolist()
+        # TODO [oriyan/mar] create new deck from database representation
+
 
 class Hand:
     def __init__(self, cards: List[Card]):

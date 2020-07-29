@@ -9,6 +9,7 @@ class IState(ABC):
         self.players = None
         self.trump = None
         self.score = None
+        self.goal = None
 
 class IAgent(ABC):
     @abstractmethod
