@@ -52,8 +52,8 @@ class Match:
 
 def parse_args():
     parser = ArgumentParser()
-    parser.add_argument('agent1')
-    parser.add_argument('agent2')
+    parser.add_argument('--agent1')
+    parser.add_argument('--agent2')
     parser.add_argument('--rounds', default=100)
     args = parser.parse_args()
     return args
