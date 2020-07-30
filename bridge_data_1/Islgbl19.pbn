@@ -1,0 +1,1737 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.26"]
+[Board "1"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:532.K764.A54.AQ3 AJ.J9852.T973.95 KT97.AQ3.J2.JT82 Q864.T.KQ86.K764"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "8"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 120"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+1C Pass 1S Pass
+1NT Pass 2NT Pass
+Pass Pass
+[Play "E"]
+H5 HQ HT H7
+C5 CJ C4 C3
+C9 C2 C6 CQ
+SA S7 S6 S3
+DT DJ DQ D4
+D3 D2 D6 D5
+D7 S9 DK DA
+H8 C8 C7 CA
+H9 HA S4 H4
+H2 H3 D8 HK
+SJ SK S8 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:532.K764.A54.AQ3 AJ.J9852.T973.95 KT97.AQ3.J2.JT82 Q864.T.KQ86.K764"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1S Pass
+2S Pass Pass Pass
+[Play "W"]
+DK DA D3 D2
+S4 S2 SA S7
+DQ D4 DT DJ
+HT H4 H5 HA
+C4 CQ C5 C2
+S6 S3 SJ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "2"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:542.KQ974.K9.Q54 KJ963.J52.Q84.62 QT8.A6.AJT6.JT87 A7.T83.7532.AK93"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+Pass Pass 1C Pass
+1H 1S Pass Pass
+X Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+SA S2 S3 S8
+S7 S4 SK ST
+H3 S5 S9 SQ
+D2 D9 DQ DJ
+C3 C4 SJ D6
+CA C5 S6 C7
+CK CQ C2 C8
+C9 H4 C6 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:542.KQ974.K9.Q54 KJ963.J52.Q84.62 QT8.A6.AJT6.JT87 A7.T83.7532.AK93"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1C Pass
+1H Pass 1NT Pass
+2C Pass 2D Pass
+2H Pass Pass Pass
+[Play "S"]
+S6 ST SA S4
+SK S8 S7 S5
+S9 SQ H3 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "3"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q73.543.AQ95.A75 A85.AK6.KJT82.Q6 KT642.J87..JT843 J9.QT92.7643.K92"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+1D 1NT 2S Pass
+Pass Pass
+[Play "E"]
+HT H3 HK H8
+H9 H4 HA HJ
+HQ H5 H6 H7
+C2 C5 CQ C8
+CK CA C6 CJ
+SJ S3 S5 ST
+D6 DA D2 C3
+S9 S7 SA S2
+D3 SQ S8 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q73.543.AQ95.A75 A85.AK6.KJT82.Q6 KT642.J87..JT843 J9.QT92.7643.K92"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C 1NT Pass Pass
+Pass
+[Play "N"]
+S4 SJ SQ S5
+ST S9 S7 S8
+S6 D3 S3 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "4"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KQJ94.J5.975.974 87.Q9.J42.AKJT32 3.AT7642.AKT8.Q5 AT652.K83.Q63.86"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+Pass 3C 3H Pass
+Pass Pass
+[Play "S"]
+C6 C4 CK C5
+C8 C7 CA CQ
+S6 C9 CJ S3
+D3 D5 D2 DK
+D6 D7 D4 DA
+DQ D9 DJ DT
+SA S4 S8 H2
+H3 H5 H9 HA
+H8 HJ HQ H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KQJ94.J5.975.974 87.Q9.J42.AKJT32 3.AT7642.AKT8.Q5 AT652.K83.Q63.86"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C 1H 1S
+Pass 2C 2D Pass
+2H Pass Pass Pass
+[Play "S"]
+C8 C4 CK C5
+C6 C7 CA CQ
+H3 C9 CJ H2
+SA S4 S7 S3
+S5 SK S8 D8
+H8 H5 H9 HA
+HK HJ HQ H4
+D3 D5 DJ DA
+D6 D7 D2 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "5"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:A73.J9.8543.AJ98 T8.KQ63.J976.KQT QJ642.T5.KT.7653 K95.A8742.AQ2.42"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -420"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+Pass Pass Pass 1H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+D5 D9 DT DQ
+CA CT C6 C2
+D4 D6 DK DA
+H9 H3 H5 HA
+HJ HK HT H2
+C8 CQ C5 C4
+C9 CK C3 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:A73.J9.8543.AJ98 T8.KQ63.J976.KQT QJ642.T5.KT.7653 K95.A8742.AQ2.42"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass Pass 1H
+Pass 3H Pass Pass
+Pass
+[Play "N"]
+D5 D6 DT DQ
+H9 HQ H5 H2
+HJ H3 HT HA
+C8 CK C3 C2
+D3 DJ DK DA
+CA CT C5 C4
+SA S8 S6 S5
+S7 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "6"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KT43.A5.AQ87.T93 6.JT862.T6532.AQ Q987.KQ3.J4.8754 AJ52.974.K9.KJ62"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "5"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -200"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+1C 1H X 2C
+2S Pass Pass 3H
+Pass Pass Pass
+[Play "W"]
+S7 SA S4 S6
+C7 C2 C3 CA
+D4 DK DA D2
+H3 H4 HA H2
+HQ H7 H5 H6
+HK H9 C9 H8
+S8 S2 S3 HT
+DJ D9 D7 D3
+S9 S5 ST HJ
+C4 SJ D8 D5
+C5 C6 DQ D6
+SQ CJ SK CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KT43.A5.AQ87.T93 6.JT862.T6532.AQ Q987.KQ3.J4.8754 AJ52.974.K9.KJ62"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1S Pass
+2S Pass Pass Pass
+[Play "N"]
+C2 C3 CA C5
+CK C9 CQ C7
+CJ CT H8 C4
+C6 ST D6 C8
+SA S3 S6 SQ
+H7 H5 HT HK
+S2 S4 H2 S7
+DK DA D2 DJ
+H9 HA H6 H3
+D9 DQ D3 D4
+SJ D7 D5 S8
+S5 SK HJ S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "7"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J.JT3.T98543.KQ4 AK986.AQ92.AKQ.6 QT532.754.J7.983 74.K86.62.AJT752"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -620"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+Pass 2C Pass 3C
+Pass 3S Pass 4C
+Pass 4H Pass 4S
+Pass Pass Pass
+[Play "N"]
+DJ D2 D4 DK
+S2 S4 SJ SA
+S3 S7 D5 SK
+D7 D6 DT DA
+ST C2 D8 S8
+C9 CA C4 C6
+H5 H6 H3 HA
+S5 C5 D3 DQ
+C8 CJ CQ S6
+H7 HK HJ H2
+C3 C7 CK S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J.JT3.T98543.KQ4 AK986.AQ92.AKQ.6 QT532.754.J7.983 74.K86.62.AJT752"]
+[Declarer "W"]
+[Contract "4NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 2C Pass 3C
+Pass 3NT Pass 4NT
+Pass Pass Pass
+[Play "N"]
+S3 S4 SJ S6
+H5 H6 HJ HA
+S5 S7 D3 SA
+H4 HK H3 H2
+H7 H8 HT HQ
+C9 C2 D4 H9
+S2 C5 D5 SK
+D7 D2 D8 DA
+C8 CA C4 C6
+DJ D6 D9 DQ
+C3 C7 DT DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "8"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T6.Q86.Q93.AT754 KQ82.KJ72.KT4.32 A54.T94.AJ52.K98 J973.A53.876.QJ6"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 2S Pass Pass
+Pass
+[Play "W"]
+H6 HJ H4 H5
+S6 SK S4 S3
+ST S2 SA S7
+CA C2 C8 CQ
+C5 C3 CK C6
+C4 S8 S5 SJ
+C7 D4 C9 CJ
+D3 DK DA D6
+- - D2 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T6.Q86.Q93.AT754 KQ82.KJ72.KT4.32 A54.T94.AJ52.K98 J973.A53.876.QJ6"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C Pass 1S
+Pass 2S Pass Pass
+Pass
+[Play "W"]
+H6 HJ HT H3
+S6 SK S5 S3
+ST S2 SA S7
+C5 SQ S4 S9
+CA C2 C9 CQ
+D3 D4 DJ D8
+H8 H2 H4 HA
+HQ HK H9 H5
+D9 H7 D5 D6
+C4 C3 CK CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "9"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A654.95.KQ65.986 T98.K63.J94.Q742 KQ732.JT84.T.AT5 J.AQ72.A8732.KJ3"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 140"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+Pass Pass 1S X
+2D Pass 2S Pass
+Pass Pass
+[Play "W"]
+C3 C6 CQ C5
+CJ C8 C2 CA
+SJ S4 ST SQ
+D2 S5 S8 SK
+D3 DK D4 DT
+H2 SA S9 S2
+H7 H5 HK H4
+CK C9 C4 CT
+HQ H9 H3 H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A654.95.KQ65.986 T98.K63.J94.Q742 KQ732.JT84.T.AT5 J.AQ72.A8732.KJ3"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S X
+2NT Pass 3S Pass
+Pass Pass
+[Play "W"]
+SJ S4 ST SK
+D3 DK D9 DT
+H7 H5 HK H4
+CJ C6 C2 C5
+CK C8 C4 CA
+HQ H9 H3 H8
+C3 C9 CQ CT
+D2 SA S9 S2
+D7 D5 DJ S3
+D8 S5 S8 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "10"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T762.K85.Q64.872 KQ.AQJ2.A9752.K3 AJ.T943.KJ3.AQJ4 98543.76.T8.T965"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+Pass 1D 1NT Pass
+Pass Pass
+[Play "N"]
+DT D4 D2 DJ
+H6 H8 HQ H3
+D8 DQ D5 D3
+C6 C2 C3 CQ
+H7 H5 HJ H9
+S3 D6 DA DK
+S4 S2 D7 SJ
+S5 C7 D9 C4
+S8 S6 SK SA
+C5 C8 CK CA
+C9 S7 H2 CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T762.K85.Q64.872 KQ.AQJ2.A9752.K3 AJ.T943.KJ3.AQJ4 98543.76.T8.T965"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1NT Pass
+Pass Pass
+[Play "N"]
+DT D4 D5 DK
+H6 H8 HJ H3
+D8 D6 DA DJ
+S5 DQ D2 D3
+C5 C2 C3 CQ
+H7 HK HA H4
+S4 H5 D9 C4
+S3 C7 D7 SJ
+S8 S2 SK SA
+S9 C8 HQ HT
+C6 S6 SQ CJ
+C9 S7 H2 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "11"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KQ.54.Q62.K87532 AT964.A3.JT74.T9 J532.Q8762.K3.64 87.KJT9.A985.AQJ"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 2H Pass 2S
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+C3 C9 C4 CQ
+H4 HA H2 HT
+D2 DJ DK DA
+DQ D4 D3 D9
+H5 H3 H6 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KQ.54.Q62.K87532 AT964.A3.JT74.T9 J532.Q8762.K3.64 87.KJT9.A985.AQJ"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 2H Pass 2S
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+C5 C9 C4 CJ
+H4 HA H2 HJ
+D6 DJ DK DA
+D2 D4 D3 D8
+DQ D7 H6 D9
+SQ SA S2 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "12"]
+[West "Davies P"]
+[North "Migri Zur A"]
+[East "Smith N"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:53.AJ43.6.AQ7654 T98764.K865.KT.K AQ2.Q2.AQ73.J932 KJ.T97.J98542.T8"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -460"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+1C 1S 2C Pass
+2H Pass 2S X
+3C Pass 3NT Pass
+Pass Pass
+[Play "S"]
+SK S3 ST SA
+C8 C4 CK CJ
+D2 D6 DK DA
+H7 H3 HK HQ
+D4 S5 DT DQ
+SJ H4 S4 SQ
+- - - C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Poplilov M"]
+[North "McGowan L"]
+[East "Birman D"]
+[South "Dhondy H"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:53.AJ43.6.AQ7654 T98764.K865.KT.K AQ2.Q2.AQ73.J932 KJ.T97.J98542.T8"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 2S Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "S"]
+D5 D6 DK DA
+C8 C4 CK CJ
+D4 S3 DT DQ
+CT CA S4 C9
+HT CQ H5 C2
+H7 C5 H6 C3
+D2 C6 S6 S2
+H9 C7 S7 D3
+SJ S5 ST SA
+D8 HA H8 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "13"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:97.Q864.T95.AT74 AKJT8532.KT.7.Q3 .A9532.KQ842.J86 Q64.J7.AJ63.K952"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -650"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+Pass 1S 3C 3H
+4H 4S Pass Pass
+Pass
+[Play "S"]
+HA H7 H4 HT
+H5 HJ H6 HK
+D2 S4 S7 SA
+H3 - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:97.Q864.T95.AT74 AKJT8532.KT.7.Q3 .A9532.KQ842.J86 Q64.J7.AJ63.K952"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 4D Pass 4H
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+DK DA D5 D7
+D2 S4 S7 SA
+H2 S6 S9 SK
+C6 C2 CA CQ
+HA H7 H4 HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "14"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A842.AJ6.AT983.Q J.94.KJ7.KJT9876 QT753.KT73.642.4 K96.Q852.Q5.A532"]
+[Declarer "S"]
+[Contract "5CX"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+1D Pass 1S X
+3S 5C Pass Pass
+X Pass Pass Pass
+[Play "W"]
+S5 S6 SA SJ
+D6 D5 DA DJ
+D2 DQ D8 D7
+S3 SK S2 H4
+C4 CA CQ C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A842.AJ6.AT983.Q J.94.KJ7.KJT9876 QT753.KT73.642.4 K96.Q852.Q5.A532"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 3C Pass 3NT
+Pass Pass Pass
+[Play "E"]
+DT D7 D6 DQ
+DA DJ D2 D5
+SA SJ S5 S6
+H6 H4 HK H5
+S8 H9 S3 SK
+CQ C6 - CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "15"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:T7.AK843.T42.954 83.95.AK986.AJT3 A642.QJT76.75.76 KQJ95.2.QJ3.KQ82"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -420"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+Pass 1D 1H 1S
+2H Pass Pass X
+3H Pass Pass X
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "S"]
+HA H5 HQ H2
+HK H9 H7 C8
+H4 S3 H6 CQ
+S7 S8 S2 SJ
+ST D6 SA SK
+H3 D8 HJ S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:T7.AK843.T42.954 83.95.AK986.AJT3 A642.QJT76.75.76 KQJ95.2.QJ3.KQ82"]
+[Declarer "W"]
+[Contract "5C"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1S
+Pass 2C Pass 2H
+Pass 3D Pass 4C
+Pass 5C Pass Pass
+Pass
+[Play "N"]
+HQ H2 H8 H5
+H7 C2 H3 H9
+C6 CK C4 C3
+C7 C8 C5 CT
+H6 CQ C9 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "16"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:QJT32.AK32.JT3.3 AK964.95.92.QT84 8.QT84.KQ765.AJ6 75.J76.A84.K9752"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -620"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+1S Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "N"]
+C4 CA C2 C3
+H5 H4 H6 HA
+H9 H8 H7 HK
+D2 HQ HJ H2
+D9 D5 D4 DJ
+S4 D6 DA DT
+C8 C6 C5 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:QJT32.AK32.JT3.3 AK964.95.92.QT84 8.QT84.KQ765.AJ6 75.J76.A84.K9752"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "N"]
+C4 CA C7 C3
+H5 H4 H6 HA
+H9 H8 H7 HK
+D9 HQ HJ H2
+D2 D5 DA D3
+C8 C6 C5 H3
+S9 D6 D4 DJ
+S4 - - DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "17"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:752.AT95.4.KQ983 AQT3.743.KJT87.2 K4.KQ6.653.J7654 J986.J82.AQ92.AT"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "7"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 150"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+Pass 1D Pass 1S
+X 2S 2NT 3D
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "N"]
+D4 D7 D6 DA
+S5 S3 SK S9
+S2 D8 D5 D9
+H5 H3 HQ H8
+S7 DT D3 DQ
+HA H4 H6 HJ
+HT H7 HK H2
+- - C7 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:752.AT95.4.KQ983 AQT3.743.KJT87.2 K4.KQ6.653.J7654 J986.J82.AQ92.AT"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass Pass 1D
+Pass 1S Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+C5 CA C9 C2
+SK SJ S2 S3
+C4 CT CQ ST
+S4 S6 S5 SA
+C6 S8 S7 SQ
+D3 - - D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "18"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ842.7543.5.J95 T73.AJ96.AK942.2 6.T2.JT863.AK743 AQ95.KQ8.Q7.QT86"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "7"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -300"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+Pass 1D Pass 1S
+Pass 2S Pass 2NT
+Pass 3C X 3NT
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+C5 C2 CK C6
+SJ S3 S6 S5
+D5 DA D6 D7
+S2 S7 C4 SA
+S4 D2 D3 DQ
+SK ST H2 S9
+C9 D4 CA C8
+S8 D9 DJ CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ842.7543.5.J95 T73.AJ96.AK942.2 6.T2.JT863.AK743 AQ95.KQ8.Q7.QT86"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 2C X
+3C 3H Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C5 C2 CA C6
+C9 S3 C3 C8
+CJ S7 CK CT
+SK ST S6 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "19"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A73.T8732.84.J98 42.6.KQJT96.KQ32 KQ9.AQJ5.7532.T6 JT865.K94.A.A754"]
+[Declarer "W"]
+[Contract "5DX"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+Pass 1D 1H 1S
+4H Pass Pass X
+Pass 5D X Pass
+Pass Pass
+[Play "N"]
+HA H4 H8 H6
+SK S5 S3 S4
+S9 SJ SA S2
+C6 C4 C8 CK
+D2 DA D4 D6
+H5 H9 H2 D9
+- - - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A73.T8732.84.J98 42.6.KQJT96.KQ32 KQ9.AQJ5.7532.T6 JT865.K94.A.A754"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1S
+Pass 2D Pass 2H
+Pass 3C Pass 3NT
+Pass Pass Pass
+[Play "S"]
+C9 C2 CT CA
+D4 D6 D2 DA
+C8 CK C6 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "20"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K932.K75.KT65.T9 84.Q6.A8743.Q852 AJT6.J32.J9.AJ63 Q75.AT984.Q2.K74"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -110"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+Pass Pass 1C 1H
+X Pass 1S Pass
+2S Pass Pass Pass
+[Play "S"]
+HA H5 H6 H3
+HT H7 HQ H2
+C4 C9 C5 CA
+S5 SK S4 S6
+SQ S2 S8 SJ
+CK CT C2 C3
+S7 S3 D3 SA
+DQ DK DA DJ
+D2 D5 D4 D9
+H4 HK D7 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K932.K75.KT65.T9 84.Q6.A8743.Q852 AJT6.J32.J9.AJ63 Q75.AT984.Q2.K74"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1C 1H
+X 1NT 2S Pass
+3S Pass Pass Pass
+[Play "S"]
+DQ DK DA D9
+H4 HK HQ H3
+S5 S2 S4 SA
+S7 S3 S8 SJ
+D2 D5 D3 DJ
+SQ SK D4 S6
+H8 DT D8 H2
+CK C9 C2 C3
+HA H5 H6 HJ
+HT H7 C5 ST
+C4 CT C8 CA
+C7 S9 CQ C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "21"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:862.KJ974.J9.A82 AQ7.2.KQ8732.T74 T53.A8653.A4.K65 KJ94.QT.T65.QJ93"]
+[Declarer "E"]
+[Contract "4D"]
+[Result "9"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "N"]
+Pass 1D 1H X
+2H 3D Pass Pass
+3H Pass Pass 4D
+Pass Pass Pass
+[Play "S"]
+S5 S9 S8 S7
+DA D5 D9 DQ
+HA HT H4 H2
+H3 HQ HK D3
+D4 D6 DJ DK
+CK C3 C2 C4
+C6 CQ CA C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:862.KJ974.J9.A82 AQ7.2.KQ8732.T74 T53.A8653.A4.K65 KJ94.QT.T65.QJ93"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D Pass 1S
+Pass 2S Pass Pass
+Pass
+[Play "N"]
+H7 H2 HA HT
+CA C4 C5 C3
+C8 C7 CK CJ
+HK S7 H5 HQ
+D9 DK DA D6
+H9 SQ H3 D5
+S2 SA S3 S4
+C2 CT C6 CQ
+S6 D2 S5 SK
+S8 D3 ST SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "22"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q876.A4.KQ98.954 AT94.KQJ873.6.J3 KJ2.T952.JT754.6 53.6.A32.AKQT872"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "E"]
+1C 1H Pass 3NT
+Pass Pass Pass
+[Play "E"]
+DQ D6 D4 D3
+DK H3 D5 DA
+C9 CJ C6 C2
+C4 C3 H2 CT
+C5 H7 H5 CA
+D8 S4 H9 CK
+H4 H8 S2 CQ
+S7 HJ D7 C8
+S6 HQ DT C7
+S8 SA SJ S3
+HA HK HT H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q876.A4.KQ98.954 AT94.KQJ873.6.J3 KJ2.T952.JT754.6 53.6.A32.AKQT872"]
+[Declarer "N"]
+[Contract "5C"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 1H 2D 3C
+Pass 4H Pass 5C
+Pass Pass Pass
+[Play "E"]
+DK D6 DJ DA
+D8 C3 D7 D2
+HA HK H2 H6
+S6 SA S2 S3
+H4 HQ H5 S5
+S7 S4 SK C7
+D9 CJ D4 D3
+S8 S9 SJ C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "23"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AKJ943.T82.J52.A 86.QJ74.K86.JT32 T752.A93.AT94.85 Q.K65.Q73.KQ9764"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 620"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "S"]
+1S Pass 3D Pass
+4S Pass Pass Pass
+[Play "W"]
+HQ H3 H5 H2
+H4 HA H6 H8
+C2 C5 CK CA
+S6 S2 SQ SA
+S8 ST C7 S9
+C3 C8 CQ S3
+H7 H9 HK HT
+D8 DA DQ D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AKJ943.T82.J52.A 86.QJ74.K86.JT32 T752.A93.AT94.85 Q.K65.Q73.KQ9764"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 3S Pass
+4S Pass Pass Pass
+[Play "W"]
+HQ HA H5 H8
+S6 S2 SQ SA
+C2 C5 C4 CA
+S8 ST C6 S9
+C3 C8 CQ S3
+H4 H9 HK H2
+HJ H3 H6 HT
+D6 D4 DQ D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.26"]
+[Board "24"]
+[West "Dhondy H"]
+[North "Migri Zur A"]
+[East "McGowan L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q872.K843.AQ97.K K653.A765.6.9863 JT9.J.432.QT7542 A4.QT92.KJT85.AJ"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Israel"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "30"]
+[VisitTeam "G.Britain"]
+[Auction "W"]
+2C Pass 2D 2NT
+Pass 3C Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+S2 SK SJ S4
+DQ D6 D4 DJ
+S7 S3 S9 SA
+D7 H5 D3 D5
+H3 HA HJ H2
+CK C3 C2 CA
+D9 H6 D2 D8
+S8 S5 ST H9
+DA H7 C4 DK
+SQ S6 C5 HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Poplilov M"]
+[North "Handley M"]
+[East "Birman D"]
+[South "Landy S"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q872.K843.AQ97.K K653.A765.6.9863 JT9.J.432.QT7542 A4.QT92.KJT85.AJ"]
+[Declarer "W"]
+[Contract "1D"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D Pass Pass Pass
+[Play "N"]
+C8 C2 CA CK
+D6 D2 D5 D9
+H7 HJ HQ H3
+S5 D3 D8 DQ
+H5 D4 H2 H4
+C3 CQ CJ H8
+C6 CT DT HK
+S3 C4 DK DA
+SK S9 S4 S2
+HA C5 H9 D7
+- - - S7
+*
+

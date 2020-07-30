@@ -1,0 +1,1675 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.28"]
+[Board "1"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:732.K86.Q942.KT6 QT95.Q52.A5.Q975 A4.AJT743..AJ832 KJ86.9.KJT8763.4"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 480"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+Pass Pass 1H 3D
+3H Pass 3S Pass
+4H Pass Pass Pass
+[Play "W"]
+C4 C6 C9 CJ
+H9 HK H2 H3
+D3 H6 H5 HA
+D6 CK C5 C2
+D7 CT C7 C3
+D8 D2 DA H4
+- - - CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:732.K86.Q942.KT6 QT95.Q52.A5.Q975 A4.AJT743..AJ832 KJ86.9.KJT8763.4"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1H 2D
+2H X 4D 4S
+X Pass Pass Pass
+[Play "N"]
+D4 D5 S4 D3
+C6 C5 CA C4
+H6 H2 HA H9
+CT C7 C2 S6
+D2 DA SA D6
+H8 H5 H7 S8
+DQ S5 H3 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "2"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:J865.A4.A54.KQJT 94.T75.QJ3.A9432 QT7.QJ9862.K8.75 AK32.K3.T9762.86"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+DQ DK D7 D5
+H5 HQ H3 H4
+H7 H2 HK HA
+D3 D8 D2 DA
+DJ H6 D6 D4
+HT HJ D9 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:J865.A4.A54.KQJT 94.T75.QJ3.A9432 QT7.QJ9862.K8.75 AK32.K3.T9762.86"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 4C Pass
+4H Pass Pass Pass
+[Play "S"]
+DQ DK D2 D4
+H5 HQ HK HA
+H7 H9 H3 H4
+HT HJ D6 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "3"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QT2.A92.KT8.AQ92 K65.Q8.96432.J75 AJ943.643.AQ.KT8 87.KJT75.J75.643"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "13"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 520"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+1NT Pass 2H Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+C7 C8 C3 C9
+S6 S3 S8 ST
+SK SA S7 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QT2.A92.KT8.AQ92 K65.Q8.96432.J75 AJ943.643.AQ.KT8 87.KJT75.J75.643"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 2NT Pass
+3S Pass 4S Pass
+Pass Pass
+[Play "W"]
+D6 DA DJ D8
+S5 SA S7 S2
+SK S3 S8 SQ
+D4 DQ D5 DT
+S6 S4 H5 ST
+D2 H3 D7 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "4"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K986.KQ5.AJ432.8 JT2.T62.T6.AT543 Q54.843.Q97.Q962 A73.AJ97.K85.KJ7"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+1D Pass 1NT Pass
+Pass Pass
+[Play "S"]
+S7 S8 ST SQ
+D5 DJ D6 D7
+D8 DA DT D9
+DK D2 H6 DQ
+S3 S6 SJ S5
+CJ C8 C3 C2
+CK H5 C4 C6
+H7 HQ H2 H4
+- D3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K986.KQ5.AJ432.8 JT2.T62.T6.AT543 Q54.843.Q97.Q962 A73.AJ97.K85.KJ7"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D Pass 1NT X
+Pass 2C Pass Pass
+Pass
+[Play "E"]
+D7 D5 DJ D6
+SQ SA S9 ST
+DQ D8 D2 DT
+S4 S3 SK S2
+S5 S7 S6 SJ
+H8 HJ HQ H6
+D9 DK DA C3
+H3 H7 HK HT
+H4 HA H5 H2
+C2 C7 C8 CA
+C6 CJ S8 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "5"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J96.82.KJ954.AJT Q4.AK9763.A7.Q98 AT72.Q4.T63.K432 K853.JT5.Q82.765"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+Pass 1H Pass 1S
+Pass 2H Pass Pass
+Pass
+[Play "S"]
+C2 C5 CA C8
+CK C6 CJ CQ
+D6 DQ DK DA
+H4 H5 H2 HA
+HQ HT H8 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J96.82.KJ954.AJT Q4.AK9763.A7.Q98 AT72.Q4.T63.K432 K853.JT5.Q82.765"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1H Pass 2NT
+Pass 3H Pass Pass
+Pass
+[Play "S"]
+D3 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "6"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J4.A865.J96.Q964 K765.KJ2.T4.JT75 2.Q973.AKQ732.A3 AQT983.T4.85.K82"]
+[Declarer "W"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+Pass Pass 1D 1S
+X 3S 4H 4S
+Pass Pass 5D Pass
+Pass Pass
+[Play "N"]
+SA S4 S7 S2
+S3 SJ SK D2
+D5 D6 D4 DA
+CK C4 C5 C3
+C8 C6 C7 CA
+D8 DJ DT D3
+C2 CQ CT H3
+S8 C9 CJ DQ
+HT HA H2 H7
+H4 H5 HK H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J4.A865.J96.Q964 K765.KJ2.T4.JT75 2.Q973.AKQ732.A3 AQT983.T4.85.K82"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1D 2S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+D6 D4 DQ D5
+D9 DT DK D8
+C4 C5 CA C2
+CQ C7 C3 C8
+HA H2 H3 H4
+H6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "7"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:87542.7.Q84.AJ74 A96.AKT94.AJT6.6 KJT.8653.75.K852 Q3.QJ2.K932.QT93"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+Pass 1H Pass 2H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+H3 H2 H7 H9
+SK S3 S7 S6
+H5 HJ S2 H4
+H6 HQ S4 HK
+H8 C3 S5 HA
+D5 D2 D4 DA
+D7 D3 DQ DJ
+C2 C9 CA C6
+C5 CT C4 HT
+- - - S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:87542.7.Q84.AJ74 A96.AKT94.AJT6.6 KJT.8653.75.K852 Q3.QJ2.K932.QT93"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 2H
+Pass 3D Pass 4H
+Pass Pass Pass
+[Play "N"]
+D7 D2 D4 DT
+H3 HQ H7 H4
+H5 H2 S2 H9
+H6 HJ S4 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "8"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:54.KQ54.AKQ.J974 93.AT863.T86.AQ3 AJ82.9.J9732.K62 KQT76.J72.54.T85"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+1NT Pass 2H Pass
+2S Pass 3C Pass
+3NT Pass Pass Pass
+[Play "N"]
+H3 H9 HJ HK
+D6 D2 D4 DA
+D8 D3 D5 DK
+DT D7 S7 DQ
+C3 CK C8 C4
+H6 DJ C5 S4
+H8 D9 S6 H4
+S3 SA ST S5
+CQ C2 CT CJ
+CA C6 H2 C7
+S9 S2 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:54.KQ54.AKQ.J974 93.AT863.T86.AQ3 AJ82.9.J9732.K62 KQT76.J72.54.T85"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2C Pass
+2H Pass 3D Pass
+3H Pass 3NT Pass
+4D Pass 5D Pass
+Pass Pass
+[Play "S"]
+C5 C4 CA C2
+D4 DQ D6 D2
+H2 HK HA H9
+D5 DK D8 D3
+C8 C7 C3 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "9"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8732.T2.98.AT6 KT96.J76.AJ65.72 5.K843.3.KQJ9843 J4.AQ95.KQT742.5"]
+[Declarer "S"]
+[Contract "5CX"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+1S Pass 3C X
+4C X Pass 4D
+Pass Pass 5C Pass
+Pass X Pass Pass
+Pass
+[Play "W"]
+DK D8 DA D3
+HA H2 H6 HK
+HQ HT H7 H3
+DQ D9 D5 C3
+C5 C6 C2 CK
+H5 CT HJ H4
+S4 SA S6 S5
+SJ S2 S9 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8732.T2.98.AT6 KT96.J76.AJ65.72 5.K843.3.KQJ9843 J4.AQ95.KQT742.5"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 2C 2D
+2S 3D 4C Pass
+5C Pass Pass Pass
+[Play "W"]
+DK D8 DA D3
+HA H2 H6 HK
+HQ HT H7 H3
+DQ D9 D5 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "10"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:KQ85.K9876.K8.43 AJT73.T.J95.AK65 92.QJ4.T32.Q9872 64.A532.AQ764.JT"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 110"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+Pass 1S Pass 1NT
+Pass 2C Pass 2D
+Pass 2H Pass 2S
+Pass Pass Pass
+[Play "W"]
+HQ HA H6 HT
+HJ H2 HK S3
+C2 CT C3 CA
+C7 CJ C4 CK
+C9 S4 S5 C5
+H4 H3 H9 S7
+D2 D4 DK DJ
+D3 H5 H8 ST
+DT DA D8 D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:KQ85.K9876.K8.43 AJT73.T.J95.AK65 92.QJ4.T32.Q9872 64.A532.AQ764.JT"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H 1S 2H X
+Pass 3C Pass 3D
+Pass 3H Pass 3NT
+Pass 5D Pass Pass
+Pass
+[Play "E"]
+SK SA S2 S6
+DK D5 D2 DQ
+D8 D9 DT DA
+SQ S3 S9 S4
+C4 CA C2 CT
+- DJ D3 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "11"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJT8.AQT.942.Q43 A543.8763.AK6.K5 Q92.K94.Q753.862 76.J52.JT8.AJT97"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+1NT 2C Pass 2H
+Pass Pass Pass
+[Play "S"]
+D4 DA D7 D8
+S8 S3 S9 S7
+HT H3 H4 H5
+D2 DK D3 DJ
+ST SA S2 S6
+SJ S4 SQ H2
+C3 CK C8 C7
+SK S5 HK DT
+HQ - H9 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJT8.AQT.942.Q43 A543.8763.AK6.K5 Q92.K94.Q753.862 76.J52.JT8.AJT97"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C X 1NT Pass
+Pass Pass
+[Play "E"]
+H2 HA H6 H4
+S6 S8 S3 SQ
+S7 ST SA S2
+DJ D2 DK D3
+H5 HT H3 H9
+- C3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "12"]
+[West "Perron M"]
+[North "Bocchi N"]
+[East "Chemla P"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KJT.A632.64.AJ95 AQ63.T9874.Q97.8 952.K.A532.76432 874.QJ5.KJT8.KQT"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+1C 1H 2C X
+3C Pass Pass 3H
+Pass Pass Pass
+[Play "E"]
+C2 CK CA C8
+S2 S4 SJ SQ
+HK H5 H2 H7
+C3 CT CJ H4
+D3 HJ H3 H9
+D2 DJ D6 DQ
+DA DK D4 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Lauria L"]
+[North "Mari C"]
+[East "Versace A"]
+[South "Levy A"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KJT.A632.64.AJ95 AQ63.T9874.Q97.8 952.K.A532.76432 874.QJ5.KJT8.KQT"]
+[Declarer "W"]
+[Contract "2C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1D Pass
+1H Pass 2C Pass
+Pass Pass
+[Play "N"]
+C8 C2 CQ CA
+H4 HK H5 H2
+HT C3 CK C5
+SQ S2 S8 SJ
+SA S5 S4 ST
+S3 S9 S7 SK
+S6 C4 CT CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "13"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J74.J54.KJ96.AJ2 T983.Q.7432.Q983 AKQ5.T96.T5.KT75 62.AK8732.AQ8.64"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+Pass Pass 1S 2H
+3H X 3S Pass
+Pass Pass
+[Play "W"]
+HA H4 HQ H6
+HK H5 D3 H9
+H8 HJ S3 HT
+DA D6 D2 D5
+C6 C2 C8 CT
+S2 SJ S8 S5
+S6 S4 S9 SA
+H2 S7 ST SK
+D8 DK D4 DT
+DQ D9 D7 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J74.J54.KJ96.AJ2 T983.Q.7432.Q983 AKQ5.T96.T5.KT75 62.AK8732.AQ8.64"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C 1H
+X Pass 1S 2H
+2S Pass Pass Pass
+[Play "W"]
+HA H4 HQ H6
+C6 CJ CQ CK
+S2 SJ S3 S5
+S6 S4 S8 SA
+H3 S7 S9 SK
+H2 H5 ST SQ
+DA D6 D2 DT
+HK HJ D3 H9
+C4 C2 C8 CT
+H7 D9 D4 HT
+D8 DJ D7 D5
+DQ DK C3 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "14"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T.85.QJ543.KT982 Q976.632.A6.AJ54 J843.AQJ74.97.73 AK52.KT9.KT82.Q6"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 430"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+Pass Pass 1H 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "E"]
+H8 H2 HJ HK
+ST S6 S4 SA
+C2 S7 S3 SK
+CK CA C3 CQ
+H5 H3 HA HT
+D3 H6 HQ H9
+D4 S9 H7 S2
+C8 CJ C7 C6
+D5 SQ S8 S5
+DJ DA D7 D2
+DQ D6 D9 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T.85.QJ543.KT982 Q976.632.A6.AJ54 J843.AQJ74.97.73 AK52.KT9.KT82.Q6"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1NT
+Pass 2C Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+DQ DA D9 D2
+ST S6 S3 SA
+D3 SQ S4 S2
+D4 D6 D7 DK
+DJ S7 S8 DT
+H5 H2 HJ HK
+D5 S9 SJ SK
+H8 H3 HQ H9
+C2 H6 HA HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "15"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT84.KQ87.T542.T QJ72.95432.73.AK 5.AJ.AKJ8.J85432 K963.T6.Q96.Q976"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 90"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+Pass Pass 1C Pass
+1D Pass 2C Pass
+Pass Pass
+[Play "E"]
+HT H7 H2 HJ
+C6 CT CK C2
+D6 D2 D7 DA
+C7 D4 CA C3
+S6 SA SQ S5
+H6 H8 H5 HA
+C9 S4 H9 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT84.KQ87.T542.T QJ72.95432.73.AK 5.AJ.AKJ8.J85432 K963.T6.Q96.Q976"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1C Pass
+1H Pass 2C Pass
+Pass Pass
+[Play "E"]
+S3 SA S7 S5
+C6 CT CK C2
+S6 S4 S2 C5
+C7 S8 CA C3
+D6 D2 D7 DK
+C9 ST H5 C4
+SK D4 SJ C8
+H6 H7 H2 HA
+HT HK H3 HJ
+CQ HQ H4 D8
+S9 D5 SQ CJ
+D9 DT D3 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "16"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A64.K864.Q9654.8 Q3.JT52.KJ2.T743 T9852.AQ3.7.KQJ9 KJ7.97.AT83.A652"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+Pass Pass 1S Pass
+2C Pass 3C Pass
+3S Pass 4C Pass
+4H Pass 4S Pass
+Pass Pass
+[Play "S"]
+DA D4 D2 D7
+D3 D5 DJ S5
+CA C8 C3 CJ
+H9 H4 H2 HQ
+S7 S4 SQ S8
+H7 H6 HT HA
+SJ SA S3 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A64.K864.Q9654.8 Q3.JT52.KJ2.T743 T9852.AQ3.7.KQJ9 KJ7.97.AT83.A652"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S Pass
+2NT Pass 4S Pass
+Pass Pass
+[Play "S"]
+H9 H4 H5 HQ
+CA C8 C3 CK
+H7 H6 H2 HA
+C2 S4 C4 C9
+S7 SA S3 S2
+- S6 SQ S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "17"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q9743.5.9642.732 J8.K932.853.A986 AK652.Q64.K.JT54 T.AJT87.AQJT7.KQ"]
+[Declarer "E"]
+[Contract "5H"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -480"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+Pass Pass 1S 3C
+4S 5H Pass Pass
+Pass
+[Play "S"]
+SA ST S7 S8
+C4 CQ C7 C6
+H4 H7 H5 HK
+H6 HJ SQ H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q9743.5.9642.732 J8.K932.853.A986 AK652.Q64.K.JT54 T.AJT87.AQJT7.KQ"]
+[Declarer "E"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S 3C
+3S 4C Pass 4S
+Pass 5H Pass Pass
+Pass
+[Play "S"]
+SA ST S3 S8
+C4 CK C2 C6
+H4 HA H5 H2
+H6 H7 S4 HK
+DK DA - D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "18"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A7632..AQ943.KQ9 K4.A873.65.JT852 QJ8.KQ952.J82.74 T95.JT64.KT7.A63"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+1S Pass 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CJ C4 CA C9
+D5 D8 D7 D4
+SK SQ S5 S2
+D6 D2 DT DQ
+S4 SJ S9 S3
+- S8 ST SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A7632..AQ943.KQ9 K4.A873.65.JT852 QJ8.KQ952.J82.74 T95.JT64.KT7.A63"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 2NT Pass
+3D Pass 3H Pass
+4S Pass Pass Pass
+[Play "S"]
+CJ C4 CA C9
+D6 D8 D7 D4
+SK SQ S5 S2
+D5 D2 DT DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "19"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q2.J972.6.KQT764 AJ.KQ86.AKQT52.2 7653.AT543.87.53 KT984..J943.AJ98"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -1370"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+Pass 1D Pass 1S
+2C 2H Pass 3D
+Pass 4C Pass 4H
+Pass 4S Pass 5C
+Pass 5H Pass 6D
+Pass Pass Pass
+[Play "N"]
+C3 CA C4 C2
+D7 D3 D6 DA
+D8 D4 C6 DK
+S3 S4 S2 SA
+S5 S8 SQ SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q2.J972.6.KQT764 AJ.KQ86.AKQT52.2 7653.AT543.87.53 KT984..J943.AJ98"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1370"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1S
+1NT X 4H 4NT
+Pass 5C Pass 5D
+Pass 6D Pass Pass
+Pass
+[Play "N"]
+C5 CA C6 C2
+D7 D3 D6 DA
+D8 D4 C7 DK
+S3 S4 S2 SA
+S5 S8 SQ SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "20"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:92.AQ83.986.K986 QJT4.7642.Q32.Q2 A73.J.K754.AJ754 K865.KT95.AJT.T3"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+Pass Pass 1D Pass
+1H Pass 2C Pass
+2D Pass Pass Pass
+[Play "S"]
+S5 S2 ST S3
+S6 S9 SQ SA
+H5 H3 H2 HJ
+C3 CK C2 C5
+CT C9 CQ CA
+S8 D6 S4 S7
+DT C6 H4 C4
+SK D8 SJ C7
+DJ D9 D2 D4
+DA H8 D3 D5
+H9 HQ H6 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:92.AQ83.986.K986 QJT4.7642.Q32.Q2 A73.J.K754.AJ754 K865.KT95.AJT.T3"]
+[Declarer "E"]
+[Contract "3C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1C X
+XX 1S 2C Pass
+3C Pass Pass Pass
+[Play "S"]
+S6 S2 ST SA
+C3 CK C2 C4
+CT C6 CQ CA
+HK HA H2 HJ
+H5 HQ H4 S3
+DT D6 D2 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "21"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q84.J.A65.AQJ854 AJT6532.AK8.J4.T K9.T74.QT982.K63 7.Q96532.K73.972"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "N"]
+1C 1S 2C Pass
+2D 3S Pass Pass
+Pass
+[Play "S"]
+C6 C2 CA CT
+CK C7 CJ S3
+S9 S7 S4 SA
+SK H2 S8 S5
+DQ DK DA D4
+D2 D3 D5 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q84.J.A65.AQJ854 AJT6532.AK8.J4.T K9.T74.QT982.K63 7.Q96532.K73.972"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -480"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C 1S 1NT 2H
+3C 4H Pass Pass
+Pass
+[Play "N"]
+D5 D4 D8 DK
+S4 SA S9 S7
+S8 S2 SK H2
+HJ HK H4 H3
+SQ S3 DT H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "22"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ2.JT763.A63.T9 854.AQ54.874.643 KT3.98.KQ52.AKJ5 J976.K2.JT9.Q872"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "E"]
+Pass Pass 1NT Pass
+2D Pass 2H Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+DJ D3 D8 DK
+HK H3 H4 H9
+DT DA D4 D2
+CQ CT C3 C5
+D9 D6 D7 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ2.JT763.A63.T9 854.AQ54.874.643 KT3.98.KQ52.AKJ5 J976.K2.JT9.Q872"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 2C Pass
+2H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+S6 SA S4 S3
+CQ C9 C6 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "23"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ9.J2.A6.AKT953 K73.543.J742.642 642.AKQT8.985.Q8 JT85.976.KQT3.J7"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "13"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 710"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "S"]
+1C Pass 1D Pass
+2D Pass 2H Pass
+2S Pass 2NT Pass
+3C Pass 3H Pass
+3S Pass 3NT Pass
+4H Pass Pass Pass
+[Play "E"]
+DK DA D7 D5
+H6 HJ H3 H8
+H7 H2 H4 HT
+H9 D6 H5 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ9.J2.A6.AKT953 K73.543.J742.642 642.AKQT8.985.Q8 JT85.976.KQT3.J7"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 720"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C Pass 1H Pass
+2NT Pass 3D Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S3 S2 ST SQ
+C2 CQ C7 C3
+C4 C8 CJ CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "24"]
+[West "Levy A"]
+[North "Bocchi N"]
+[East "Mari C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ42.Q2.KJ8642. 9.AKT863.A5.8762 AT863.74.QT9.KJ5 75.J95.73.AQT943"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "10"]
+[VisitTeam "France"]
+[Auction "W"]
+1S 2H 4S Pass
+Pass Pass
+[Play "N"]
+HK H4 H9 H2
+DA D9 D3 D6
+HA H7 H5 HQ
+D5 DT D7 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Lauria L"]
+[North "Perron M"]
+[East "Versace A"]
+[South "Chemla P"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ42.Q2.KJ8642. 9.AKT863.A5.8762 AT863.74.QT9.KJ5 75.J95.73.AQT943"]
+[Declarer "E"]
+[Contract "5S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D 1H 1S 2H
+4C 5H X Pass
+5S Pass Pass Pass
+[Play "S"]
+H5 - - -
+*
+

@@ -1,0 +1,3504 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.19"]
+[Board "1"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S2 SJ S3 S7
+CT C4 C2 CA
+D6 CJ CQ C5
+H7 H3 HT H2
+H9 H8 H4 H5
+HK D4 H6 HA
+S5 SA S4 S8
+S6 CK C3 D2
+- C6 C8 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "2"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1NT Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+C7 CA - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "3"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "5H"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 2C
+Pass 2D Pass 4H
+Pass Pass Pass
+[Play "N"]
+C9 C3 C4 CA
+HJ HK HA H2
+C5 C6 C7 CJ
+HQ H5 S4 HT
+SA S6 S2 S8
+D2 DQ D7 D3
+H3 H9 S3 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "4"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "E"]
+[Contract "2HX"]
+[Result "6"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 500"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+1NT X 2H Pass
+Pass X Pass Pass
+Pass
+[Play "S"]
+HJ HA H3 H2
+D5 D3 DT D2
+C5 CA CK C7
+D6 D7 DJ D4
+C3 C2 CQ C8
+H6 C4 CT CJ
+H9 HQ S2 H5
+D9 D8 DA H7
+HT H4 S9 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "E"]
+[Contract "2HX"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT X 2H Pass
+Pass X Pass Pass
+Pass
+[Play "S"]
+S6 S5 SQ S3
+C3 CA CK C7
+H6 HA H3 H2
+HJ HQ S9 H5
+C5 C2 CQ C8
+H9 C4 C6 CJ
+HT H4 S2 HK
+D5 D7 DT D2
+S8 D3 C9 H7
+D6 D8 DJ D4
+SJ DQ CT H8
+D9 ST SA S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "5"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "6"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "N"]
+1D Pass Pass X
+Pass 2D Pass 2H
+Pass 3D Pass 3S
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+DA D2 D6 D3
+DK D5 D7 DQ
+DJ D9 DT H3
+S3 S4 S2 SQ
+C8 CK CA C3
+S8 SA S6 S5
+HA H6 H5 HT
+D4 C4 ST H4
+H2 C5 C2 CJ
+SK H9 HJ S7
+H8 C7 C9 C6
+S9 HK CT SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass Pass X
+Pass 2D Pass 2H
+Pass 3D Pass Pass
+Pass
+[Play "S"]
+S2 SQ SK SA
+S6 SJ S3 S4
+ST S5 S8 D2
+C2 CJ C8 C4
+D6 S7 S9 D5
+D7 D3 DJ D9
+DT DQ DK C5
+H5 H3 HA H6
+H7 H4 H8 H9
+HJ HT H2 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "6"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "E"]
+1S 2C 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CK C6 C8 CA
+S4 S5 S6 SA
+C2 SQ S7 S2
+D3 D2 DA DQ
+HA H4 H9 HK
+CQ C9 D4 C3
+H5 H6 H2 HQ
+C4 S9 SJ SK
+C7 ST D5 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 2C 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CK C6 C8 CA
+S4 S5 S6 SA
+C4 SQ S7 S2
+C2 S9 SJ SK
+D6 D2 DA DQ
+HA H4 HT HK
+CQ C9 D4 C3
+D3 DT DJ S3
+C7 ST H2 C5
+D9 DK D5 H3
+CJ D8 D7 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "7"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 120"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "S"]
+1D Pass 1NT Pass
+Pass Pass
+[Play "E"]
+CJ C7 C2 CA
+D4 DJ DA D8
+C3 S4 CK C4
+C8 H5 CQ C6
+CT H6 C5 C9
+HA HT H3 H2
+ST SQ S3 S2
+D9 D2 DT DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1NT Pass
+2D Pass 3D Pass
+Pass Pass
+[Play "W"]
+S5 S2 SK SA
+DT DQ D4 D2
+H3 H2 HA H5
+S3 S6 ST SQ
+DA D6 D9 DK
+SJ S7 S8 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "8"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1S Pass 1NT
+Pass 3C Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+CK CA CJ C3
+S2 SA S3 S6
+S7 S8 S4 SK
+D4 S9 S5 SQ
+H2 H4 ST SJ
+CQ C2 DQ C4
+C6 CT D2 C5
+H8 H5 H3 HA
+DA D6 D9 D3
+C9 D8 DT C7
+D7 DK DJ D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1NT
+Pass 2C Pass 2H
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "W"]
+DQ D3 D7 D6
+DJ D5 DA D8
+D2 C3 D4 DK
+S3 SK S7 S8
+CJ C4 CQ C2
+S4 S6 S2 SA
+S5 SJ H8 S9
+ST SQ H2 H4
+D9 C5 C6 CT
+DT C7 C9 CA
+H3 HA H9 H5
+H6 HT HJ HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "9"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "N"]
+Pass 1C Pass 1S
+Pass 2C Pass 2S
+Pass Pass Pass
+[Play "N"]
+H2 H3 HK H9
+DA D4 DQ D2
+D3 DK D6 D7
+SA S3 S4 SK
+D5 D9 DJ D8
+C4 C2 C5 CQ
+S9 C3 ST S2
+HQ HA H4 HT
+C6 C8 CT S5
+S6 CJ SQ S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C Pass 1S
+Pass 2C Pass 2S
+Pass Pass Pass
+[Play "N"]
+H2 H3 HK HT
+HQ HA H4 H9
+SA S3 S4 SJ
+H8 H6 H5 S2
+S6 C2 ST SK
+C4 C3 CK CQ
+S9 HJ H7 D2
+DA D4 D6 D7
+C6 CA C5 D8
+- CJ CT DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "10"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -620"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+C4 C3 C2 CK
+D5 DQ DA D8
+S3 S8 S2 SA
+D7 DK D3 D2
+HQ HJ H6 H3
+S5 S9 ST SJ
+H5 H2 HA HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1H Pass
+4H Pass Pass Pass
+[Play "N"]
+C9 C5 C7 CA
+H6 H3 HQ HJ
+DA D2 D9 DK
+D3 D4 DJ DQ
+HA H8 H5 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "11"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -450"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "S"]
+1S Pass Pass 2S
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+S7 S3 SJ SA
+DT H2 HJ HA
+C3 C4 C2 CQ
+S4 D3 S2 SK
+D2 H3 S6 S5
+C7 CA C5 D4
+- CK - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S 2H Pass 4C
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+S7 S3 SJ SA
+D7 H2 HK HA
+C3 C4 C2 CQ
+S4 H3 S2 S5
+C7 CA C5 D4
+C8 CK HJ D5
+D2 H7 HQ H4
+D6 D3 DJ H5
+D9 D8 S6 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "12"]
+[West "Lancova M"]
+[North "Saul C"]
+[East "Bahnikova E"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+Pass Pass Pass 2C
+Pass 2D Pass 2S
+Pass Pass Pass
+[Play "W"]
+H3 H6 H2 HK
+S3 S8 S5 SQ
+SA D5 S7 SK
+H8 H7 H5 HQ
+ST D6 S9 SJ
+HJ HA C2 H4
+D2 H9 D4 DJ
+C3 HT D8 C7
+CK C5 C4 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Thuillez P"]
+[North "Svobodova P"]
+[East "de Guillebon"]
+[South "Pokorna H"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1S
+Pass 1NT Pass 4S
+Pass Pass Pass
+[Play "W"]
+D2 D5 DQ DJ
+CK C5 C2 CQ
+D9 D6 D4 S2
+S3 S8 S5 SQ
+SA D7 S7 SJ
+C3 C9 C4 C7
+H3 H6 H5 HK
+- - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "13"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -110"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "N"]
+Pass Pass 1D 1H
+X 2H Pass Pass
+Pass
+[Play "N"]
+CQ C2 CA C6
+C3 C5 C7 CK
+H6 H9 HK H2
+DA D4 D8 DK
+CJ C9 C8 H3
+H8 HT HA H4
+D6 D9 D2 DJ
+S7 SA S2 S3
+D7 DQ D3 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "S"]
+[Contract "2NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1NT Pass
+2NT Pass Pass Pass
+[Play "W"]
+H4 H6 H9 HA
+C6 C3 C2 CA
+CK C4 C5 C7
+H2 H8 HT HK
+S3 CT C9 C8
+S5 CJ S8 D2
+H3 CQ D4 D3
+ST S7 S6 SK
+DJ DA D9 D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "14"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -420"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "E"]
+Pass 1D 1S 2D
+4S Pass Pass Pass
+[Play "N"]
+H2 HJ HA H9
+S3 H3 H5 HQ
+D2 D3 DJ DA
+D4 S2 D8 D6
+SK S9 S5 S4
+C4 CA C5 C2
+S7 S6 H6 SA
+D5 S8 DQ DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2H Pass 2S Pass
+3S Pass 4H Pass
+Pass Pass
+[Play "S"]
+DK DA D7 D3
+HA HQ H2 H3
+DQ D6 D2 H4
+H5 H9 D4 HK
+H6 C2 C4 HJ
+H7 C3 D5 HT
+S5 S4 S3 S9
+- - - S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "15"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 630"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "S"]
+3NT Pass Pass Pass
+[Play "W"]
+HJ HA H4 S2
+S6 SK SA S3
+H3 HK HQ C2
+S9 SQ S4 S7
+D4 D5 D7 DK
+H5 D6 DJ DA
+H7 DT C9 DQ
+C4 S5 CT D2
+H8 H2 S8 D3
+C5 C3 H6 D8
+C6 H9 CQ D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+3D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+SA S2 S6 S5
+CA C2 C4 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "16"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+Pass Pass 1D 1H
+Pass 1S Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+DA D3 D5 D6
+DK D4 DT D9
+HK HA H3 H2
+S2 SA S9 S3
+SQ SJ C3 S6
+S5 S4 H6 S7
+D2 ST DQ DJ
+C2 CK C4 C5
+CT C7 C8 CA
+S8 H4 H8 SK
+D7 HQ HT H5
+D8 H7 HJ C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 1H
+Pass 1NT Pass Pass
+Pass
+[Play "E"]
+D7 D3 DQ D6
+DK D4 DT DJ
+DA H4 D5 D9
+D2 S4 H3 C5
+D8 H7 H6 C6
+HK HA H8 H2
+S2 SA S9 S3
+SQ SJ C3 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "17"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "N"]
+Pass 1S X Pass
+3C Pass 3S Pass
+3NT Pass Pass Pass
+[Play "E"]
+ST SK S2 S5
+D2 DA D4 D7
+D8 DK D6 D9
+DT D3 S6 DQ
+C7 C3 C8 CJ
+H2 H3 H5 HK
+S3 HJ H6 H4
+S4 HQ H7 HT
+S7 HA H8 C2
+CA C4 CT C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1S X Pass
+3C Pass 3S Pass
+3NT Pass Pass Pass
+[Play "E"]
+SJ SK S9 S5
+H2 H3 H5 HK
+S3 HJ H6 H4
+C7 HQ H7 HT
+S4 HA H8 C2
+D2 D3 D6 DQ
+D8 DA D4 D7
+CA C3 C8 CQ
+DJ DK H9 D9
+S7 C4 CT CJ
+ST - - C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "18"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -450"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "E"]
+1H Pass 2S 3D
+Pass Pass 4D Pass
+4H Pass Pass Pass
+[Play "S"]
+DJ D5 DK D7
+C2 C6 C4 CA
+H4 H2 HJ HT
+C3 CQ C7 CK
+H5 H6 H8 HQ
+HK HA D2 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2C 2D
+3D Pass 3S Pass
+4S Pass 4NT Pass
+5H Pass 6S Pass
+Pass Pass
+[Play "N"]
+DA D7 DJ D5
+DK DQ DT S2
+S3 S5 S4 SA
+D2 SK ST S6
+H8 HQ HK HA
+HJ H3 H4 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "19"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -150"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass Pass Pass
+[Play "S"]
+HT H3 H2 HK
+D3 D5 DA DQ
+H7 H4 H5 HQ
+D4 D7 D6 DK
+C3 CA C2 C8
+H9 HA HJ S4
+C4 H6 S3 SK
+C5 H8 S5 C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass 2H Pass 2S
+X 3D Pass Pass
+Pass
+[Play "S"]
+S8 S2 S3 SK
+C6 CA C2 C8
+C3 CT CQ C9
+SA S7 SQ S4
+S6 S9 S5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "20"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 680"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+CQ CA C3 C2
+S2 S3 S4 SK
+S8 S9 S6 SQ
+C5 SA S7 S5
+D2 DK D3 D6
+D4 D5 D9 DJ
+C7 D7 DQ DA
+C8 CT C4 D8
+H3 H8 H2 DT
+- - - C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 4S
+Pass Pass Pass
+[Play "E"]
+CQ CA C4 C2
+S2 SA S4 S5
+S8 S3 S6 SJ
+C7 S9 S7 SQ
+D4 D5 DQ DJ
+CJ CT C3 C6
+D2 D7 D9 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "21"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -130"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "N"]
+Pass 1D 1H 2C
+Pass Pass X XX
+2H Pass Pass 3D
+Pass Pass Pass
+[Play "S"]
+HA H7 HT H2
+H3 HK HQ H4
+C7 C2 C3 CA
+SA ST S2 SQ
+H5 H9 D5 HJ
+S5 C5 S4 SK
+D4 DA D9 D2
+DQ D7 DJ DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 1H 2C
+Pass 2D Pass 2H
+Pass 2S Pass 3D
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+H5 H7 HQ H4
+HA H9 HT HJ
+H3 HK S2 H2
+C7 C2 C3 CA
+D4 D7 D9 D2
+SA ST S4 SK
+H6 C5 S6 S3
+H8 C6 S9 S8
+C8 CK C4 SQ
+- DA - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "22"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "E"]
+1D 2S 3D 4S
+Pass Pass 5D Pass
+Pass Pass
+[Play "S"]
+SK S8 S9 S7
+H2 HK HA H4
+H5 HT HQ H6
+H7 HJ H9 C2
+D5 D2 D3 DQ
+D8 D6 DJ DA
+S3 DK S2 D4
+C7 CQ CK CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "S"]
+[Contract "5SX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 2S 3D 4S
+5D Pass Pass 5S
+X Pass Pass Pass
+[Play "W"]
+D6 D3 DA D5
+C4 CK CA C7
+DK DJ D4 D8
+HT HQ H4 H2
+S8 S2 S7 SK
+D2 S4 D7 SQ
+HJ HA H6 H5
+HK H3 C2 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "23"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "S"]
+Pass 1H Pass 2S
+Pass 2NT Pass 3D
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "N"]
+CK C5 CT C9
+C4 C7 CA H3
+S8 SQ S2 ST
+HK H2 H6 HQ
+CQ CJ C2 H5
+D4 HA H7 H9
+S9 S3 S4 SA
+D6 S5 HT SK
+D9 D8 DA D2
+DT H4 HJ D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D 2C X
+Pass 3C Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+S2 SA S8 S3
+CA C9 C4 CJ
+S4 S6 S9 SJ
+D5 DJ DQ D8
+C2 ST CK C5
+D7 D2 D4 S5
+C3 SK C6 C7
+H6 H3 HK HA
+HT HQ - H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "24"]
+[West "Pokorna H"]
+[North "Saul C"]
+[East "Svobodova P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "19"]
+[VisitTeam "Czech"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 1NT Pass 4S
+Pass Pass Pass
+[Play "W"]
+HJ HA H5 H2
+H6 HK H9 C7
+SJ S5 S6 S7
+HT H3 HQ S2
+SQ ST S9 SA
+SK D6 C3 S3
+H8 H4 C8 S4
+D9 DA D4 D2
+H7 D7 D8 DK
+C2 DT CK S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Lustin C"]
+[North "Batelova E"]
+[East "Crozier M"]
+[South "Erdeova J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 1NT Pass 2S
+Pass Pass Pass
+[Play "W"]
+HJ HA H5 H2
+H6 HK H9 C7
+SJ S5 S6 S7
+H7 H3 HQ S2
+SQ ST S9 SA
+D9 D6 D4 DK
+C2 D7 DQ D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "1"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+Pass 1D 1S 2C
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+H7 H3 HQ H2
+H9 H8 H4 H5
+HK D4 H6 HA
+S5 SJ S3 S7
+CT C4 C2 CA
+S2 CJ CQ C5
+D5 D8 DA D2
+HJ C6 HT S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S5 SJ S3 S9
+CT C4 C2 CA
+ST CK C3 C5
+S2 CJ CQ D2
+H7 H3 HT H5
+H9 H8 H4 H2
+HK D4 H6 HA
+DT D8 DA DQ
+HJ C6 HQ S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "2"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1D 1S 2C Pass
+2D Pass 3D Pass
+3NT Pass Pass Pass
+[Play "S"]
+H2 H6 HA H3
+HT H8 H4 HK
+C4 C3 C2 CA
+D4 DQ D8 D2
+C9 CQ C6 S5
+CK CJ C7 D3
+HQ S3 H5 H7
+SA S7 S8 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 1S 2D Pass
+Pass Pass
+[Play "S"]
+D4 DQ D8 D3
+HQ H6 H4 HJ
+D5 DA DT D2
+H2 H8 HA H3
+S6 D6 DJ DK
+S2 C3 C2 D9
+HT C5 H5 HK
+SA S3 S8 SK
+C9 CT C6 CA
+S4 S7 SQ SJ
+C4 S9 H9 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "3"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -620"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+Pass 1H Pass 2C
+Pass 2D Pass 4H
+Pass Pass Pass
+[Play "N"]
+C9 C3 C2 CA
+H3 HK HA H4
+C5 CQ C7 CJ
+HJ CK C4 S8
+SA S6 S4 H2
+D2 DQ D6 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 2C
+Pass 2D Pass 3H
+Pass 3S Pass 3NT
+Pass 4C Pass 4H
+Pass Pass Pass
+[Play "N"]
+SA S6 S9 S8
+C5 C3 C2 CA
+H3 H9 HA H2
+C9 C6 C4 CJ
+HJ HK S2 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "4"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "E"]
+[Contract "2HX"]
+[Result "4"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 1100"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+1NT X 2H Pass
+Pass X Pass Pass
+Pass
+[Play "S"]
+HJ HQ H3 H2
+C3 C2 CQ C7
+DK D3 DJ D2
+HT HA C9 H5
+C5 C4 CK C8
+H6 CA CT CJ
+S6 SK SA S3
+S8 S5 SQ S4
+SJ ST S2 S7
+D5 D7 DT D4
+H9 D8 C6 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT 2C 2H Pass
+Pass X Pass 2S
+Pass Pass Pass
+[Play "W"]
+HA H3 H7 H6
+HQ S2 H5 H9
+C4 CK C8 C3
+D3 DT D2 DK
+CA C6 C7 C5
+H4 C9 HK HT
+C2 CQ CJ D5
+SK SQ S3 S6
+S5 SA S4 S8
+ST S9 S7 SJ
+D7 DJ H2 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "5"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "N"]
+[Contract "1D"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+1D Pass Pass Pass
+[Play "E"]
+C5 CA C6 C8
+SA S2 S5 SK
+S4 S6 SJ S3
+C4 ST SQ S9
+HK H5 H3 H2
+H6 H7 HT HA
+C7 HJ S7 S8
+H9 D6 H4 H8
+D2 DT DQ DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D 2C Pass 3C
+X Pass 3D Pass
+Pass Pass
+[Play "E"]
+CK CA C3 C8
+D5 DT DQ DA
+D2 D6 D3 DK
+D9 D7 C6 DJ
+S4 S2 SJ S8
+SA S6 S5 S3
+C4 CT CJ D4
+H6 HJ HQ H2
+H9 H5 H3 HA
+C5 ST H4 D8
+C7 - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "6"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1S 2C 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CK C6 C8 CA
+S4 S5 S6 SK
+C2 SQ S7 S2
+C4 S9 SJ SA
+D6 D2 DA DQ
+HA H4 HT HK
+CQ C9 D5 C3
+HJ H6 H2 HQ
+C7 ST H8 C5
+D3 DK D4 H3
+D9 D8 DJ S3
+H5 DT H9 S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 2C 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CQ C6 C8 CA
+S4 S5 S7 SA
+C2 SQ S6 S2
+C4 S9 SJ SK
+D3 D2 DA DQ
+HA H4 H9 HK
+CK C9 H2 C3
+H5 H6 H8 HQ
+C7 ST D4 C5
+D6 DK D5 H3
+- D8 DJ S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "7"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 90"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+1D Pass 1NT Pass
+Pass Pass
+[Play "E"]
+HQ HK H8 H2
+D4 DK DA D8
+C8 C7 C2 C4
+CJ S4 C5 CA
+D9 D2 DT DQ
+S8 D3 H3 D7
+H9 DJ S3 D6
+CT D5 S5 S2
+HJ H5 H7 H4
+HA H6 S9 S6
+C3 SQ CQ C6
+ST HT CK C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 3C Pass
+3D Pass Pass Pass
+[Play "W"]
+S5 S2 SK SA
+C2 CA C3 C7
+H8 H2 HA H6
+DA D6 D4 D2
+DT D7 D9 DJ
+H3 H4 H9 HK
+H7 D8 HJ H5
+C5 C4 C8 D3
+CQ DQ HQ HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "8"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1S Pass 1NT
+Pass 2NT Pass 3S
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+DQ D3 DA D6
+D9 D5 D7 D8
+DJ C3 D4 DK
+S3 SK S2 S9
+S4 S6 S7 SA
+S5 SJ C6 S8
+ST SQ H2 H4
+CJ C4 C9 CA
+D2 C5 CK C2
+H3 HT H8 HK
+H6 C7 CQ CT
+HQ HA H9 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 2C
+Pass 2H Pass 2S
+Pass 3NT Pass Pass
+Pass
+[Play "E"]
+H9 H4 HQ HA
+C6 CT CJ C3
+D4 D6 DQ D3
+HJ HK H6 HT
+H8 H5 H3 C4
+CK CA D9 C5
+H2 H7 D2 C7
+S2 SA S3 S6
+S7 S8 S4 SK
+D7 S9 S5 SQ
+- - - SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "9"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+Pass 1C Pass 2S
+Pass Pass Pass
+[Play "N"]
+H2 H3 HK H9
+DA D4 DQ D2
+D5 DK D6 D8
+SA S3 S4 SK
+C7 CA C5 CQ
+C4 C2 CT S2
+H8 HJ H4 HT
+HQ HA H5 D7
+C6 C3 CK S5
+D3 D9 DJ DT
+S9 H6 H7 S7
+C9 C8 SQ S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT X XX 2S
+Pass Pass Pass
+[Play "N"]
+C4 C2 CK CQ
+DA D4 D6 D2
+D5 DK DJ D7
+SA S3 S4 SJ
+D3 D9 DQ D8
+HQ HA H4 HT
+C6 CA C5 H9
+H2 H3 H5 S2
+S6 H6 ST SK
+S9 HJ SQ S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "10"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -620"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1H Pass 2C Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+D5 DQ DA D2
+S3 S8 S7 SA
+D7 DK D3 D4
+HQ HJ H6 H3
+C4 C3 C8 CK
+H5 H2 HA HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 3NT Pass
+4H Pass Pass Pass
+[Play "S"]
+D5 DQ DA D2
+S3 S8 S7 SA
+D7 DK D3 D8
+HQ HJ H6 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "11"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -450"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+1S Pass Pass 2C
+Pass 2H Pass 2S
+Pass 3NT Pass 4H
+Pass Pass Pass
+[Play "N"]
+S7 S3 SJ SK
+D7 H2 HJ HA
+S4 D3 S6 SA
+C3 C4 C2 CQ
+D2 H3 S2 S5
+C7 CA C5 D5
+C8 CK HQ D4
+D6 D8 DA H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "S"]
+[Contract "5DX"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C X Pass 3H
+Pass 4H 4NT X
+5D X Pass Pass
+Pass
+[Play "W"]
+SA S4 S3 S2
+SK S7 H8 S6
+S5 D9 H2 S9
+D4 D2 D3 DQ
+HA D6 H3 HK
+D5 D7 D8 DA
+H4 C3 H7 HQ
+H5 C7 HT HJ
+S8 C8 C4 SQ
+ST CT C6 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "12"]
+[West "Nehmert B"]
+[North "Vriend B"]
+[East "Caesar K"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+Pass Pass Pass 1S
+Pass Pass Pass
+[Play "W"]
+C3 CT C4 C7
+SA S8 S5 SK
+D3 D5 DQ DJ
+D9 D6 DK S2
+S3 D7 S7 SQ
+ST DT S9 SJ
+H3 H6 H2 HK
+H8 H7 H5 HQ
+HJ HA - H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Van Zwol W"]
+[North "Auken S"]
+[East "Gielkens I"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1D 2D 2S
+3D Pass Pass Pass
+[Play "S"]
+SQ SA S8 S7
+DJ D2 D5 DQ
+S2 D9 D6 DA
+C7 CJ CT C4
+S4 D3 D7 D8
+S6 S3 DT DK
+CQ CK C5 C2
+CA C3 C9 C8
+SK ST H6 S5
+SJ C6 H7 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "13"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -110"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+Pass Pass 1D 1H
+X 2H Pass Pass
+Pass
+[Play "N"]
+CQ C2 C7 CK
+H6 H9 HK H2
+C4 C5 CA C6
+C3 C9 C8 H4
+DA D4 D8 DK
+D7 D9 DT DJ
+H8 HT HA H3
+D6 DQ D5 S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1NT 2D
+3C 3H Pass Pass
+Pass
+[Play "S"]
+D3 DJ DA D4
+S4 S3 SQ SA
+HK H2 H6 HT
+SK S5 S7 S6
+S2 ST S9 SJ
+HA H3 H8 HJ
+CA C6 C4 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "14"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -420"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1H Pass 1S Pass
+2S X 4S Pass
+Pass Pass
+[Play "N"]
+C4 CA C5 C2
+SK S2 S5 SQ
+C7 C6 CJ C3
+D2 D3 DK DA
+S3 S6 D8 SA
+S7 S8 C9 SJ
+H2 H3 HA HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S 3D
+4D Pass 4S Pass
+Pass Pass
+[Play "N"]
+H2 H3 HA H9
+S3 H4 H7 HQ
+D7 D3 DJ DA
+D2 S2 D8 D6
+SK S9 S5 ST
+C4 CA C5 C2
+S7 S8 H5 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "15"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 660"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+3D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+CA C2 C6 C3
+S4 S2 S9 SK
+D7 DA D4 DT
+DJ DK C4 D6
+C9 DQ C5 D5
+H6 D9 H3 H2
+H4 D8 H5 S5
+S8 D2 S6 SQ
+HQ D3 ST H9
+CT C7 H7 CK
+- - - HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+3NT Pass Pass Pass
+[Play "W"]
+HJ HA H4 C7
+ST SK S4 S2
+H3 HK H6 S3
+D4 D5 D7 DQ
+H5 D6 DJ DK
+H7 DT HQ DA
+H8 H2 S8 D2
+C4 S5 SJ D3
+S6 H9 C9 D8
+C5 SQ CT D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "16"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+Pass Pass 1D 1H
+Pass Pass X XX
+2D 2H Pass Pass
+Pass
+[Play "W"]
+C3 CA C2 C7
+H3 H2 HK HA
+S9 SK S2 S4
+H6 S3 S5 SJ
+HJ H5 D2 HQ
+C4 C5 CQ CK
+DQ D6 D8 D3
+CJ C6 CT H4
+D5 D9 DK D4
+H8 S6 S8 ST
+HT C9 D7 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 1H
+Pass 1S Pass 4S
+Pass Pass Pass
+[Play "E"]
+DA D3 DT D6
+DK D4 D5 D9
+D7 S4 DQ DJ
+C2 C7 C3 CA
+HK HA H6 H5
+S2 HQ H3 H2
+CT CK C4 C5
+D2 H4 H8 SK
+S5 ST S9 S3
+S8 H7 HT S7
+CQ SJ C8 C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "17"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "N"]
+[Contract "5NT"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -150"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+Pass 1S X Pass
+3C Pass 3S Pass
+3NT Pass 4C Pass
+4H Pass 4NT Pass
+5D Pass 5S Pass
+5NT Pass Pass Pass
+[Play "E"]
+SA SK S2 S5
+SJ C3 S6 SQ
+H2 H3 H9 HK
+C7 HJ H5 HT
+S3 HQ H6 H4
+S4 HA H7 C2
+D2 D3 D4 DQ
+DT DA D6 D7
+D8 DK C8 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1S X Pass
+2NT Pass 3S Pass
+3NT Pass Pass Pass
+[Play "E"]
+ST SK S2 S5
+H2 H3 H7 HT
+D2 DK D4 D7
+S3 HJ H5 HK
+D8 D3 D6 DQ
+DJ DA H6 D9
+S4 HQ H8 H4
+S7 HA H9 C2
+CA C3 C8 CQ
+DT D5 S6 SQ
+SA C4 S8 C6
+SJ C5 S9 C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "18"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -450"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1H Pass 1S 2D
+3S Pass 3NT Pass
+4C Pass 4D Pass
+4S Pass Pass Pass
+[Play "N"]
+DA D7 DJ D5
+C7 CA C2 C6
+D4 DQ D9 SJ
+S3 S5 S4 SA
+D2 SK ST S2
+C4 CK C3 CQ
+CT CJ C5 H2
+H8 HQ HK HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2H Pass
+3S Pass 4D X
+4S Pass Pass Pass
+[Play "S"]
+DJ D5 DK D7
+S4 S2 S3 S5
+D9 S6 D2 DQ
+ST SA D3 S7
+C2 C6 C4 CA
+C3 CQ C7 CK
+C5 H2 CT CJ
+HK HA H8 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "19"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass 2S Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S6 S2 ST SK
+D3 D5 DA DK
+SA S7 SQ S4
+S8 S9 SJ C8
+C3 H3 S5 C9
+- - S3 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass 2H Pass 2S
+X 3D Pass 3NT
+Pass Pass Pass
+[Play "S"]
+SA S2 S3 S4
+S8 S7 ST SK
+D3 D5 DA DK
+S6 S9 SQ C8
+C3 CT SJ C9
+C4 H3 S5 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "20"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 680"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+CJ CA C3 C2
+S8 S3 S6 SK
+S2 S9 S4 S5
+C5 ST S7 SJ
+D2 DK D3 D6
+D4 D5 D9 DJ
+C7 D7 DQ DA
+H3 CT C4 DT
+- - - D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 2S
+Pass 3H Pass 3NT
+Pass 4C Pass 4H
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+CQ CA C3 C6
+S2 S3 S4 SK
+S8 SA S6 S5
+C8 S9 S7 SJ
+D2 DK D3 D6
+D4 D5 D9 DJ
+H3 D7 DQ DA
+C5 CT C4 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "21"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "W"]
+[Contract "3C"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "N"]
+Pass 1S Pass 3C
+Pass Pass Pass
+[Play "N"]
+D5 D2 D4 D8
+S2 SK SA ST
+HQ H2 H3 H7
+D9 D3 DQ DA
+C3 CA C7 C2
+S4 S3 S5 C5
+C4 S8 C8 CK
+CT H4 H5 C6
+HT HJ HA H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 1H 2C
+Pass 2D Pass 2H
+X 2S Pass 3D
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Play "N"]
+HQ H2 H5 HK
+D5 D2 DQ D7
+HT H4 HA H7
+C3 HJ H8 H9
+C4 CA C7 C2
+D9 D3 D4 DA
+CT S3 C8 CK
+DJ DK S5 D8
+S2 DT S7 C5
+S4 D6 SJ C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "22"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "S"]
+[Contract "5SX"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS -300"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "E"]
+1D 2S X 4S
+5C Pass Pass 5S
+Pass Pass X Pass
+Pass Pass
+[Play "W"]
+D2 D3 DA D5
+C9 CK CA C7
+D6 DJ DQ D8
+CT S2 C3 C8
+S8 S4 S7 SK
+HJ HQ H4 H2
+HT HA H6 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "S"]
+[Contract "5SX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 3S 4D 4S
+5D Pass Pass 5S
+X Pass Pass Pass
+[Play "W"]
+D2 D3 DA D5
+C4 CK CA C8
+DK DJ DQ D8
+HJ HA H4 H2
+S8 S2 S7 SK
+C6 S4 C2 C7
+D6 S6 D4 SQ
+HK H3 H6 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "23"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "S"]
+Pass 1H Pass 2D
+Pass 2S Pass 2NT
+Pass 3C Pass 4H
+Pass Pass Pass
+[Play "N"]
+CK C5 C3 C9
+C6 C7 CT H3
+S8 SQ S2 ST
+HK H2 H6 HQ
+DT D8 DA D2
+S9 S3 S4 SA
+C8 HA H7 H5
+C4 CJ CA H9
+D6 S5 HT SK
+D4 H4 HJ D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1S
+Pass 2S Pass Pass
+Pass
+[Play "S"]
+H6 H3 HK HA
+S2 SA S8 S3
+S4 S6 S9 SQ
+D7 DK D6 D8
+CT C9 C4 C5
+HJ HQ D4 H2
+HT H5 C6 H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "24"]
+[West "von Arnem D"]
+[North "Vriend B"]
+[East "Auken S"]
+[South "Van der Pas M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "N"]
+[Contract "2D"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "4"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "23"]
+[VisitTeam "Germany"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 1NT Pass 2D
+Pass Pass Pass
+[Play "E"]
+CK C7 C6 C5
+D4 D2 D9 DT
+S6 SA SJ S5
+H5 H2 H8 HA
+H9 CT H6 HK
+HQ D3 H7 H3
+S9 S2 SQ ST
+C3 S3 SK H4
+D8 DK HJ C9
+DJ S4 C2 CQ
+DQ D5 C4 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Simons A"]
+[North "Rauscheid A"]
+[East "Pasman J"]
+[South "Schreckenbgr"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass 2H
+Pass 2S Pass Pass
+Pass
+[Play "E"]
+CA C7 C2 C5
+DQ D2 D9 DA
+H5 H2 H6 HA
+H9 CT H7 HK
+S6 SA SJ S5
+S9 S2 SQ ST
+C3 S3 SK H3
+CK S4 C4 CQ
+D4 DK C6 D6
+D8 D3 CJ D7
+DJ D5 H8 DT
+*
+

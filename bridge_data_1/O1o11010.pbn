@@ -1,0 +1,4966 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.18"]
+[Board "1"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1NT 3D X Pass
+3S Pass Pass Pass
+[Play "E"]
+DA D2 D5 D7
+D3 DQ DK DJ
+C5 C3 C6 CA
+S2 S3 S6 SK
+ST S5 S7 SQ
+D4 S9 SA S4
+CJ CT C2 CK
+D6 - - CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT Pass 2C Pass
+2D X 2H Pass
+Pass 3D Pass Pass
+Pass
+[Play "S"]
+CT C2 CQ C5
+C3 C4 CA CJ
+DQ C6 CK DT
+S5 SA S4 S2
+D2 DK D7 D3
+H2 D5 DJ DA
+H9 HK H3 H7
+HA H5 H4 HQ
+S3 S6 SQ ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "2"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+2H Pass 3H 3NT
+Pass Pass Pass
+[Play "E"]
+HT H2 H3 HQ
+D2 D5 D3 DA
+DK D6 DJ D4
+C9 C6 C3 CT
+S8 SA S2 S5
+C4 S3 SJ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 2H X
+3H 4D Pass 5D
+Pass Pass Pass
+[Play "W"]
+H3 HQ HK H2
+H6 HA H4 H5
+C3 CA C4 C6
+C5 C2 C9 D5
+H9 D4 H7 H8
+D3 D8 DK D6
+DJ DA D2 D7
+C7 CQ CK D9
+S2 S5 HT DQ
+S4 CT HJ DT
+S7 S6 - SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "3"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -650"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+1C X Pass 2NT
+Pass 3H Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+DA DJ D5 D3
+D2 DK D6 D4
+HJ H4 H5 HA
+S9 SK S3 S4
+SA S2 S7 SJ
+D7 S8 D8 D9
+- SQ - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D 1H Pass 1S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+C8 C3 CT CA
+S9 SK S3 S4
+SA S2 S7 SJ
+DA DJ D5 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "4"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -680"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+1C Pass 1H Pass
+2D Pass 4H Pass
+Pass Pass
+[Play "S"]
+S4 S2 S7 SQ
+S3 S5 S8 ST
+H2 HA HJ H3
+H9 H5 HQ HK
+D8 D4 D2 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2D Pass
+2S Pass 2NT Pass
+3C Pass 3D Pass
+3S Pass 4H Pass
+Pass Pass
+[Play "S"]
+H2 H5 HQ HK
+SK SA S7 SQ
+H9 HA HJ H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "5"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "6"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -300"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1H Pass 1S 2D
+3C Pass Pass 3D
+3H Pass Pass Pass
+[Play "E"]
+CA C4 C6 C7
+CK C5 D5 C9
+C2 C8 H3 CT
+D7 D3 DA D2
+- - DK HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 1S 2D
+3C Pass Pass 3D
+3H Pass Pass Pass
+[Play "E"]
+CA C4 C6 C7
+CK C5 S3 C9
+C2 C8 H3 CJ
+D7 D3 DA D2
+- - DK -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "6"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+2C 4H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CJ CQ
+H6 D5 CK C9
+S2 S6 SA S5
+H9 D6 CT CA
+S3 SK H2 SQ
+HK D8 C8 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+3C 4H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CT CQ
+H6 D5 C2 C9
+S8 S9 SA S5
+H9 D6 CJ CA
+S2 SK H2 SQ
+HK D8 C8 HJ
+S3 S6 C5 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "7"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+2H 3C 4H Pass
+Pass Pass
+[Play "W"]
+DT DA D4 D8
+C9 H2 H3 HQ
+CA CT C5 C2
+SA S6 S3 SK
+S9 SJ S4 S2
+D3 DQ DK H6
+C6 CK CJ C3
+^R S5 DJ H5 H8
+C8 SQ S8 S7
+- D2 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "E"]
+[Contract "2C"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D 1NT 2C
+Pass Pass Pass
+[Play "S"]
+HQ S5 H2 HA
+H6 C6 H4 H5
+D8 D3 DA D4
+H8 C8 HK H3
+C2 D5 D2 DK
+C3 CA CT C5
+S7 DT DJ CJ
+S2 SA S6 S3
+C4 CQ CK H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "8"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass Pass 1C 1S
+1NT Pass Pass 2H
+Pass 2S Pass Pass
+Pass
+[Play "W"]
+C3 C2 CA C5
+S5 S6 S2 SJ
+H4 H6 H3 HA
+H5 HT H7 HK
+HQ C6 H8 H2
+C4 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 1S
+1NT Pass Pass Pass
+[Play "N"]
+C6 C9 CQ CK
+D6 DJ D7 D3
+H6 H3 H2 HQ
+HT HJ HK H4
+C2 H7 H9 H5
+S6 H8 HA S5
+C7 CT C5 C3
+S8 S2 SJ SA
+D8 DK DT D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "9"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+Pass 1C 1S Pass
+2S Pass Pass Pass
+[Play "W"]
+C4 C2 CA C8
+C5 C6 C3 CK
+D3 DQ DK D2
+H3 C9 CQ SQ
+D4 DA D8 D7
+S2 S4 S5 S3
+- - SK SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C 1S X
+3S Pass Pass Pass
+[Play "W"]
+C5 C2 CA C8
+C4 C6 C3 CK
+H6 HJ HK H2
+D3 C9 C7 SJ
+HA H5 H7 HT
+D4 DA D8 D2
+S2 S9 S5 S3
+S6 S4 SK SA
+H3 - - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "10"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+1H X 2D Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "S"]
+SA S3 S6 S8
+SK S5 SQ ST
+C3 CK C4 C2
+HK H4 H3 HA
+D2 HJ HQ H2
+C7 CT C5 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S Pass
+2H Pass Pass Pass
+[Play "S"]
+D2 DA D6 D7
+HK H4 H3 HT
+D3 DK D9 D8
+C3 CK C4 C2
+C7 CT C5 CA
+C9 DJ C6 CQ
+DQ HJ C8 DT
+S2 H7 H8 HA
+D4 - - H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "11"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+Pass Pass Pass 1C
+1D 1S 1NT 2S
+Pass Pass 2NT Pass
+3D Pass Pass Pass
+[Play "W"]
+H4 H3 HK H5
+H8 H7 HA H9
+HQ HJ H2 HT
+C5 CJ CA C4
+C6 C7 C2 CK
+S2 SQ S6 ST
+D6 D2 DT DQ
+D9 DK DA D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D 1NT
+2D 2S Pass Pass
+Pass
+[Play "N"]
+CT C2 CK C5
+CJ CA C4 C6
+S4 S9 ST S2
+DK DA D5 D6
+SA S6 SJ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "12"]
+[West "Andersson L"]
+[North "Helness T"]
+[East "Gothe H"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+3H 3S Pass 4S
+Pass Pass Pass
+[Play "E"]
+HK H8 H2 H4
+HT HJ HQ H6
+CK C7 C2 CQ
+C3 CT C4 C8
+S2 S5 C5 SA
+- - - H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Grotheim G"]
+[North "Nilsland M"]
+[East "Aa T"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "S"]
+[Contract "5S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+3H X 4H 4S
+Pass 5S Pass Pass
+Pass
+[Play "W"]
+HA H4 HT H8
+H2 H6 HK HJ
+H3 S4 S2 S8
+C2 C8 CK CJ
+H5 SJ S6 ST
+H7 H9 C3 S5
+D3 - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "13"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+Pass Pass Pass 4H
+Pass Pass Pass
+[Play "N"]
+DJ - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D Pass 1H
+Pass 2H Pass 2S
+Pass 3NT Pass 4S
+Pass Pass Pass
+[Play "N"]
+SA S2 S3 S4
+S7 SJ S6 S5
+D4 S9 SQ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "14"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass 2D Pass Pass
+Pass
+[Play "W"]
+HK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C 1NT Pass
+Pass Pass
+[Play "N"]
+C3 CJ CK CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "15"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+3NT Pass Pass Pass
+[Play "W"]
+D6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D7 D4 DJ DK
+D6 DT D5 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "16"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass Pass 1C Pass
+1H Pass 1NT Pass
+2C Pass 3NT Pass
+Pass Pass
+[Play "S"]
+S5 S3 ST SJ
+H2 HK H3 H9
+C7 CQ CK CA
+H5 C2 C3 CJ
+H6 H7 H4 HA
+HT C4 H8 C8
+D2 C9 S6 C6
+D7 CT S7 C5
+S2 HJ D6 D4
+SQ HQ S8 D9
+- S4 D8 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1NT Pass
+2C Pass 2D Pass
+3C Pass 3NT Pass
+Pass Pass
+[Play "S"]
+S5 S3 ST SJ
+H5 HK H8 H9
+C7 CQ CK CA
+H2 H7 H3 HA
+H6 C2 C3 CJ
+D2 C4 S6 C8
+D7 CT S7 C6
+HT HQ H4 D4
+S2 HJ D6 D9
+- C9 D8 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "17"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "E"]
+[Contract "5CX"]
+[Result "9"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+2H 3D 4H Pass
+Pass 5C X Pass
+Pass Pass
+[Play "S"]
+SK S3 S2 S4
+SQ S7 S9 S5
+HA H5 H2 C2
+CA C4 C3 CJ
+S8 ST SA C6
+CT CK D4 C7
+- D2 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "W"]
+[Contract "5CX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H 2NT 3C 5C
+Pass Pass X Pass
+Pass Pass
+[Play "N"]
+SA S4 SK S3
+S9 S5 SJ S7
+S2 C2 S6 ST
+C3 CQ CT C4
+H7 C6 CA C5
+HJ C7 H3 HT
+- D5 DK D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "18"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "5"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+1D Pass 1H Pass
+1NT Pass Pass Pass
+[Play "S"]
+CT C2 CQ C3
+C4 C7 CA C6
+C8 CK C5 CJ
+SQ S4 S3 SJ
+C9 H5 S5 D3
+D7 D2 DK D4
+D8 DA D6 D5
+S2 S7 S9 SA
+H2 H6 HJ H9
+DJ S8 DT DQ
+S6 ST - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass Pass Pass
+[Play "S"]
+CT C2 CQ C3
+C4 C7 CA C6
+C8 CK C5 CJ
+SQ S4 S5 SJ
+C9 H5 S3 D4
+D7 D2 DK D5
+D8 DA D6 D3
+S2 S7 S9 SA
+H7 HQ HK H4
+DJ S8 D9 DQ
+S6 ST DT SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "19"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "E"]
+[Contract "5HX"]
+[Result "8"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 800"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+Pass 1C 3D Pass
+5D Pass Pass 5H
+Pass Pass X Pass
+Pass Pass
+[Play "S"]
+DK D4 D2 H3
+CT CJ CA C2
+D8 DQ D3 S3
+S2 SA S4 S5
+S7 SK S6 ST
+CQ CK C7 C4
+SJ SQ H7 H9
+H2 C3 DA C5
+DT D5 D6 H5
+D9 C9 - C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 1D X
+3D Pass Pass 3H
+Pass 3S Pass Pass
+Pass
+[Play "N"]
+DA S3 D8 D4
+CA C2 CT CK
+C7 C4 CQ CJ
+S4 S5 S2 SA
+D2 ST D9 D5
+HK H3 H2 HQ
+D3 H5 DK DQ
+D6 H9 DT S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "20"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass Pass 1D Pass
+1NT Pass Pass Pass
+[Play "N"]
+H5 H4 HK H8
+HJ H9 H2 HT
+HA C2 H3 HQ
+H6 D6 C7 C3
+H7 S2 SJ C8
+S3 S7 S5 SQ
+CA C9 CJ CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "W"]
+[Contract "3D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1H X 2H
+X Pass 3C Pass
+3D Pass Pass Pass
+[Play "N"]
+S4 S2 S8 SQ
+D3 DJ D8 D2
+HJ H4 H2 H8
+S3 S7 ST SA
+C4 CK C7 C3
+HA H9 H3 HQ
+D4 DK DA D5
+H7 D6 DT DQ
+H5 SK S5 S6
+C5 S9 SJ D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "21"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1NT Pass 2C 2H
+3D Pass 3H Pass
+3NT Pass Pass Pass
+[Play "E"]
+HJ HQ HK H4
+H2 H6 H7 H5
+C6 S9 H8 HA
+D2 D3 D5 DA
+C3 C2 CA CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1D 2H
+Pass Pass 3C Pass
+3D Pass 3H Pass
+3NT Pass Pass Pass
+[Play "E"]
+HJ HQ HK H4
+H2 H6 H9 HA
+C3 C2 CA CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "22"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass 1H Pass 3H
+Pass Pass Pass
+[Play "W"]
+S2 S3 SQ SA
+H3 H2 H6 HA
+H9 HQ HK H5
+C4 C3 CA C6
+CK CQ C2 CT
+C5 D9 C8 H7
+- - - H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass 2C
+Pass 2H Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+H3 HQ HK HA
+D4 DQ D3 D2
+H9 HJ H6 H5
+S2 S3 S4 SA
+D5 DJ DT D6
+S8 S5 S6 SJ
+D8 D9 HT D7
+C4 C3 CA C6
+C5 - C2 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "23"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 180"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+Pass 2H 2NT Pass
+Pass Pass
+[Play "E"]
+CT C4 C2 CJ
+DA D5 D8 DK
+C5 C7 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 180"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 2C 2NT Pass
+Pass Pass
+[Play "E"]
+CT C4 C2 CJ
+DA D5 D8 DK
+C5 C7 CA C8
+- - C9 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "24"]
+[West "Fallenius B"]
+[North "Helness T"]
+[East "Nilsland M"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Norway"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 430"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass 1NT Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "E"]
+H5 H2 H8 HJ
+H3 H4 C7 HA
+H6 HT D3 H7
+H9 HK C3 C4
+DK D5 D4 D2
+C2 C6 C5 CT
+S3 DQ D8 D6
+- D9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Grotheim G"]
+[North "Andersson L"]
+[East "Aa T"]
+[South "Gothe H"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+2D X XX Pass
+2S Pass Pass Pass
+[Play "N"]
+DA DK D5 D4
+C4 CA C6 C7
+HJ H3 H2 H8
+C9 CK CJ C3
+H7 H5 H4 S2
+D2 S3 D9 D3
+HA H6 HT S9
+D6 S7 DQ D8
+D7 H9 HK ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "1"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass Pass Pass
+[Play "E"]
+DA D2 D5 D7
+D3 DQ DK DJ
+S2 S3 S6 SK
+H7 H9 HK H3
+C5 C3 C6 CA
+HQ HA H5 H4
+D6 HJ H6 H8
+D4 HT C2 S4
+CJ CT C4 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "E"]
+[Contract "4D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT 3D X 3NT
+Pass Pass X 4D
+Pass Pass Pass
+[Play "S"]
+CT C2 CA C5
+C3 C4 CQ CJ
+DQ C6 C7 D3
+S5 SA S4 S2
+D2 DK D7 D4
+H9 D5 DJ DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "2"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+1H Pass 2D X
+Pass Pass 2H 2NT
+3H 3NT Pass Pass
+Pass
+[Play "E"]
+C4 C6 C3 C2
+DK D5 D3 D4
+S8 S3 SJ SK
+C8 SA S2 S5
+H4 ST SQ S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 1S X
+2C 3D Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C4 C6 C7 CT
+D2 D5 DJ DA
+DK D6 D3 D4
+H4 H2 H9 HQ
+H7 H5 H6 HA
+C8 ST C3 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "3"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -660"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+1NT X Pass Pass
+XX Pass 2C X
+Pass 2H Pass 3NT
+Pass Pass Pass
+[Play "S"]
+C9 CK C5 C2
+SA S2 S7 SJ
+C6 C3 CT CQ
+DA DJ D5 D3
+D2 DK D6 D4
+S9 SK ST S4
+H2 SQ S3 S5
+H3 S8 C4 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D X Pass 2D
+Pass 2H Pass 2S
+Pass 3D Pass 3H
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+C8 C3 CT CA
+S9 SK S7 S5
+SA S2 S3 SJ
+DA DJ D5 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "4"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -680"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+1NT Pass 2D Pass
+2H Pass 3NT Pass
+4H Pass Pass Pass
+[Play "N"]
+S8 SQ S4 S2
+HQ H3 H2 HA
+HJ HK H9 H5
+S7 ST S3 S5
+D6 D3 D8 DK
+S9 C2 S6 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2D Pass
+2H Pass 3D Pass
+3H Pass 3NT Pass
+4C Pass 4H Pass
+Pass Pass
+[Play "N"]
+S7 SQ SK SA
+HJ H3 H2 HA
+HQ HK H9 H5
+S8 ST S3 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "5"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "4C"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+1H Pass 1S 2D
+4C Pass Pass Pass
+[Play "E"]
+CA C4 C6 C9
+CK C5 S3 CT
+C3 C8 D5 CJ
+C2 D3 D6 CQ
+HJ H5 H3 HA
+HT D4 H4 HK
+H9 D8 DJ HQ
+H8 D9 DQ H7
+S8 S5 SA ST
+D7 DT DA D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "4HX"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 1S 2D
+3C Pass Pass X
+4H X Pass Pass
+Pass
+[Play "E"]
+CA C4 C6 C9
+CK C5 S3 C7
+C2 C8 H3 CJ
+D7 D3 DA D2
+S2 D4 DK ST
+S6 D8 DQ HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "6"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+3C 4H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CK CA
+S4 H3 C8 C9
+D2 DA D3 DJ
+DK D6 D4 H4
+H6 D5 H2 HA
+HK S6 D7 HQ
+S2 S9 SA S5
+H9 D8 CJ CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+3NT 4H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CK CA
+H6 D5 CT C9
+S2 S6 SA S5
+H9 D6 C8 CQ
+S3 S9 H2 SQ
+HK D8 C6 HJ
+S4 SK C2 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "7"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 90"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+Pass Pass 1C 1H
+Pass Pass 1NT Pass
+Pass Pass
+[Play "E"]
+H3 H6 C9 HK
+H5 H8 D3 H4
+DK D8 D9 DQ
+CJ C2 C6 CK
+D4 HT D5 DA
+H7 S2 D7 DJ
+S4 SK SA S6
+C5 C3 CA CT
+H9 C4 CQ H2
+HA C7 C8 D2
+S3 S7 DT D6
+S8 HJ S5 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D 1NT 2C
+X 2S Pass Pass
+Pass
+[Play "N"]
+CK C5 C4 CA
+DA D4 D8 D3
+D6 DK S2 D5
+CT CJ C2 C6
+H2 HA H8 D7
+HK H3 H6 S5
+SJ H5 C3 C8
+DQ ST C7 D9
+H4 H7 HT S9
+S6 S3 S7 SA
+SQ H9 HJ CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "8"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -90"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+Pass Pass 1D 1S
+1NT Pass Pass Pass
+[Play "N"]
+S8 S2 SJ SA
+D6 DJ D7 D3
+H6 H3 H2 HQ
+HT H7 H9 H5
+S6 SK S4 S5
+C2 H8 HK H4
+C6 HJ HA D4
+DA D2 DT D9
+D8 DK S3 C3
+DQ D5 S9 S7
+C7 C9 C5 C4
+C8 CT CQ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 1S
+1NT Pass Pass Pass
+[Play "N"]
+S8 S2 SJ SA
+DA D2 D7 D3
+S6 SK S4 S5
+H6 H3 H2 HQ
+HT HJ HK H4
+C2 H7 HA H5
+C8 H8 H9 D4
+D6 DJ DT D9
+D8 DK S3 S7
+DQ D5 S9 ST
+C6 C9 CQ CK
+C7 CA C5 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "9"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+Pass 1NT 2H Pass
+2S Pass Pass Pass
+[Play "E"]
+CA C8 C5 C6
+C7 CK C4 C2
+DK D2 D3 DQ
+C3 ST H3 C9
+HK H2 H6 HJ
+CQ SJ H8 CJ
+D8 D7 D5 DA
+S5 S3 S2 S7
+SK SA S6 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1NT 2C Pass
+2S Pass Pass Pass
+[Play "E"]
+SK SA S2 S4
+S5 SQ S6 S7
+HK H2 H3 HJ
+CA C8 C5 C2
+C3 CK C4 C6
+H7 HQ HA H5
+D8 D2 D6 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "10"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+Pass 1D 1S Pass
+2H Pass Pass Pass
+[Play "S"]
+D3 DA D9 D8
+HK H4 H3 HT
+D5 DK D6 D7
+C7 CK C5 C2
+C3 CT C4 CA
+C9 DJ C6 CQ
+DQ HJ HQ DT
+S2 H7 H8 H9
+D2 S3 H6 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S Pass
+2H Pass Pass Pass
+[Play "S"]
+C3 CK C4 C2
+HK H4 H3 HT
+SK S3 S6 S8
+S2 S5 SQ ST
+C7 CT C6 CA
+D2 H7 H6 HA
+D3 HJ HQ H2
+C9 - C5 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "11"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 2H Pass 2S
+Pass Pass Pass
+[Play "S"]
+HT HQ H7 H2
+ST S2 S4 S9
+DQ D6 D4 DA
+SJ SK SA S6
+CK C5 CJ C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 2H Pass 2S
+Pass Pass Pass
+[Play "S"]
+DQ D6 D2 DA
+ST SK SA S6
+D3 D9 DK DT
+CK C5 CJ C2
+HT HQ H3 H2
+- S2 S4 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "12"]
+[West "Kaplan A"]
+[North "Bocchi N"]
+[East "Delforge C"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+2D Pass 2H Pass
+Pass X Pass 2S
+Pass 3H X Pass
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+HA H4 HT H8
+C6 C8 CK C7
+H2 H6 HK HJ
+C2 CQ C3 CT
+H3 SA S2 S5
+H5 H9 C9 S8
+D3 DA D4 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Versace A"]
+[North "Van MiddelemG"]
+[East "Lauria L"]
+[South "Labaere A"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+2H 2S 3H 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+HK H8 H5 H6
+HT HJ HQ H4
+CK C7 C5 C8
+C9 CT C2 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "13"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+Pass Pass Pass 1S
+Pass 2C Pass 2D
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "N"]
+HT HK H8 H5
+SA SJ S3 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass Pass 1S
+Pass 2NT Pass 4S
+Pass Pass Pass
+[Play "N"]
+DT D7 D5 D3
+D4 D8 DQ D2
+C2 C9 CT C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "14"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+Pass 1NT X 2C
+Pass Pass 2H 2S
+Pass Pass Pass
+[Play "E"]
+H4 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "4"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+HK H2 H4 H5
+SK SA S2 S3
+D5 D4 D9 D2
+HQ H9 H6 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "15"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 690"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D6 D4 DJ DK
+HA HQ H6 H3
+S4 S3 S9 SQ
+C5 C4 C2 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 2C Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H2 HK H4 H3
+C5 C4 C2 C9
+- - - CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "16"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+Pass Pass 1NT Pass
+2C Pass 2D Pass
+3NT Pass Pass Pass
+[Play "S"]
+H6 HK H4 H9
+C7 CQ CK CA
+H2 H7 H8 HA
+HT C2 C3 CJ
+H5 CT H3 C5
+D2 C4 D6 C8
+S2 C9 D8 C6
+- - - S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1NT Pass
+2C Pass 2H Pass
+2S Pass 2NT Pass
+3S Pass 3NT Pass
+Pass Pass
+[Play "S"]
+S5 S3 ST SJ
+H2 HK H3 H9
+C7 CQ CK CA
+H5 H7 H4 HA
+H6 C2 C3 CJ
+HT C4 S6 C8
+D7 C9 H8 C5
+D2 CT S8 C6
+DT HJ D6 D4
+S2 HQ S7 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "17"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "N"]
+[Contract "6H"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+1H 2NT 4C 5C
+5H Pass 6H Pass
+Pass Pass
+[Play "E"]
+DA DK D3 D6
+D9 H8 D2 D4
+C2 CA C4 C3
+C6 CT C5 H2
+D7 - - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "N"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 3D Pass
+4H 5C X Pass
+5H Pass Pass Pass
+[Play "E"]
+CQ CA C4 C3
+D7 HA H5 H2
+D5 H3 HK H4
+DA DK D2 D4
+DQ H6 D3 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "18"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "5"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+1D Pass 1H Pass
+1NT Pass Pass Pass
+[Play "S"]
+CT C2 CQ C3
+C9 C7 CA C6
+C8 CK C5 CJ
+S6 S4 S5 SK
+H7 HT HJ H3
+D7 DA DK D3
+SQ S7 S3 SJ
+C4 D2 D6 D4
+S2 S8 S9 SA
+D8 H5 D9 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1D
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+H5 HJ H9 H2
+DA D6 D5 D8
+HQ HK H4 H7
+D2 DK D3 D7
+S4 D9 DQ DJ
+H6 H8 H3 HA
+C2 CQ C3 C4
+- DT D4 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "19"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+Pass 1S 2D Pass
+3D Pass 3S Pass
+4D Pass Pass Pass
+[Play "E"]
+S3 S2 SQ S6
+ST S7 SK S4
+H3 H2 HQ HA
+C2 D8 D4 DA
+H5 DK D5 D2
+H9 H4 S8 HK
+C4 D9 DQ D3
+S5 SJ SA H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1S 2D Pass
+3D Pass 3S Pass
+4D Pass Pass Pass
+[Play "E"]
+S3 S2 SQ S4
+S5 S7 SK S6
+H3 H2 HQ HA
+C2 D8 D4 DA
+H5 DK D5 D2
+ST SJ SA D3
+H9 H4 DQ HK
+C4 CT C3 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "20"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "6"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+Pass 1H X 2D
+X 2H Pass Pass
+X Pass 2S Pass
+Pass Pass
+[Play "S"]
+H3 HT HJ H4
+HK H8 H5 H9
+H2 HQ HA S2
+DA D2 D3 DK
+DT D5 D4 DJ
+C7 C3 CA CK
+CJ C8 C4 C2
+D9 DQ S4 D6
+S5 CT C5 CQ
+D8 D7 S3 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1C Pass
+1D Pass 1S Pass
+1NT Pass Pass Pass
+[Play "N"]
+H5 H4 HK HT
+HJ H9 H2 H8
+HA C2 H3 HQ
+H6 D6 C7 C3
+H7 S2 S5 D2
+S4 S7 S8 SQ
+D3 DK DA D5
+S3 SK SJ S6
+D4 DJ D8 D7
+- CK CJ C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "21"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "N"]
+1D Pass 2C 2H
+3D Pass 3H Pass
+3NT Pass 5C Pass
+Pass Pass
+[Play "W"]
+CA C9 C6 C2
+S3 SQ S4 S9
+SK S2 S5 SA
+SJ CT S6 ST
+D5 DA D2 D3
+- D4 D7 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass 2C 2H
+3D Pass 3H Pass
+3NT Pass Pass Pass
+[Play "E"]
+HJ H6 H7 H4
+H2 HQ HK HA
+C3 C2 CA CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "22"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "E"]
+Pass 1NT Pass 2C
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "W"]
+S8 ST SQ SA
+H3 H2 H6 HA
+H9 HJ HK H5
+C4 C3 CA C6
+CK CQ C2 CT
+S2 S3 S9 SK
+D5 DQ D3 D2
+C5 HQ HT H7
+C7 S5 S4 SJ
+D4 DJ DT D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass 2C
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "W"]
+S8 S3 S4 SJ
+H3 H2 H6 HA
+H9 HQ HK H5
+C7 C3 CA C6
+CK CQ C2 CT
+CJ D9 C8 H7
+D4 HJ HT H8
+S2 ST SQ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "23"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "N"]
+[Contract "3NTX"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 1150"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "S"]
+Pass 1C 1NT Pass
+2C X Pass Pass
+2D Pass 3NT X
+Pass Pass Pass
+[Play "E"]
+S2 S4 S9 SK
+D3 D5 D8 DK
+DA D6 C2 DQ
+HT HJ HQ HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "W"]
+[Contract "2CX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -180"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 1NT Pass
+Pass 2C Pass Pass
+X Pass Pass Pass
+[Play "N"]
+DQ DA D6 D8
+HA H3 H5 HK
+DK D3 D5 C2
+H7 HT H2 HQ
+H9 C5 H6 H4
+D2 D7 DT C3
+CJ D9 HJ H8
+SK S2 S7 S3
+S6 S5 SQ S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "24"]
+[West "Labaere A"]
+[North "Bocchi N"]
+[East "Van MiddelemG"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "E"]
+[Contract "3C"]
+[Result "5"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "12"]
+[VisitTeam "Belgium"]
+[Auction "W"]
+Pass 1NT 2H Pass
+2NT Pass 3C Pass
+Pass Pass
+[Play "S"]
+D9 D3 DA DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Lauria L"]
+[North "Kaplan A"]
+[East "Versace A"]
+[South "Delforge C"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 180"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass Pass
+Pass
+[Play "E"]
+H3 H2 H8 HJ
+H5 H4 D8 HA
+DK D5 D3 D2
+C2 CQ C7 C4
+- DQ D4 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "1"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass Pass Pass
+[Play "E"]
+ST S3 S6 SK
+H7 HA H5 H3
+HQ H2 HK H4
+C5 C3 C6 CA
+D3 H9 H6 H8
+CJ CT C4 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.843.J7.AKQ97 T2.Q7.AT98643.J5 J953.AJT92.Q2.T3 A876.K65.K5.8642"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C 3D Pass Pass
+Pass
+[Play "S"]
+CT C2 CA C5
+C3 C4 CK CJ
+DQ C6 CQ DT
+S3 SA S4 S2
+D2 DK D7 D3
+H2 D5 DJ DA
+H9 S6 C7 D9
+S5 S7 SQ D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "2"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+1H Pass 1S 1NT
+2C 2D Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "E"]
+C4 C6 C7 CT
+D2 D5 D3 DA
+DK D6 DJ D8
+H4 H2 H3 HQ
+H7 H5 H6 HA
+C8 D7 C3 D4
+C9 D9 C5 C2
+S8 DT H9 S5
+HT DQ S2 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:8.KJT74.K2.KJ984 AT3.852.QT9765.6 QJ742.963.J3.753 K965.AQ.A84.AQT2"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2NT Pass 3H X
+Pass 4D Pass 5D
+Pass Pass Pass
+[Play "W"]
+H6 HQ HK H2
+H3 HA H4 H5
+S2 S5 S8 SA
+D3 D4 DK DQ
+H9 D8 HJ H8
+DJ DA D2 D5
+C7 CA C4 C6
+C3 CQ CK D6
+S4 C2 C8 DT
+C5 S6 H7 D7
+S7 CT C9 D9
+- - - S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "3"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -650"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+1C X Pass 2NT
+Pass 3H Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+H2 H4 H8 HA
+SA S2 S3 S4
+DA DJ D5 D3
+D2 DK D6 D4
+S9 SK S7 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A9.J32.AQ72.J986 KQ82.KQ964.KJ.K3 T73.T85.T865.T54 J654.A7.943.AQ72"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C X Pass 2C
+Pass 2H Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+C9 C3 C4 CA
+S9 SK S3 S4
+SA S2 S7 SJ
+C6 CK C5 C2
+D7 SQ ST S5
+H2 H4 H5 HA
+H3 HK H8 H7
+- HQ HT D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "4"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -680"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+1NT Pass 2D Pass
+2H Pass 3NT Pass
+4H Pass Pass Pass
+[Play "N"]
+DT DQ D8 D4
+S7 SQ SK SA
+HQ H3 H2 HA
+HJ H4 H9 H5
+S8 ST S3 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ52.A65.K4.AT86 987.QJ.T9762.Q43 QT.K8743.AQ53.92 K643.T92.J8.KJ75"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass 2H Pass
+2NT Pass 3NT Pass
+4H Pass Pass Pass
+[Play "S"]
+DJ DK D2 D3
+H2 H5 HJ HK
+SK SA S7 SQ
+S3 S2 S9 ST
+HT HA HQ H3
+S4 SJ S8 C2
+D8 D4 DT DA
+- - - D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "5"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "4HX"]
+[Result "6"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -1100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+1H Pass 1S 2D
+3C Pass 3NT Pass
+4H X Pass Pass
+Pass
+[Play "E"]
+D7 D3 DJ D2
+CK C4 C6 CQ
+CA C5 D5 CT
+C2 C8 H4 C9
+H8 D4 DA H6
+C3 H5 S3 C7
+S6 S5 SA ST
+- - D6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.AKQ762.2.QJT97 9862.JT98.7.AK32 KQJ5.5.T9843.854 A743.43.AKQJ65.6"]
+[Declarer "N"]
+[Contract "4HX"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -800"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2H Pass 2S 3D
+4C Pass 4H Pass
+Pass X Pass Pass
+Pass
+[Play "E"]
+HJ H5 H3 HA
+CK C4 C6 CQ
+CA C5 S3 C7
+C2 C8 H4 C9
+D7 D3 DA D2
+H8 D4 DK H2
+C3 S5 D5 CT
+H9 D8 D6 HK
+- - - H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "6"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+4C 4H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CK CA
+D2 H3 C8 C9
+DK DA D3 DJ
+S2 S6 SA SQ
+H6 D5 CJ CQ
+S3 SK H2 S5
+S4 D6 CT HQ
+H9 D8 C2 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A.2.743.KJT87652 Q5.AQJ8754.J.AQ9 J87432.KT96.K2.4 KT96.3.AQT9865.3"]
+[Declarer "S"]
+[Contract "6H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+3C 4H Pass 4NT
+Pass 5S Pass 6D
+Pass 6H Pass Pass
+Pass
+[Play "W"]
+C4 C3 CT CQ
+S2 S6 SA SQ
+H6 D5 CK CA
+S3 SK H2 S5
+H9 D6 CJ C9
+S4 S9 C2 DJ
+HT H3 C5 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "7"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+Pass 1D 1NT Pass
+2D Pass 2H Pass
+Pass Pass
+[Play "E"]
+S8 S2 SA S6
+CJ C2 CA CT
+C5 C3 C6 CK
+H3 HQ C8 H4
+D4 C4 CQ HK
+H5 H6 S5 H2
+DK D8 D9 DA
+H7 H8 D3 DJ
+S3 SK S9 SJ
+^R HA S7 D5 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K72.QJT86.8.7432 A95..T9753.AQ986 QJ6.K42.AQJ62.KT T843.A9753.K4.J5"]
+[Declarer "W"]
+[Contract "2D"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D X 1H
+Pass 2C Pass 2D
+Pass Pass Pass
+[Play "N"]
+SQ S3 S2 SA
+CK C5 C4 C6
+DA D4 D8 D3
+D2 DK H6 D5
+H2 HA H8 S5
+HK H3 HT D7
+- - - C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "8"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "6"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+Pass Pass 1D 1S
+1NT Pass Pass 2H
+Pass 2S Pass Pass
+Pass
+[Play "W"]
+D4 D6 DJ D7
+S5 S6 SK S3
+SA S8 S2 SQ
+D9 DA D2 DT
+D3 DQ DK S4
+S7 C2 D5 SJ
+ST C6 C9 S9
+C3 C7 CA C5
+CK C8 CT CQ
+H4 H6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT75.Q54.943.K43 86.T6.AQ86.J8762 K2.J873.KJ52.AT9 QJ943.AK92.T7.Q5"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1NT 2S
+Pass Pass Pass
+[Play "W"]
+D4 DQ DK D7
+SA S6 S2 SQ
+S5 S8 SK S3
+HQ HT H3 H2
+D3 D6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "9"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "10"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+Pass 1NT X 2C
+Pass 2D Pass Pass
+2S 3D 3S Pass
+Pass Pass
+[Play "E"]
+SK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:9874.J5.AQT.J962 K5.K97.KJ8.AQT73 AQJT3.QT42.72.K8 62.A863.96543.54"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 1S Pass
+Pass X Pass 2D
+2S Pass Pass Pass
+[Play "W"]
+C5 C2 CA C8
+C4 C6 C3 CK
+D6 DQ DK D7
+D4 C9 C7 ST
+D3 DA D8 D2
+S2 S9 S5 S3
+S6 S4 SK SA
+H3 HJ HK H2
+- - DJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "10"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+Pass 1S Pass 1NT
+Pass 2D Pass Pass
+2H Pass Pass Pass
+[Play "S"]
+SK S3 S6 S8
+S2 S5 SQ ST
+C9 CT C5 C2
+C3 CK C4 CA
+C7 DJ C6 CQ
+D2 DA D6 D7
+D3 DK D9 D8
+HK H4 H3 HA
+DQ H7 H8 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T8.AT952.T87.AQ2 AK42.K.Q5432.973 J9753.J74.AKJ.KT Q6.Q863.96.J8654"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S Pass
+2H Pass 3H Pass
+4H Pass Pass Pass
+[Play "S"]
+SA S3 S6 S8
+C3 CK C4 C2
+HK HJ H3 H2
+D2 DA D6 D7
+- H4 H6 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "11"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 2H Pass 2S
+Pass Pass Pass
+[Play "S"]
+HT H4 H3 HK
+ST SK SA S6
+C4 C5 CJ CA
+SJ S2 S4 S9
+DQ D6 D4 DA
+CK C6 C7 C2
+D5 D9 DK DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:JT.T95.QJ8753.K4 K7532.Q84.96.Q65 AQ4.J73.K42.JT97 986.AK62.AT.A832"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1C 1H
+X 2H Pass Pass
+3D Pass Pass Pass
+[Play "W"]
+H4 H3 HK H9
+H8 H7 HA HT
+HQ HJ H2 H5
+C5 C7 CA C4
+C6 C9 C2 CK
+D6 D2 DT D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "12"]
+[West "Sver N"]
+[North "Hackett Ju"]
+[East "Marinkovic P"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+2D 2S Pass Pass
+Pass
+[Play "E"]
+HK H8 H2 H4
+HT HJ HQ H6
+C3 C7 C6 CA
+C9 S5 H3 H9
+S2 ST H5 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Calderwood G"]
+[North "Caric J"]
+[East "Shek D"]
+[South "Caric A"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:.AQ7532.873.6542 AQJ74.964.A5.AQ8 9632.KT.KJ94.K93 KT85.J8.QT62.JT7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+2D X 2H Pass
+Pass 2S Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+S2 S5 H2 S4
+HT H8 HA H4
+CK C7 C5 CQ
+S3 S8 H3 SJ
+HK HJ H5 H6
+S6 ST C2 SA
+- - - H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "13"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+Pass Pass Pass 2S
+Pass Pass Pass
+[Play "N"]
+HT - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A7.T93.JT64.8732 J92.KQ64.K987.Q9 Q63.J87.AQ5.JT54 KT854.A52.32.AK6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1D 1S
+Pass 2D Pass 4S
+Pass Pass Pass
+[Play "N"]
+DJ - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "14"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+Pass Pass 2H Pass
+Pass Pass
+[Play "N"]
+D6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q62.864.JT93.JT8 753.AJ5.AK872.K4 KT4.KQT73.Q5.AQ2 AJ98.92.64.97653"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+HK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "15"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+3NT Pass Pass Pass
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ82.JT3.K932.A9 K54.A82.Q876.865 73.KQ9.AT4.KQT74 JT96.7654.J5.J32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 690"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 2C Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "16"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+Pass Pass 3NT Pass
+Pass Pass
+[Play "S"]
+D2 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:43.KQJ7.53.QT942 T876.843.QJ86.K3 KJ9.A9.K94.AJ865 AQ52.T652.AT72.7"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 1H
+X 3S 3NT Pass
+Pass Pass
+[Play "S"]
+S2 S3 ST SJ
+H6 HK - H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "17"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "N"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 450"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+Pass 2NT 4C 5C
+5H Pass Pass Pass
+[Play "E"]
+CQ CA C4 C3
+D9 HA H5 H2
+D5 H3 HK H4
+DA DK D3 D4
+CJ CT C5 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A92.QJ742.JT64.3 54..AQ9875.QJ762 KQJ86.A9863.K.AT T73.KT5.32.K9854"]
+[Declarer "N"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C Pass
+1H 2NT 4D 5C
+5H Pass Pass Pass
+[Play "E"]
+CQ CA C4 C3
+C2 HA H5 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "18"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+Pass Pass Pass 1D
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+H6 HJ H3 H2
+D2 D6 D3 D8
+C2 CQ C3 C4
+C7 CA C6 C8
+CK C5 CJ C9
+S7 S3 SK S2
+H5 HK H9 H7
+HT H8 H4 HA
+S4 S5 SJ CT
+DA D9 D4 D7
+HQ S9 D5 DJ
+S8 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ.943.Q543.J63 Q62.A72.J87.T984 T874.QT65.A2.K72 953.KJ8.KT96.AQ5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1D
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+H5 HJ H9 H2
+DA D6 D3 D7
+S4 S3 SK S2
+- - SJ S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "19"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "4"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -250"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+Pass 1S 2D Pass
+3D Pass 3S Pass
+3NT Pass Pass Pass
+[Play "W"]
+SA S4 S3 S2
+SK S6 ST S7
+SQ H7 S5 SJ
+S8 C7 H3 H2
+S9 D2 C2 H4
+C3 CA C4 CT
+D4 DA C5 D8
+D5 D3 C6 DK
+DQ D6 C8 D9
+CK D7 H5 CQ
+C9 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J72.8642.KT98.QT AKQ98.Q.Q54.KJ93 64.AK7.AJ7632.A7 T53.JT953..86542"]
+[Declarer "N"]
+[Contract "5DX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 3D Pass
+5D X Pass Pass
+Pass
+[Play "E"]
+HJ H2 HQ HA
+C6 D8 D4 DA
+H3 DK D5 D2
+H5 H4 S9 HK
+S5 S2 S8 S4
+S3 S7 SA S6
+C2 D9 DQ D3
+ST SJ SK D6
+H9 H6 C3 H7
+HT H8 C9 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "20"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+Pass Pass 1C Pass
+1D 1H Pass 2H
+Pass Pass 2S Pass
+Pass Pass
+[Play "S"]
+H2 H8 HJ H4
+HK HT H5 H9
+H3 HQ HA S2
+DA D2 D3 DK
+DT D5 D4 DJ
+S5 SQ S3 S7
+C7 C3 CA C2
+CJ S6 H6 C9
+S8 SA S4 S9
+ST C8 C4 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQ6.QT8.Q752.T83 43.AJ765.43.A654 K972.94.KJ6.KQ92 JT85.K32.AT98.J7"]
+[Declarer "W"]
+[Contract "2NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S Pass
+2NT Pass Pass Pass
+[Play "N"]
+H5 H4 HK HT
+HJ H9 H2 H8
+HA S2 H3 HQ
+H6 S7 S8 C3
+H7 C2 C7 D2
+CA C9 CJ C8
+D3 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "21"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "N"]
+1NT Pass 2S Pass
+2NT Pass 3S Pass
+3NT Pass Pass Pass
+[Play "E"]
+HJ HQ HK H4
+H2 H6 HT H5
+C3 S9 H9 HA
+C5 C2 CA CT
+C6 C4 H8 D4
+S4 ST H3 D6
+S5 C7 H7 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q2.A54.AKT964.T9 87654.J2.Q72.653 AT9.Q6.3.KQJ8742 KJ3.KT9873.J85.A"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass 3C Pass
+3NT Pass Pass Pass
+[Play "E"]
+HJ HQ HK H4
+H2 H6 HT H5
+S4 S9 H9 HA
+C5 C2 CA C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "22"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "E"]
+Pass 1S Pass 1NT
+Pass Pass Pass
+[Play "E"]
+C9 C6 CK C3
+CA CT C7 CQ
+C8 H5 C4 S3
+C2 D2 CJ S5
+DT H7 C5 H2
+HK HA H9 HQ
+D3 D6 D4 DQ
+SQ SA S2 ST
+S4 SK S8 H4
+S6 SJ H3 D9
+S9 D7 D5 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q964.KT6.T3.A982 AKJ7.A875.762.T6 82.93.K854.KJ754 T53.QJ42.AQJ9.Q3"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D Pass 1H
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "E"]
+DT D2 D5 DQ
+H6 HA H3 H2
+HK H5 H9 HQ
+D3 D6 D8 DJ
+HT H7 C4 HJ
+S4 SA S2 S5
+C2 D7 DK D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "23"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "N"]
+[Contract "3NTX"]
+[Result "10"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 950"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "S"]
+Pass 1C 1NT Pass
+2C X 2D Pass
+2H Pass 3NT X
+Pass Pass Pass
+[Play "E"]
+CT C4 C2 CJ
+D3 D5 D8 DQ
+D7 DT C3 D2
+DA D6 C6 DK
+SJ S4 S3 SK
+D9 H2 H4 DJ
+S2 H5 C9 D4
+S5 SA S9 S6
+S8 SQ CQ H7
+C5 C7 CA C8
+H3 H6 HK HA
+HT HJ H8 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ74.J652.T65.74 93.KQ84.8.AQ9632 K6.A97.KQJ42.KJ8 JT852.T3.A973.T5"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 2C 2NT Pass
+3NT Pass Pass Pass
+[Play "E"]
+CT C4 C2 CJ
+D3 D5 D8 DJ
+DA D6 H8 D4
+C5 C7 CA C8
+S2 H2 CQ CK
+D7 DT H4 D2
+H3 HJ HK HA
+D9 H5 S3 DQ
+S5 H6 C3 DK
+S8 S4 S9 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.18"]
+[Board "24"]
+[West "Caric J"]
+[North "Hackett Ju"]
+[East "Caric A"]
+[South "Hackett Ja"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "10"]
+[HomeTeam "G.Britain"]
+[Room "Open"]
+[Round "10"]
+[Score "NS 180"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Croatia"]
+[Auction "W"]
+Pass 1NT Pass Pass
+Pass
+[Play "E"]
+H3 H2 H8 HJ
+H5 H4 S2 HA
+H6 HT C3 H7
+DK D9 D3 D2
+H9 HK C5 C4
+S3 S4 SJ SQ
+C2 DQ D4 D6
+C8 D5 D8 DT
+- - - DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Calderwood G"]
+[North "Sver N"]
+[East "Shek D"]
+[South "Marinkovic P"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJT92.8.J843.753 AQ.AJ7.AT762.T94 873.Q9653.K.AK82 654.KT42.Q95.QJ6"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass 2S
+X Pass Pass XX
+Pass 3C Pass Pass
+Pass
+[Play "E"]
+S7 S4 SK SA
+S8 S5 SJ SQ
+H3 HK H8 H7
+- S6 - -
+*
+

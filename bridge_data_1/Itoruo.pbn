@@ -1,0 +1,1716 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.22"]
+[Board "1"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T874.T943.K98.64 3.AKJ.J765.AK985 KQ962.65.T3.QT72 AJ5.Q872.AQ42.J3"]
+[Declarer "W"]
+[Contract "4NT"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -460"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+Pass 1C X XX
+1H X 1S Pass
+2S 3C Pass 3H
+Pass 3S Pass 4NT
+Pass Pass Pass
+[Play "N"]
+S8 S3 SQ SA
+H3 HA H5 H2
+DK D5 D3 DQ
+ST C5 SK S5
+S7 C8 S2 SJ
+H4 HJ H6 H7
+H9 HK C2 H8
+D8 DJ DT D2
+D9 D6 S6 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T874.T943.K98.64 3.AKJ.J765.AK985 KQ962.65.T3.QT72 AJ5.Q872.AQ42.J3"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C 1S X
+3S X Pass 3NT
+Pass Pass Pass
+[Play "N"]
+S4 S3 SQ SA
+H3 HJ H5 H2
+H4 HA ^R C2 H7
+H9 HK H6 H8
+DK D5 D3 DQ
+S7 D6 SK S5
+ST C5 S6 SJ
+C4 CK C7 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "2"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A832.K9832.5.JT8 KQT4.A.JT42.9643 J6.QJ765.Q8.A752 975.T4.AK9763.KQ"]
+[Declarer "W"]
+[Contract "4HX"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+Pass Pass 1H 1NT
+4H X Pass Pass
+Pass
+[Play "N"]
+DA D5 DT D8
+S9 S2 SK S6
+H4 H2 HA H5
+CK C8 C4 C5
+HT HK DJ H6
+CQ CT C3 C2
+S7 SA S4 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A832.K9832.5.JT8 KQT4.A.JT42.9643 J6.QJ765.Q8.A752 975.T4.AK9763.KQ"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1H 2D
+3D 3H Pass 5D
+Pass Pass Pass
+[Play "E"]
+H2 HA H7 H4
+C8 C3 C2 CK
+D5 D2 D8 DA
+H3 DJ DQ DK
+CT C4 CA CQ
+- - S6 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "3"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:864.JT94.AKQJ74. T9.A752.8532.T64 AKJ32.863.9.KQ73 Q75.KQ.T6.AJ9852"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+1D Pass 1S 2C
+2D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+C8 S4 CT CK
+S7 S6 S9 SA
+D6 DA D2 D9
+DT DQ D3 H3
+C2 DK D5 H6
+HK DJ D8 C3
+C5 D4 H2 H8
+C9 D7 H5 C7
+S5 S8 ST SK
+CA H4 C4 CQ
+SQ H9 C6 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:864.JT94.AKQJ74. T9.A752.8532.T64 AKJ32.863.9.KQ73 Q75.KQ.T6.AJ9852"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1S 2C
+2D Pass 3C Pass
+4C Pass 4S Pass
+Pass Pass
+[Play "E"]
+HK H4 H5 H3
+HQ H9 H7 H6
+DT DA D2 D9
+D6 DK D8 H8
+S5 DQ D3 C3
+CA S4 C4 C7
+S7 S6 S9 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "4"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T9.AK654.864.842 Q43.9.T975.KQT95 J752.T873.AQJ2.7 AK86.QJ2.K3.AJ63"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 600"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+Pass Pass Pass 1C
+1H 1S 3H 3NT
+Pass Pass Pass
+[Play "W"]
+HA H9 H8 H2
+H5 S3 HT HQ
+C2 C5 C7 CA
+C4 C9 D2 CJ
+C8 CT DJ C3
+D8 CQ H7 C6
+D4 CK DQ HJ
+S9 SQ S2 S6
+ST S4 S5 SA
+D6 D5 S7 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T9.AK654.864.842 Q43.9.T975.KQT95 J752.T873.AQJ2.7 AK86.QJ2.K3.AJ63"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D X
+1H 2C 2H 3NT
+Pass Pass Pass
+[Play "W"]
+HA H9 H8 H2
+D4 D5 DA D3
+HK - HT HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "5"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K43.AQT97.KJ.863 982.653.954.AKT2 JT765.KJ82.73.74 AQ.4.AQT862.QJ95"]
+[Declarer "W"]
+[Contract "5C"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -400"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+1NT Pass 2C 2D
+2H 3D Pass 4C
+Pass 5C Pass Pass
+Pass
+[Play "N"]
+HA H3 H2 H4
+H7 H5 HK C5
+DJ D4 D7 DA
+DK D5 D3 DQ
+C3 C2 C7 CQ
+C6 CT C4 CJ
+C8 CK S6 C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K43.AQT97.KJ.863 982.653.954.AKT2 JT765.KJ82.73.74 AQ.4.AQT862.QJ95"]
+[Declarer "W"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 3H 4D
+Pass 5D Pass Pass
+Pass
+[Play "N"]
+HA H3 H2 H4
+C3 CA C4 C5
+DK D4 D3 DQ
+C6 CK C7 CJ
+DJ D5 D7 DA
+C8 C2 - CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "6"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q3.QJ9532.76.982 954.76.5432.AT54 AK876.AT4.AQ9.Q6 JT2.K8.KJT8.KJ73"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+Pass Pass 1C Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+D2 DQ DK D6
+C4 C6 CK C2
+CA CQ C3 C9
+D3 DA DJ D7
+S4 S6 ST SQ
+H6 H4 HK HQ
+D4 D9 DT H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q3.QJ9532.76.982 954.76.5432.AT54 AK876.AT4.AQ9.Q6 JT2.K8.KJT8.KJ73"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1S Pass
+1NT Pass 2C Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+C4 C6 CJ C8
+CA CQ C3 C9
+D4 DQ DK D6
+D2 DA D8 D7
+S4 S6 S2 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "7"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:96.AQ97.A8532.K2 KQT5.J63.K7.J653 AJ42.T5.J94.QT97 873.K842.QT6.A84"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+1NT Pass Pass Pass
+[Play "W"]
+SK S2 S8 S6
+SQ SA S3 S9
+DK D4 D6 D8
+D7 DJ DQ D2
+H3 H5 H2 HQ
+C3 C7 C4 CK
+C5 C9 CA C2
+HJ HT H4 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:96.AQ97.A8532.K2 KQT5.J63.K7.J653 AJ42.T5.J94.QT97 873.K842.QT6.A84"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1S Pass
+1NT Pass Pass Pass
+[Play "W"]
+C3 CT CA C2
+HJ H5 H2 H7
+H6 HT H4 HQ
+C5 C7 C4 CK
+DK D9 D6 D2
+H3 S2 H8 H9
+S5 S4 HK HA
+D7 DJ DQ D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "8"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J2.Q42.75.KQT983 A954.AJ63.AJ94.J Q876.T75.T.A7652 KT3.K98.KQ8632.4"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+Pass 1D Pass 2C
+Pass 2D Pass 2H
+3C 3H 5C 5D
+Pass Pass Pass
+[Play "E"]
+CA C4 C8 CJ
+DT D2 D5 DJ
+C7 D3 D7 DA
+C2 DK C3 D4
+S6 SK S2 S4
+S7 S3 SJ SA
+SQ ST - S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J2.Q42.75.KQT983 A954.AJ63.AJ94.J Q876.T75.T.A7652 KT3.K98.KQ8632.4"]
+[Declarer "N"]
+[Contract "6D"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 920"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 2D
+Pass 2H Pass 4C
+Pass 4H Pass 4NT
+Pass 5C Pass 5D
+Pass 5S Pass 6D
+Pass Pass Pass
+[Play "E"]
+S6 S3 SJ SA
+DT D2 D5 DA
+C5 DK D7 D4
+C6 C4 CQ CJ
+S7 ST S2 S4
+S8 SK C3 S5
+H5 HK H2 H3
+H7 H8 H4 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "9"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:963.AQ2.J753.K72 AK75.KJT95.4.AQJ Q4..KT962.T98543 JT82.87643.AQ8.6"]
+[Declarer "W"]
+[Contract "5H"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -680"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+Pass 1C 1S 2H
+Pass 4D Pass 5D
+Pass 5H Pass Pass
+Pass
+[Play "N"]
+D3 D4 DK DA
+D5 S5 D2 DQ
+C7 CA C4 C6
+C2 CJ C3 H4
+D7 H9 D6 D8
+CK CQ C5 H6
+H2 H5 C8 H7
+HA HT D9 H3
+S3 SA S4 S2
+- HK - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:963.AQ2.J753.K72 AK75.KJT95.4.AQJ Q4..KT962.T98543 JT82.87643.AQ8.6"]
+[Declarer "E"]
+[Contract "6H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1H 2NT 4C
+X 4NT Pass 5D
+Pass 6H Pass Pass
+Pass
+[Play "S"]
+CT C6 CK CA
+D9 DA D3 D4
+C3 H8 H2 H5
+D2 H3 HA H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "10"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T97.5.AKT987.K87 K3.Q732.432.6543 Q8654.KJ4.Q5.AQJ AJ2.AT986.J6.T92"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+1D Pass 1S Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "N"]
+HT H5 HQ HK
+D6 D7 D4 DQ
+DJ DA - D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:T97.5.AKT987.K87 K3.Q732.432.6543 Q8654.KJ4.Q5.AQJ AJ2.AT986.J6.T92"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1S Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "N"]
+HT H5 HQ HK
+D6 D7 D2 DQ
+DJ DA D3 D5
+- DK D4 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "11"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:7.KJ3.QJ95.AT654 K.A987542.A4.J83 JT642.QT6.T2.Q92 AQ9853..K8763.K7"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+Pass 1H Pass 1S
+Pass 2H Pass 3D
+Pass 3H Pass 3S
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+C2 C7 CT CJ
+S2 S3 S7 SK
+D2 DK D5 D4
+S4 SA H3 H2
+S6 SQ C4 H4
+DT D3 D9 DA
+H6 S5 HJ HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:7.KJ3.QJ95.AT654 K.A987542.A4.J83 JT642.QT6.T2.Q92 AQ9853..K8763.K7"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D 1H Pass 1S
+Pass 3H Pass 3S
+Pass Pass Pass
+[Play "S"]
+DQ DA D2 D3
+H3 HA H6 C7
+D5 D4 DT DK
+D9 SK C9 D6
+CA C3 C2 CK
+HJ H2 HQ S3
+S7 H4 S2 SA
+DJ H5 HT D7
+C4 C8 CQ S5
+C5 H7 S4 D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "12"]
+[West "Kholomeev V"]
+[North "Buratti A"]
+[East "Khiouppenen J"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KT62.Q76.Q64.K92 J4.JT54.97.AJT86 Q985.AK82.AJT5.4 A73.93.K832.Q753"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+Pass Pass 1D Pass
+1S Pass 3S Pass
+4S Pass Pass Pass
+[Play "N"]
+D7 D5 DK D4
+D9 DT D3 D6
+S4 S5 SA S6
+SJ DJ D8 DQ
+CA C4 C3 C2
+H4 HA H3 H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Lauria L"]
+[North "Petrounine A"]
+[East "Versace A"]
+[South "Zlotov D"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KT62.Q76.Q64.K92 J4.JT54.97.AJT86 Q985.AK82.AJT5.4 A73.93.K832.Q753"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D Pass
+1S Pass 3S Pass
+4S Pass Pass Pass
+[Play "N"]
+HJ H2 H3 HQ
+S4 SQ S3 S2
+SJ S9 S7 S6
+H4 HA H9 H6
+C6 S5 SA ST
+CT C4 C3 C9
+H5 HK D2 H7
+- H8 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "13"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:7.AQ98.A52.A9743 T652.763.964.852 AQJ8.JT2.T83.KT6 K943.K54.KQJ7.QJ"]
+[Declarer "N"]
+[Contract "4C"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 150"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+1C Pass 1H Pass
+2C Pass 3C Pass
+3H Pass 3S Pass
+4C Pass Pass Pass
+[Play "E"]
+D6 D3 DJ DA
+S2 SA S3 S7
+S5 SQ S4 D5
+H3 HJ H5 H8
+C2 C6 CJ CA
+C5 CT CQ C3
+D9 D8 DK D2
+D4 DT DQ C4
+C8 CK - C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:7.AQ98.A52.A9743 T652.763.964.852 AQJ8.JT2.T83.KT6 K943.K54.KQJ7.QJ"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2C Pass 2D Pass
+2H Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+D6 D3 DJ D2
+D9 D8 DK D5
+D4 DT DQ DA
+C2 CK CJ C3
+H3 HJ H4 H8
+H6 HT HK HA
+C5 C6 CQ CA
+C8 CT - C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "14"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:AT9.3.QJ.AKQT964 J86.AJT652.T82.3 K74.984.9753.J85 Q532.KQ7.AK64.72"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+1C 1H Pass 2C
+3C 3H Pass 4H
+Pass Pass Pass
+[Play "W"]
+H8 H7 H3 HT
+H4 HQ C4 H2
+H9 HK C6 H5
+SK S2 ST SJ
+S7 S3 S9 S6
+C5 C2 CK C3
+S4 S5 SA S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:AT9.3.QJ.AKQT964 J86.AJT652.T82.3 K74.984.9753.J85 Q532.KQ7.AK64.72"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C 2D Pass 2NT
+3NT Pass Pass Pass
+[Play "S"]
+S8 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "15"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:983.AQJ.98764.65 J52.K642.A.K9842 T7.T9853.K532.T7 AKQ64.7.QJT.AQJ3"]
+[Declarer "W"]
+[Contract "6C"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -920"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+Pass 2C Pass 2D
+Pass 2H Pass 2S
+Pass 3S Pass 4NT
+Pass 5D Pass 6C
+Pass Pass Pass
+[Play "N"]
+D2 DT D8 DA
+C7 CA C5 C2
+CT CQ C6 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:983.AQJ.98764.65 J52.K642.A.K9842 T7.T9853.K532.T7 AKQ64.7.QJT.AQJ3"]
+[Declarer "W"]
+[Contract "6C"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -920"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C Pass 1S
+Pass 2S Pass 2NT
+Pass 3H Pass 4NT
+Pass 5D Pass 6C
+Pass Pass Pass
+[Play "N"]
+D5 DT D8 DA
+C7 CJ C5 C2
+CT CQ C6 C4
+S7 S4 S3 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "16"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:76.JT.AK9.KJ9652 J853.A975.JT6.T3 KQ2.KQ6432.85.A8 AT94.8.Q7432.Q74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+2C Pass 3H Pass
+4H Pass Pass Pass
+[Play "S"]
+D3 DA DJ D5
+H8 HT H5 H2
+D2 HJ H7 H3
+SA S6 S3 SK
+ST S7 S5 SQ
+D4 C2 HA HK
+- - SJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:76.JT.AK9.KJ9652 J853.A975.JT6.T3 KQ2.KQ6432.85.A8 AT94.8.Q7432.Q74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1H Pass
+2C Pass 2D Pass
+3C Pass 3H Pass
+4D Pass 4H Pass
+Pass Pass
+[Play "S"]
+S9 S6 S3 SK
+H8 HT HA H2
+SA S7 S5 SQ
+ST HJ S8 S2
+C4 C2 C3 CA
+D2 - - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "17"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q762.KQ.AK4.9632 A5.JT853.JT2.Q54 9843.974.Q963.A8 KJT.A62.875.KJT7"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+1NT Pass Pass Pass
+[Play "E"]
+HJ H4 H6 HQ
+D2 D3 D8 DA
+DT D6 D5 DK
+DJ DQ D7 D4
+C5 D9 H2 S2
+H3 H7 HA HK
+S5 S3 SJ S7
+SA S4 ST SQ
+HT H9 C7 C2
+H5 S8 CT C3
+H8 S9 SK C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q762.KQ.AK4.9632 A5.JT853.JT2.Q54 9843.974.Q963.A8 KJT.A62.875.KJT7"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT Pass Pass Pass
+[Play "E"]
+H3 H4 HA HQ
+H5 H7 H2 HK
+S5 S3 ST S7
+HT H9 H6 S2
+HJ C8 D8 C2
+H8 S4 D7 C3
+SA S8 SJ S6
+C4 CA C7 C6
+D2 D3 D5 DK
+- - - DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "18"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ43.T9.T9.T9763 A65.54.KQ753.AJ8 T972.K73.A842.KQ Q8.AQJ862.J6.542"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+Pass 1NT Pass 2D
+Pass 2H Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+CK C2 CT C8
+S9 SQ SK SA
+H3 HJ HT H4
+D2 DJ D9 D3
+DA D6 DT DK
+S2 S8 SJ S5
+CQ C4 C3 CA
+H7 HA - H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ43.T9.T9.T9763 A65.54.KQ753.AJ8 T972.K73.A842.KQ Q8.AQJ862.J6.542"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass 2D
+Pass 2H Pass 3NT
+Pass Pass Pass
+[Play "W"]
+S2 SQ SK S5
+S9 S8 S3 S6
+ST C2 SJ SA
+H3 HJ H9 H4
+D2 DJ D9 D3
+DA D6 DT DK
+S7 C4 S4 C8
+CK C5 C3 CA
+D4 H2 C6 DQ
+H7 HQ HT H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "19"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KJ32.J732.JT95.9 975.KQT96.K8.JT7 QT64..762.AKQ542 A8.A854.AQ43.863"]
+[Declarer "N"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -300"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+Pass Pass 1C X
+Pass 1H 1S 2H
+2S 3H 3S 4H
+Pass Pass 4S X
+Pass Pass Pass
+[Play "E"]
+HA H2 HT S4
+D3 D9 DK D6
+DQ D5 D8 D7
+DA DT C7 D2
+C6 C9 CT CA
+C3 H3 CJ CK
+C8 H7 S5 CQ
+H4 HJ HK S6
+SA S2 S7 ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KJ32.J732.JT95.9 975.KQT96.K8.JT7 QT64..762.AKQ542 A8.A854.AQ43.863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 2C Pass
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "N"]
+CK C3 C9 C7
+CA C6 S2 CT
+CQ C8 S3 CJ
+S4 SA SJ S7
+C2 H4 H2 HK
+C4 HA H3 H6
+D7 H5 H7 HT
+S6 H8 HJ HQ
+D2 S8 SK H9
+- - - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "20"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:3.986542.64.T763 QT98.KQ.Q.AKQJ95 AK5.T7.AJT9732.4 J7642.AJ3.K85.82"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+Pass 1C 3D X
+Pass 4D Pass 4S
+Pass Pass Pass
+[Play "W"]
+H5 HQ H7 H3
+S3 S8 SK S2
+CT CA C4 C2
+D6 S9 SA S4
+D4 DQ DA D5
+- - HT -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:3.986542.64.T763 QT98.KQ.Q.AKQJ95 AK5.T7.AJT9732.4 J7642.AJ3.K85.82"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C 3D X
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "E"]
+DA D5 D6 DQ
+DJ D8 D4 S8
+S5 S2 S3 ST
+SK S4 H5 SQ
+SA S6 H2 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "21"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:865.Q72.AQ63.972 T92.93.KJT742.83 AJ743.KJ86.5.K54 KQ.AT54.98.AQJT6"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "N"]
+Pass 3D X XX
+Pass Pass 3S Pass
+3NT Pass Pass Pass
+[Play "E"]
+DT D5 D8 DQ
+S9 SJ SK S6
+C3 C4 CA C2
+C8 CK CQ C7
+H3 H6 HA H2
+D2 C5 CJ C9
+S2 S3 CT D3
+- - C6 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:865.Q72.AQ63.972 T92.93.KJT742.83 AJ743.KJ86.5.K54 KQ.AT54.98.AQJT6"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S X
+2S 3D Pass Pass
+Pass
+[Play "S"]
+H6 HA H7 H3
+D5 D8 D3 D2
+HJ H4 H2 H9
+H8 H5 HQ D4
+C5 CQ C2 C8
+HK HT C7 DT
+C4 CJ C9 C3
+CK CA D6 DJ
+S7 SK S5 S2
+S3 CT S6 ST
+S4 C6 DQ DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "22"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KQJ83.9.J64.T732 A2.JT864.87.K865 T9765.KQ3.952.AQ 4.A752.AKQT3.J94"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "E"]
+Pass Pass 1S X
+3S 4H Pass Pass
+Pass
+[Play "W"]
+S9 S4 SJ SA
+H3 HA H9 H4
+HQ H2 S3 HT
+HK H5 SK H6
+D9 DA D4 D7
+D2 DK D6 D8
+D5 DQ DJ C5
+S5 DT S8 C6
+S6 D3 C2 C8
+CA C4 C3 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KQJ83.9.J64.T732 A2.JT864.87.K865 T9765.KQ3.952.AQ 4.A752.AKQT3.J94"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1S X
+4S Pass Pass Pass
+[Play "N"]
+DK D4 D7 D5
+DA D6 D8 D2
+DQ DJ HJ D9
+S4 SK SA S5
+C4 C2 C5 CQ
+H2 SQ S2 S6
+HA H9 HT HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "23"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J75.AKT8.T75.A72 K.J7654.AQ43.Q85 6432.93.KJ2.KT63 AQT98.Q2.986.J94"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "S"]
+1NT Pass Pass Pass
+[Play "W"]
+H5 H3 HQ HA
+C8 C3 C9 C2
+SK S2 ST S5
+H4 H9 H2 HT
+DQ DK D6 DT
+C5 CK C4 C7
+CQ C6 CJ CA
+H6 S3 S8 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J75.AKT8.T75.A72 K.J7654.AQ43.Q85 6432.93.KJ2.KT63 AQT98.Q2.986.J94"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 1S
+Pass 1NT Pass Pass
+Pass
+[Play "N"]
+C3 C4 CA CQ
+CK C9 C7 C8
+C6 CJ C2 C5
+DK D6 D7 DQ
+CT S8 SJ H4
+H9 H2 HK H5
+H3 HQ HA H6
+D2 D8 D5 DA
+- - - HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.22"]
+[Board "24"]
+[West "Zlotov D"]
+[North "Bocchi N"]
+[East "Petrounine A"]
+[South "Duboin G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J9832.7632.7.KJ3 K75.Q94.A853.T64 AQ.85.JT96.Q9852 T64.AKJT.KQ42.A7"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "19"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Russia"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1S Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+S9 S5 SQ S6
+D7 D8 D6 D2
+H3 DA D9 D4
+H6 D3 DT DQ
+H2 D5 DJ DK
+H7 H4 H5 HT
+S2 H9 H8 HA
+C3 HQ C2 HK
+CJ C4 C5 HJ
+S3 S7 - S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Lauria L"]
+[North "Khiouppenen J"]
+[East "Versace A"]
+[South "Kholomeev V"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J9832.7632.7.KJ3 K75.Q94.A853.T64 AQ.85.JT96.Q9852 T64.AKJT.KQ42.A7"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+S2 S5 SQ S6
+D7 D3 D6 DK
+H2 HQ H5 HT
+H3 H4 H8 HA
+H6 H9 C2 HK
+H7 D5 C5 HJ
+S3 DA D9 D2
+CJ C4 C9 C7
+SJ SK SA S4
+C3 C6 C8 CA
+*
+

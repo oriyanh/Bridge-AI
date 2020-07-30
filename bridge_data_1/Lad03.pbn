@@ -1,0 +1,1736 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.19"]
+[Board "1"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKT5.J8743.Q.KJ6 764.Q952.A7.9754 Q2.A6.KJ9432.T82 J983.KT.T865.AQ3"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 430"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+3NT Pass Pass Pass
+[Play "E"]
+S6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKT5.J8743.Q.KJ6 764.Q952.A7.9754 Q2.A6.KJ9432.T82 J983.KT.T865.AQ3"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 2D Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+S4 S2 SJ SK
+DA D2 D6 DQ
+S6 SQ S3 S5
+D7 DK D5 H3
+H5 DJ D8 H4
+C4 D3 DT C6
+S7 H6 S9 SA
+C5 C2 S8 ST
+H2 HA HT H7
+- D9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "2"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:Q6..AKT952.AKQ94 A7.QJ987654.Q6.T 98.A2.J873.76532 KJT5432.KT3.4.J8"]
+[Declarer "E"]
+[Contract "6C"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+1C 3H Pass 4H
+4NT Pass 6C Pass
+Pass Pass
+[Play "S"]
+SA S8 SJ SQ
+S7 S9 SK S6
+CT H2 ST D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:Q6..AKT952.AKQ94 A7.QJ987654.Q6.T 98.A2.J873.76532 KJT5432.KT3.4.J8"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 3H Pass 4H
+5C Pass 5D Pass
+Pass Pass
+[Play "S"]
+HQ HA HT S6
+D6 D3 D4 DA
+DQ D7 S2 DK
+CT C2 C8 CA
+H9 C3 CJ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "3"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QJ6.KT43.KQJ86.8 A985.852.A2.AQJT K73.AQ7.T9743.K3 T42.J96.5.976542"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+1D X 3NT Pass
+Pass Pass
+[Play "E"]
+H9 H3 H8 HQ
+D5 DK DA D3
+C2 C8 CQ CK
+H6 D6 D2 DT
+HJ DQ S5 D4
+C4 DJ S8 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QJ6.KT43.KQJ86.8 A985.852.A2.AQJT K73.AQ7.T9743.K3 T42.J96.5.976542"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D X 2D Pass
+Pass Pass
+[Play "W"]
+SA S3 S2 S6
+H2 HA H6 H3
+DA D3 D5 DK
+H8 H7 HJ HK
+D2 D4 C2 DQ
+CA C3 C4 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "4"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T7.KT872.KT62.54 K62.A4.J43.J9862 J843.Q93.Q8.AKQ7 AQ95.J65.A975.T3"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -140"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass Pass 1NT Pass
+2H Pass Pass Pass
+[Play "N"]
+C2 CA C3 C4
+C9 CK CT C5
+C6 CQ H5 S7
+SK S3 S5 ST
+S6 S8 S9 H2
+D3 DQ DA D2
+S2 S4 SA H7
+D4 D8 D5 DK
+DJ H9 D7 D6
+C8 C7 D9 H8
+CJ HQ SQ DT
+H4 H3 H6 HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T7.KT872.KT62.54 K62.A4.J43.J9862 J843.Q93.Q8.AKQ7 AQ95.J65.A975.T3"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1C Pass
+1H Pass 1S Pass
+1NT Pass Pass Pass
+[Play "N"]
+C2 CA C3 C4
+HA H9 H5 H7
+C6 CK CT C5
+C9 CQ D7 D2
+H4 HQ H6 H2
+S2 H3 HJ HK
+D3 C7 D5 HT
+D4 D8 D9 H8
+DJ DQ DA D6
+- - S5 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "5"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T6.862.AKJ5.A543 9874.JT9.Q632.T6 AQ3.Q53.T98.KQJ7 KJ52.AK74.74.982"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1D Pass 3NT Pass
+Pass Pass
+[Play "W"]
+HK H2 HJ H5
+SK S6 S9 SA
+D4 DA D3 D8
+C9 C3 C6 CK
+D7 DK D6 D9
+S2 D5 DQ DT
+H4 H6 H9 H3
+HA H8 HT HQ
+H7 C4 D2 S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T6.862.AKJ5.A543 9874.JT9.Q632.T6 AQ3.Q53.T98.KQJ7 KJ52.AK74.74.982"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S5 S6 S4 SQ
+D4 D5 DQ D9
+H7 H2 HJ H3
+H4 H6 HT H5
+HK H8 H9 HQ
+HA C3 D2 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "6"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KT542.875.J85.Q4 AQ9.92.T72.K9832 87.AJ64.AKQ9.A76 J63.KQT3.643.JT5"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 300"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass Pass 1C Pass
+1D Pass 1NT Pass
+2H Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+HK H5 H9 H4
+CJ CQ CK C6
+HT H7 H2 H6
+CT C4 C3 CA
+D3 DJ D2 D9
+D4 D5 D7 DQ
+D6 D8 DT DK
+C5 S2 S9 DA
+S3 S4 C2 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KT542.875.J85.Q4 AQ9.92.T72.K9832 87.AJ64.AKQ9.A76 J63.KQT3.643.JT5"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1D Pass
+1S Pass 2NT Pass
+3C X 3H Pass
+3NT Pass Pass Pass
+[Play "N"]
+CJ CQ CK C6
+CT C4 C9 C7
+C5 H5 C8 CA
+S6 SK SA S8
+H3 S2 C3 H4
+HT H7 C2 H6
+HQ H8 H2 HA
+D3 DJ D2 D9
+D4 D5 D7 DA
+D6 D8 DT DK
+S3 S4 S9 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "7"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J942.J2.KQ853.AJ KQ6.AQ6.T9.T8762 AT853.87.AJ642.9 7.KT9543.7.KQ543"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -200"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+1D Pass 1S 1NT
+2S 3NT 4S Pass
+Pass X Pass 4NT
+Pass 5C 5D Pass
+Pass Pass
+[Play "W"]
+C8 C9 CQ CA
+D9 D2 D7 DK
+DT DA H3 D3
+S6 SA S7 S2
+SQ S3 H4 SJ
+SK S5 C3 S4
+HA H7 H5 H2
+HQ H8 H9 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J942.J2.KQ853.AJ KQ6.AQ6.T9.T8762 AT853.87.AJ642.9 7.KT9543.7.KQ543"]
+[Declarer "N"]
+[Contract "5SX"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1S 2H
+2S 4H 4S 5C
+Pass Pass 5D Pass
+5S X Pass Pass
+Pass
+[Play "E"]
+CK CA C2 C9
+S7 SJ SQ SA
+H3 S2 SK S8
+H4 H2 HA H7
+H5 HJ HQ H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "8"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:K87.T72.T843.Q53 T54.AKQ964.65.98 AJ63.J.KJ2.AKT42 Q92.853.AQ97.J76"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass 2H X 3H
+Pass Pass X Pass
+4H Pass 4S Pass
+Pass Pass
+[Play "S"]
+H3 H2 HK HJ
+H8 H7 HA S3
+C6 CQ C8 C2
+DQ D3 D5 DJ
+DA D4 D6 D2
+D9 D8 S4 DK
+H5 HT HQ S6
+S2 S7 S5 SA
+SQ SK ST SJ
+- DT - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:K87.T72.T843.Q53 T54.AKQ964.65.98 AJ63.J.KJ2.AKT42 Q92.853.AQ97.J76"]
+[Declarer "W"]
+[Contract "4D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 2D Pass 2H
+Pass Pass X Pass
+3D Pass 3H Pass
+3S Pass 4D Pass
+Pass Pass
+[Play "N"]
+HA HJ H5 H7
+D6 D2 D7 D8
+D5 DJ DQ D3
+C9 DK DA D4
+HQ S3 H8 HT
+HK S6 H3 H2
+H9 C2 C7 DT
+C8 CA C6 C3
+- C4 CJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "9"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:86.Q732.96543.95 KJT732.95.7.QT32 Q94.K84.KJ82.K64 A5.AJT6.AQT.AJ87"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -630"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+Pass Pass 1D X
+Pass 3S Pass 3NT
+Pass Pass Pass
+[Play "N"]
+D3 D7 DK DA
+S8 S2 S4 SA
+S6 SK S9 S5
+C5 CT C4 C7
+C9 C2 C6 CJ
+D4 C3 CK CA
+D5 CQ D2 C8
+HQ H9 H4 H6
+D9 S3 DJ DQ
+H2 H5 H8 HA
+D6 S7 D8 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:86.Q732.96543.95 KJT732.95.7.QT32 Q94.K84.KJ82.K64 A5.AJT6.AQT.AJ87"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C X
+Pass 3S Pass 3NT
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+D8 DQ D9 D7
+S4 SA S6 S2
+S9 S5 S8 SK
+CK CA C5 CQ
+C6 C7 C9 CT
+C4 CJ D3 C2
+H4 C8 D4 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "10"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J8.QJ6542.Q98.JT AQT54.AK9.AJT.Q9 9763.T83.K3.A542 K2.7.76542.K8763"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 600"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass 1S Pass 1NT
+Pass 3D Pass 4H
+Pass 5D Pass Pass
+Pass
+[Play "W"]
+CA C3 CT C9
+H8 H7 HJ HA
+S3 SK S8 S5
+DK D2 D8 DJ
+C2 C6 CJ CQ
+H3 D4 H2 H9
+D3 D5 D9 DT
+- - - DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J8.QJ6542.Q98.JT AQT54.AK9.AJT.Q9 9763.T83.K3.A542 K2.7.76542.K8763"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C Pass 1D
+1H 1S Pass 2C
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+H3 H7 HJ H9
+HT C3 H2 HA
+C2 C6 CJ CQ
+C4 CK CT C9
+CA C7 H4 DT
+H8 D2 H5 HK
+S6 SK S8 S4
+C5 C8 H6 DJ
+- S2 SJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "11"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AK83.Q2.K93.A952 JT7.T63.Q8.KQ743 9642.K5.AJ76.JT6 Q5.AJ9874.T542.8"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 420"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+1NT Pass 2C Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "W"]
+CQ C6 C8 CA
+SJ S2 S5 SK
+S7 S4 SQ SA
+CK CT H4 C2
+ST S6 H7 S3
+H6 H5 HA H2
+H3 HK H8 HQ
+C3 CJ H9 C5
+D8 D6 D2 DK
+DQ DA - D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AK83.Q2.K93.A952 JT7.T63.Q8.KQ743 9642.K5.AJ76.JT6 Q5.AJ9874.T542.8"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass Pass 2H
+Pass Pass X Pass
+2S 3H 3S Pass
+Pass Pass
+[Play "W"]
+H3 H5 HJ HQ
+S7 S2 S5 SA
+D8 DJ D4 D3
+CK CJ C8 C2
+H6 HK HA H2
+DQ D6 D2 DK
+ST S4 SQ SK
+C3 DA D5 D9
+C4 C6 H4 C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "12"]
+[West "Karrstrand L"]
+[North "Saul C"]
+[East "Andersson P"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:Q76.KQ97.QJ972.2 AKT5.AT3.K.AK743 J92.86.A654.JT65 843.J542.T83.Q98"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -200"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+2H X 3C Pass
+3D 3H Pass 3NT
+Pass Pass Pass
+[Play "W"]
+DJ DK DA D3
+D9 S5 D4 D8
+DQ H3 D5 DT
+D7 ST D6 H2
+D2 HT H6 H4
+H7 HA H8 H5
+C2 CA C5 C8
+H9 C3 C6 C9
+HQ CK CT CQ
+- C4 CJ S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Thuillez P"]
+[North "Ryman M"]
+[East "de Guillebon"]
+[South "Langstrom L"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:Q76.KQ97.QJ972.2 AKT5.AT3.K.AK743 J92.86.A654.JT65 843.J542.T83.Q98"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C Pass 1D
+Pass 1S Pass Pass
+X 2C Pass Pass
+Pass
+[Play "E"]
+H8 H2 HQ HA
+C5 C8 C2 CA
+C6 CQ D7 C3
+H6 H4 HK HT
+DA D3 DQ DK
+D4 D8 D9 C4
+S2 S3 S6 SA
+S9 S4 S7 SK
+SJ S8 SQ S5
+D5 DT DJ C7
+CJ H5 D2 ST
+CT C9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "13"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:86.A764.AKJ.AK95 AT93.K5.763.7642 QJ72.83.T4.QJT83 K54.QJT92.Q9852."]
+[Declarer "N"]
+[Contract "5C"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 600"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1C Pass 1S 2H
+X Pass 3C Pass
+3H X 4C Pass
+5C Pass Pass Pass
+[Play "E"]
+HK H3 HQ HA
+C2 CQ H2 C5
+D6 D4 D5 DJ
+D3 DT D2 DA
+D7 H8 D8 DK
+S3 SQ SK S6
+H5 C3 HJ H4
+SA SJ S4 S8
+C4 CT S5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:86.A764.AKJ.AK95 AT93.K5.763.7642 QJ72.83.T4.QJT83 K54.QJT92.Q9852."]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1D 1H
+Pass Pass X Pass
+2C Pass 3C Pass
+3NT Pass Pass Pass
+[Play "E"]
+HK H3 H2 H4
+H5 H8 H9 HA
+C6 C3 D2 CA
+D3 D4 D5 DA
+C2 C8 S4 CK
+C4 CT D8 C9
+C7 CJ D9 C5
+S3 CQ DQ S6
+D6 DT HT DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "14"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:AT83.J95.J6.9532 K96.AT8.KQ954.87 52.KQ72.32.AQT64 QJ74.643.AT87.KJ"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass 1D 2C X
+3C Pass Pass 3D
+Pass Pass Pass
+[Play "W"]
+D3 D7 DJ DQ
+D2 D8 D6 D9
+S2 SQ SA S6
+HQ H3 H9 HT
+CA CJ C2 C7
+H2 H4 HJ HA
+S5 S4 S3 SK
+C6 SJ S8 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:AT83.J95.J6.9532 K96.AT8.KQ954.87 52.KQ72.32.AQT64 QJ74.643.AT87.KJ"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D Pass 1S
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+C6 CK C2 C7
+D2 DT D6 DQ
+D3 DA DJ D5
+S2 D8 C3 D9
+H7 D7 C9 DK
+S5 H3 S3 D4
+H2 SJ S8 S6
+- S4 ST SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "15"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:74.73.Q6542.AK75 A9.Q9.A973.T9632 QT863.KJT652.8.8 KJ52.A84.KJT.QJ4"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+D4 D3 D8 DJ
+C5 C2 C8 CQ
+CK C3 S3 CJ
+H7 HQ HK H4
+H3 H9 HJ H8
+S7 S9 ST SJ
+S4 SA S6 S2
+CA CT H2 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:74.73.Q6542.AK75 A9.Q9.A973.T9632 QT863.KJT652.8.8 KJ52.A84.KJT.QJ4"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+C5 C2 C8 CJ
+C7 C3 H2 CQ
+CK C6 S3 C4
+H3 HQ HK H4
+H7 H9 HJ H8
+S4 S9 S6 S5
+S7 SA S8 S2
+CA C9 H5 DT
+D4 DA D8 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "16"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:75.JT754.Q65.KJT J3.K92.AKJ72.543 AQT82.AQ863..AQ6 K964..T9843.9872"]
+[Declarer "N"]
+[Contract "5DX"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -300"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass 1D 2D 5D
+Pass Pass X Pass
+Pass Pass
+[Play "E"]
+SA S4 S5 S3
+SQ SK S7 SJ
+S2 D3 D5 DA
+H3 D4 HJ H2
+H6 D8 D6 DJ
+H8 D9 H4 H9
+S8 S6 H5 D2
+HA DT H7 HK
+ST S9 DQ DK
+C6 C7 CT C3
+HQ - HT D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:75.JT754.Q65.KJT J3.K92.AKJ72.543 AQT82.AQ863..AQ6 K964..T9843.9872"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D 2D Pass
+3H Pass 6H Pass
+Pass Pass
+[Play "N"]
+DK H3 D3 D5
+C3 C6 C2 CJ
+H2 H6 D4 HT
+S3 SQ SK S7
+C4 CQ C7 CK
+H9 HQ D8 H4
+HK HA D9 H5
+SJ SA S4 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "17"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K76.T62.AKQJ5.J4 AT8532.K74..K872 Q.AQ9853.83.9653 J94.J.T97642.AQT"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -140"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+1D 1S 2H 2S
+3H 3S Pass Pass
+Pass
+[Play "S"]
+D8 D9 DJ S2
+C6 CQ C4 C2
+HA HJ H2 HK
+C3 CT CJ CK
+H3 S4 H6 H4
+SQ S9 S6 SA
+H5 SJ HT H7
+C5 CA S7 C7
+H8 D2 SK S3
+D3 D4 D5 S5
+H9 - - S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K76.T62.AKQJ5.J4 AT8532.K74..K872 Q.AQ9853.83.9653 J94.J.T97642.AQT"]
+[Declarer "S"]
+[Contract "5H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT 2S 4C 4S
+Pass Pass 5H Pass
+Pass Pass
+[Play "W"]
+S4 S6 SA SQ
+CQ C4 C2 C3
+CA CJ C7 C5
+D2 DA H4 D3
+- - H7 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "18"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJT87.7.J943.AQ7 A3.AQJT952..9432 654.8643.QT876.J Q92.K.AK52.KT865"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 620"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+1S 2H Pass 3NT
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+CJ C5 C7 C2
+S4 SQ SK SA
+H3 HK H7 H2
+D8 DA D3 S3
+D6 DK D4 C3
+D7 D2 D9 HA
+H4 C6 S7 HQ
+H6 S2 S8 HJ
+H8 D5 ST HT
+S5 C8 DJ H9
+S6 - - C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJT87.7.J943.AQ7 A3.AQJT952..9432 654.8643.QT876.J Q92.K.AK52.KT865"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 4H 4S X
+Pass Pass Pass
+[Play "S"]
+HA H3 HK H7
+HQ H4 D2 S7
+C9 DT DK D4
+C2 D6 DA D3
+C3 D7 D5 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "19"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q8.J64.JT2.K9632 9754.K9.AKQ63.Q5 KJ632.T7.975.JT8 AT.AQ8532.84.A74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "13"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -710"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 3C Pass 4H
+Pass Pass Pass
+[Play "S"]
+C2 CQ CJ C7
+H4 HK H7 H2
+H6 H9 HT HA
+HJ S4 S2 HQ
+C3 S5 S3 H8
+D2 S7 C8 H3
+DT D3 D5 H5
+DJ - - D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q8.J64.JT2.K9632 9754.K9.AKQ63.Q5 KJ632.T7.975.JT8 AT.AQ8532.84.A74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -710"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "S"]
+C3 CQ CJ C4
+H4 HK H7 H2
+C2 C5 C8 CA
+C6 H9 CT C7
+S8 S4 S2 SA
+H6 S5 HT HA
+HJ S7 S3 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "20"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T6.J87.K8754.A97 542.K5.JT932.632 AKQ973.T2.AQ.854 J8.AQ9643.6.KQJT"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass Pass 1S 2H
+Pass Pass 2S 3C
+3S 4H Pass Pass
+Pass
+[Play "W"]
+ST S2 SA S8
+S6 S4 SK SJ
+D4 S5 SQ D6
+D5 D2 DA H3
+H7 H5 H2 H4
+H8 HK HT H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:T6.J87.K8754.A97 542.K5.JT932.632 AKQ973.T2.AQ.854 J8.AQ9643.6.KQJT"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S 2H
+Pass Pass 2S 3C
+Pass 3H Pass Pass
+3S Pass Pass Pass
+[Play "S"]
+CQ CA C2 C4
+S8 S6 S2 S3
+SJ ST S4 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "21"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:A7.432.J6.QT9832 T63.AK6.T8732.J6 KQ94.JT95.Q94.75 J852.Q87.AK5.AK4"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS -150"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "N"]
+Pass Pass Pass 1NT
+Pass Pass Pass
+[Play "N"]
+CT CJ C7 C4
+D6 D2 D4 DA
+DJ D3 D9 DK
+H2 D7 DQ D5
+SA S3 S4 S2
+S7 S6 SQ S5
+C2 ST SK S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:A7.432.J6.QT9832 T63.AK6.T8732.J6 KQ94.JT95.Q94.75 J852.Q87.AK5.AK4"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+CT CJ C5 C4
+D6 D2 D4 DA
+DJ D3 D9 DK
+C2 D7 DQ D5
+SA S3 SQ S2
+S7 S6 SK S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "22"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:5.KQ532.876.QJ64 KJT.A984.KJ42.T5 Q964.JT76.3.A982 A8732..AQT95.K73"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 450"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "E"]
+Pass 1D Pass 1S
+Pass 1NT Pass 3D
+Pass 3S Pass 4C
+Pass 4H Pass 4S
+Pass Pass Pass
+[Play "E"]
+HK HA H6 C3
+S5 SK S4 S2
+H2 ST S6 S3
+C4 SJ SQ SA
+D6 DJ D3 D5
+C6 C5 C2 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:5.KQ532.876.QJ64 KJT.A984.KJ42.T5 Q964.JT76.3.A982 A8732..AQT95.K73"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D Pass 1S
+Pass 1NT Pass 2C
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "E"]
+HK HA H7 C3
+S5 SJ S4 S2
+D6 SK S6 S3
+D7 ST SQ SA
+D8 DK D3 D5
+C4 C5 C2 CK
+H2 D2 - DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "23"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AJ9852.AQ5.A83.9 4.KT4.KJ75.AQJ75 KQT76.832.6.K862 3.J976.QT942.T43"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 680"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "S"]
+1S X 4S Pass
+Pass Pass
+[Play "W"]
+S4 SK S3 S2
+D5 D6 DT DA
+CA C2 C3 C9
+H4 H2 HJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AJ9852.AQ5.A83.9 4.KT4.KJ75.AQJ75 KQT76.832.6.K862 3.J976.QT942.T43"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S X 4S Pass
+Pass Pass
+[Play "W"]
+S4 S6 S3 S8
+CA C2 C3 C9
+H4 H2 HJ HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "24"]
+[West "Langstrom L"]
+[North "Saul C"]
+[East "Ryman M"]
+[South "Bessis V"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J5.J872.K94.JT95 Q76.AQ5.AQJ6.K86 AK98.T964.872.A4 T432.K3.T53.Q732"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "9"]
+[HomeTeam "France"]
+[Room "Open"]
+[Round "3"]
+[Score "NS 150"]
+[Section "Ladies"]
+[Table "29"]
+[VisitTeam "Sweden"]
+[Auction "W"]
+Pass 1D X Pass
+1H 1NT Pass Pass
+2C Pass 2H 2NT
+Pass Pass Pass
+[Play "E"]
+CA C2 C5 C6
+C4 C3 C9 CK
+D7 D3 DK DQ
+H6 HK H2 H5
+D2 DT D4 D6
+D8 D5 D9 DJ
+S8 S2 SJ DA
+SK S3 S5 S6
+H4 H3 HJ HQ
+SA S4 H7 S7
+H9 C7 H8 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Lustin C"]
+[North "Andersson P"]
+[East "Crozier M"]
+[South "Karrstrand L"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J5.J872.K94.JT95 Q76.AQ5.AQJ6.K86 AK98.T964.872.A4 T432.K3.T53.Q732"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 180"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C Pass 1D
+Pass 1NT Pass Pass
+Pass
+[Play "E"]
+SA S2 S5 S6
+HT HK H2 H5
+D2 DT D4 D6
+D7 D3 DK DA
+D8 D5 D9 DQ
+S8 C2 C5 DJ
+SK S3 SJ SQ
+CA C3 C9 C6
+*
+

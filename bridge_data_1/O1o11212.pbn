@@ -1,0 +1,1639 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.19"]
+[Board "1"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S5 SJ S3 S7
+CT C4 C2 CA
+ST CJ CQ C5
+H7 H3 HT H2
+H9 H8 H4 HA
+S2 SA S4 S8
+S6 CK C3 D2
+D5 C9 C8 S9
+DT C6 D3 DJ
+HJ C7 D7 H5
+D6 D4 DA DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:43.QT64.A73.Q832 Q987.A52.KQJ2.A5 KT652.KJ97.T65.T AJ.83.984.KJ9764"]
+[Declarer "W"]
+[Contract "5CX"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1NT 2C 2S
+3H Pass Pass 5C
+X Pass Pass Pass
+[Play "N"]
+HQ H2 H7 H3
+H4 HA H9 H8
+H6 H5 HJ C4
+- - - CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "2"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+1D 1S 2C Pass
+2D Pass 3D Pass
+3NT Pass Pass Pass
+[Play "S"]
+S2 S3 SQ SK
+C4 C3 C2 CA
+D4 DQ D8 D2
+CK CQ C6 H3
+HT H6 HA H7
+- - S8 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KJ5.KJ73.K9732.A AT642.QT2.54.K94 973.86.AQ6.QJT53 Q8.A954.JT8.8762"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 1S Pass Pass
+Pass
+[Play "W"]
+CQ C2 CA C4
+DQ D8 D2 D4
+C3 C6 S5 C9
+DA DT D3 D5
+C5 C7 SJ CK
+D6 DJ DK S2
+S3 S8 SK SA
+S7 SQ D7 S4
+H6 H4 HK H2
+S9 H5 D9 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "3"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+Pass 1H Pass 2C
+Pass 2D Pass 3H
+Pass 3S Pass 4H
+Pass Pass Pass
+[Play "N"]
+SA S6 S2 S8
+C9 C3 C2 CA
+HJ HK HA H2
+C5 C6 C4 CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T9432.A.J76.T742 8.T8642.AK953.AJ AJ75.QJ3.T842.95 KQ6.K975.Q.KQ863"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 4D
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+C5 C3 C4 CA
+H3 HK HA H2
+C9 C6 C7 CJ
+D2 DQ D6 D3
+HJ CK C2 S8
+HQ - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "4"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "11"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+1NT Pass 2D Pass
+2H X Pass 2S
+Pass Pass Pass
+[Play "W"]
+C2 CK C7 C3
+D3 DT D2 DK
+CA C6 C8 C5
+S5 S2 S3 S6
+SK SA S4 S8
+C4 CQ CJ H6
+ST S9 S7 SJ
+D7 DJ D4 D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT5.AQ4.Q873.A42 AQ92.3.AJT.KQT96 743.K8752.42.J87 J86.JT96.K965.53"]
+[Declarer "W"]
+[Contract "2HX"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT X 2D Pass
+2H X Pass Pass
+Pass
+[Play "N"]
+CK C7 C3 CA
+H3 H2 H6 HA
+C9 HK H9 H4
+S2 H5 HT HQ
+CQ C8 C5 C2
+CT CJ HJ C4
+SQ S3 S6 ST
+S9 S4 S8 SK
+SA S7 SJ S5
+C6 H7 D5 D3
+DA D2 D6 DQ
+DJ D4 D9 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "5"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "N"]
+[Contract "1D"]
+[Result "9"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 110"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+1D Pass Pass Pass
+[Play "E"]
+D2 D6 DQ DA
+D5 D7 D3 DK
+D9 DT H3 D4
+SA S2 S5 S8
+H6 H5 HT HA
+S4 ST SJ S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K983.A82.AKJ84.8 A4.K96.952.KQ754 T62.J75.T76.AT92 QJ75.QT43.Q3.J63"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass 2C Pass
+2NT Pass 3C Pass
+3D Pass Pass Pass
+[Play "E"]
+D2 D6 DQ D4
+D5 D7 D3 DK
+D9 DT H3 D8
+SA S2 S5 S9
+CK CA C3 C8
+S4 S6 SJ S3
+- - S7 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "6"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+1S 2C 3S Pass
+4S Pass Pass Pass
+[Play "S"]
+CK C6 C8 CA
+S4 S5 S6 SA
+C2 S9 S7 SK
+C4 SQ SJ S2
+D3 D2 DA DQ
+HA H4 HT HK
+H5 H6 H8 HQ
+CJ C9 H2 C3
+HJ - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AK832.KQ3.Q.AT53 4.AJ5.963.KQJ742 QT95.764.KT82.96 J76.T982.AJ754.8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 2C Pass Pass
+4S Pass Pass Pass
+[Play "S"]
+CK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "7"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+1S Pass Pass 2C
+2S 3H Pass Pass
+Pass
+[Play "N"]
+S7 - ^R H5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ4.KT65.KJ532.7 J953.873.AT.KQ52 762.42.Q876.A964 KT8.AQJ9.94.JT83"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 80"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass Pass Pass
+[Play "W"]
+H7 H2 HA H5
+S3 S2 ST SQ
+DT DQ D4 D2
+DA D6 D9 DK
+S5 S6 SK SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "8"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+Pass 1H Pass 2D
+Pass 2H Pass 2S
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "E"]
+C6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T543.Q63.QJT92.J KQJ6.AT.53.87543 72.J982.A74.KQ96 A98.K754.K86.AT2"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "^10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "E"]
+CK CA CJ C3
+CQ CT H6 C4
+DA D6 D2 D3
+D7 DK D9 D5
+H2 H4 H3 HA
+HJ HK HQ HT
+H8 H5 DT S6
+C9 C2 S3 C8
+S2 S8 S4 SQ
+S7 SA S5 SK
+- S9 ST SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "9"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "12"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+Pass 1NT Pass 2NT
+Pass 3C Pass 3NT
+Pass 4D Pass 5D
+Pass Pass Pass
+[Play "S"]
+S4 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:A96.Q82.A53.9764 3.AJ63.K94.AJ832 QT4.K754.QJ6.KT5 KJ8752.T9.T872.Q"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "^11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2C 2NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+HK H9 H2 H3
+DQ D2 D3 DK
+C5 CQ C4 CA
+CT S2 C6 C2
+H4 HT H8 HJ
+H5 D7 HQ HA
+CK S5 C7 C3
+DJ D8 D5 D4
+D6 DT DA D9
+SQ SK C9 C8
+ST S7 S6 S3
+H7 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "10"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+1D Pass 1H Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "N"]
+C9 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:AKJ4.K983.842.K5 Q653.Q5.J975.T74 98.JT742.KQ.AQJ3 T72.A6.AT63.9862"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1H Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "N"]
+S2 SA S3 S8
+HA HK H5 H2
+D6 D2 DJ DK
+H6 H3 HQ HT
+ST SJ S6 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "11"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+1S 2H Pass 3S
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+S7 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ962.KQJ.AQJ.52 AKT85.A9654.54.Q 74..KT9762.JT873 3.T8732.83.AK964"]
+[Declarer "N"]
+[Contract "5DX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C X 1D 4H
+Pass Pass 4NT X
+5D X Pass Pass
+Pass
+[Play "E"]
+CA C2 CQ C3
+CK C5 H9 C7
+C4 S2 S5 C8
+S3 - - S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "12"]
+[West "Arnarson G"]
+[North "MilitsopouloJ"]
+[East "Jonsson T"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+Pass Pass 2C X
+3D Pass Pass 4S
+Pass Pass Pass
+[Play "W"]
+D2 D5 DQ DJ
+CK C5 C2 CQ
+H8 H6 H2 HK
+SA S8 S5 SJ
+H3 H7 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "KotsiopoulosT"]
+[North "Baldursson J"]
+[East "Sapounakis A"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AT3.J83.932.KJ63 8.AT976.T765.T95 975.52.AKQ84.842 KQJ642.KQ4.J.AQ7"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D X
+1NT 2H Pass 2S
+Pass Pass Pass
+[Play "W"]
+D3 D5 DQ DJ
+D2 D6 DA S2
+S3 S8 S5 SK
+SA C5 S7 SQ
+H8 HT H2 HK
+ST C9 S9 SJ
+H3 H6 H5 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "13"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "S"]
+[Contract "2NT"]
+[Result "7"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+Pass Pass 1D 1H
+2C 2H 2NT Pass
+Pass Pass
+[Play "W"]
+H2 H6 H9 HA
+S3 SQ SA S2
+H3 H8 HJ HK
+C6 C3 C2 CA
+CK C4 C5 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q97.86.A76.QJT43 AJ86.JT9.Q94.952 K42.AK.T8532.A87 T53.Q75432.KJ.K6"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1NT Pass
+2C Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+H4 H6 HT HK
+S5 SQ SA S4
+H2 H8 HJ HA
+DJ DA D4 D5
+CK CQ C2 C7
+HQ D6 H9 S2
+DK D7 D9 D2
+H7 S7 S6 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "14"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+2D Pass 4H Pass
+Pass Pass
+[Play "N"]
+D7 D3 DJ DA
+H2 H3 H5 HQ
+C4 HK HA H9
+SK S2 S5 ST
+S7 S9 H6 S4
+D2 H4 DK D6
+C7 HJ H7 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9862.KJT843.3.A6 5.A765.KQJ8.QJ95 AQJT4.Q9.AT6.832 K73.2.97542.KT74"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S 3D
+4S Pass Pass Pass
+[Play "N"]
+H2 H3 HA HQ
+S3 H4 H6 H9
+C7 CA C5 C2
+SK S9 S5 S4
+CK C6 C9 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "15"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 630"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+1D Pass 1H X
+2D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+CT C2 C4 CJ
+H4 S2 H3 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:732..AKQ9832.872 T96.JT8753.4.654 KQ5.AK92.T65.KJ3 AJ84.Q64.J7.AQT9"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+3D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+H6 C2 HT HA
+D7 DA D4 DT
+SA S2 S9 SK
+HQ S3 H3 H2
+CA C7 C4 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "16"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+Pass Pass 1D X
+Pass 1S Pass 2S
+Pass 3D Pass 3H
+Pass 3S Pass Pass
+Pass
+[Play "E"]
+C2 C7 CJ CA
+HK HA H3 H2
+S2 HQ H6 H5
+DA D3 D5 D6
+DK D4 DT D9
+D2 S4 DQ DJ
+CT CK C3 C5
+S5 SA S9 S3
+S8 ST H8 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.JT863.QT5.J843 K763.52.J96.A965 Q852.K.AK872.QT2 AJT4.AQ974.43.K7"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D 2D
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "E"]
+DA D3 DT D9
+DK D4 D5 D6
+D8 S4 DQ DJ
+C2 C7 C3 CA
+HK HA H3 H2
+S2 HQ H6 H5
+D7 H4 S9 SK
+S5 ST H8 S3
+S8 H7 HT S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "17"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "E"]
+[Contract "5SX"]
+[Result "8"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 500"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+Pass 1S X 3S
+4C 4S 5C Pass
+Pass X XX Pass
+Pass 5S X Pass
+Pass Pass
+[Play "S"]
+DK D4 D7 D2
+C3 C8 C9 CA
+H3 H5 HT H2
+C4 CT CQ C7
+D3 D6 DQ D8
+DA S2 D9 DJ
+SK S6 S5 SA
+- - - SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.KT4.Q97.QJ962 AJT743.2.JT82.A7 K.AQJ3.AK53.K543 9862.98765.64.T8"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1S X 3S
+X 4S X Pass
+Pass Pass
+[Play "S"]
+DA D4 D7 D2
+C3 CT CJ CA
+SK S2 S5 SA
+DK D6 D9 DT
+C4 C8 C2 C7
+D3 S6 SQ S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "18"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+1NT Pass 2H 3D
+3S Pass 4D Pass
+4S Pass Pass Pass
+[Play "S"]
+DJ D5 DK D7
+C2 C6 C4 CA
+D9 S2 D2 DQ
+- S6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K975.QT73.Q7.AKJ T4.K54.JT9.98532 AQJ862.A962.5.Q6 3.J8.AK86432.T74"]
+[Declarer "E"]
+[Contract "6S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2H Pass
+2S Pass 3H Pass
+4S Pass 4NT Pass
+5H Pass 6S Pass
+Pass Pass
+[Play "S"]
+DJ D5 DA D7
+C2 C6 C4 CA
+S4 SA S3 S5
+ST S2 D2 SK
+D9 S6 D3 DQ
+C3 CQ C7 CK
+C5 H2 CT CJ
+H4 H6 H8 HQ
+H5 HA HJ HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "19"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+Pass Pass 1S 2D
+2S X 3S 4D
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+SQ SK SA S2
+C2 C8 C3 CA
+DA D2 D3 D5
+ST S4 S6 S7
+CK C9 C4 CT
+SJ HQ S8 S9
+H2 HK H7 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A86.T97.43.76543 972.A8643.975.AT QJT53.J52.A6.KQ2 K4.KQ.KQJT82.J98"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1S 2D
+2S X Pass 3D
+Pass Pass Pass
+[Play "S"]
+HT H3 H2 HK
+D3 D5 DA DQ
+SA S2 SQ SK
+C3 CA C2 C8
+D4 D7 D6 DK
+H7 H4 H5 HQ
+C4 D9 S3 D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "20"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 680"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 2S
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "E"]
+CQ CA C3 C2
+S2 S3 S4 SJ
+S8 S9 S6 S5
+C5 SA S7 SQ
+D2 D5 D3 DJ
+D4 DK D9 D6
+- D7 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:764.K52.Q93.K943 KQJ5.T4.AJT86.62 82.Q763.42.QJ875 AT93.AJ98.K75.AT"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1H
+Pass 1S Pass 2C
+Pass 2D Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+CQ CA C3 C2
+S2 S3 S4 SK
+S8 S9 S6 SQ
+D2 D5 D3 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "21"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "N"]
+Pass 1D X XX
+1S X Pass 2C
+Pass 2D Pass 2S
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+H5 H7 HQ H2
+H3 HK HT H4
+DQ D7 D5 D2
+HA H9 S2 HJ
+H6 ST S4 S3
+H8 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9642.QT.J95.QT43 KQ83.J42.KT632.A AJ75.A8653.Q4.87 T.K97.A87.KJ9652"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D Pass 2C
+Pass 2D Pass 3D
+Pass 3S X 3NT
+Pass Pass Pass
+[Play "N"]
+S2 S3 SJ ST
+HQ H2 H3 H7
+HT H4 H6 HK
+D5 D2 DQ D8
+C3 - HA H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "22"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "S"]
+[Contract "5SX"]
+[Result "9"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -300"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "E"]
+1D 2S X 4S
+Pass Pass 4NT 5S
+X Pass Pass Pass
+[Play "W"]
+S8 S2 S7 SQ
+C4 CK CA C7
+D2 D3 DA D5
+DK DJ DQ D8
+HJ HA H4 H2
+- H3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:7.64.AQT74.AJ532 KQJT53.752.85.87 8.KJT.K962.QT964 A9642.AQ983.J3.K"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 3S X 4S
+Pass Pass Pass
+[Play "W"]
+D2 D3 DA D5
+D6 DJ DQ D8
+C4 CK CA C7
+C6 S2 C2 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "23"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -650"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "S"]
+Pass 1D Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "S"]
+HJ H3 HK HA
+S2 SA S8 S3
+S4 S6 S9 SQ
+D5 DK D4 D8
+- D2 D6 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.JT76.A75.AT32 AKT6.Q953.KJ32.9 98.K.QT964.KQ864 QJ753.A842.8.J75"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1S
+Pass 2S Pass Pass
+X XX 2NT X
+3C Pass Pass 3S
+Pass Pass Pass
+[Play "S"]
+S2 SA S8 S3
+C2 C9 CQ C5
+S4 S6 S9 SQ
+D5 DK D4 D8
+H6 H3 HK HA
+HT HQ D6 H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.19"]
+[Board "24"]
+[West "Baldursson J"]
+[North "MilitsopouloJ"]
+[East "Thorbjorns S"]
+[South "Kannavos P"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Greece"]
+[Room "Open"]
+[Round "12"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Iceland"]
+[Auction "W"]
+2H Pass 3D 3S
+Pass 3NT Pass Pass
+X Pass Pass 4D
+Pass 4H Pass 4S
+Pass Pass Pass
+[Play "W"]
+C4 C5 CK C7
+C2 C9 CA CT
+H6 HA HQ H2
+SQ ST S6 SA
+SJ S5 S9 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Filios A"]
+[North "Jonsson T"]
+[East "Lambrinos A"]
+[South "Arnarson G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ.JT876.9.J642 T5.AK43.AT76.Q95 96.Q95.QJ84.AK83 A87432.2.K532.T7"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 1NT Pass 2C
+Pass 2D Pass 2S
+Pass Pass Pass
+[Play "W"]
+HJ HA H5 H2
+H6 HK H9 C7
+SJ S5 S6 SA
+SQ ST S9 S2
+SK H3 D4 S3
+C2 C5 CK -
+*
+
