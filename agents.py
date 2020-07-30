@@ -3,8 +3,7 @@ from typing import Dict
 
 from numpy.random import choice
 
-from card import Card
-from hand import Hand
+from cards import Card, Hand
 from players import Player
 from trick import Trick
 
@@ -39,7 +38,7 @@ class RandomAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return choice(hands[player].cards)
+        return choice(player.hand.cards)
 
 
 class LowestFirstAgent(Agent):
@@ -51,7 +50,7 @@ class LowestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return hands[player].cards[-1]
+        return player.hand.cards[-1]
 
 
 class HighestFirstAgent(Agent):
@@ -63,7 +62,7 @@ class HighestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return hands[player].cards[0]
+        return player.hand.cards[0]
 
 
 class HardGreedyAgent(Agent):
@@ -78,15 +77,15 @@ class HardGreedyAgent(Agent):
     def get_action(self, player, hands, trick):
         if len(trick) == 0:
             # Trick is empty - play best card.
-            return hands[player].cards[0]
+            return player.hand.cards[0]
 
-        elif hands[player].cards[0] > max(trick.cards()):
+        elif player.hand.cards[0] > max(trick.cards()):
             # Can be best in current trick.
-            return hands[player].cards[0]
+            return player.hand.cards[0]
 
         else:
             # Cannot win - play worst card.
-            return hands[player].cards[-1]
+            return player.hand.cards[-1]
 
 
 def get_weakest_winner(best_trick_card, hands, player) -> Card:
@@ -110,20 +109,19 @@ class SoftGreedyAgent(Agent):
     def __init__(self):
         super().__init__()
 
-    def get_action(self, player, hands, trick):
+    def get_action(self, player: Player, players, trick):
 
         if len(trick) == 0:
             # Trick is empty - play worst card.
-            return hands[player].cards[-1]
+            return player.hand.cards[-1]
 
         best_trick_card = max(trick.cards())
-        if hands[player].cards[0] > best_trick_card:
+        if player.hand.cards[0] > best_trick_card:
             # Can be best in current trick.
-            return get_weakest_winner(best_trick_card, hands, player)
-
+            return min(filter(lambda i: i > best_trick_card, player.hand.cards))
         else:
             # Cannot win - play worst card.
-            return hands[player].cards[-1]
+            return player.hand.cards[-1]
 
 
 class HumanAgent(Agent):
