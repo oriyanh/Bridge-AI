@@ -20,7 +20,7 @@ def run_all_matches():
     # For n agents, will run n*(n-1)/2 matches
 
     for i in range(len(all_agents)):
-        for j in range(i + 1, len(all_agents)):
+        for j in range(len(all_agents)):
             # For each pair of agents
             agent_0, agent_1 = all_agents[i], all_agents[j]
             print(f"{agent_0.__name__} vs. {agent_1.__name__}")
@@ -33,7 +33,6 @@ def run_all_matches():
             print(f"Score: {curr_match.games_counter[0]:02} -"
                   f" {curr_match.games_counter[1]:02}\n")
             results[i, j] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-            results[j, i] = 100 - results[i, j]
 
 
 def display_table():
@@ -49,7 +48,7 @@ def display_table():
     for i in range(len(all_agents_names)):
         for j in range(len(all_agents_names)):
             text = ax.text(
-                j, i, f"{results[i, j]:05.2f}" if i != j else "",
+                j, i, f"{results[i, j]:05.2f}",
                 ha="center", va="center", color="w")
             text.set_path_effects(
                 [path_effects.Stroke(linewidth=2, foreground='black'),
