@@ -5,15 +5,14 @@ This module holds classes that represent cards and their derivative classes.
 import numpy as np
 from dataclasses import dataclass
 from enum import Enum
-from typing import List, Set
+from typing import List
 
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
 
 SUITS = ['♠', '♥', '♦', '♣', ]
-SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣',
-             's': '♠', 'h': '♥', 'd': '♦', 'c': '♣', }
+SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣'}
 
 class SuitType(Enum):
     Spades = '♠'
@@ -94,7 +93,7 @@ Trump_singleton = Trump()
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: Trump = False
+    trump_suit: Trump = Trump_singleton
 
     @property
     def is_trump(self):
@@ -104,6 +103,8 @@ class Suit:
         return self.suit_type.value
 
     def __eq__(self, other):
+        if isinstance(other, str):
+            return self.suit_type.value == other
         return self.suit_type.value == other.suit_type.value
 
     def __ne__(self, other):
@@ -151,7 +152,7 @@ class Card:
         self.face = face.capitalize()
 
     def __repr__(self):
-        return self.face + repr(self.suit)
+        return f"{self.face}{self.suit}"
 
     def __eq__(self, other):
         return self.face == other.face and self.suit == other.suit
@@ -182,19 +183,20 @@ class Card:
     def __ge__(self, other):
         return not (self < other)
 
-class Deck:  # [oriyan] Probably should be singelton
+class Deck:
 
     def __init__(self):
         self.cards = []
         for face in FACES:
-            for suit in SUITS:
+            for suit in SUITS_ALT:
                 card = Card(face, suit)
                 self.cards.append(card)
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,13)
-            return shuffled_deck.tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4,13).tolist()
+            hands = [Hand(cards) for cards in shuffled_deck]
+            return hands
         # TODO [oriyan/mar] create new deck from database representation
 
 
