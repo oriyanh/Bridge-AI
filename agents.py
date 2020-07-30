@@ -1,7 +1,6 @@
 import abc
 from typing import Dict
-
-from numpy.random import choice
+import numpy as np
 
 from cards import Card, Hand
 from players import Player
@@ -38,7 +37,8 @@ class RandomAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return choice(player.hand.cards)
+
+        return np.random.choice(player.get_legal_actions(trick))
 
 
 class LowestFirstAgent(Agent):
@@ -50,7 +50,8 @@ class LowestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return player.hand.cards[-1]
+        legal_cards = player.get_legal_actions(trick)
+        return min(legal_cards)
 
 
 class HighestFirstAgent(Agent):
@@ -62,8 +63,8 @@ class HighestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return player.hand.cards[0]
-
+        legal_cards = player.get_legal_actions(trick)
+        return max(legal_cards)
 
 class HardGreedyAgent(Agent):
     """
@@ -75,28 +76,18 @@ class HardGreedyAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
+        legal_cards = player.get_legal_actions(trick)
+        best_card = max(legal_cards)
         if len(trick) == 0:
             # Trick is empty - play best card.
-            return player.hand.cards[0]
+            return max(legal_cards)
 
-        elif player.hand.cards[0] > max(trick.cards()):
+        if best_card > max(trick.cards()):
             # Can be best in current trick.
-            return player.hand.cards[0]
+            return max(legal_cards)
 
-        else:
-            # Cannot win - play worst card.
-            return player.hand.cards[-1]
-
-
-def get_weakest_winner(best_trick_card, hands, player) -> Card:
-    """
-
-    :param best_trick_card:
-    :param hands:
-    :param player:
-    :return:
-    """
-    return min(filter(lambda i: i > best_trick_card, hands[player].cards))
+        # Cannot win - play worst card.
+        return min(legal_cards)
 
 
 class SoftGreedyAgent(Agent):
@@ -110,18 +101,18 @@ class SoftGreedyAgent(Agent):
         super().__init__()
 
     def get_action(self, player: Player, players, trick):
+        legal_cards = player.get_legal_actions(trick)
 
         if len(trick) == 0:
             # Trick is empty - play worst card.
-            return player.hand.cards[-1]
+            return min(legal_cards)
 
         best_trick_card = max(trick.cards())
-        if player.hand.cards[0] > best_trick_card:
+        if max(legal_cards) > best_trick_card:
             # Can be best in current trick.
             return min(filter(lambda i: i > best_trick_card, player.hand.cards))
-        else:
-            # Cannot win - play worst card.
-            return player.hand.cards[-1]
+        # Cannot win - play worst card.
+        return min(legal_cards)
 
 
 class HumanAgent(Agent):

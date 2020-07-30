@@ -33,7 +33,7 @@ class Game:
         hands = self.deck.deal()
         self.players = {position: Player(position, hand) for position, hand in zip(POSITIONS, hands)}
         self.teams = [Team(self.players[pos1], self.players[pos2]) for pos1, pos2 in TEAMS]
-        self.last_trick_winner: PositionEnum = choice(POSITIONS) if not starting_pos else starting_pos
+        self.last_trick_winner: PositionEnum = np.random.choice(POSITIONS) if not starting_pos else starting_pos
         self.cycle_players: Iterator[PositionEnum] = cycle(POSITIONS)
 
     def __str__(self):

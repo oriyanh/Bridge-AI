@@ -21,7 +21,14 @@ class Player:
         self.hand.play_card(card)
 
     def get_legal_actions(self, trick):
-        pass
+        legal_actions = self.hand.get_cards_from_suite(trick.starting_suit)
+        if not legal_actions:
+            legal_actions = self.hand.cards
+        else:
+            trump_cards = [card for card in self.hand.cards if card.is_trump]
+            legal_actions.extend(trump_cards)
+        return legal_actions
+
 
     def __str__(self):
         return self.position.name

@@ -161,18 +161,17 @@ class Card:
         return not (self == other)
 
     def __lt__(self, other):
-        # if self.face != other.face:
-        #     return FACES.index(self.face) < FACES.index(other.face)
-        # else:
-        #     return SUITS.index(self.suit) > SUITS.index(other.suit)
-        # return SUITS.index(self.suit) > SUITS.index(other.suit)
         if other.is_trump and not self.is_trump:
             return True
+
+        if self.is_trump and not other.is_trump:
+            return False
 
         if self.suit == other.suit:
             return FACES.index(self.face) < FACES.index(other.face)
 
-        return False
+        return SUITS.index(self.suit.suit_type.value) < SUITS.index(self.suit.suit_type.value) and \
+               FACES.index(self.face) < FACES.index(other.face)
 
     def __gt__(self, other):
         return other < self
@@ -207,6 +206,13 @@ class Hand:
 
     def play_card(self, card):
         self.cards.remove(card)
+
+    def get_cards_from_suite(self, suite):
+        if suite is None:
+            return self.cards
+
+        cards = list(filter(lambda card: card.suit == suite, self.cards))
+        return cards
 
     def __str__(self):
         ret = ""
