@@ -1,7 +1,7 @@
 from typing import Dict, KeysView, ValuesView, ItemsView
 
-from card import Card
-from players import Player, PLAYERS
+from cards import Suit, Card
+from players import Player, POSITIONS, Player, PositionEnum
 
 
 class Trick:
@@ -10,6 +10,7 @@ class Trick:
     """
     def __init__(self):
         self.trick: Dict[Player, Card] = {}
+        self.starting_suit = None  #type: Suit
 
     def __len__(self):
         return len(self.trick)
@@ -43,6 +44,8 @@ class Trick:
         :return: None
         """
         assert (player not in self.trick)
+        if not self.trick:
+            self.starting_suit = card.suit
         self.trick[player] = card
 
     def get_card(self, player: Player) -> Card:
@@ -51,15 +54,20 @@ class Trick:
         :param player: The player who's card in wanted.
         :return: The played card.
         """
-        return self.trick[player] if player in self.trick else None
+        return self.trick.get(player)
 
-    def get_winner(self, current_suit=None, trump=None) -> Player:
+    def get_winner(self) -> PositionEnum:
         """
         If all players played - return player with highest card.
         :return: Winning player.
         """
-        assert (len(self.trick) == len(PLAYERS))
-        return max(self.trick, key=self.trick.get)
+        assert (len(self.trick) == len(POSITIONS))
+        relevant_players = []
+        for player, card in self.items():
+            if card.is_trump or \
+                card.suit == self.starting_suit:
+                relevant_players.append(player)
+        return (max(relevant_players, key=self.trick.get)).position
 
     def reset(self) -> None:
         """
@@ -67,3 +75,4 @@ class Trick:
         :return: None
         """
         self.trick: Dict[Player, Card] = {}
+        self.starting_suit = None
