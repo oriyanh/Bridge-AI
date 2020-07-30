@@ -10,6 +10,20 @@ class IState(ABC):
         self.trump = None
         self.score = None
         self.goal = None
+        self.current_player = None
+
+    def get_successors(self, legal_moves):
+        pass
+
+    def apply_action(self, action):
+        pass
+
+    def previous_tricks(self):
+        pass
+
+    def get_legal_actions(self):
+        pass
+
 
 class IAgent(ABC):
     @abstractmethod
