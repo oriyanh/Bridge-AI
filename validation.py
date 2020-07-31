@@ -1,12 +1,19 @@
-from game import *
-from typing import TextIO
-from itertools import islice
+from card import Card, SUITS
+from hand import Hand
+from players import Player, PLAYERS
+from trick import Trick
+from itertools import cycle, islice
+from typing import List, TextIO
 
 
 PLAYERS_DICT = {'N': 0, 'E': 1, 'S': 2, 'W': 3}
 
 
 class TrickValidation(Trick):
+    """
+    Class of Trick, with added characteristic of order of cards ginven by
+    remembering the starting player.
+    """
     def __init__(self):
         super().__init__()
         self.first_player = None
@@ -16,6 +23,10 @@ class TrickValidation(Trick):
 
 
 class DataGame:
+    """
+    Class which stores a recorded game, with option to take a snapshot from any
+    point in it.
+    """
     def __init__(self, hands: List[Hand], tricks: List[TrickValidation]):
         self.hands = hands
         self.tricks = tricks
@@ -57,6 +68,9 @@ class DataGame:
 
 
 def parse_file(file_name) -> List[DataGame]:
+    """
+    Get a path of PBN file, and parse it to list of DataGame objects
+    """
     games = []
     with open(file_name) as f:
         for line in f:
@@ -69,6 +83,11 @@ def parse_file(file_name) -> List[DataGame]:
 
 
 def parse_hands(line: str) -> List[Hand]:
+    """
+    Helper for parse_file
+    :param line: line from PBN file, which starts with "[Deal "
+    :return: list of 4 Hand objects of a game
+    """
     player_str, all_hands_str = line.split(':')
     # Iterator for all players, starts in player_str
     cycle_players = islice(cycle(PLAYERS), PLAYERS_DICT[player_str], None)
@@ -88,6 +107,12 @@ def parse_hands(line: str) -> List[Hand]:
 
 
 def parse_tricks(player_line: str, f: TextIO) -> List[TrickValidation]:
+    """
+    Helper for parse_file
+    :param player_line: line from PBN file, which starts with "["Play"
+    :param f: TextIO object, of the PBN file that read
+    :return: list of all tricks of a game
+    """
     first_player = PLAYERS[PLAYERS_DICT[player_line[7]]]
     tricks = []
 
