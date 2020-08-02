@@ -196,7 +196,8 @@ def is_target_reached_evaluation_function(state, is_max=True, target=None):
 
 
 def count_tricks_won_evaluation_function(state, is_max=True, target=None):
-    return state.get_score(is_max)
+    value = 20 * state.get_score(is_max) + len(state.get_legal_actions())
+    return value
 
 # ------------------------------------------MTCSAgent------------------------------------------- #
 

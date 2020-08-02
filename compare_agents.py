@@ -108,7 +108,7 @@ def run_all_single_action_vs_ab_matches(depth):
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
               f" {curr_match.games_counter[1]:02}\n")
-        results[i, 1] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
+        results[i, 1] = 100 * curr_match.games_counter[1] / GAMES_PER_MATCH
 
         # Print match result and update scores table
 
@@ -138,7 +138,7 @@ def display_table_single_action_vs_ab(depth):
 
 def compare_single_action_vs_ab_agents():
     print()
-    depth = 4
+    depth = 7
     run_all_single_action_vs_ab_matches(depth)
     display_table_single_action_vs_ab(depth)
 
