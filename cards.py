@@ -2,11 +2,10 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
-from enum import Enum
-from typing import List
-
 import numpy as np
 from dataclasses import dataclass
+from enum import Enum
+from typing import List
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
@@ -81,7 +80,6 @@ class TrumpType(Enum):
 
 
 class Trump:
-
     def __init__(self):
         self._suit_type = TrumpType.NT
 
@@ -94,13 +92,13 @@ class Trump:
         self._suit_type = new_suit
 
 
-trump_singleton = Trump()
+Trump_singleton = Trump()
 
 
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: Trump = trump_singleton
+    trump_suit: Trump = Trump_singleton
 
     @property
     def is_trump(self):
@@ -125,8 +123,7 @@ class Suit:
             if other.is_trump:
                 return True
 
-            return SUITS.index(self.suit_type.value) > SUITS.index(
-                other.suit_type.value)
+            return SUITS.index(self.suit_type.value) > SUITS.index(other.suit_type.value)
 
         return False
 
@@ -142,7 +139,7 @@ class Suit:
 
 class Card:
     """
-    A playing card.
+    A playing action.
     """
 
     def __init__(self, face: str, suit: str):
@@ -156,8 +153,7 @@ class Card:
         self.suit = Suit(suit_type)
         self.is_trump = self.suit.is_trump
         if face.capitalize() not in FACES:
-            raise ValueError(
-                f"Unsupported Card Value {face}, must be one of {set(FACES)}")
+            raise ValueError(f"Unsupported Card Value {face}, must be one of {set(FACES)}")
 
         self.face = face.capitalize()
 
@@ -181,8 +177,7 @@ class Card:
             return FACES.index(self.face) < FACES.index(other.face)
 
         return SUITS.index(self.suit.suit_type.value) < SUITS.index(
-            self.suit.suit_type.value) and \
-               FACES.index(self.face) < FACES.index(other.face)
+            self.suit.suit_type.value) and FACES.index(self.face) < FACES.index(other.face)
 
     def __gt__(self, other):
         return other < self
@@ -195,7 +190,6 @@ class Card:
 
 
 class Deck:
-
     def __init__(self):
         self.cards = []
         for face in FACES:
@@ -205,8 +199,7 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,
-                                                                      13).tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # TODO [oriyan/mar] create new deck from database representation
@@ -215,8 +208,14 @@ class Deck:
 class Hand:
     def __init__(self, cards: List[Card]):
         # self.cards = set(cards)
-        self.cards = sorted(cards,
-                            reverse=True)  # The sorting is needed for the agents!
+        self.cards = cards
+
+    def __len__(self):
+        return len(self.cards)
+
+    def __copy__(self):
+        cards = [card for card in self.cards]
+        return Hand(cards)
 
     def play_card(self, card):
         self.cards.remove(card)
