@@ -7,12 +7,12 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
-
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
 
 SUITS = ['♠', '♥', '♦', '♣', ]
 SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣'}
+
 
 class SuitType(Enum):
     Spades = '♠'
@@ -44,6 +44,7 @@ class SuitType(Enum):
             raise ValueError(f"Unsupported Suit {suit}. "
                              f"Must be one of {set(suit.name for suit in list(SuitType))}")
 
+
 class TrumpType(Enum):
     Spades = '♠'
     S = '♠'
@@ -59,6 +60,7 @@ class TrumpType(Enum):
 
     NoTrump = 'NT'
     NT = 'NT'
+
     @staticmethod
     def from_str(suit: str):
         """ Parses string into SuitType object
@@ -76,8 +78,8 @@ class TrumpType(Enum):
             raise ValueError(f"Unsupported Suit {suit}. "
                              f"Must be one of {set(suit.name for suit in list(SuitType))}")
 
-class Trump:
 
+class Trump:
     def __init__(self):
         self._suit_type = TrumpType.NT
 
@@ -89,7 +91,10 @@ class Trump:
     def suit(self, new_suit: TrumpType):
         self._suit_type = new_suit
 
+
 Trump_singleton = Trump()
+
+
 @dataclass
 class Suit:
     suit_type: SuitType
@@ -131,9 +136,10 @@ class Suit:
     def __ge__(self, other):
         return other <= self
 
+
 class Card:
     """
-    A playing card.
+    A playing action.
     """
 
     def __init__(self, face: str, suit: str):
@@ -170,8 +176,8 @@ class Card:
         if self.suit == other.suit:
             return FACES.index(self.face) < FACES.index(other.face)
 
-        return SUITS.index(self.suit.suit_type.value) < SUITS.index(self.suit.suit_type.value) and \
-               FACES.index(self.face) < FACES.index(other.face)
+        return SUITS.index(self.suit.suit_type.value) < SUITS.index(
+            self.suit.suit_type.value) and FACES.index(self.face) < FACES.index(other.face)
 
     def __gt__(self, other):
         return other < self
@@ -182,8 +188,8 @@ class Card:
     def __ge__(self, other):
         return not (self < other)
 
-class Deck:
 
+class Deck:
     def __init__(self):
         self.cards = []
         for face in FACES:
@@ -193,7 +199,7 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,13).tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # TODO [oriyan/mar] create new deck from database representation
@@ -202,7 +208,14 @@ class Deck:
 class Hand:
     def __init__(self, cards: List[Card]):
         # self.cards = set(cards)
-        self.cards = sorted(cards, reverse=True)  # The sorting is needed for the agents!
+        self.cards = cards
+
+    def __len__(self):
+        return len(self.cards)
+
+    def __copy__(self):
+        cards = [card for card in self.cards]
+        return Hand(cards)
 
     def play_card(self, card):
         self.cards.remove(card)
