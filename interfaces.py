@@ -1,5 +1,4 @@
-from  abc import ABC, abstractmethod, abstractproperty
-from typing import Dict
+from abc import ABC, abstractmethod
 
 
 class IState(ABC):
