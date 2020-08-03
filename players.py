@@ -3,13 +3,13 @@ from typing import List
 
 from cards import Hand, Card
 
-
 PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
 
 POSITIONS = list(PositionEnum)
 
 TEAMS = [(PositionEnum.N, PositionEnum.S),
          (PositionEnum.W, PositionEnum.E)]
+
 
 class Player:
 
@@ -29,7 +29,6 @@ class Player:
             legal_actions.extend(trump_cards)
         return legal_actions
 
-
     def __str__(self):
         return self.position.name
 
@@ -38,6 +37,7 @@ class Player:
 
     def __hash__(self) -> int:
         return hash(self.position)
+
 
 class Team:
 
@@ -63,7 +63,8 @@ class Team:
         """
         return self.players
 
-    def get_teammate(self, p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
+    def get_teammate(self,
+                     p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
         """
 
         :param p:

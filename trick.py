@@ -1,16 +1,17 @@
 from typing import Dict, KeysView, ValuesView, ItemsView
 
 from cards import Suit, Card
-from players import Player, POSITIONS, Player, PositionEnum
+from players import POSITIONS, Player, PositionEnum
 
 
 class Trick:
     """
     A set of 4 cards played by each player in turn, during the play of a deal.
     """
+
     def __init__(self):
         self.trick: Dict[Player, Card] = {}
-        self.starting_suit = None  #type: Suit
+        self.starting_suit = None  # type: Suit
 
     def __len__(self):
         return len(self.trick)
@@ -65,7 +66,7 @@ class Trick:
         relevant_players = []
         for player, card in self.items():
             if card.is_trump or \
-                card.suit == self.starting_suit:
+                    card.suit == self.starting_suit:
                 relevant_players.append(player)
         return (max(relevant_players, key=self.trick.get)).position
 

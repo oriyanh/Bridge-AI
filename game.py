@@ -1,6 +1,5 @@
-from itertools import cycle
-import numpy as np
 import os
+from itertools import cycle
 from typing import List, Iterator
 
 from agents import *
@@ -17,8 +16,7 @@ class Game:
                  games_counter: List[int],
                  verbose_mode: bool = True,
                  starting_pos=None):
-        # todo [oriyan\mar] think of life, its meaning, and everything
-        # todo also, think how to reproduce game from database - or randomly generate new game
+        # todo [oriyan\mar] think how to reproduce game from database - or randomly generate new game
         self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
@@ -31,9 +29,12 @@ class Game:
         self.curr_trick = Trick()
         self.previous_tricks = []  # type: List[Trick]
         hands = self.deck.deal()
-        self.players = {position: Player(position, hand) for position, hand in zip(POSITIONS, hands)}
-        self.teams = [Team(self.players[pos1], self.players[pos2]) for pos1, pos2 in TEAMS]
-        self.last_trick_winner: PositionEnum = np.random.choice(POSITIONS) if not starting_pos else starting_pos
+        self.players = {position: Player(position, hand) for position, hand in
+                        zip(POSITIONS, hands)}
+        self.teams = [Team(self.players[pos1], self.players[pos2]) for
+                      pos1, pos2 in TEAMS]
+        self.last_trick_winner: PositionEnum = np.random.choice(
+            POSITIONS) if not starting_pos else starting_pos
         self.cycle_players: Iterator[PositionEnum] = cycle(POSITIONS)
 
     def __str__(self):

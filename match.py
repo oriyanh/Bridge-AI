@@ -1,9 +1,10 @@
-from numpy.random import seed
+from argparse import ArgumentParser
 from os import system
 from sys import stdout
-from tqdm import tqdm
 from typing import List
-from argparse import ArgumentParser
+
+from numpy.random import seed
+from tqdm import tqdm
 
 from agents import *
 from game import Game
@@ -50,6 +51,7 @@ class Match:
             system('cls')
             print(self)
 
+
 def parse_args():
     parser = ArgumentParser()
     parser.add_argument('--agent1')
@@ -57,6 +59,7 @@ def parse_args():
     parser.add_argument('--rounds', default=100)
     args = parser.parse_args()
     return args
+
 
 if __name__ == '__main__':
     game = Match(RandomAgent(), SoftGreedyAgent(), NUM_GAMES)
