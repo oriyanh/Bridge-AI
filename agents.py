@@ -1,10 +1,9 @@
 import abc
 from typing import Dict
 
-from numpy.random import choice
+import numpy as np
 
-from card import Card
-from hand import Hand
+from cards import Card, Hand
 from players import Player
 from trick import Trick
 
@@ -13,6 +12,7 @@ class Agent(abc.ABC):
     """
     Strategy-based agent to participate in the game.
     """
+
     @abc.abstractmethod
     def __init__(self):
         pass
@@ -39,7 +39,7 @@ class RandomAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return choice(hands[player].cards)
+        return np.random.choice(player.get_legal_actions(trick))
 
 
 class LowestFirstAgent(Agent):
@@ -51,7 +51,8 @@ class LowestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return hands[player].cards[-1]
+        legal_cards = player.get_legal_actions(trick)
+        return min(legal_cards)
 
 
 class HighestFirstAgent(Agent):
@@ -63,7 +64,8 @@ class HighestFirstAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
-        return hands[player].cards[0]
+        legal_cards = player.get_legal_actions(trick)
+        return max(legal_cards)
 
 
 class HardGreedyAgent(Agent):
@@ -76,28 +78,18 @@ class HardGreedyAgent(Agent):
         super().__init__()
 
     def get_action(self, player, hands, trick):
+        legal_cards = player.get_legal_actions(trick)
+        best_card = max(legal_cards)
         if len(trick) == 0:
             # Trick is empty - play best card.
-            return hands[player].cards[0]
+            return max(legal_cards)
 
-        elif hands[player].cards[0] > max(trick.cards()):
+        if best_card > max(trick.cards()):
             # Can be best in current trick.
-            return hands[player].cards[0]
+            return max(legal_cards)
 
-        else:
-            # Cannot win - play worst card.
-            return hands[player].cards[-1]
-
-
-def get_weakest_winner(best_trick_card, hands, player) -> Card:
-    """
-
-    :param best_trick_card:
-    :param hands:
-    :param player:
-    :return:
-    """
-    return min(filter(lambda i: i > best_trick_card, hands[player].cards))
+        # Cannot win - play worst card.
+        return min(legal_cards)
 
 
 class SoftGreedyAgent(Agent):
@@ -110,20 +102,20 @@ class SoftGreedyAgent(Agent):
     def __init__(self):
         super().__init__()
 
-    def get_action(self, player, hands, trick):
+    def get_action(self, player: Player, players, trick):
+        legal_cards = player.get_legal_actions(trick)
 
         if len(trick) == 0:
             # Trick is empty - play worst card.
-            return hands[player].cards[-1]
+            return min(legal_cards)
 
         best_trick_card = max(trick.cards())
-        if hands[player].cards[0] > best_trick_card:
+        if max(legal_cards) > best_trick_card:
             # Can be best in current trick.
-            return get_weakest_winner(best_trick_card, hands, player)
-
-        else:
-            # Cannot win - play worst card.
-            return hands[player].cards[-1]
+            return min(
+                filter(lambda i: i > best_trick_card, player.hand.cards))
+        # Cannot win - play worst card.
+        return min(legal_cards)
 
 
 class HumanAgent(Agent):
@@ -151,3 +143,23 @@ class HumanAgent(Agent):
 
             except ValueError or IndexError or TypeError:
                 print(f"{inp} is not a valid card, try again")
+
+
+class MinMaxAgent(Agent):  # with Alpha Beta pruning
+
+    def __init__(self):
+        super().__init__()
+
+    def get_action(self, player: Player, hands: Dict[Player, Hand],
+                   trick: Trick) -> Card:
+        pass
+
+
+class MCTSAgent(Agent):
+
+    def __init__(self):
+        super().__init__()
+
+    def get_action(self, player: Player, hands: Dict[Player, Hand],
+                   trick: Trick) -> Card:
+        pass

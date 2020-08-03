@@ -1,47 +1,53 @@
-from itertools import cycle
-from numpy import argmax
-from numpy.random import shuffle
 import os
+from itertools import cycle
 from typing import List, Iterator
 
 from agents import *
-from card import Card, FACES, SUITS
-from hand import Hand
-from players import PLAYERS
-from team import TEAMS
+from cards import Deck
+from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from trick import Trick
 
 
 class Game:
+
     def __init__(self,
                  agent: Agent,
                  other_agent: Agent,
                  games_counter: List[int],
-                 verbose_mode: bool = True):
-
+                 verbose_mode: bool = True,
+                 starting_pos=None):
+        # todo [oriyan\mar] think how to reproduce game from database - or randomly generate new game
         self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode
+        self.deck = Deck()
 
         self.tricks_counter: List[int] = [0, 0, ]  # [Team 0, Team 1]
-        self.last_trick_winner: Player = choice(PLAYERS)
-        self.cycle_players: Iterator[Player] = cycle(PLAYERS)
+
         self.winning_team: int = -1
         self.curr_trick = Trick()
-        self.hands: Dict[Player, Hand] = self._deal_4_hands()
+        self.previous_tricks = []  # type: List[Trick]
+        hands = self.deck.deal()
+        self.players = {position: Player(position, hand) for position, hand in
+                        zip(POSITIONS, hands)}
+        self.teams = [Team(self.players[pos1], self.players[pos2]) for
+                      pos1, pos2 in TEAMS]
+        self.last_trick_winner: PositionEnum = np.random.choice(
+            POSITIONS) if not starting_pos else starting_pos
+        self.cycle_players: Iterator[PositionEnum] = cycle(POSITIONS)
 
     def __str__(self):
 
         ret = ""
 
         ret += f"Match score: " \
-               f"{TEAMS[0]}:{self.games_counter[0]:02} - " \
-               f"{TEAMS[1]}:{self.games_counter[1]:02}\n"
+               f"{self.teams[0]}:{self.games_counter[0]:02} - " \
+               f"{self.teams[1]}:{self.games_counter[1]:02}\n"
 
         ret += f"Game score: " \
-               f"{TEAMS[0]}:{self.tricks_counter[0]:02} - " \
-               f"{TEAMS[1]}:{self.tricks_counter[1]:02}\n"
+               f"{self.teams[0]}:{self.tricks_counter[0]:02} - " \
+               f"{self.teams[1]}:{self.tricks_counter[1]:02}\n"
 
         ret += f"Current trick:  "
         for player, card in self.curr_trick.items():
@@ -50,33 +56,12 @@ class Game:
             ret += f",  {self.curr_trick.get_winner()} won trick."
         ret += f"\n"
 
-        for player, hand in self.hands.items():
-            ret += f"\n{player}\n{hand}"
+        for player in self.players.values():
+            ret += f"\n{player}\n{player.hand}"
 
         return ret
 
-    @staticmethod
-    def _deal_4_hands() -> Dict[Player, Hand]:
-        """
-        Generates a whole pack of cards, shuffles it, divides it into 4
-        hands, and assigns them to the players.
-        :return: A dict mapping a player to it's hand.
-        """
-        pack = []
-        for f in FACES:
-            for s in SUITS:
-                pack.append(Card(f, s))
-        shuffle(pack)
-
-        hands = {}
-        hand_len = len(pack) // len(PLAYERS)
-        for i, player in enumerate(PLAYERS):
-            hand_cards = pack[hand_len * i:hand_len * (i + 1)]
-            hands[player] = Hand(player, hand_cards)
-
-        return hands
-
-    def play_hand(self, player: Player) -> None:
+    def play(self, player: Player) -> None:
         """
         Called when its' the givens' player turn. The player will pick a
         card to play and it will be taken out of his hand a placed into the
@@ -84,13 +69,14 @@ class Game:
         :param player: The player who's turn it is.
         :return: None
         """
-        if TEAMS[0].has_player(player):
-            card = self.agent.get_action(
-                player, self.hands, self.curr_trick)
+        if self.teams[0].has_player(player):
+            # TODO [oriyan/mar] Instead of passing hands and trick to get_action, pass State object
+            card = self.agent.get_action(player, self.players, self.curr_trick)
+
         else:
             card = self.other_agent.get_action(
-                player, self.hands, self.curr_trick)
-        self.hands[player].cards.remove(card)
+                player, self.players, self.curr_trick)
+        player.play_card(card)  # TODO [oriyan/mar]
         self.curr_trick.add_card(player, card)
 
     def clear_trick(self) -> None:
@@ -101,7 +87,7 @@ class Game:
         """
         self.last_trick_winner = self.curr_trick.get_winner()
 
-        if TEAMS[0].has_player(self.last_trick_winner):
+        if self.teams[0].has_player(self.players[self.last_trick_winner]):
             self.tricks_counter[0] += 1  # Team 0 won trick
         else:
             self.tricks_counter[1] += 1  # Team 1 won trick
@@ -119,12 +105,13 @@ class Game:
             while next(self.cycle_players) != self.last_trick_winner:
                 pass
 
-            for i in range(len(PLAYERS)):  # Play all hands
+            for i in range(len(POSITIONS)):  # Play all hands
                 if i == 0:
                     curr_player = self.last_trick_winner
                 else:
                     curr_player = next(self.cycle_players)
-                self.play_hand(curr_player)
+                player = self.players[curr_player]
+                self.play(player)
 
                 if self.verbose_mode:
                     self.show()
@@ -135,7 +122,7 @@ class Game:
                 self.show()
 
         # Game ended, calc result.
-        self.winning_team = int(argmax(self.tricks_counter))
+        self.winning_team = int(np.argmax(self.tricks_counter))
 
     def show(self) -> None:
         """
