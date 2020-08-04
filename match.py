@@ -75,8 +75,7 @@ def parse_args():
 
 
 def run_match():
-    match = Match(SingleActionAgent(), SingleActionAgent('soft_greedy_action'),
-                  NUM_GAMES)
+    match = Match(SimpleAgent(), SimpleAgent('soft_greedy_action'), NUM_GAMES)
     match.run()
 
 
