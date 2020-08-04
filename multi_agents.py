@@ -1,28 +1,10 @@
-from abc import ABC, abstractmethod
-
 import numpy as np
 import util
 
 from cards import Card
-from state import State
+from interfaces import IAgent
 
 FULL_TREE = -1
-
-
-class IAgent(ABC):
-    @abstractmethod
-    def __init__(self, target):
-        self.target = target
-
-    @abstractmethod
-    def get_action(self, state: State) -> Card:
-        """
-        Pick a action to play based on the environment and a programmed
-        strategy.
-        :param state:
-        :return: The action to play.
-        """
-        raise NotImplementedError
 
 
 # ---------------------------------SimpleAgent------------------------------- #

@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
 
+from cards import Card
+from state import State
+
 
 class IState(ABC):
 
@@ -26,16 +29,15 @@ class IState(ABC):
 
 class IAgent(ABC):
     @abstractmethod
-    def __init__(self):
-        pass
+    def __init__(self, target):
+        self.target = target
 
     @abstractmethod
-    def get_action(self, player: IPlayer, state: IState) -> Card:
+    def get_action(self, state: State) -> Card:
         """
-        Pick a card to play based on the environment and a programmed strategy.
-        :param player: Current player
-        :param hands: Current hands in play
-        :param trick: Current trick in play
-        :return: The card to play.
+        Pick a action to play based on the environment and a programmed
+        strategy.
+        :param state:
+        :return: The action to play.
         """
         raise NotImplementedError

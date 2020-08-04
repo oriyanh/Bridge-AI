@@ -98,7 +98,7 @@ def compare_ab_vs_ab_agents():
 def run_all_single_action_vs_ab_matches(depth):
     for i in range(len(all_single_action_func)):
         agent0 = all_single_action_func[i]
-        print(f"{all_single_action_names[i]} vs. alfa beta")
+        print(f"{all_single_action_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
                            AlphaBetaAgent(depth=depth),
                            GAMES_PER_MATCH, False)
@@ -107,7 +107,7 @@ def run_all_single_action_vs_ab_matches(depth):
               f" {curr_match.games_counter[1]:02}\n")
         results[i, 0] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
 
-        print(f"alfa beta vs. {all_single_action_names[i]}")
+        print(f"AlphaBeta vs. {all_single_action_names[i]}")
         curr_match = Match(AlphaBetaAgent(depth=depth),
                            SimpleAgent(agent0),
                            GAMES_PER_MATCH, False)
@@ -124,7 +124,7 @@ def display_table_single_action_vs_ab(depth):
     im = ax.imshow(results, cmap='plasma', vmin=0, vmax=100)
     ax.set_xticks(np.arange(2))
     ax.set_yticks(np.arange(len(all_single_action_names)))
-    ax.set_xticklabels(['single action first', 'alfa beta first'])
+    ax.set_xticklabels(['single action first', 'AlphaBeta first'])
     ax.set_yticklabels(all_single_action_names)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
              rotation_mode="anchor")
@@ -136,7 +136,7 @@ def display_table_single_action_vs_ab(depth):
             text.set_path_effects(
                 [path_effects.Stroke(linewidth=2, foreground='black'),
                  path_effects.Normal()])
-    ax.set_title(f"Win rate % for y axis vs alfa-beta, depth: {depth}",
+    ax.set_title(f"Win rate % for y axis vs AlphaBeta, depth: {depth}",
                  fontsize=16, fontweight="bold")
     fig.tight_layout()
     plt.show()
