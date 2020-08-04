@@ -78,7 +78,7 @@ class Team:
         return self.players
 
     def get_teammate(self, p: Player) -> Player:
-        # todo(ORIYAN): Possibly remove?
+        # todo(oriyan): Possibly remove?
         """
 
         :param p:
