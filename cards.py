@@ -42,8 +42,8 @@ class SuitType(Enum):
             return SuitType[suit_key]
 
         except KeyError:
-            raise ValueError(f"Unsupported Suit {suit}. "
-                             f"Must be one of {set(suit.name for suit in list(SuitType))}")
+            raise ValueError(f"Unsupported Suit {suit}. Must be one of "
+                             f"{set(suit.name for suit in list(SuitType))}")
 
 
 class TrumpType(Enum):
@@ -76,8 +76,8 @@ class TrumpType(Enum):
             return SuitType[suit_key]
 
         except KeyError:
-            raise ValueError(f"Unsupported Suit {suit}. "
-                             f"Must be one of {set(suit.name for suit in list(SuitType))}")
+            raise ValueError(f"Unsupported Suit {suit}. Must be one of "
+                             f"{set(suit.name for suit in list(SuitType))}")
 
 
 class Trump:
@@ -203,8 +203,8 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,
-                                                                      13).tolist()
+            shuffled_deck = \
+                np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # todo(oriyan/mar): create new deck from database representation

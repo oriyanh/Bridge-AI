@@ -31,10 +31,10 @@ def run_all_single_action_matches():
     for i in range(len(all_single_action_func)):
         for j in range(len(all_single_action_func)):
             # For each pair of agents
-            agent0, agent1 = all_single_action_func[i], all_single_action_func[
-                j]
-            print(
-                f"{all_single_action_names[i]} vs. {all_single_action_names[j]}")
+            agent0, agent1 =\
+                all_single_action_func[i], all_single_action_func[j]
+            print(f"{all_single_action_names[i]} vs. "
+                  f"{all_single_action_names[j]}")
 
             # Run match
             curr_match = Match(SimpleAgent(agent0),
@@ -91,7 +91,8 @@ def compare_ab_vs_ab_agents():
 
     # Print match result and update scores table
     print(
-        f"Score: {curr_match.games_counter[0]:02} - {curr_match.games_counter[1]:02}\n")
+        f"Score: {curr_match.games_counter[0]:02} - "
+        f"{curr_match.games_counter[1]:02}\n")
 
 
 def run_all_single_action_vs_ab_matches(depth):

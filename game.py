@@ -63,7 +63,7 @@ class Game:
         for player, card in self.curr_trick.items():
             ret += f"{player}:{card}  "
         if len(self.curr_trick) == 4:
-            ret += f",  {self.players[self.curr_trick.get_winner()]} won trick."
+            ret += f", {self.players[self.curr_trick.get_winner()]} won trick."
         ret += f"\n"
 
         for player in self.players.values():
@@ -103,7 +103,6 @@ class Game:
         Called when its' the givens' player turn. The player will pick a
         action to play and it will be taken out of his hand a placed into the
         trick.
-        :param player: The player who's turn it is.
         :return: None
         """
         if self.teams[0].has_player(self.curr_player):
