@@ -207,7 +207,7 @@ class Deck:
                                                                       13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
-        # TODO [oriyan/mar] create new deck from database representation
+        # todo(oriyan/mar): create new deck from database representation
 
 
 class Hand:

@@ -52,7 +52,7 @@ class Team:
         self.players = [p0, p1]
         self.teammate = {p0.position: p1,
                          p1.position: p0}
-        # todo maybe add the score directly into the team object?
+        # todo(maryna): maybe add the score directly into the team object?
 
     def __copy__(self):
         p0, p1 = self.players[0], self.players[1]
@@ -77,8 +77,8 @@ class Team:
         """
         return self.players
 
-    def get_teammate(self,
-                     p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
+    def get_teammate(self, p: Player) -> Player:
+        # todo(ORIYAN): Possibly remove?
         """
 
         :param p:

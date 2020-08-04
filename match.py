@@ -57,7 +57,8 @@ def create_game(agent, other_agent, games_counter, verbose_mode,
                 from_db=False):
     if from_db:
         pass
-    # TODO create single game from db. pay attention to players initialization + the iterator.
+    # todo(maryna): create single game from db. pay attention to players
+    #  initialization + the iterator.
     trick_counter = [0, 0, ]  # [Team 0, Team 1]
     previous_tricks = []
     game = Game(agent, other_agent, games_counter, trick_counter, verbose_mode,

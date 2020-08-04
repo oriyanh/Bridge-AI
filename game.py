@@ -20,8 +20,8 @@ class Game:
                  curr_trick: Trick = None,
                  starting_pos=None,
                  current_player=None):
-        # todo [oriyan\mar] think of life, its meaning, and everything
-        # todo also, think how to reproduce game from database - or randomly generate new game
+        # todo(oriyan/maryna): think how to reproduce game from database -
+        #  or randomly generate new game
         self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
@@ -39,7 +39,8 @@ class Game:
         self.tricks_counter = tricks_counter
         self.winning_team: int = -1
 
-        # TODO adjust the next player if it is the middle of the game taken from db
+        # todo(maryna): adjust the next player if it is the middle of the game
+        #  taken from db
         self.last_trick_winner = np.random.choice(
             POSITIONS) if not starting_pos else starting_pos
         self.curr_player = self.players[np.random.choice(POSITIONS)] \

@@ -101,7 +101,7 @@ def soft_greedy_action(state):
         return worst_move
 
     best_in_current_trick = max(state.trick.cards())
-    # todo could be a fixed bug compered to git
+    # todo(maryna): could be a fixed bug compered to git
 
     if best_move > best_in_current_trick:  # Can be best in current trick.
         weakest_wining_move = min(
@@ -219,7 +219,7 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 
 # ---------------------------------MCTSAgent--------------------------------- #
 
-# TODO(ram): Create MCTS Agent prototype
+# todo(ram): Create MCTS Agent prototype
 # class MCTSAgent(IAgent):
 #     def __init__(self, action_chooser_function='random_action', MCTSNode):
 #         self.action_chooser_function = util.lookup(action_chooser_function,
