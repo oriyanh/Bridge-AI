@@ -1,7 +1,8 @@
+from copy import copy
 from typing import Dict, KeysView, ValuesView, ItemsView
+
 from cards import Suit, Card
 from players import POSITIONS, Player, PositionEnum
-from copy import copy
 
 
 class Trick:

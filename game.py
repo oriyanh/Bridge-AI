@@ -1,11 +1,11 @@
 import os
 from typing import List
 
-from multi_agents import *
 from cards import Deck
+from multi_agents import *
 from players import POSITIONS, Player, TEAMS, Team
-from trick import Trick
 from state import State
+from trick import Trick
 
 
 class Game:
@@ -29,8 +29,10 @@ class Game:
 
         self.deck = Deck()
         hands = self.deck.deal()
-        self.players = {pos: Player(pos, hand) for pos, hand in zip(POSITIONS, hands)}
-        self.teams = [Team(self.players[pos1], self.players[pos2]) for pos1, pos2 in TEAMS]
+        self.players = {pos: Player(pos, hand) for pos, hand in
+                        zip(POSITIONS, hands)}
+        self.teams = [Team(self.players[pos1], self.players[pos2]) for
+                      pos1, pos2 in TEAMS]
 
         self.curr_trick = curr_trick
         self.previous_tricks = previous_tricks
@@ -38,8 +40,9 @@ class Game:
         self.winning_team: int = -1
 
         # TODO adjust the next player if it is the middle of the game taken from db
-        self.last_trick_winner = np.random.choice(POSITIONS) if not starting_pos else starting_pos
-        self.curr_player = self.players[np.random.choice(POSITIONS)]  \
+        self.last_trick_winner = np.random.choice(
+            POSITIONS) if not starting_pos else starting_pos
+        self.curr_player = self.players[np.random.choice(POSITIONS)] \
             if not current_player else current_player
         self._state = None
 
@@ -66,6 +69,7 @@ class Game:
             ret += f"\n{player}\n{player.hand}"
 
         return ret
+
     #
     # def clear_trick(self) -> None:
     #     """
@@ -91,8 +95,10 @@ class Game:
         """
         if initial_state is None:
             score = {self.teams[0]: 0, self.teams[1]: 0}
-            initial_state = State(self.curr_trick, self.teams, list(self.players.values()),
-                                  self.previous_tricks, score, self.curr_player)
+            initial_state = State(self.curr_trick, self.teams,
+                                  list(self.players.values()),
+                                  self.previous_tricks, score,
+                                  self.curr_player)
         self._state = initial_state
         self.game_loop()
 

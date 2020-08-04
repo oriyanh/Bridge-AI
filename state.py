@@ -1,10 +1,12 @@
 from copy import copy
+
 from players import PLAYERS_CYCLE
 from trick import Trick
 
 
 class State:
-    def __init__(self, trick, teams, players, prev_tricks, score, curr_player=None) -> None:
+    def __init__(self, trick, teams, players, prev_tricks, score,
+                 curr_player=None) -> None:
         self.trick = trick
         self.teams = teams
         self.players = players
@@ -13,15 +15,17 @@ class State:
         self.curr_player = curr_player
 
     def get_successors(self, action):
-        assert(action in self.get_legal_actions())
+        assert (action in self.get_legal_actions())
 
         teams = [copy(self.teams[i]) for i in range(len(self.teams))]
-        score = {teams[i]: self.score[team] for i, team in enumerate(self.teams)}
+        score = {teams[i]: self.score[team] for i, team in
+                 enumerate(self.teams)}
         players = teams[0].get_players() + teams[1].get_players()
         trick = self.trick.create_from_other_players(players)
         curr_player = [p for p in players if p == self.curr_player][0]
 
-        successor = State(trick, teams, players, self.prev_tricks, score, curr_player)
+        successor = State(trick, teams, players, self.prev_tricks, score,
+                          curr_player)
         successor.apply_action(action)
         return successor
 
@@ -30,7 +34,8 @@ class State:
         assert (len(self.trick) < len(players_pos))
         self.curr_player.play_card(card)
         self.trick.add_card(self.curr_player, card)
-        if len(self.trick) == len(players_pos):  # last card played - open new trick
+        if len(self.trick) == len(
+                players_pos):  # last card played - open new trick
             if is_real_game:
                 self.prev_tricks.append(copy(self.trick))
             self.curr_player = self.trick.get_winner()
@@ -38,7 +43,8 @@ class State:
             self.score[self.teams[i]] += 1
             self.trick = Trick({})
         else:
-            self.curr_player = players_pos[PLAYERS_CYCLE[self.curr_player.position]]
+            self.curr_player = players_pos[
+                PLAYERS_CYCLE[self.curr_player.position]]
 
     def get_legal_actions(self):
         return self.curr_player.get_legal_actions(self.trick)
@@ -55,4 +61,3 @@ class State:
         if len(self.curr_player.hand) == 0:
             return True
         return False
-

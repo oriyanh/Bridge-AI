@@ -2,10 +2,11 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
-import numpy as np
-from dataclasses import dataclass
 from enum import Enum
 from typing import List
+
+import numpy as np
+from dataclasses import dataclass
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
@@ -123,7 +124,8 @@ class Suit:
             if other.is_trump:
                 return True
 
-            return SUITS.index(self.suit_type.value) > SUITS.index(other.suit_type.value)
+            return SUITS.index(self.suit_type.value) > SUITS.index(
+                other.suit_type.value)
 
         return False
 
@@ -153,7 +155,8 @@ class Card:
         self.suit = Suit(suit_type)
         self.is_trump = self.suit.is_trump
         if face.capitalize() not in FACES:
-            raise ValueError(f"Unsupported Card Value {face}, must be one of {set(FACES)}")
+            raise ValueError(
+                f"Unsupported Card Value {face}, must be one of {set(FACES)}")
 
         self.face = face.capitalize()
 
@@ -177,7 +180,8 @@ class Card:
             return FACES.index(self.face) < FACES.index(other.face)
 
         return SUITS.index(self.suit.suit_type.value) < SUITS.index(
-            self.suit.suit_type.value) and FACES.index(self.face) < FACES.index(other.face)
+            self.suit.suit_type.value) and FACES.index(
+            self.face) < FACES.index(other.face)
 
     def __gt__(self, other):
         return other < self
@@ -199,7 +203,8 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4, 13).tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4,
+                                                                      13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # TODO [oriyan/mar] create new deck from database representation

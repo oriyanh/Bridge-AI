@@ -1,12 +1,13 @@
-from numpy.random import seed
+from argparse import ArgumentParser
 from os import system
 from sys import stdout
-from tqdm import tqdm
 from typing import List
-from argparse import ArgumentParser
 
-from multi_agents import *
+from numpy.random import seed
+from tqdm import tqdm
+
 from game import Game
+from multi_agents import *
 from trick import Trick
 
 NUM_GAMES = 3
@@ -52,8 +53,8 @@ class Match:
             print(self)
 
 
-def create_game(agent, other_agent, games_counter, verbose_mode, from_db=False):
-
+def create_game(agent, other_agent, games_counter, verbose_mode,
+                from_db=False):
     if from_db:
         pass
     # TODO create single game from db. pay attention to players initialization + the iterator.
@@ -74,7 +75,8 @@ def parse_args():
 
 
 def run_match():
-    match = Match(SingleActionAgent(), SingleActionAgent('soft_greedy_action'), NUM_GAMES)
+    match = Match(SingleActionAgent(), SingleActionAgent('soft_greedy_action'),
+                  NUM_GAMES)
     match.run()
 
 

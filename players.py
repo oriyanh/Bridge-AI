@@ -1,6 +1,7 @@
+from copy import copy
 from enum import Enum
 from typing import List
-from copy import copy
+
 from cards import Hand, Card
 
 PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
@@ -9,8 +10,10 @@ POSITIONS = list(PositionEnum)
 
 TEAMS = [(PositionEnum.N, PositionEnum.S), (PositionEnum.W, PositionEnum.E)]
 
-PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E, PositionEnum.E: PositionEnum.S,
-                 PositionEnum.S: PositionEnum.W, PositionEnum.W: PositionEnum.N}
+PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
+                 PositionEnum.E: PositionEnum.S,
+                 PositionEnum.S: PositionEnum.W,
+                 PositionEnum.W: PositionEnum.N}
 
 
 class Player:
@@ -74,7 +77,8 @@ class Team:
         """
         return self.players
 
-    def get_teammate(self, p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
+    def get_teammate(self,
+                     p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
         """
 
         :param p:

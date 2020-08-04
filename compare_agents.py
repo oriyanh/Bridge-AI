@@ -6,22 +6,22 @@ from match import *
 GAMES_PER_MATCH = 100
 
 all_single_action_names = ['HighestFirstAgent',
-              'LowestFirstAgent',
-              'RandomAgent',
-              'HardGreedyAgent',
-              'SoftGreedyAgent', ]
+                           'LowestFirstAgent',
+                           'RandomAgent',
+                           'HardGreedyAgent',
+                           'SoftGreedyAgent', ]
 
 all_single_action_func = ['highest_first_action',
-              'lowest_first_action',
-              'random_action',
-              'hard_greedy_action',
-              'soft_greedy_action', ]
+                          'lowest_first_action',
+                          'random_action',
+                          'hard_greedy_action',
+                          'soft_greedy_action', ]
 
 all_ab_evaluation_func = ['is_target_reached_evaluation_function',
                           'count_tricks_won_evaluation_function']
 
 all_ab_evaluation_names = ['reach target',
-                          'count of tricks won']
+                           'count of tricks won']
 
 results = np.empty((len(all_single_action_func), len(all_single_action_func)))
 results[:] = np.nan
@@ -31,11 +31,14 @@ def run_all_single_action_matches():
     for i in range(len(all_single_action_func)):
         for j in range(len(all_single_action_func)):
             # For each pair of agents
-            agent0, agent1 = all_single_action_func[i], all_single_action_func[j]
-            print(f"{all_single_action_names[i]} vs. {all_single_action_names[j]}")
+            agent0, agent1 = all_single_action_func[i], all_single_action_func[
+                j]
+            print(
+                f"{all_single_action_names[i]} vs. {all_single_action_names[j]}")
 
             # Run match
-            curr_match = Match(SingleActionAgent(agent0), SingleActionAgent(agent1),
+            curr_match = Match(SingleActionAgent(agent0),
+                               SingleActionAgent(agent1),
                                GAMES_PER_MATCH, False)
             curr_match.run()
 
@@ -87,14 +90,16 @@ def compare_ab_vs_ab_agents():
     curr_match.run()
 
     # Print match result and update scores table
-    print(f"Score: {curr_match.games_counter[0]:02} - {curr_match.games_counter[1]:02}\n")
+    print(
+        f"Score: {curr_match.games_counter[0]:02} - {curr_match.games_counter[1]:02}\n")
 
 
 def run_all_single_action_vs_ab_matches(depth):
     for i in range(len(all_single_action_func)):
         agent0 = all_single_action_func[i]
         print(f"{all_single_action_names[i]} vs. alfa beta")
-        curr_match = Match(SingleActionAgent(agent0), AlphaBetaAgent(depth=depth),
+        curr_match = Match(SingleActionAgent(agent0),
+                           AlphaBetaAgent(depth=depth),
                            GAMES_PER_MATCH, False)
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
@@ -102,7 +107,8 @@ def run_all_single_action_vs_ab_matches(depth):
         results[i, 0] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
 
         print(f"alfa beta vs. {all_single_action_names[i]}")
-        curr_match = Match(AlphaBetaAgent(depth=depth), SingleActionAgent(agent0),
+        curr_match = Match(AlphaBetaAgent(depth=depth),
+                           SingleActionAgent(agent0),
                            GAMES_PER_MATCH, False)
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
