@@ -25,9 +25,9 @@ class IAgent(ABC):
         raise NotImplementedError
 
 
-# ---------------------------MultiAgentSingleAction-------------------------- #
+# ---------------------------------SimpleAgent------------------------------- #
 
-class SingleActionAgent(IAgent):
+class SimpleAgent(IAgent):
     def __init__(self, action_chooser_function='random_action', target=None):
         self.action_chooser_function = util.lookup(action_chooser_function,
                                                    globals())
@@ -118,7 +118,8 @@ class MultiAgentSearchAgent(IAgent):
                  depth=2, target=None):
         """
         :param evaluation_function:
-        :param depth: -1 for full tree, any other number > 1 for depth bounded tree
+        :param depth: -1 for full tree, any other number for depth bounded
+        tree
         """
         self.evaluation_function = util.lookup(evaluation_function, globals())
         self.depth = depth
@@ -218,6 +219,7 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 
 # ---------------------------------MCTSAgent--------------------------------- #
 
+# TODO(ram): Create MCTS Agent prototype
 # class MCTSAgent(IAgent):
 #     def __init__(self, action_chooser_function='random_action', MCTSNode):
 #         self.action_chooser_function = util.lookup(action_chooser_function,
