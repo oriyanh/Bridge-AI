@@ -160,7 +160,9 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                     a = next_child_score
                 if b <= a:
                     break
-            # print(f"{legal_moves}, count: {len(legal_moves)}, index: {chosen_index}")
+            # print(f"{legal_moves}, "
+            #       f"count: {len(legal_moves)}, "
+            #       f"index: {chosen_index}")
             return legal_moves[chosen_index]
 
     def score(self, state, max_depth, curr_depth, is_max, a, b):
@@ -240,7 +242,7 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 #             node = best_uct(node)
 #
 #             # in case no children are present / node is terminal
-#         return pick_univisted(node.children) or node
+#         return pick_unvisited(node.children) or node
 
 
 # ---------------------------------HumanAgent-------------------------------- #
