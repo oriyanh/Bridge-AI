@@ -70,24 +70,6 @@ class Game:
 
         return ret
 
-    #
-    # def clear_trick(self) -> None:
-    #     """
-    #     Called once all 4 cards placed in trick. Decided winner, updates
-    #     tricks winning counter, clears trick.
-    #     :return: None
-    #     """
-    #     self.last_trick_winner = self.curr_trick.get_winner()
-    #
-    #     if self.teams[0].has_player(self.players[self.last_trick_winner]):
-    #         self.tricks_counter[0] += 1  # Team 0 won trick
-    #     else:
-    #         self.tricks_counter[1] += 1  # Team 1 won trick
-    #
-    #     self.previous_tricks.append(self.curr_trick)
-    #     self.curr_trick = Trick({})
-    #     self._state.trick = self.curr_trick
-
     def run(self, initial_state=None) -> None:
         """
         Main game runner.
