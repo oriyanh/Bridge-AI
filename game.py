@@ -3,7 +3,7 @@ from typing import List
 
 from multi_agents import *
 from cards import Deck
-from players import POSITIONS, Player, TEAMS, Team
+from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from trick import Trick
 from state import State
 
@@ -18,8 +18,7 @@ class Game:
                  verbose_mode: bool = True,
                  previous_tricks: List[Trick] = None,
                  curr_trick: Trick = None,
-                 starting_pos=None,
-                 current_player=None):
+                 starting_pos: PositionEnum = None):
         # todo also, think how to reproduce game from database - or randomly generate new game
         self.agent = agent
         self.other_agent = other_agent
@@ -37,9 +36,9 @@ class Game:
         self.winning_team: int = -1
 
         # TODO adjust the next player if it is the middle of the game taken from db
-        self.last_trick_winner = np.random.choice(POSITIONS) if not starting_pos else starting_pos
-        self.curr_player = self.players[np.random.choice(POSITIONS)]  \
-            if not current_player else current_player
+        if starting_pos is None:
+            starting_pos = np.random.choice(POSITIONS)
+        self.curr_player = self.players[starting_pos]
         self._state = None
 
     def __str__(self):
@@ -78,7 +77,7 @@ class Game:
         self._state = initial_state
         self.game_loop()
 
-    def game_loop(self):
+    def game_loop(self) -> None:
         while max(self.tricks_counter) < 13 // 2 + 1:  # Winner is determined.
 
             for i in range(len(POSITIONS)):  # Play all hands
@@ -96,8 +95,6 @@ class Game:
         Called when its' the givens' player turn. The player will pick a
         action to play and it will be taken out of his hand a placed into the
         trick.
-        :param player: The player who's turn it is.
-        :return: None
         """
         if self.teams[0].has_player(self.curr_player):
             card = self.agent.get_action(self._state)
@@ -106,7 +103,7 @@ class Game:
 
         self._state.apply_action(card, True)
         self.curr_trick = self._state.trick
-        self.curr_player = self._state.curr_player
+        self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
 

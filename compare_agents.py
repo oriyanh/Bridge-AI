@@ -6,22 +6,22 @@ from match import *
 GAMES_PER_MATCH = 100
 
 all_single_action_names = ['HighestFirstAgent',
-              'LowestFirstAgent',
-              'RandomAgent',
-              'HardGreedyAgent',
-              'SoftGreedyAgent', ]
+                           'LowestFirstAgent',
+                           'RandomAgent',
+                           'HardGreedyAgent',
+                           'SoftGreedyAgent', ]
 
 all_single_action_func = ['highest_first_action',
-              'lowest_first_action',
-              'random_action',
-              'hard_greedy_action',
-              'soft_greedy_action', ]
+                          'lowest_first_action',
+                          'random_action',
+                          'hard_greedy_action',
+                          'soft_greedy_action', ]
 
 all_ab_evaluation_func = ['is_target_reached_evaluation_function',
                           'count_tricks_won_evaluation_function']
 
 all_ab_evaluation_names = ['reach target',
-                          'count of tricks won']
+                           'count of tricks won']
 
 results = np.empty((len(all_single_action_func), len(all_single_action_func)))
 results[:] = np.nan

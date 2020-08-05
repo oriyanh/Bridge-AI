@@ -15,6 +15,8 @@ seed(0)
 
 
 class Match:
+    """ Represents a series of games of bridge, with same opponents."""
+
     def __init__(self,
                  agent: IAgent,
                  other_agent: IAgent,
@@ -53,7 +55,7 @@ class Match:
 
 
 def create_game(agent, other_agent, games_counter, verbose_mode, from_db=False):
-
+    """ Returns Game object, either new random game or a game initialized from game DB"""
     if from_db:
         pass
     # TODO create single game from db. pay attention to players initialization + the iterator.
@@ -65,6 +67,7 @@ def create_game(agent, other_agent, games_counter, verbose_mode, from_db=False):
 
 
 def parse_args():
+    """ Parses command line arguments. To be implemented."""
     parser = ArgumentParser()
     parser.add_argument('--agent1')
     parser.add_argument('--agent2')

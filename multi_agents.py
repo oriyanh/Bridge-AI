@@ -1,17 +1,39 @@
 import numpy as np
 
-import util
 from abc import ABC, abstractmethod
 from cards import Card
 from state import State
 
 FULL_TREE = -1
 
+def lookup(name, namespace):
+    """
+    Get a method or class from any imported module from its name.
+    Usage: lookup(functionName, globals())
+    :returns: method/class reference
+    :raises Exception: If the number of classes/methods existing in namespace with name is != 1
+    """
+
+    dots = name.count('.')
+    if dots > 0:
+        moduleName, objName = '.'.join(name.split('.')[:-1]), name.split('.')[-1]
+        module = __import__(moduleName)
+        return getattr(module, objName)
+    else:
+        modules = [obj for obj in namespace.values() if str(type(obj)) == "<type 'module'>"]
+        options = [getattr(module, name) for module in modules if name in dir(module)]
+        options += [obj[1] for obj in namespace.items() if obj[0] == name]
+        if len(options) == 1: return options[0]
+        if len(options) > 1: raise Exception('Name conflict for %s')
+        raise Exception('%s not found as a method or class' % name)
 
 class IAgent(ABC):
+    """ Interface for bridge-playing agents."""
+
     @abstractmethod
     def __init__(self, target):
-        self.target = target
+        self.target = target  # TODO [oriyan] Not completely sure what this should be -
+                            # it is only used in one place compared to a player's score. Do we need this? Investigate later.
 
     @abstractmethod
     def get_action(self, state: State) -> Card:
@@ -26,8 +48,15 @@ class IAgent(ABC):
 # ------------------------------------MultiAgentSingleAction------------------------------------- #
 
 class SingleActionAgent(IAgent):
+    """ Deterministic agent that plays according to input action."""
+
     def __init__(self, action_chooser_function='random_action', target=None):
-        self.action_chooser_function = util.lookup(action_chooser_function, globals())
+        """
+
+        :param str action_chooser_function: name of action to take . Should be a function [State] -> Card
+        :param target: See comment in IAgent's constructor
+        """
+        self.action_chooser_function = lookup(action_chooser_function, globals())
         super().__init__(target)
 
     def get_action(self, state):
@@ -37,8 +66,8 @@ class SingleActionAgent(IAgent):
 def random_action(state):
     """
     Picks random action.
-    :param state:
-    :return:
+    :param State state:
+    :returns Card: action to take
     """
     return np.random.choice(state.get_legal_actions())
 
@@ -46,8 +75,8 @@ def random_action(state):
 def lowest_first_action(state):
     """
     Always picks the lowest value action.
-    :param state:
-    :return:
+    :param State state:
+    :returns Card: action to take
     """
     return min(state.get_legal_actions())
 
@@ -55,8 +84,8 @@ def lowest_first_action(state):
 def highest_first_action(state):
     """
     Always picks the highest value action
-    :param state:
-    :return:
+    :param State state:
+    :returns Card: action to take
     """
     return max(state.get_legal_actions())
 
@@ -65,8 +94,8 @@ def hard_greedy_action(state):
     """
     If can beat current trick cards - picks highest value action available.
     If cannot - picks lowest value action.
-    :param state:
-    :return:
+    :param State state:
+    :returns Card: action to take
     """
     legal_moves = state.get_legal_actions()
     best_move = max(legal_moves)
@@ -87,8 +116,8 @@ def soft_greedy_action(state):
     If can beat current trick cards - picks the lowest value action available
     that can become the current best in trick.
     If cannot - picks lowest value action.
-    :param state:
-    :return:
+    :param State state:
+    :returns Card: action to take
     """
     legal_moves = state.get_legal_actions()
     worst_move = min(legal_moves)
@@ -109,29 +138,34 @@ def soft_greedy_action(state):
 
 
 class MultiAgentSearchAgent(IAgent):
+    """Abstract agent implementing IAgent that searches a game tree"""
+
     def __init__(self, evaluation_function='score_evaluation_function', depth=2, target=None):
         """
-        :param evaluation_function:
-        :param depth: -1 for full tree, any other number > 1 for depth bounded tree
+        :param evaluation_function: function mapping (State, *args) -> Card ,
+            where *args is determined by the agent itself.
+        :param int depth: -1 for full tree, any other number > 1 for depth bounded tree
+        :param target:
         """
-        self.evaluation_function = util.lookup(evaluation_function, globals())
+        self.evaluation_function = lookup(evaluation_function, globals())
         self.depth = depth
         super().__init__(target)
 
-    def get_action(self, state):
-        pass
-
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
+    """ Agent implementing AlphaBeta pruning (with MinMax tree search)"""
+
     def __init__(self, evaluation_function='count_tricks_won_evaluation_function', depth=2, target=None):
         super().__init__(evaluation_function, depth, target)
 
     def get_action(self, state):
         legal_moves = state.get_legal_actions()
-        successors = [state.get_successors(action=action) for action in legal_moves]
+        successors = [state.get_successor(action=action) for action in legal_moves]
 
         if self.depth == 0:
-            scores = [self.evaluation_function(successor) for successor in successors]
+            scores = [self.evaluation_function(successor) for successor in successors]  # TODO [oriyan] Maryna,
+                                                                                        # why use the evaluation function with no parameters here,
+                                                                                        # and in self.score with parameters?
             best_score = max(scores)
             best_indices = [index for index in range(len(scores)) if scores[index] == best_score]
             chosen_index = np.random.choice(best_indices)  # Pick randomly among the best
@@ -146,12 +180,18 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                     a = next_child_score
                 if b <= a:
                     break
-            # print(f"{legal_moves}, count: {len(legal_moves)}, index: {chosen_index}")
             return legal_moves[chosen_index]
 
     def score(self, state, max_depth, curr_depth, is_max, a, b):
-        """
-        a - the best value for max, b - the best value for min
+        """ Recursive method returning score for current state (the node in search tree).
+
+        :param State state: State of game
+        :param int max_depth: Max tree depth to search
+        :param int curr_depth: Current depth in search tree
+        :param bool is_max: True if current player is Max player, False if Min player
+        :param float a: Current alpha score
+        :param float b: Current beta score
+        :returns float: Score for current state (the node)
         """
         if curr_depth == max_depth:
             return self.evaluation_function(state, is_max, self.target)
@@ -162,7 +202,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         if not legal_moves:
             return self.evaluation_function(state, is_max, self.target)
-        possible_states = [state.get_successors(action=action) for action in legal_moves]
+        possible_states = [state.get_successor(action=action) for action in legal_moves]
 
         if is_max:
             for next_state in possible_states:
@@ -185,6 +225,15 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
 
 def is_target_reached_evaluation_function(state, is_max=True, target=None):
+    """
+    Score of state is 1 if current player is Max player and target has been reached.
+    0 Otherwise.
+
+    :param State state: game state
+    :param bool is_max: is max player
+    :param target:
+    :returns float: score of state
+    """
     if not target:
         return 0
     # if max return True if met the score of the team of the current player
@@ -196,6 +245,14 @@ def is_target_reached_evaluation_function(state, is_max=True, target=None):
 
 
 def count_tricks_won_evaluation_function(state, is_max=True, target=None):
+    """
+    weighted score of current state with respect to is_max, and number of tricks this player has won.
+
+    :param State state: game state
+    :param bool is_max: is max player
+    :param target:
+    :returns float: score of state
+    """
     value = 20 * state.get_score(is_max) + len(state.get_legal_actions())
     return value
 
