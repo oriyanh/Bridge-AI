@@ -45,6 +45,9 @@ class Game:
             POSITIONS) if not starting_pos else starting_pos
         self.curr_player = self.players[np.random.choice(POSITIONS)] \
             if not current_player else current_player
+
+        # todo(ram): remove object attributes that are already included in
+        #  the state attribute
         self._state = None
 
     def __str__(self):
