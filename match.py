@@ -1,13 +1,13 @@
-from argparse import ArgumentParser
+from numpy.random import seed
 from os import system
 from sys import stdout
-from typing import List
-
-from numpy.random import seed
 from tqdm import tqdm
+from typing import List
+from argparse import ArgumentParser
 
-from agents import *
+from multi_agents import *
 from game import Game
+from trick import Trick
 
 NUM_GAMES = 3
 
@@ -15,9 +15,11 @@ seed(0)
 
 
 class Match:
+    """ Represents a series of games of bridge, with same opponents."""
+
     def __init__(self,
-                 agent: Agent,
-                 other_agent: Agent,
+                 agent: IAgent,
+                 other_agent: IAgent,
                  num_games: int,
                  verbose_mode: bool = True):
         self.agent = agent
@@ -42,8 +44,8 @@ class Match:
         """
         for _ in tqdm(range(self.num_games),
                       leave=False, disable=self.verbose_mode, file=stdout):
-            curr_game = Game(self.agent, self.other_agent,
-                             self.games_counter, self.verbose_mode)
+            curr_game = create_game(self.agent, self.other_agent,
+                                    self.games_counter, self.verbose_mode)
             curr_game.run()
             self.games_counter[curr_game.winning_team] += 1
 
@@ -52,7 +54,20 @@ class Match:
             print(self)
 
 
+def create_game(agent, other_agent, games_counter, verbose_mode, from_db=False):
+    """ Returns Game object, either new random game or a game initialized from game DB"""
+    if from_db:
+        pass
+    # TODO create single game from db. pay attention to players initialization + the iterator.
+    trick_counter = [0, 0, ]  # [Team 0, Team 1]
+    previous_tricks = []
+    game = Game(agent, other_agent, games_counter, trick_counter, verbose_mode,
+                previous_tricks, Trick({}))
+    return game
+
+
 def parse_args():
+    """ Parses command line arguments. To be implemented."""
     parser = ArgumentParser()
     parser.add_argument('--agent1')
     parser.add_argument('--agent2')
@@ -61,7 +76,11 @@ def parse_args():
     return args
 
 
+def run_match():
+    match = Match(SingleActionAgent(), SingleActionAgent('soft_greedy_action'), NUM_GAMES)
+    match.run()
+
+
 if __name__ == '__main__':
-    game = Match(RandomAgent(), SoftGreedyAgent(), NUM_GAMES)
-    game.run()
+    run_match()
     input()
