@@ -2,11 +2,10 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
-from enum import Enum
-from typing import List
-
 import numpy as np
 from dataclasses import dataclass
+from enum import Enum
+from typing import List
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
@@ -81,7 +80,6 @@ class TrumpType(Enum):
 
 
 class Trump:
-
     def __init__(self):
         self._suit_type = TrumpType.NT
 
@@ -205,8 +203,7 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,
-                                                                      13).tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # TODO [oriyan/mar] create new deck from database representation
@@ -215,8 +212,14 @@ class Deck:
 class Hand:
     def __init__(self, cards: List[Card]):
         # self.cards = set(cards)
-        self.cards = sorted(cards,
-                            reverse=True)  # The sorting is needed for the agents!
+        self.cards = cards
+
+    def __len__(self):
+        return len(self.cards)
+
+    def __copy__(self):
+        cards = [card for card in self.cards]
+        return Hand(cards)
 
     def play_card(self, card):
         self.cards.remove(card)
