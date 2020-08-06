@@ -32,12 +32,14 @@ class State:
         assert (action in self.get_legal_actions())
 
         teams = [copy(self.teams[i]) for i in range(len(self.teams))]
-        score = {teams[i]: self.score[team] for i, team in enumerate(self.teams)}
+        score = {teams[i]: self.score[team] for i, team in
+                 enumerate(self.teams)}
         players = teams[0].get_players() + teams[1].get_players()
         trick = self.trick.create_from_other_players(players)
         curr_player = [p for p in players if p == self.curr_player][0]
 
-        successor = State(trick, teams, players, self.prev_tricks, score, curr_player)
+        successor = State(trick, teams, players, self.prev_tricks, score,
+                          curr_player)
         successor.apply_action(action)
         return successor
 

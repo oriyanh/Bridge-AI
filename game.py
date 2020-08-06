@@ -1,11 +1,13 @@
 import os
 from typing import List
 
-from multi_agents import *
 from cards import Deck
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from trick import Trick
+from multi_agents import *
+from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
+from trick import Trick
 
 
 class Game:
@@ -19,23 +21,26 @@ class Game:
                  previous_tricks: List[Trick] = None,
                  curr_trick: Trick = None,
                  starting_pos: PositionEnum = None):
-        # todo also, think how to reproduce game from database - or randomly generate new game
-        self.agent = agent
+        # todo(oriyan/maryna): think how to reproduce game from database -
+        #  or randomly generate new game        self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode
 
         self.deck = Deck()
         hands = self.deck.deal()
-        self.players = {pos: Player(pos, hand) for pos, hand in zip(POSITIONS, hands)}
-        self.teams = [Team(self.players[pos1], self.players[pos2]) for pos1, pos2 in TEAMS]
+        self.players = {pos: Player(pos, hand) for pos, hand in
+                        zip(POSITIONS, hands)}
+        self.teams = [Team(self.players[pos1], self.players[pos2]) for
+                      pos1, pos2 in TEAMS]
 
         self.curr_trick = curr_trick
         self.previous_tricks = previous_tricks
         self.tricks_counter = tricks_counter
         self.winning_team: int = -1
 
-        # TODO adjust the next player if it is the middle of the game taken from db
+        # todo(maryna): adjust the next player if it is the middle of the game
+        #  taken from db
         if starting_pos is None:
             starting_pos = np.random.choice(POSITIONS)
         self.curr_player = self.players[starting_pos]
@@ -57,7 +62,7 @@ class Game:
         for player, card in self.curr_trick.items():
             ret += f"{player}:{card}  "
         if len(self.curr_trick) == 4:
-            ret += f",  {self.players[self.curr_trick.get_winner()]} won trick."
+            ret += f", {self.players[self.curr_trick.get_winner()]} won trick."
         ret += f"\n"
 
         for player in self.players.values():
@@ -72,8 +77,10 @@ class Game:
         """
         if initial_state is None:
             score = {self.teams[0]: 0, self.teams[1]: 0}
-            initial_state = State(self.curr_trick, self.teams, list(self.players.values()),
-                                  self.previous_tricks, score, self.curr_player)
+            initial_state = State(self.curr_trick, self.teams,
+                                  list(self.players.values()),
+                                  self.previous_tricks, score,
+                                  self.curr_player)
         self._state = initial_state
         self.game_loop()
 
