@@ -1,4 +1,5 @@
 import os
+from itertools import cycle
 from typing import List
 
 from cards import Deck

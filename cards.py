@@ -2,11 +2,11 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
+import numpy as np
+from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
-import numpy as np
-from dataclasses import dataclass
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
@@ -42,8 +42,8 @@ class SuitType(Enum):
             return SuitType[suit_key]
 
         except KeyError:
-            raise ValueError(f"Unsupported Suit {suit}. Must be one of "
-                             f"{set(suit.name for suit in list(SuitType))}")
+            raise ValueError(f"Unsupported Suit {suit}. "
+                             f"Must be one of {set(suit.name for suit in list(SuitType))}")
 
 
 class TrumpType(Enum):
@@ -76,11 +76,12 @@ class TrumpType(Enum):
             return SuitType[suit_key]
 
         except KeyError:
-            raise ValueError(f"Unsupported Suit {suit}. Must be one of "
-                             f"{set(suit.name for suit in list(SuitType))}")
+            raise ValueError(f"Unsupported Suit {suit}. "
+                             f"Must be one of {set(suit.name for suit in list(SuitType))}")
 
 
 class Trump:
+
     def __init__(self):
         self._suit_type = TrumpType.NT
 
@@ -93,13 +94,13 @@ class Trump:
         self._suit_type = new_suit
 
 
-Trump_singleton = Trump()
+trump_singleton = Trump()
 
 
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: Trump = Trump_singleton
+    trump_suit: Trump = trump_singleton
 
     @property
     def is_trump(self):
@@ -141,7 +142,7 @@ class Suit:
 
 class Card:
     """
-    A playing action.
+    A playing card.
     """
 
     def __init__(self, face: str, suit: str):
@@ -194,6 +195,7 @@ class Card:
 
 
 class Deck:
+
     def __init__(self):
         self.cards = []
         for face in FACES:
@@ -203,8 +205,8 @@ class Deck:
 
     def deal(self, recreate_game=''):
         if not recreate_game:
-            shuffled_deck = \
-                np.random.permutation(self.cards).reshape(4, 13).tolist()
+            shuffled_deck = np.random.permutation(self.cards).reshape(4,
+                                                                      13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # todo(oriyan/mar): create new deck from database representation

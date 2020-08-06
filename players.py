@@ -16,6 +16,7 @@ PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
                  PositionEnum.W: PositionEnum.N}
 
 
+
 class Player:
     def __init__(self, position: PositionEnum, hand: Hand):
         self.position = position
@@ -77,7 +78,8 @@ class Team:
         """
         return self.players
 
-    def get_teammate(self, p: Player) -> Player:
+    def get_teammate(self,
+                     p: Player) -> Player:
         # todo(oriyan): Possibly remove?
         """
 
