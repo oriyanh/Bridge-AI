@@ -2,8 +2,6 @@ import os
 from typing import List
 
 from cards import Deck
-from players import POSITIONS, Player, PositionEnum, TEAMS, Team
-from trick import Trick
 from multi_agents import *
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
@@ -22,7 +20,8 @@ class Game:
                  curr_trick: Trick = None,
                  starting_pos: PositionEnum = None):
         # todo(oriyan/maryna): think how to reproduce game from database -
-        #  or randomly generate new game        self.agent = agent
+        #  or randomly generate new game
+        self.agent = agent
         self.other_agent = other_agent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode

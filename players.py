@@ -3,7 +3,6 @@ from enum import Enum
 from typing import List
 
 from cards import Hand, Card
-from trick import Trick
 
 
 PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
@@ -39,10 +38,10 @@ class Player:
         """ Plays card from hand. card is no longer available."""
         self.hand.play_card(card)
 
-    def get_legal_actions(self, trick: Trick) -> List[Card]:
+    def get_legal_actions(self, trick) -> List[Card]:
         """ Returns list of legal actions for player in current trick
 
-        :param trick: Current trick
+        :param Trick trick: Current trick
         :returns: legal actions for player:
         """
         legal_actions = self.hand.get_cards_from_suite(trick.starting_suit)
