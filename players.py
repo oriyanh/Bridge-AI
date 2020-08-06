@@ -10,6 +10,10 @@ PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
 POSITIONS = list(PositionEnum)
 
 TEAMS = [(PositionEnum.N, PositionEnum.S), (PositionEnum.W, PositionEnum.E)]
+TEAMMATE = {PositionEnum.N: PositionEnum.S,
+            PositionEnum.S: PositionEnum.N,
+            PositionEnum.E: PositionEnum.W,
+            PositionEnum.W: PositionEnum.E}
 
 PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
                  PositionEnum.E: PositionEnum.S,
@@ -67,8 +71,6 @@ class Team:
 
     def __init__(self, p0: Player, p1: Player):
         self.players = [p0, p1]
-        self.teammate = {p0.position: p1,  # todo [ORIYAN] Possibly remove?
-                         p1.position: p0}
         # todo(maryna): maybe add the score directly into the team object?
 
     def __copy__(self):
@@ -90,4 +92,4 @@ class Team:
         """ Returns teammmate of player `p`"""
         # todo(oriyan): Possibly remove?
         assert (p in self.players)
-        return self.teammate[p.position]
+        return TEAMMATE[p.position]

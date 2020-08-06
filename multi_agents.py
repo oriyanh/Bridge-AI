@@ -2,6 +2,7 @@ import numpy as np
 
 from abc import ABC, abstractmethod
 from cards import Card
+from players import TEAMMATE
 from state import State
 
 FULL_TREE = -1
@@ -223,7 +224,8 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         for next_state in possible_states:
             next_player = next_state.curr_player
-            is_next_max = True if next_player != current_player else False
+            is_next_max = next_player.position != current_player.position and \
+                          next_player.position != TEAMMATE[current_player.position]
             next_depth = curr_depth + 1 if is_next_max else curr_depth
             b = min((b, self.score(next_state, max_depth,
                                    next_depth, is_next_max, a, b)))
