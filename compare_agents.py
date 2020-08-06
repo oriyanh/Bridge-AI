@@ -91,9 +91,8 @@ def compare_ab_vs_ab_agents():
     curr_match.run()
 
     # Print match result and update scores table
-    print(
-        f"Score: {curr_match.games_counter[0]:02} - "
-        f"{curr_match.games_counter[1]:02}\n")
+    print(f"Score: {curr_match.games_counter[0]:02} - "
+          f"{curr_match.games_counter[1]:02}\n")
 
 
 def run_all_simple_agents_vs_ab_matches(depth):

@@ -3,6 +3,8 @@ from enum import Enum
 from typing import List
 
 from cards import Hand, Card
+from trick import Trick
+
 
 PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
 
@@ -18,7 +20,14 @@ PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
 
 
 class Player:
+    """ Represents one of the 4 players in the game."""
+
     def __init__(self, position: PositionEnum, hand: Hand):
+        """
+
+        :param position: Position of player
+        :param hand: Initial hand of player
+        """
         self.position = position
         self.hand = hand
 
@@ -26,10 +35,16 @@ class Player:
         hand = copy(self.hand)
         return Player(self.position, hand)
 
-    def play_card(self, card: Card):
+    def play_card(self, card: Card) -> None:
+        """ Plays card from hand. card is no longer available."""
         self.hand.play_card(card)
 
-    def get_legal_actions(self, trick):
+    def get_legal_actions(self, trick: Trick) -> List[Card]:
+        """ Returns list of legal actions for player in current trick
+
+        :param trick: Current trick
+        :returns: legal actions for player:
+        """
         legal_actions = self.hand.get_cards_from_suite(trick.starting_suit)
         if not legal_actions:
             legal_actions = self.hand.cards
@@ -44,14 +59,16 @@ class Player:
     def __eq__(self, other):
         return self.position == other.position
 
-    def __hash__(self) -> int:
+    def __hash__(self):
         return hash(self.position)
 
 
 class Team:
+    """ Team of two players sitting on opposite sides of table."""
+
     def __init__(self, p0: Player, p1: Player):
         self.players = [p0, p1]
-        self.teammate = {p0.position: p1,
+        self.teammate = {p0.position: p1,  # todo [ORIYAN] Possibly remove?
                          p1.position: p0}
         # todo(maryna): maybe add the score directly into the team object?
 
@@ -64,27 +81,14 @@ class Team:
         return f"{self.players[0]}{self.players[1]}"
 
     def has_player(self, p: Player) -> bool:
-        """
-
-        :param p:
-        :return:
-        """
+        """ Is player `p` on the team """
         return p in self.players
 
     def get_players(self) -> List[Player]:
-        """
-
-        :return:
-        """
         return self.players
 
-    def get_teammate(self,
-                     p: Player) -> Player:
+    def get_teammate(self, p: Player) -> Player:
+        """ Returns teammmate of player `p`"""
         # todo(oriyan): Possibly remove?
-        """
-
-        :param p:
-        :return:
-        """
         assert (p in self.players)
         return self.teammate[p.position]

@@ -1,9 +1,7 @@
-from argparse import ArgumentParser
 from os import system
 from sys import stdout
 from typing import List
 from argparse import ArgumentParser
-
 from numpy.random import seed
 from tqdm import tqdm
 
@@ -17,6 +15,8 @@ seed(0)
 
 
 class Match:
+    """ Represents a series of games of bridge, with same opponents."""
+
     def __init__(self,
                  agent: IAgent,
                  other_agent: IAgent,
@@ -56,6 +56,7 @@ class Match:
 
 def create_game(agent, other_agent, games_counter, verbose_mode,
                 from_db=False):
+    """ Returns Game object, either new random game or a game initialized from game DB"""
     if from_db:
         pass
     # todo(maryna): create single game from db. pay attention to players
@@ -68,6 +69,7 @@ def create_game(agent, other_agent, games_counter, verbose_mode,
 
 
 def parse_args():
+    """ Parses command line arguments. To be implemented."""
     parser = ArgumentParser()
     parser.add_argument('--agent1')
     parser.add_argument('--agent2')

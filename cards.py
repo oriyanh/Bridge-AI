@@ -3,19 +3,21 @@ This module holds classes that represent cards and their derivative classes.
 """
 
 import numpy as np
+from copy import copy
 from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
-FACES_ALT = {'j': 'J', 'q': 'Q', 'k': 'K', 'a': 'A'}
 
 SUITS = ['♠', '♥', '♦', '♣', ]
 SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣'}
 
 
 class SuitType(Enum):
+    """ Enum representing card suit"""
+
     Spades = '♠'
     S = '♠'
 
@@ -47,6 +49,8 @@ class SuitType(Enum):
 
 
 class TrumpType(Enum):
+    """ Enum representing match's trump suit"""
+
     Spades = '♠'
     S = '♠'
 
@@ -81,6 +85,7 @@ class TrumpType(Enum):
 
 
 class Trump:
+    """ Class representing the trump in the current game. Initialized as NT (No Trump)"""
 
     def __init__(self):
         self._suit_type = TrumpType.NT
@@ -100,7 +105,7 @@ trump_singleton = Trump()
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: Trump = trump_singleton
+    trump_suit: Trump = trump_singleton  # TODO [oriyan] need to take trump into consideration in each game, and set it accordingly.
 
     @property
     def is_trump(self):
@@ -148,8 +153,9 @@ class Card:
     def __init__(self, face: str, suit: str):
         """
 
-        :param face:
-        :param suit:
+        :param face: value of card - one of {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'}
+
+        :param suit: suit of card, one of {'S' or 'Spades', 'C' or 'Clubs', 'D' or 'Diamonds, 'H' or 'Hearts'}
         :raises ValueError: If `face` or `suit` are unsupported.
         """
         suit_type = SuitType.from_str(suit)
@@ -160,6 +166,11 @@ class Card:
                 f"Unsupported Card Value {face}, must be one of {set(FACES)}")
 
         self.face = face.capitalize()
+
+    def __copy__(self):
+        new_card = Card(self.face, self.suit.suit_type.name)
+        new_card.is_trump = self.is_trump
+        return new_card
 
     def __repr__(self):
         return f"{self.face}{self.suit}"
@@ -181,8 +192,8 @@ class Card:
             return FACES.index(self.face) < FACES.index(other.face)
 
         return SUITS.index(self.suit.suit_type.value) < SUITS.index(
-            self.suit.suit_type.value) and FACES.index(
-            self.face) < FACES.index(other.face)
+            self.suit.suit_type.value) and \
+               FACES.index(self.face) < FACES.index(other.face)
 
     def __gt__(self, other):
         return other < self
@@ -195,6 +206,7 @@ class Card:
 
 
 class Deck:
+    """ Deck of cards."""
 
     def __init__(self):
         self.cards = []
@@ -204,30 +216,40 @@ class Deck:
                 self.cards.append(card)
 
     def deal(self, recreate_game=''):
+        """
+        Returns 4 randomly dealt Hands, one for each player in the game.
+        :param recreate_game: if supplied, will allow recreating a set of hands from a database. Currently unsupported.
+        :returns List[Hand]: 4 hands
+        """
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4,
-                                                                      13).tolist()
+            shuffled_deck = \
+                np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # todo(oriyan/mar): create new deck from database representation
 
 
 class Hand:
+    """ A Player's hand . Holds their cards."""
+
     def __init__(self, cards: List[Card]):
-        # self.cards = set(cards)
+        """ Initial hand of player is initialized with list of Card object."""
         self.cards = cards
 
     def __len__(self):
         return len(self.cards)
 
     def __copy__(self):
-        cards = [card for card in self.cards]
+        cards = [copy(card) for card in self.cards]
         return Hand(cards)
 
-    def play_card(self, card):
+    def play_card(self, card: Card):
+        """ Plays card from hand. After playing this card, it is no longer available in the player's hand."""
         self.cards.remove(card)
 
-    def get_cards_from_suite(self, suite):
+    def get_cards_from_suite(self, suite: Suit):
+        """ Returns all cards from player's hand that are from `suite`.
+        If None, returns all cards."""
         if suite is None:
             return self.cards
 
