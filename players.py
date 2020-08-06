@@ -1,6 +1,7 @@
+from copy import copy
 from enum import Enum
 from typing import List
-from copy import copy
+
 from cards import Hand, Card
 from trick import Trick
 
@@ -11,8 +12,10 @@ POSITIONS = list(PositionEnum)
 
 TEAMS = [(PositionEnum.N, PositionEnum.S), (PositionEnum.W, PositionEnum.E)]
 
-PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E, PositionEnum.E: PositionEnum.S,
-                 PositionEnum.S: PositionEnum.W, PositionEnum.W: PositionEnum.N}
+PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
+                 PositionEnum.E: PositionEnum.S,
+                 PositionEnum.S: PositionEnum.W,
+                 PositionEnum.W: PositionEnum.N}
 
 
 
@@ -67,7 +70,7 @@ class Team:
         self.players = [p0, p1]
         self.teammate = {p0.position: p1,  # todo [ORIYAN] Possibly remove?
                          p1.position: p0}
-        # todo maybe add the score directly into the team object?
+        # todo(maryna): maybe add the score directly into the team object?
 
     def __copy__(self):
         p0, p1 = self.players[0], self.players[1]
@@ -84,7 +87,8 @@ class Team:
     def get_players(self) -> List[Player]:
         return self.players
 
-    def get_teammate(self, p: Player) -> Player:  # todo [ORIYAN] Possibly remove?
+    def get_teammate(self, p: Player) -> Player:
         """ Returns teammmate of player `p`"""
+        # todo(oriyan): Possibly remove?
         assert (p in self.players)
         return self.teammate[p.position]

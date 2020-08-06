@@ -45,9 +45,9 @@ class IAgent(ABC):
         raise NotImplementedError
 
 
-# ------------------------------------MultiAgentSingleAction------------------------------------- #
+# ------------------------------------SimpleAgent------------------------------------- #
 
-class SingleActionAgent(IAgent):
+class SimpleAgent(IAgent):
     """ Deterministic agent that plays according to input action."""
 
     def __init__(self, action_chooser_function='random_action', target=None):
@@ -127,20 +127,22 @@ def soft_greedy_action(state):
         return worst_move
 
     best_in_current_trick = max(state.trick.cards())
-    # todo could be a fixed bug compered to git
+    # todo(maryna): could be a fixed bug compered to git
 
     if best_move > best_in_current_trick:  # Can be best in current trick.
         weakest_wining_move = min(filter(lambda move: move > best_in_current_trick, legal_moves))
         return weakest_wining_move
     return worst_move  # Cannot win - play worst action.
 
-# ------------------------------------MultiAgentSearchAgent------------------------------------- #
+
+# ---------------------------MultiAgentSearchAgent--------------------------- #
 
 
 class MultiAgentSearchAgent(IAgent):
     """Abstract agent implementing IAgent that searches a game tree"""
 
-    def __init__(self, evaluation_function='score_evaluation_function', depth=2, target=None):
+    def __init__(self, evaluation_function='score_evaluation_function',
+                 depth=2, target=None):
         """
         :param evaluation_function: function mapping (State, *args) -> Card ,
             where *args is determined by the agent itself.
@@ -155,26 +157,29 @@ class MultiAgentSearchAgent(IAgent):
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """ Agent implementing AlphaBeta pruning (with MinMax tree search)"""
 
-    def __init__(self, evaluation_function='count_tricks_won_evaluation_function', depth=2, target=None):
+    def __init__(self, evaluation_function='count_tricks_won_evaluation_function',
+                 depth=2, target=None):
         super().__init__(evaluation_function, depth, target)
 
     def get_action(self, state):
         legal_moves = state.get_legal_actions()
-        successors = [state.get_successor(action=action) for action in legal_moves]
+        successors = [state.get_successor(action=action)
+                      for action in legal_moves]
 
         if self.depth == 0:
-            scores = [self.evaluation_function(successor) for successor in successors]  # TODO [oriyan] Maryna,
-                                                                                        # why use the evaluation function with no parameters here,
-                                                                                        # and in self.score with parameters?
+            scores = [self.evaluation_function(successor)
+                      for successor in successors]  # TODO [oriyan] Maryna,
             best_score = max(scores)
-            best_indices = [index for index in range(len(scores)) if scores[index] == best_score]
+            best_indices = [index for index in range(len(scores))
+                            if scores[index] == best_score]
             chosen_index = np.random.choice(best_indices)  # Pick randomly among the best
             return legal_moves[chosen_index]
         else:
             a, b = -np.inf, np.inf
             chosen_index = 0
             for i, successor in enumerate(successors):
-                next_child_score = self.score(successor, self.depth, 1, False, a, b)
+                next_child_score = self.score(successor, self.depth,
+                                              1, False, a, b)
                 if next_child_score > a:
                     chosen_index = i
                     a = next_child_score
@@ -202,14 +207,16 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         if not legal_moves:
             return self.evaluation_function(state, is_max, self.target)
-        possible_states = [state.get_successor(action=action) for action in legal_moves]
+        possible_states = [state.get_successor(action=action)
+                           for action in legal_moves]
 
         if is_max:
             for next_state in possible_states:
                 next_player = next_state.curr_player
                 is_next_max = True if next_player == current_player else False
                 next_depth = curr_depth if is_next_max else curr_depth + 1
-                a = max((a, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
+                a = max((a, self.score(next_state, max_depth, next_depth,
+                                       is_next_max, a, b)))
                 if b <= a:
                     break
             return a
@@ -218,7 +225,8 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
             next_player = next_state.curr_player
             is_next_max = True if next_player != current_player else False
             next_depth = curr_depth + 1 if is_next_max else curr_depth
-            b = min((b, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
+            b = min((b, self.score(next_state, max_depth,
+                                   next_depth, is_next_max, a, b)))
             if b <= a:
                 break
         return b
@@ -253,15 +261,17 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
     :param target:
     :returns float: score of state
     """
-    value = 20 * state.get_score(is_max) + len(state.get_legal_actions())
-    return value
+    return state.get_score(is_max)
 
-# ------------------------------------------MTCSAgent------------------------------------------- #
 
-#
+
+# ---------------------------------MCTSAgent--------------------------------- #
+
+# todo(ram): Create MCTS Agent prototype
 # class MCTSAgent(IAgent):
 #     def __init__(self, action_chooser_function='random_action', MCTSNode):
-#         self.action_chooser_function = util.lookup(action_chooser_function, globals())
+#         self.action_chooser_function = util.lookup(action_chooser_function,
+#                                                    globals())
 #         self.root = MCTSNode
 #         super().__init__(action_chooser_function, MCTSNode)
 #
@@ -269,7 +279,8 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 #         for i in range(simulation_count):
 #             leaf = self.traverse(self.root)
 #             reward = leaf.rollout()
-#             leaf.backpropagate(reward)  # to select best child go for exploitation only
+#             leaf.backpropagate(reward)
+#             # to select best child go for exploitation only
 #         return self.root.best_child(c_param=0.)
 #
 #     def traverse(self, node) -> MCTSNode:
@@ -277,10 +288,10 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 #             node = best_uct(node)
 #
 #             # in case no children are present / node is terminal
-#         return pick_univisted(node.children) or node
+#         return pick_unvisited(node.children) or node
 
 
-# -------------------------------------------HumanAgent----------------------------------------- #
+# ---------------------------------HumanAgent-------------------------------- #
 
 
 class HumanAgent(IAgent):
@@ -306,7 +317,8 @@ class HumanAgent(IAgent):
                 if action in legal_moves:
                     return action
                 else:
-                    print(f"{card_suit, card_number} is not in your hand, try again")
+                    print(f"{card_suit, card_number} "
+                          f"is not in your hand, try again")
 
             except ValueError or IndexError or TypeError:
                 print(f"{inp} is not a valid action, try again")

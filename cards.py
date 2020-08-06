@@ -1,12 +1,13 @@
 """
 This module holds classes that represent cards and their derivative classes.
 """
-from copy import copy
 
 import numpy as np
+from copy import copy
 from dataclasses import dataclass
 from enum import Enum
 from typing import List
+
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 
@@ -221,10 +222,11 @@ class Deck:
         :returns List[Hand]: 4 hands
         """
         if not recreate_game:
-            shuffled_deck = np.random.permutation(self.cards).reshape(4, 13).tolist()
+            shuffled_deck = \
+                np.random.permutation(self.cards).reshape(4, 13).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
-        # TODO [oriyan/mar] create new deck from database representation
+        # todo(oriyan/mar): create new deck from database representation
 
 
 class Hand:
