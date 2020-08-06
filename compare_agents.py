@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 100
+GAMES_PER_MATCH = 10
 
-all_single_action_names = ['HighestFirstAgent',
+all_simple_agents_names = ['HighestFirstAgent',
                            'LowestFirstAgent',
                            'RandomAgent',
                            'HardGreedyAgent',
                            'SoftGreedyAgent', ]
 
-all_single_action_func = ['highest_first_action',
+all_simple_action_funcs_names = ['highest_first_action',
                           'lowest_first_action',
                           'random_action',
                           'hard_greedy_action',
@@ -23,18 +23,19 @@ all_ab_evaluation_func = ['is_target_reached_evaluation_function',
 all_ab_evaluation_names = ['reach target',
                            'count of tricks won']
 
-results = np.empty((len(all_single_action_func), len(all_single_action_func)))
+results = np.empty((len(all_simple_action_funcs_names),
+                    len(all_simple_action_funcs_names)))
 results[:] = np.nan
 
 
-def run_all_single_action_matches():
-    for i in range(len(all_single_action_func)):
-        for j in range(len(all_single_action_func)):
+def run_all_simple_actions_matches():
+    for i in range(len(all_simple_action_funcs_names)):
+        for j in range(len(all_simple_action_funcs_names)):
             # For each pair of agents
-            agent0, agent1 =\
-                all_single_action_func[i], all_single_action_func[j]
-            print(f"{all_single_action_names[i]} vs. "
-                  f"{all_single_action_names[j]}")
+            agent0, agent1 = \
+                all_simple_action_funcs_names[i], all_simple_action_funcs_names[j]
+            print(f"{all_simple_agents_names[i]} vs. "
+                  f"{all_simple_agents_names[j]}")
 
             # Run match
             curr_match = Match(SimpleAgent(agent0),
@@ -48,17 +49,17 @@ def run_all_single_action_matches():
             results[i, j] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
 
 
-def display_table_single_action():
+def display_table_simple_agents():
     fig, ax = plt.subplots(dpi=300)
     im = ax.imshow(results, cmap='plasma', vmin=0, vmax=100)
-    ax.set_xticks(np.arange(len(all_single_action_names)))
-    ax.set_yticks(np.arange(len(all_single_action_names)))
-    ax.set_xticklabels(all_single_action_names)
-    ax.set_yticklabels(all_single_action_names)
+    ax.set_xticks(np.arange(len(all_simple_agents_names)))
+    ax.set_yticks(np.arange(len(all_simple_agents_names)))
+    ax.set_xticklabels(all_simple_agents_names)
+    ax.set_yticklabels(all_simple_agents_names)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
              rotation_mode="anchor")
-    for i in range(len(all_single_action_names)):
-        for j in range(len(all_single_action_names)):
+    for i in range(len(all_simple_agents_names)):
+        for j in range(len(all_simple_agents_names)):
             text = ax.text(
                 j, i, f"{results[i, j]:05.2f}",
                 ha="center", va="center", color="w")
@@ -71,10 +72,10 @@ def display_table_single_action():
     plt.show()
 
 
-def compare_single_action_agents():
+def compare_simple_agents():
     print()
-    run_all_single_action_matches()
-    display_table_single_action()
+    run_all_simple_actions_matches()
+    display_table_simple_agents()
 
 
 def compare_ab_vs_ab_agents():
@@ -95,10 +96,10 @@ def compare_ab_vs_ab_agents():
         f"{curr_match.games_counter[1]:02}\n")
 
 
-def run_all_single_action_vs_ab_matches(depth):
-    for i in range(len(all_single_action_func)):
-        agent0 = all_single_action_func[i]
-        print(f"{all_single_action_names[i]} vs. AlphaBeta")
+def run_all_simple_agents_vs_ab_matches(depth):
+    for i in range(len(all_simple_action_funcs_names)):
+        agent0 = all_simple_action_funcs_names[i]
+        print(f"{all_simple_agents_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
                            AlphaBetaAgent(depth=depth),
                            GAMES_PER_MATCH, False)
@@ -107,7 +108,7 @@ def run_all_single_action_vs_ab_matches(depth):
               f" {curr_match.games_counter[1]:02}\n")
         results[i, 0] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
 
-        print(f"AlphaBeta vs. {all_single_action_names[i]}")
+        print(f"AlphaBeta vs. {all_simple_agents_names[i]}")
         curr_match = Match(AlphaBetaAgent(depth=depth),
                            SimpleAgent(agent0),
                            GAMES_PER_MATCH, False)
@@ -119,16 +120,16 @@ def run_all_single_action_vs_ab_matches(depth):
         # Print match result and update scores table
 
 
-def display_table_single_action_vs_ab(depth):
+def display_table_simple_agents_vs_ab(depth):
     fig, ax = plt.subplots(dpi=300)
     im = ax.imshow(results, cmap='plasma', vmin=0, vmax=100)
     ax.set_xticks(np.arange(2))
-    ax.set_yticks(np.arange(len(all_single_action_names)))
-    ax.set_xticklabels(['single action first', 'AlphaBeta first'])
-    ax.set_yticklabels(all_single_action_names)
+    ax.set_yticks(np.arange(len(all_simple_agents_names)))
+    ax.set_xticklabels(['Simple Agent First', 'AlphaBeta First'])
+    ax.set_yticklabels(all_simple_agents_names)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
              rotation_mode="anchor")
-    for i in range(len(all_single_action_names)):
+    for i in range(len(all_simple_agents_names)):
         for j in range(2):
             text = ax.text(
                 j, i, f"{results[i, j]:05.2f}",
@@ -142,11 +143,11 @@ def display_table_single_action_vs_ab(depth):
     plt.show()
 
 
-def compare_single_action_vs_ab_agents():
+def compare_simple_agents_vs_ab_agents():
     print()
     depth = 4
-    run_all_single_action_vs_ab_matches(depth)
-    display_table_single_action_vs_ab(depth)
+    run_all_simple_agents_vs_ab_matches(depth)
+    display_table_simple_agents_vs_ab(depth)
 
 
-compare_single_action_vs_ab_agents()
+compare_simple_agents_vs_ab_agents()
