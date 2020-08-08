@@ -338,6 +338,195 @@ class StochasticSimpleMCTSAgent(SimpleMCTSAgent):
         return super().get_action(state)
 
 
+class PureMCTSAgent(SimpleMCTSAgent):
+
+    def __init__(self, action_chooser_function='random_action', num_simulations=100):
+        self.action_chooser_function = lookup(action_chooser_function,
+                                              globals())
+        super().__init__(action_chooser_function, num_simulations)
+        # self.root = None  # type: MCTSNode
+        self.roots = {}
+
+    def get_action(self, state):
+        """
+        Parameters
+        ----------
+        simulations_number : int
+            number of simulations performed to get the best action
+        Returns
+        -------
+        """
+        # if state.curr_player not in self.roots:
+        if not state.prev_tricks:  # New game, first play for current player
+            print('new game')
+            self.roots[state.curr_player] = MCTSNode(state)
+        # if self.root is None:
+        #     self.root = MCTSNode(state)
+
+        else:
+            self.prune_tree(state)
+        root = self.roots[state.curr_player]
+        for _ in range(0, self.num_simulations):
+            v = self._tree_policy(root)
+            reward = v.rollout()
+            v.backpropagate(reward)
+        # to select best child go for exploitation only
+        best_child =  root.best_child(c_param=0.)
+        best_action = best_child.parent_action
+        # root._tried_actions.add(best_action)
+        # root._untried_actions.remove(best_action)
+        # self.root = best_child
+        # self.root.parent = None
+
+        return best_action
+
+    def prune_tree(self, state: State):
+
+        prev_trick = state.prev_tricks[-1]
+        curr_trick = state.trick
+        actions = []
+        for player in state.players:
+            action = prev_trick.get_card(player)
+            if not action:
+                action = curr_trick.get_card(player)
+            assert action is not None
+            actions.append(action)
+
+        current_root = self.roots[state.curr_player]
+        next_root = None
+        while actions:
+            next_root = None
+            for child in current_root.children:
+                if child.parent_action in actions:
+                    next_root = child
+                    break
+            if next_root is None:
+                break
+            current_root = next_root
+            actions.remove(current_root.parent_action)
+        if next_root is None:
+            self.roots[state.curr_player] = MCTSNode(state)
+            return
+
+        current_root.parent_action = None
+        current_root.parent = None
+        new_children = []
+        for child in current_root.children:
+            if child.parent_action not in state.already_played:
+                new_children.append(child)
+        current_root.children = new_children
+        untried_actions = set()
+        tried_actions = set()
+        for action in current_root.untried_actions:
+            if action not in state.already_played:
+                untried_actions.add(action)
+            else:
+                tried_actions.add(action)
+        current_root._untried_actions = untried_actions
+        current_root._tried_actions.update(tried_actions)
+        self.roots[state.curr_player] = current_root
+
+
+    def _tree_policy(self, root):
+        """
+        selects node to run rollout/playout for
+        Returns
+        -------
+        """
+        current_node = root
+        while not current_node.is_terminal_node():
+            if not current_node.is_fully_expanded():
+                return current_node.expand()
+            else:
+                current_node = current_node.best_child()
+        return current_node
+
+class MCTSNode:
+
+    def __init__(self, state: State, parent=None, parent_action=None):
+        self.state = copy(state)
+        self.parent = parent
+        self.children = []
+        if not self.parent:
+            assert parent_action is None
+            self.parent_action = None
+            if self.state.teams[0].has_player(self.state.curr_player):
+                self.team = self.state.teams[0]
+            else:
+                self.team = self.state.teams[1]
+        else:
+            self.team = parent.team
+            self.parent_action = parent_action
+        self._number_of_visits = 0.
+        self._results = defaultdict(int)
+        self._untried_actions = None
+        self._tried_actions = set()
+        self.max_player = 1 if self.team.has_player(self.state.curr_player) else -1
+
+    def best_child(self, c_param=1.4):
+        choices_weights = [
+            (c.q / c.n) + c_param * np.sqrt((2 * np.log(self.n) / c.n))
+            # Chooses according to UCT upper bound value
+            for c in self.children
+        ]
+        return self.children[int(np.argmax(choices_weights))]
+
+    def rollout_policy(self, possible_moves):
+        return np.random.choice(possible_moves)
+
+    @property
+    def untried_actions(self):
+        if self._untried_actions is None:
+            self._untried_actions = set(self.state.curr_player.hand.cards)
+        return list(self._untried_actions.intersection(self.state.get_legal_actions()))
+
+    @property
+    def q(self):
+        wins = self._results[self.max_player]
+        loses = self._results[-1 * self.max_player]
+        return wins - loses
+
+    @property
+    def n(self):
+        return self._number_of_visits
+
+    def expand(self):
+        action = self.untried_actions.pop()
+        next_state = self.state.get_successor(action)
+
+        child_node = MCTSNode(next_state, parent=self, parent_action=action)
+        self.children.append(child_node)
+        self._untried_actions.remove(action)
+        self._tried_actions.add(action)
+        return child_node
+
+    def is_terminal_node(self):
+        return self.state.is_game_over
+
+    def rollout(self):
+        if self.is_terminal_node():
+            reward = 1 if self.team.has_player(self.state.curr_player) else -1
+            return reward
+        current_rollout_state = self.state
+        possible_moves = current_rollout_state.get_legal_actions()
+        action = self.rollout_policy(possible_moves)
+        game = SimulatedGame(SimpleAgent('random_action'),
+                             SimpleAgent('random_action'), False,
+                             current_rollout_state, action)
+        assert game.run()
+        winning_team_idx = game.winning_team
+        winning_team = current_rollout_state.teams[winning_team_idx]
+        reward = 1 if self.team == winning_team else -1
+        return reward
+
+    def is_fully_expanded(self):
+        return len(self.untried_actions) == 0
+
+    def backpropagate(self, result):
+        self._number_of_visits += 1.
+        self._results[result] += 1.
+        if self.parent is not None:
+            self.parent.backpropagate(result)
 
 # ---------------------------------HumanAgent-------------------------------- #
 
