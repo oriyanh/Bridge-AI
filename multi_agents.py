@@ -1,8 +1,15 @@
+from collections import defaultdict
+from concurrent.futures.thread import ThreadPoolExecutor
+from copy import copy
+from queue import Queue
+
 import numpy as np
 
 from abc import ABC, abstractmethod
 from cards import Card
+from game import Game, SimulatedGame
 from state import State
+
 
 FULL_TREE = -1
 
@@ -267,28 +274,69 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 
 # ---------------------------------MCTSAgent--------------------------------- #
 
-# todo(ram): Create MCTS Agent prototype
-# class MCTSAgent(IAgent):
-#     def __init__(self, action_chooser_function='random_action', MCTSNode):
-#         self.action_chooser_function = util.lookup(action_chooser_function,
-#                                                    globals())
-#         self.root = MCTSNode
-#         super().__init__(action_chooser_function, MCTSNode)
-#
-#     def get_action(self, state, simulation_count=100):
-#         for i in range(simulation_count):
-#             leaf = self.traverse(self.root)
-#             reward = leaf.rollout()
-#             leaf.backpropagate(reward)
-#             # to select best child go for exploitation only
-#         return self.root.best_child(c_param=0.)
-#
-#     def traverse(self, node) -> MCTSNode:
-#         while fully_expanded(node):
-#             node = best_uct(node)
-#
-#             # in case no children are present / node is terminal
-#         return pick_unvisited(node.children) or node
+class SimpleMCTSAgent(IAgent):
+
+    def __init__(self, action_chooser_function='random_action', num_simulations=100):
+        self.action_chooser_function = lookup(action_chooser_function,
+                                              globals())
+        self.num_simulations_total = 0
+        self.action_value = defaultdict(lambda: 0)  # type: Dict[Card, int]
+        self.num_simulations = num_simulations
+        self.executor = ThreadPoolExecutor()
+        super().__init__(action_chooser_function)
+
+    def get_action(self, state):
+        action = self.rollout(state, self.num_simulations)
+        return action
+
+    def rollout(self, state, num_simulations):
+        legal_actions = state.get_legal_actions()
+        rollout_actions = np.random.choice(legal_actions, size=num_simulations, replace=True)
+        best_action = np.random.choice(legal_actions)
+        games = [SimulatedGame(SimpleAgent(self.action_chooser_function.__name__),
+                               SimpleAgent('random_action'), False,
+                               state, action) for action in rollout_actions]
+        futures = [self.executor.submit(game.run) for game in games]
+        futures_queue = Queue(num_simulations)
+        for future in futures:
+            futures_queue.put(future)
+        while not futures_queue.empty():
+            future = futures_queue.get()
+            futures_queue.task_done()
+            if future.running():
+                # print(f"return job to queue. Total sims so far: {self.num_simulations_total}")
+                futures_queue.put(future)
+            else:
+                assert future.result()
+
+        for game in games:
+            # game = SimulatedGame(SimpleAgent(self.action_chooser_function.__name__),
+            #                      SimpleAgent('random_action'), False,
+            #                      state, action)
+            # game.run()
+            assert game.winning_team != -1
+            winning_team = game.teams[game.winning_team]
+            if winning_team.has_player(state.curr_player):
+                self.action_value[game.starting_action] += 1
+
+            self.num_simulations_total += 1
+
+        for action in legal_actions:
+            best_action = action if self.action_value[action] > self.action_value[best_action] \
+                else best_action
+        return best_action
+
+class StochasticSimpleMCTSAgent(SimpleMCTSAgent):
+
+    def __init__(self, action_chooser_function='random_action', num_simulations=100, epsilon=0.25):
+        super().__init__(action_chooser_function, num_simulations)
+        self.epsilon = epsilon
+
+    def get_action(self, state):
+        if np.random.rand() < self.epsilon:
+            return np.random.choice(state.get_legal_actions())
+        return super().get_action(state)
+
 
 
 # ---------------------------------HumanAgent-------------------------------- #
