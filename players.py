@@ -29,27 +29,34 @@ class Player:
         """
         self.position = position
         self.hand = hand
+        self.played = set()
 
     def __copy__(self):
         hand = copy(self.hand)
-        return Player(self.position, hand)
+        player = Player(self.position, hand)
+        player.played = set(self.played)
+        return player
 
     def play_card(self, card: Card) -> None:
         """ Plays card from hand. card is no longer available."""
+        assert card not in self.played
+        # print(f"[{self.position}: {repr(self)}] Playing card {card}. Previous hand: {self.hand.cards}")
         self.hand.play_card(card)
+        # print(f"[{self.position}: {repr(self)}]Current hand: {self.hand.cards}")
+        self.played.add(card)
 
-    def get_legal_actions(self, trick) -> List[Card]:
+    def get_legal_actions(self, trick, already_played) -> List[Card]:
         """ Returns list of legal actions for player in current trick
 
         :param Trick trick: Current trick
         :returns: legal actions for player:
         """
-        legal_actions = self.hand.get_cards_from_suite(trick.starting_suit)
+        legal_actions = self.hand.get_cards_from_suite(trick.starting_suit, already_played)
+        assert self.played.isdisjoint(legal_actions)
+        assert already_played.isdisjoint(legal_actions)
         if not legal_actions:
             legal_actions = self.hand.cards
-        else:
-            trump_cards = [card for card in self.hand.cards if card.is_trump]
-            legal_actions.extend(trump_cards)
+            assert already_played.isdisjoint(legal_actions)
         return legal_actions
 
     def __str__(self):
@@ -91,3 +98,13 @@ class Team:
         # todo(oriyan): Possibly remove?
         assert (p in self.players)
         return self.teammate[p.position]
+
+    def __hash__(self) -> int:
+        return hash(frozenset(self.players))
+
+    def __eq__(self, other) -> bool:
+        return frozenset(self.teammate.keys()).issubset(other.teammate.keys())
+
+
+
+
