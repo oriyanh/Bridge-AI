@@ -73,7 +73,7 @@ class Parser:
     def __init__(self, file_paths: List[str]):
         self.games = []
         for file in file_paths:
-            self.games.append(self.parse_file(file))
+            self.games += (self.parse_file(file))
 
     def parse_file(self, file_name: str) -> List[DataGame]:
         """
