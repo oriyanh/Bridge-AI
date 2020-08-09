@@ -80,6 +80,7 @@ class Game:
                               self.previous_tricks, score,
                               self.curr_player)
         self._state = initial_state
+        self.previous_tricks = self._state.prev_tricks
         self.game_loop()
         return True
 
@@ -107,8 +108,8 @@ class Game:
         else:
             card = self.other_agent.get_action(self._state)
 
-        self._state.apply_action(card, True)
-        self.curr_trick = self._state.trick
+        curr_trick = self._state.apply_action(card, True)
+        self.curr_trick = curr_trick
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
@@ -165,8 +166,8 @@ class SimulatedGame(Game):
         else:
             card = self.other_agent.get_action(self._state)
 
-        self._state.apply_action(card, True)
-        self.curr_trick = self._state.trick
+        curr_trick = self._state.apply_action(card, True)
+        self.curr_trick = curr_trick
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
