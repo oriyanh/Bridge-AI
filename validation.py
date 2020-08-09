@@ -17,10 +17,10 @@ class TrickValidation(Trick):
     """
     def __init__(self):
         super().__init__({})
-        self.first_player = None
+        self.first_position = None
 
-    def add_first_player(self, player: PositionEnum):
-        self.first_player = player
+    def add_first_position(self, position: PositionEnum):
+        self.first_position = position
 
 
 class DataGame:
@@ -34,6 +34,13 @@ class DataGame:
         self.tricks = tricks
         self.winner = winner
         self.trump = trump
+
+    def position_to_player(self, position: PositionEnum):
+        for p in self.players:
+            if p.position == position:
+                return p
+        else:
+            raise ValueError("something wrong in self.players")
 
     def snapshot(self, trick_idx: int, position: PositionEnum) -> \
             Tuple[List[Player], Trick, Card]:
@@ -58,7 +65,8 @@ class DataGame:
 
         # Remove cards of current trick from hands of all players which play
         # before given player. In addition, store these cards
-        curr_player = self.tricks[trick_idx].first_player
+        curr_pos = self.tricks[trick_idx].first_position
+        curr_player = self.position_to_player(curr_pos)
         curr_trick = Trick({})
         while curr_player.position != position:
             curr_hands[PLAYERS_DICT[curr_player.position.name]].play_card(
@@ -138,7 +146,10 @@ class Parser:
 
         bid_line = f.readline()
         obligation = int(bid_line[11]) + 6
-        trump = TrumpType.NT if bid_line[12:-3] == "NT" else TrumpType[bid_line[12]]
+        if (bid_line[12:-3] == "NT") or (bid_line[12:-4] == "NT"):  # todo: check all options
+            trump = TrumpType.NT
+        else:
+            trump = TrumpType[bid_line[12]]
 
         res_line = f.readline()
         result = int(res_line[8:-2].split('\"')[1])
@@ -160,7 +171,7 @@ class Parser:
         :param players: list of 4 Player objects, sorted by (N, E, S, W)
         :return: list of all tricks of a game
         """
-        first_player = players[PLAYERS_DICT[player_line[7]]]
+        first_position = POSITIONS[PLAYERS_DICT[player_line[7]]]
         iter_num = islice(cycle([0, 1, 2, 3]), 0, None)
         curr_player = players[next(iter_num)]
         tricks = []
@@ -174,9 +185,9 @@ class Parser:
             for c in cards:
                 curr_trick.add_card(curr_player, Card(face=c[1], suit=c[0]))
                 curr_player = players[next(iter_num)]
-                curr_trick.add_first_player(first_player)
+                curr_trick.add_first_position(first_position)
             tricks.append(curr_trick)
-            first_player = curr_trick.get_winner()
+            first_position = curr_trick.get_winner()
             trick_line = f.readline()
 
         return tricks
