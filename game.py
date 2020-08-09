@@ -38,8 +38,6 @@ class Game:
         self.tricks_counter = tricks_counter
         self.winning_team: int = -1
 
-        # todo(maryna): adjust the next player if it is the middle of the game
-        #  taken from db
         if starting_pos is None:
             starting_pos = np.random.choice(POSITIONS)
         self.curr_player = self.players[starting_pos]

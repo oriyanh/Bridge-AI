@@ -3,8 +3,10 @@ import numpy as np
 from abc import ABC, abstractmethod
 from cards import Card
 from state import State
+from players import is_players_in_same_team
 
 FULL_TREE = -1
+
 
 def lookup(name, namespace):
     """
@@ -16,16 +18,19 @@ def lookup(name, namespace):
 
     dots = name.count('.')
     if dots > 0:
-        moduleName, objName = '.'.join(name.split('.')[:-1]), name.split('.')[-1]
-        module = __import__(moduleName)
-        return getattr(module, objName)
+        module_name, obj_name = '.'.join(name.split('.')[:-1]), name.split('.')[-1]
+        module = __import__(module_name)
+        return getattr(module, obj_name)
     else:
         modules = [obj for obj in namespace.values() if str(type(obj)) == "<type 'module'>"]
         options = [getattr(module, name) for module in modules if name in dir(module)]
         options += [obj[1] for obj in namespace.items() if obj[0] == name]
-        if len(options) == 1: return options[0]
-        if len(options) > 1: raise Exception('Name conflict for %s')
+        if len(options) == 1:
+            return options[0]
+        if len(options) > 1:
+            raise Exception('Name conflict for %s')
         raise Exception('%s not found as a method or class' % name)
+
 
 class IAgent(ABC):
     """ Interface for bridge-playing agents."""
@@ -33,7 +38,8 @@ class IAgent(ABC):
     @abstractmethod
     def __init__(self, target):
         self.target = target  # TODO [oriyan] Not completely sure what this should be -
-                            # it is only used in one place compared to a player's score. Do we need this? Investigate later.
+        # it is only used in one place compared to a player's score.
+        # Do we need this? Investigate later.
 
     @abstractmethod
     def get_action(self, state: State) -> Card:
@@ -52,8 +58,8 @@ class SimpleAgent(IAgent):
 
     def __init__(self, action_chooser_function='random_action', target=None):
         """
-
-        :param str action_chooser_function: name of action to take . Should be a function [State] -> Card
+        :param str action_chooser_function: name of action to take .
+        Should be a function [State] -> Card
         :param target: See comment in IAgent's constructor
         """
         self.action_chooser_function = lookup(action_chooser_function, globals())
@@ -127,7 +133,6 @@ def soft_greedy_action(state):
         return worst_move
 
     best_in_current_trick = max(state.trick.cards())
-    # todo(maryna): could be a fixed bug compered to git
 
     if best_move > best_in_current_trick:  # Can be best in current trick.
         weakest_wining_move = min(filter(lambda move: move > best_in_current_trick, legal_moves))
@@ -136,8 +141,6 @@ def soft_greedy_action(state):
 
 
 # ---------------------------MultiAgentSearchAgent--------------------------- #
-
-
 class MultiAgentSearchAgent(IAgent):
     """Abstract agent implementing IAgent that searches a game tree"""
 
@@ -152,6 +155,9 @@ class MultiAgentSearchAgent(IAgent):
         self.evaluation_function = lookup(evaluation_function, globals())
         self.depth = depth
         super().__init__(target)
+
+    def get_action(self, state):
+        return NotImplementedError
 
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
@@ -202,7 +208,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
             return self.evaluation_function(state, is_max, self.target)
 
         # get current player moves
-        current_player = state.curr_player
+        curr_player = state.curr_player
         legal_moves = state.get_legal_actions()
 
         if not legal_moves:
@@ -213,7 +219,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         if is_max:
             for next_state in possible_states:
                 next_player = next_state.curr_player
-                is_next_max = True if next_player == current_player else False
+                is_next_max = True if is_players_in_same_team(curr_player, next_player) else False
                 next_depth = curr_depth if is_next_max else curr_depth + 1
                 a = max((a, self.score(next_state, max_depth, next_depth,
                                        is_next_max, a, b)))
@@ -223,7 +229,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         for next_state in possible_states:
             next_player = next_state.curr_player
-            is_next_max = True if next_player != current_player else False
+            is_next_max = False if is_players_in_same_team(curr_player, next_player) else True
             next_depth = curr_depth + 1 if is_next_max else curr_depth
             b = min((b, self.score(next_state, max_depth,
                                    next_depth, is_next_max, a, b)))
@@ -254,8 +260,6 @@ def is_target_reached_evaluation_function(state, is_max=True, target=None):
 
 def count_tricks_won_evaluation_function(state, is_max=True, target=None):
     """
-    weighted score of current state with respect to is_max, and number of tricks this player has won.
-
     :param State state: game state
     :param bool is_max: is max player
     :param target:
@@ -264,13 +268,38 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
     return state.get_score(is_max)
 
 
+def greedy_evaluation_function(state, is_max=True, target=None):
+    """
+    :param State state: game state
+    :param bool is_max: is max player
+    :param target:
+    :returns float: score of state
+    """
+    value = state.get_score(is_max)
+    if len(state.trick) == 0:  # Trick is empty - play worst action.
+        return value
+
+    soft_moves_count = soft_greedy_legal_moves_count(state)
+    return 10 * value + soft_moves_count
+
+
+def soft_greedy_legal_moves_count(state, ):
+    legal_moves = state.get_legal_actions()
+    best_move = max(legal_moves)
+    best_in_current_trick = max(state.trick.cards())
+    if best_move > best_in_current_trick:  # Can be best in current trick.
+        count_wining_moves = len(list(filter(lambda move: move > best_in_current_trick,
+                                             legal_moves)))
+        return count_wining_moves
+    return -1
+
+
 
 # ---------------------------------MCTSAgent--------------------------------- #
 
-# todo(ram): Create MCTS Agent prototype
 # class MCTSAgent(IAgent):
 #     def __init__(self, action_chooser_function='random_action', MCTSNode):
-#         self.action_chooser_function = util.lookup(action_chooser_function,
+#         self.action_chooser_function = lookup(action_chooser_function,
 #                                                    globals())
 #         self.root = MCTSNode
 #         super().__init__(action_chooser_function, MCTSNode)
@@ -292,8 +321,6 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 
 
 # ---------------------------------HumanAgent-------------------------------- #
-
-
 class HumanAgent(IAgent):
     """
     Ask user for action, in format of <face><suit>.

@@ -17,7 +17,6 @@ PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
                  PositionEnum.W: PositionEnum.N}
 
 
-
 class Player:
     """ Represents one of the 4 players in the game."""
 
@@ -87,7 +86,11 @@ class Team:
         return self.players
 
     def get_teammate(self, p: Player) -> Player:
-        """ Returns teammmate of player `p`"""
-        # todo(oriyan): Possibly remove?
         assert (p in self.players)
         return self.teammate[p.position]
+
+
+def is_players_in_same_team(p1: Player, p2: Player) -> bool:
+    if (p1.position, p2.position) in TEAMS or (p2.position, p1.position) in TEAMS:
+        return True
+    return False
