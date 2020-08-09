@@ -256,6 +256,27 @@ class Hand:
         cards = list(filter(lambda card: card.suit == suite, self.cards))
         return cards
 
+    def get_cards_not_from_suite(self, suite: Suit):
+        """ Returns all cards from player's hand that are not from `suite`.
+                If None, returns all cards."""
+        if suite is None:
+            return self.cards
+
+        cards = list(filter(lambda card: card.suit != suite, self.cards))
+        return cards
+
+    def get_cards_sorted_by_suits(self):
+        sorted_hand = dict()
+        trump = []
+        for card in self.cards:
+            if sorted_hand.get(card.suit.suit_type):
+                sorted_suit = sorted(self.get_cards_from_suite(card.suit))
+                if card.is_trump:
+                    trump = sorted_suit
+                else:
+                    sorted_hand[card.suit.suit_type] = sorted_suit
+        return sorted_hand, trump
+
     def __str__(self):
         ret = ""
         for suit in SUITS:

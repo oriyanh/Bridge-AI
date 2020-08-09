@@ -3,21 +3,27 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 100
+GAMES_PER_MATCH = 1000
 
 all_simple_agents_names = [
-    'HighestFirstAgent',
-                           'LowestFirstAgent',
-                           'RandomAgent',
+                           # 'HighestFirstAgent',
+                           # 'LowestFirstAgent',
+                           # 'RandomAgent',
                            'HardGreedyAgent',
-                           'SoftGreedyAgent', ]
+                           'HardGreedyAllPlayersAgent',
+                           'SoftGreedyAgent',
+                           'SoftGreedyAllPlayersAgent'
+                           ]
 
 all_simple_action_funcs_names = [
-    'highest_first_action',
-                          'lowest_first_action',
-                          'random_action',
+                          # 'highest_first_action',
+                          # 'lowest_first_action',
+                          # 'random_action',
                           'hard_greedy_action',
-                          'soft_greedy_action', ]
+                          'hard_greedy_all_players_action',
+                          'soft_greedy_action',
+                          'soft_greedy_all_players_action'
+                          ]
 
 all_ab_evaluation_func = ['is_target_reached_evaluation_function',
                           'count_tricks_won_evaluation_function']
@@ -156,4 +162,5 @@ def compare_simple_agents_vs_ab_agents():
     display_table_simple_agents_vs_ab(depth)
 
 
-compare_simple_agents_vs_ab_agents()
+# compare_simple_agents_vs_ab_agents()
+compare_simple_agents()
