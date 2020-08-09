@@ -84,7 +84,7 @@ class Trick:
         for player, card in self.items():
             if card.is_trump or card.suit == self.starting_suit:
                 relevant_players.append(player)
-        return max(relevant_players, key=self.trick.get)
+        return max(relevant_players, key=self.trick.get).position
 
     def reset(self) -> None:
         """
