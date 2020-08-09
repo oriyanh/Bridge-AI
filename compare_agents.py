@@ -3,15 +3,17 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 10
+GAMES_PER_MATCH = 100
 
-all_simple_agents_names = ['HighestFirstAgent',
+all_simple_agents_names = [
+    'HighestFirstAgent',
                            'LowestFirstAgent',
                            'RandomAgent',
                            'HardGreedyAgent',
                            'SoftGreedyAgent', ]
 
-all_simple_action_funcs_names = ['highest_first_action',
+all_simple_action_funcs_names = [
+    'highest_first_action',
                           'lowest_first_action',
                           'random_action',
                           'hard_greedy_action',
@@ -100,12 +102,16 @@ def run_all_simple_agents_vs_ab_matches(depth):
         agent0 = all_simple_action_funcs_names[i]
         print(f"{all_simple_agents_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
-                           AlphaBetaAgent(depth=depth),
+                           AlphaBetaAgent(evaluation_function='greedy_evaluation_function',
+                                          depth=depth),
                            GAMES_PER_MATCH, False)
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
               f" {curr_match.games_counter[1]:02}\n")
         results[i, 0] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
+        # taking the score of the first agent curr_match.games_counter[0] to fill the left
+        # column of the table, which containing the win rate of the single agent vs. alpha-beta
+        # when single agent starts the game.
 
         print(f"AlphaBeta vs. {all_simple_agents_names[i]}")
         curr_match = Match(AlphaBetaAgent(depth=depth),
@@ -114,9 +120,10 @@ def run_all_simple_agents_vs_ab_matches(depth):
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
               f" {curr_match.games_counter[1]:02}\n")
-        results[i, 1] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-
-        # Print match result and update scores table
+        results[i, 1] = 100 * curr_match.games_counter[1] / GAMES_PER_MATCH
+        # taking the score of the second agent curr_match.games_counter[1] to fill the right
+        # column of the table, which containing the win rate of the single agent vs. alpha-beta
+        # when alpha-beta agent starts the game.
 
 
 def display_table_simple_agents_vs_ab(depth):
@@ -144,7 +151,7 @@ def display_table_simple_agents_vs_ab(depth):
 
 def compare_simple_agents_vs_ab_agents():
     print()
-    depth = 4
+    depth = 6
     run_all_simple_agents_vs_ab_matches(depth)
     display_table_simple_agents_vs_ab(depth)
 
