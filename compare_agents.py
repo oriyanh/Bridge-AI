@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 1000
+GAMES_PER_MATCH = 100
 
 all_simple_agents_names = [
                            # 'HighestFirstAgent',
@@ -25,11 +25,14 @@ all_simple_action_funcs_names = [
                           'soft_greedy_all_players_action'
                           ]
 
-all_ab_evaluation_func = ['is_target_reached_evaluation_function',
-                          'count_tricks_won_evaluation_function']
+all_ab_evaluation_func = ['greedy_evaluation_function1',
+                          'greedy_evaluation_function2',
+                          'count_tricks_won_evaluation_function',
+                          ]
 
-all_ab_evaluation_names = ['reach target',
-                           'count of tricks won']
+all_ab_evaluation_names = ['GreedyEvaluationCurrPlayer',
+                           'GreedyEvaluationAllPlayers',
+                           'CountOfTricksWon']
 
 results = np.empty((len(all_simple_action_funcs_names),
                     len(all_simple_action_funcs_names)))
@@ -108,7 +111,7 @@ def run_all_simple_agents_vs_ab_matches(depth):
         agent0 = all_simple_action_funcs_names[i]
         print(f"{all_simple_agents_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
-                           AlphaBetaAgent(evaluation_function='greedy_evaluation_function',
+                           AlphaBetaAgent(evaluation_function='hand_evaluation_heuristic',
                                           depth=depth),
                            GAMES_PER_MATCH, False)
         curr_match.run()
@@ -157,10 +160,10 @@ def display_table_simple_agents_vs_ab(depth):
 
 def compare_simple_agents_vs_ab_agents():
     print()
-    depth = 6
+    depth = 4
     run_all_simple_agents_vs_ab_matches(depth)
     display_table_simple_agents_vs_ab(depth)
 
 
-# compare_simple_agents_vs_ab_agents()
-compare_simple_agents()
+compare_simple_agents_vs_ab_agents()
+# compare_simple_agents()

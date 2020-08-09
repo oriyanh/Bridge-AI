@@ -72,8 +72,8 @@ class Player:
         return hash(self.position)
 
 
-def get_legal_actions(suit, player) -> List[Card]:
-    legal_actions = player.hand.get_cards_from_suite(suit)
+def get_legal_actions(suit, player, already_played) -> List[Card]:
+    legal_actions = player.hand.get_cards_from_suite(suit, already_played)
     if not legal_actions:
         legal_actions = player.hand.cards
     else:

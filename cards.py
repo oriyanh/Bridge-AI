@@ -11,6 +11,14 @@ from typing import List
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
 
+face_value = {'A': 4.5,
+              'K': 3,
+              'Q': 1.5,
+              'J': 0.75,
+              '10': 0.25,
+              '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0}
+
+
 SUITS = ['♠', '♥', '♦', '♣', ]
 SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣'}
 
@@ -264,17 +272,37 @@ class Hand:
         cards = list(filter(lambda card: card.suit != suite, self.cards))
         return cards
 
-    def get_cards_sorted_by_suits(self):
+    def get_cards_sorted_by_suits(self, already_played):
         sorted_hand = dict()
         trump = []
         for card in self.cards:
-            if sorted_hand.get(card.suit.suit_type):
-                sorted_suit = sorted(self.get_cards_from_suite(card.suit))
+            if not sorted_hand.get(card.suit.suit_type):
+                sorted_suit = sorted(self.get_cards_from_suite(card.suit, already_played))
                 if card.is_trump:
                     trump = sorted_suit
                 else:
                     sorted_hand[card.suit.suit_type] = sorted_suit
         return sorted_hand, trump
+
+    def get_hand_value(self, already_played):
+        hand_values_by_suits = dict()
+        trump = []
+        for card in self.cards:
+            if not hand_values_by_suits.get(card.suit.suit_type):
+                card_of_suit = self.get_cards_from_suite(card.suit, already_played)
+                values_of_card = [face_value[card.face] for card in card_of_suit
+                                  if face_value[card.face] != 0]
+                if card.is_trump:
+                    trump = values_of_card
+                else:
+                    hand_values_by_suits[card.suit.suit_type] = values_of_card
+        hand_value = 0
+        for suit, values in hand_values_by_suits.items():
+            if len(values) > 0:
+                hand_value += len(values) * sum(values)
+        if len(trump) > 0:
+            hand_value += 2 * len(trump) * sum(trump)
+        return hand_value
 
     def __str__(self):
         ret = ""
