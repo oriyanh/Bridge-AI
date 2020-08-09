@@ -97,7 +97,7 @@ class Game:
                     self.show()
             if self.verbose_mode:
                 self.show()
-        self.show()
+
         # Game ended, calc result.
         self.winning_team = int(np.argmax(self.tricks_counter))
 
