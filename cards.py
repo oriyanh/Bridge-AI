@@ -74,14 +74,18 @@ class TrumpType(Enum):
         :returns SuitType: parsed suit
         :raises ValueError: If `suit` is unsupported.
         """
+        if suit.upper() == 'NT':
+            return TrumpType.NT
 
+        if suit == 'NoTrump':
+            return TrumpType.NoTrump
         try:
             suit_key = suit.capitalize()
-            return SuitType[suit_key]
+            return TrumpType[suit_key]
 
         except KeyError:
             raise ValueError(f"Unsupported Suit {suit}. "
-                             f"Must be one of {set(suit.name for suit in list(SuitType))}")
+                             f"Must be one of {set(suit.name for suit in list(TrumpType))}")
 
 
 class Trump:
@@ -92,7 +96,7 @@ class Trump:
 
     @property
     def suit(self):
-        return self._suit_type
+        return self._suit_type.value
 
     @suit.setter
     def suit(self, new_suit: TrumpType):
@@ -109,7 +113,7 @@ class Suit:
 
     @property
     def is_trump(self):
-        return self.trump_suit.suit.value == self.suit_type.value
+        return self.trump_suit.suit == self.suit_type.value
 
     def __repr__(self) -> str:
         return self.suit_type.value
@@ -144,6 +148,8 @@ class Suit:
     def __ge__(self, other):
         return other <= self
 
+    def __hash__(self) -> int:
+        return hash(self.suit_type)
 
 class Card:
     """
@@ -204,6 +210,8 @@ class Card:
     def __ge__(self, other):
         return not (self < other)
 
+    def __hash__(self) -> int:
+        return hash((self.suit, self.face))
 
 class Deck:
     """ Deck of cards."""
@@ -235,6 +243,7 @@ class Hand:
     def __init__(self, cards: List[Card]):
         """ Initial hand of player is initialized with list of Card object."""
         self.cards = cards
+        assert len(set(cards)) == len(cards)
 
     def __len__(self):
         return len(self.cards)
@@ -245,15 +254,21 @@ class Hand:
 
     def play_card(self, card: Card):
         """ Plays card from hand. After playing this card, it is no longer available in the player's hand."""
+        assert card in self.cards
+        prev_num_cards = len(self.cards)
         self.cards.remove(card)
+        assert len(self.cards) != prev_num_cards
 
-    def get_cards_from_suite(self, suite: Suit):
+    def get_cards_from_suite(self, suite: Suit, already_played):
         """ Returns all cards from player's hand that are from `suite`.
         If None, returns all cards."""
         if suite is None:
+            cards = self.cards
+            assert already_played.isdisjoint(cards)
             return self.cards
 
         cards = list(filter(lambda card: card.suit == suite, self.cards))
+        assert already_played.isdisjoint(cards)
         return cards
 
     def __str__(self):
