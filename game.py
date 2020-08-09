@@ -3,7 +3,7 @@ import numpy as np
 from copy import copy
 from typing import List
 
-from cards import Deck, trump_singleton, TrumpType
+from cards import Deck, trump_singleton, TrumpType, Card
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
 from trick import Trick
@@ -124,6 +124,7 @@ class Game:
         print(self)
         input()
 
+
 class SimulatedGame(Game):
     """ Simulates a game with a non-empty state"""
 
@@ -155,9 +156,7 @@ class SimulatedGame(Game):
         self.curr_player = state_copy.curr_player
         self._state = state_copy
 
-
-
-    def play_single_move(self) -> None:
+    def play_single_move(self) -> Card:
         if self.first_play and self.starting_action is not None:
             card = self.starting_action
             self.first_play = False
@@ -171,6 +170,7 @@ class SimulatedGame(Game):
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
+        return card
 
     def game_loop(self) -> None:
         if len(self.curr_trick.cards()) > 0:

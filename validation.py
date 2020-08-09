@@ -1,10 +1,13 @@
-from cards import Card, SUITS, SuitType, TrumpType, Hand
-from players import Player, PositionEnum, POSITIONS, PLAYERS_CYCLE, TEAMS
-from trick import Trick
-from typing import Tuple, List, TextIO
 from copy import copy
 from itertools import cycle, islice
+from typing import Tuple, List, TextIO
 
+from cards import Card, SUITS, SuitType, TrumpType, Hand
+from game import SimulatedGame
+from multi_agents import IAgent
+from players import Player, PositionEnum, POSITIONS, PLAYERS_CYCLE, TEAMS, Team
+from state import State
+from trick import Trick
 
 TEAMS_CYCLE = {TEAMS[0]: TEAMS[1], TEAMS[1]: TEAMS[0]}
 PLAYERS_DICT = {'N': 0, 'E': 1, 'S': 2, 'W': 3}
@@ -191,3 +194,30 @@ class Parser:
             trick_line = f.readline()
 
         return tricks
+
+
+def validate_agent_action(dg: DataGame,
+                          trick_idx: int,
+                          position: PositionEnum,
+                          agent: IAgent) -> bool:
+    curr_hands, curr_trick, chosen_card = dg.snapshot(trick_idx, position)
+
+    teams = [Team(dg.players[0], dg.players[2]),
+             Team(dg.players[1], dg.players[3])]
+
+    curr_state = State(trick=curr_trick,
+                       teams=teams,
+                       players=curr_hands,
+                       prev_tricks=dg.tricks[:trick_idx],
+                       score=dict.fromkeys(teams),
+                       curr_player=dg.players[0])
+
+    sg = SimulatedGame(agent=agent,
+                       other_agent=None,
+                       verbose_mode=False,
+                       state=curr_state)
+
+    played_card = sg.play_single_move()
+    print(f"Expected: {chosen_card}, Actual: {played_card}")
+
+    return played_card == chosen_card

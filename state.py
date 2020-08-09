@@ -14,7 +14,7 @@ class State:
                  players: List[Player],
                  prev_tricks: List[Trick],
                  score: Dict[Team, int],
-                 curr_player=None) -> None:
+                 curr_player: Player = None) -> None:
         self.trick = trick
         self.teams = teams
         self.players = players

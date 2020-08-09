@@ -2,12 +2,12 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
-import numpy as np
 from copy import copy
-from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
+import numpy as np
+from dataclasses import dataclass
 
 FACES = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A', ]
 
@@ -151,6 +151,7 @@ class Suit:
     def __hash__(self) -> int:
         return hash(self.suit_type)
 
+
 class Card:
     """
     A playing card.
@@ -213,6 +214,7 @@ class Card:
     def __hash__(self) -> int:
         return hash((self.suit, self.face))
 
+
 class Deck:
     """ Deck of cards."""
 
@@ -223,18 +225,15 @@ class Deck:
                 card = Card(face, suit)
                 self.cards.append(card)
 
-    def deal(self, recreate_game=''):
+    def deal(self):
         """
         Returns 4 randomly dealt Hands, one for each player in the game.
-        :param recreate_game: if supplied, will allow recreating a set of hands from a database. Currently unsupported.
         :returns List[Hand]: 4 hands
         """
-        if not recreate_game:
-            shuffled_deck = \
-                np.random.permutation(self.cards).reshape(4, 13).tolist()
-            hands = [Hand(cards) for cards in shuffled_deck]
-            return hands
-        # todo(oriyan/mar): create new deck from database representation
+        shuffled_deck = \
+            np.random.permutation(self.cards).reshape(4, 13).tolist()
+        hands = [Hand(cards) for cards in shuffled_deck]
+        return hands
 
 
 class Hand:
@@ -281,3 +280,13 @@ class Hand:
             ret += f"\n"
 
         return ret
+
+    def __repr__(self):
+        ret = ""
+        for suit in SUITS:
+            for card in self.cards:
+                if card.suit == suit:
+                    ret += f"{card.face}"
+            ret += f"."
+
+        return ret[:-1]
