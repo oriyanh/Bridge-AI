@@ -1,7 +1,7 @@
 from copy import copy
 from typing import Dict, List
 
-from cards import Card
+from cards import Card, TrumpType
 from players import PLAYERS_CYCLE, Player, Team
 from trick import Trick
 
@@ -14,7 +14,8 @@ class State:
                  players: List[Player],
                  prev_tricks: List[Trick],
                  score: Dict[Team, int],
-                 curr_player=None) -> None:
+                 curr_player=None,
+                 trump: TrumpType=TrumpType.NT) -> None:
         self.trick = trick
         self.teams = teams
         self.players = players
@@ -24,6 +25,7 @@ class State:
         self.players_pos = {player.position: player for player in self.players}
 
         self.already_played = set()
+        self.trump = trump
 
     def get_successor(self, action: Card):
         """
@@ -41,7 +43,7 @@ class State:
         curr_player = [p for p in players if p == self.curr_player][0]
 
         successor = State(trick, teams, players, self.prev_tricks, score,
-                          curr_player)
+                          curr_player, trump=self.trump)
         successor.apply_action(action)
         return successor
 
@@ -109,7 +111,7 @@ class State:
                  teams[1]: self.score[self.teams[1]]}
         players = [copy(player) for player in self.players]
         curr_player_pos = self.curr_player.position
-        state = State(trick, teams, players, prev_tricks, score, None)
+        state = State(trick, teams, players, prev_tricks, score, None, trump=self.trump)
         state.curr_player = state.players_pos[curr_player_pos]
         played = set(self.already_played)
         state.already_played = played
