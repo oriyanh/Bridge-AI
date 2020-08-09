@@ -1,8 +1,9 @@
 import os
+import numpy as np
+from copy import copy
 from typing import List
 
-from cards import Deck
-from multi_agents import *
+from cards import Deck, trump_singleton, TrumpType
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
 from trick import Trick
@@ -11,18 +12,19 @@ from trick import Trick
 class Game:
 
     def __init__(self,
-                 agent: IAgent,
-                 other_agent: IAgent,
+                 agent,
+                 other_agent,
                  games_counter: List[int],
                  tricks_counter: List[int],
                  verbose_mode: bool = True,
                  previous_tricks: List[Trick] = None,
                  curr_trick: Trick = None,
-                 starting_pos: PositionEnum = None):
+                 starting_pos: PositionEnum = None,
+                 trump=None):
         # todo(oriyan/maryna): think how to reproduce game from database -
         #  or randomly generate new game
-        self.agent = agent
-        self.other_agent = other_agent
+        self.agent = agent  # type: IAgent
+        self.other_agent = other_agent  # type: IAgent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode
 
@@ -67,22 +69,23 @@ class Game:
 
         return ret
 
-    def run(self, initial_state=None) -> None:
+    def run(self) -> bool:
         """
         Main game runner.
         :return: None
         """
-        if initial_state is None:
-            score = {self.teams[0]: 0, self.teams[1]: 0}
-            initial_state = State(self.curr_trick, self.teams,
-                                  list(self.players.values()),
-                                  self.previous_tricks, score,
-                                  self.curr_player)
+        score = {self.teams[0]: 0, self.teams[1]: 0}
+        initial_state = State(self.curr_trick, self.teams,
+                              list(self.players.values()),
+                              self.previous_tricks, score,
+                              self.curr_player)
         self._state = initial_state
+        self.previous_tricks = self._state.prev_tricks
         self.game_loop()
+        return True
 
     def game_loop(self) -> None:
-        while max(self.tricks_counter) < 13 // 2 + 1:  # Winner is determined.
+        while max(self.tricks_counter) < 7:  # Winner is determined.
 
             for i in range(len(POSITIONS)):  # Play all hands
                 self.play_single_move()
@@ -105,8 +108,8 @@ class Game:
         else:
             card = self.other_agent.get_action(self._state)
 
-        self._state.apply_action(card, True)
-        self.curr_trick = self._state.trick
+        curr_trick = self._state.apply_action(card, True)
+        self.curr_trick = curr_trick
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
@@ -120,3 +123,69 @@ class Game:
         os.system('cls')
         print(self)
         input()
+
+class SimulatedGame(Game):
+    """ Simulates a game with a non-empty state"""
+
+    def __init__(self, agent, other_agent,
+                 verbose_mode: bool = True, state: State = None, starting_action=None):
+        """
+
+        :param State state: Initial game state.
+        :param Card starting_action: Initial play of current player.
+            If None, chosen according to `agent`'s policy.
+        """
+
+        state_copy = copy(state)
+        self.players = {player.position: player for player in state_copy.players}
+        self.teams = state_copy.teams
+        self.tricks_counter = [state_copy.score[state_copy.teams[0]],
+                               state_copy.score[state_copy.teams[1]]]
+        self.starting_action = starting_action
+        self.first_play = True
+        self.agent = agent  # type: IAgent
+        self.other_agent = other_agent  # type: IAgent
+        self.games_counter = [0, 0]
+        self.verbose_mode = verbose_mode
+        self.trump = trump_singleton
+        self.deck = Deck()
+        self.curr_trick = state_copy.trick
+        self.previous_tricks = state_copy.prev_tricks
+        self.winning_team: int = -1
+        self.curr_player = state_copy.curr_player
+        self._state = state_copy
+
+
+
+    def play_single_move(self) -> None:
+        if self.first_play and self.starting_action is not None:
+            card = self.starting_action
+            self.first_play = False
+        elif self.teams[0].has_player(self.curr_player):
+            card = self.agent.get_action(self._state)
+        else:
+            card = self.other_agent.get_action(self._state)
+
+        curr_trick = self._state.apply_action(card, True)
+        self.curr_trick = curr_trick
+        self.curr_player = self._state.curr_player  # Current player of state is trick winner
+        self.tricks_counter = [self._state.score[self._state.teams[0]],
+                               self._state.score[self._state.teams[1]]]
+
+    def game_loop(self) -> None:
+        if len(self.curr_trick.cards()) > 0:
+            for card in self.curr_trick.cards():
+                self._state.already_played.add(card)
+        for _ in range(13 - len(self._state.prev_tricks)):
+            for __ in range(4 - len(self.curr_trick.cards())):  # Play all hands
+                self.play_single_move()
+                if self.verbose_mode:
+                    self.show()
+            if max(self.tricks_counter) >= 7:  # Winner is determined.
+                break
+        self.winning_team = int(np.argmax(self.tricks_counter))
+
+    def run(self) -> bool:
+        self.game_loop()
+        return True
+
