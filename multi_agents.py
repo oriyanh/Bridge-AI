@@ -1,17 +1,16 @@
+import numpy as np
+from abc import ABC, abstractmethod
 from collections import defaultdict
-from concurrent.futures.thread import ThreadPoolExecutor
 from copy import copy
 from queue import Queue
+from typing import Dict, List, Set
+from concurrent.futures.thread import ThreadPoolExecutor
 
-import numpy as np
-
-from abc import ABC, abstractmethod
 from cards import Card
-from game import Game, SimulatedGame
+from game import SimulatedGame
 from state import State
 
 
-FULL_TREE = -1
 
 def lookup(name, namespace):
     """
@@ -33,6 +32,7 @@ def lookup(name, namespace):
         if len(options) == 1: return options[0]
         if len(options) > 1: raise Exception('Name conflict for %s')
         raise Exception('%s not found as a method or class' % name)
+
 
 class IAgent(ABC):
     """ Interface for bridge-playing agents."""
@@ -60,10 +60,15 @@ class SimpleAgent(IAgent):
     def __init__(self, action_chooser_function='random_action', target=None):
         """
 
-        :param str action_chooser_function: name of action to take . Should be a function [State] -> Card
+        :param str action_chooser_function: name of action to take, or a function.
+            Function should map State -> Card
         :param target: See comment in IAgent's constructor
         """
-        self.action_chooser_function = lookup(action_chooser_function, globals())
+
+        if isinstance(action_chooser_function, str):
+            self.action_chooser_function = lookup(action_chooser_function, globals())
+        else:
+            self.action_chooser_function = action_chooser_function
         super().__init__(target)
 
     def get_action(self, state):
@@ -142,6 +147,21 @@ def soft_greedy_action(state):
     return worst_move  # Cannot win - play worst action.
 
 
+def add_randomness_to_action(func, epsilon):
+    """
+    Wraps a `State->Card` function with a randomizing factor -
+        w.p. epsilon, action is chosen at random.
+    :param func: `State->Card` function
+    :param float epsilon: Probability of choosing action at random. In range [0,1]
+    :returns: Function mapping `State->Card` with additional randomizing factor
+    """
+
+    def randomized_action(state):
+        if np.random.rand() < epsilon:
+            return random_action(state)
+        return func(state)
+
+    return randomized_action
 # ---------------------------MultiAgentSearchAgent--------------------------- #
 
 
@@ -275,45 +295,65 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 # ---------------------------------MCTSAgent--------------------------------- #
 
 class SimpleMCTSAgent(IAgent):
+    """ Agent implementing simplified version of MCTS -
+        only looks at end-results of simulation, without backpropogation.
+        Our agent's local decision rule is decided by `action_chooser_function`, while
+        the opponent's local decisions are chosen randomly."""
 
     def __init__(self, action_chooser_function='random_action', num_simulations=100):
+        """
+
+        :param str action_chooser_function: See `super().__init__()` docstring
+        :param int num_simulations: How many simulations for rollout
+        """
+
         self.action_chooser_function = lookup(action_chooser_function,
                                               globals())
         self.num_simulations_total = 0
-        self.action_value = defaultdict(lambda: 0)  # type: Dict[Card, int]
+        self.action_value = defaultdict(lambda: 0)  # type: Dict[Card, int]  # Maps values of playable actions
         self.num_simulations = num_simulations
         self.executor = ThreadPoolExecutor()
-        super().__init__(action_chooser_function)
+        super().__init__(None)
 
     def get_action(self, state):
         action = self.rollout(state, self.num_simulations)
         return action
 
     def rollout(self, state, num_simulations):
+        """
+        Performs `num_simulations` rollouts - i.e. stochastically simulate `num_simlations` games.
+
+        :param State state: Current state of the game
+        :param int num_simulations: How many games to simulate. Our agent's choices are made according to `action_chooser_function`
+            while the opoonent's are chosen randomly.
+        :returns Card: Best action
+        """
+
         legal_actions = state.get_legal_actions()
-        rollout_actions = np.random.choice(legal_actions, size=num_simulations, replace=True)
+        rollout_actions = np.random.choice(legal_actions,  # Pre-select initial actions
+                                           size=num_simulations, replace=True)
         best_action = np.random.choice(legal_actions)
-        games = [SimulatedGame(SimpleAgent(self.action_chooser_function.__name__),
+
+        # Simulate games on separate threads
+        games = [SimulatedGame(SimpleAgent(self.action_chooser_function),
                                SimpleAgent('random_action'), False,
                                state, action) for action in rollout_actions]
         futures = [self.executor.submit(game.run) for game in games]
         futures_queue = Queue(num_simulations)
         for future in futures:
             futures_queue.put(future)
+
+        # Poll threads for termination. Each future's return value is a boolean.
         while not futures_queue.empty():
             future = futures_queue.get()
             futures_queue.task_done()
             if future.running():
-                # print(f"return job to queue. Total sims so far: {self.num_simulations_total}")
                 futures_queue.put(future)
             else:
                 assert future.result()
 
+        # Collect results
         for game in games:
-            # game = SimulatedGame(SimpleAgent(self.action_chooser_function.__name__),
-            #                      SimpleAgent('random_action'), False,
-            #                      state, action)
-            # game.run()
             assert game.winning_team != -1
             winning_team = game.teams[game.winning_team]
             if winning_team.has_player(state.curr_player):
@@ -321,67 +361,83 @@ class SimpleMCTSAgent(IAgent):
 
             self.num_simulations_total += 1
 
+        # Choose best action
         for action in legal_actions:
             best_action = action if self.action_value[action] > self.action_value[best_action] \
                 else best_action
+
         return best_action
 
-class StochasticSimpleMCTSAgent(SimpleMCTSAgent):
 
-    def __init__(self, action_chooser_function='random_action', num_simulations=100, epsilon=0.25):
+class StochasticSimpleMCTSAgent(SimpleMCTSAgent):
+    """ Same as `SimpleMCTSAgent`, but with randomness injected into
+        our agent's choices within simulations."""
+
+    def __init__(self, action_chooser_function='random_action', num_simulations=100, epsilon=0.1):
+        """
+
+        :param action_chooser_function: See `super().__init__()` docstring
+        :param num_simulations: See `super().__init__()` docstring
+        :param float epsilon: Value in range [0,1]. w.p. `epsilon` our agent chooses random action.
+        """
+
+        assert 0 <= epsilon <= 1
         super().__init__(action_chooser_function, num_simulations)
         self.epsilon = epsilon
-
-    def get_action(self, state):
-        if np.random.rand() < self.epsilon:
-            return np.random.choice(state.get_legal_actions())
-        return super().get_action(state)
+        self.action_chooser_function = add_randomness_to_action(self.action_chooser_function, self.epsilon)
 
 
 class PureMCTSAgent(SimpleMCTSAgent):
+    """ Implements the full MCTS algorithm, in context of Bridge."""
 
     def __init__(self, action_chooser_function='random_action', num_simulations=100):
+        """
+
+        :param str action_chooser_function: See `super().__init__()` docstring
+        :param int num_simulations: How many simulations for rollout
+        """
+
         self.action_chooser_function = lookup(action_chooser_function,
                                               globals())
         super().__init__(action_chooser_function, num_simulations)
         # self.root = None  # type: MCTSNode
-        self.roots = {}
+        self.roots = {}  # type: Dict[Player, MCTSNode]  # One root for each of the agent's team players.
 
     def get_action(self, state):
-        """
-        Parameters
-        ----------
-        simulations_number : int
-            number of simulations performed to get the best action
-        Returns
-        -------
-        """
-        # if state.curr_player not in self.roots:
-        if not state.prev_tricks:  # New game, first play for current player
-            print('new game')
+        if not state.prev_tricks:
+            # New game, first play for current player, create new root
             self.roots[state.curr_player] = MCTSNode(state)
-        # if self.root is None:
-        #     self.root = MCTSNode(state)
 
         else:
+            # Need to remove impossible paths from tree
             self.prune_tree(state)
+
+        # Prepare tree for evaluation of best move
         root = self.roots[state.curr_player]
         for _ in range(0, self.num_simulations):
-            v = self._tree_policy(root)
-            reward = v.rollout()
-            v.backpropagate(reward)
-        # to select best child go for exploitation only
-        best_child =  root.best_child(c_param=0.)
+            # Exploration stage
+            expanded_node = self.explore(root)
+            # Rollout stage
+            reward = expanded_node.rollout()
+            # Backpropogation stage
+            expanded_node.backpropagate(reward)
+
+        # Exploitation stage
+        best_child =  root.best_child(uct_param=1.4)
         best_action = best_child.parent_action
-        # root._tried_actions.add(best_action)
-        # root._untried_actions.remove(best_action)
-        # self.root = best_child
-        # self.root.parent = None
 
         return best_action
 
-    def prune_tree(self, state: State):
+    def prune_tree(self, state):
+        """
+        Removes unreachable paths from tree, and updates root node.
+        :param State state: current game state
+        """
 
+        if not state.prev_tricks:  # new game, no need for pruning
+            return
+
+        # Evaluates plays since last time current player played
         prev_trick = state.prev_tricks[-1]
         curr_trick = state.trick
         actions = []
@@ -394,8 +450,9 @@ class PureMCTSAgent(SimpleMCTSAgent):
 
         current_root = self.roots[state.curr_player]
         next_root = None
-        while actions:
-            next_root = None
+        # Traverse tree according to order of play.
+        # Tree may not contain this path due to nature of MCTS, in which case we create a new tree.
+        for turn in range(3):
             for child in current_root.children:
                 if child.parent_action in actions:
                     next_root = child
@@ -404,113 +461,204 @@ class PureMCTSAgent(SimpleMCTSAgent):
                 break
             current_root = next_root
             actions.remove(current_root.parent_action)
-        if next_root is None:
+            next_root = None
+
+        if len(actions) != 1:
+            # This means last three plays traversed down an unexpanded path
             self.roots[state.curr_player] = MCTSNode(state)
             return
 
-        current_root.parent_action = None
-        current_root.parent = None
-        new_children = []
+        action = actions[0]
         for child in current_root.children:
+            if child.player_pos == state.curr_player.position \
+                and child.parent_action == action:
+                next_root = child
+                break
+
+        if next_root is None:
+            # This means the last move did not lead to current player,
+            # so we need to create a new tree
+            self.roots[state.curr_player] = MCTSNode(state)
+            return
+
+        # This path exists in old tree, make this node the root,
+        # and eliminate illegal paths
+        current_root = next_root
+        assert current_root.player_pos == state.curr_player.position
+        self._make_root_node(current_root, state.curr_player, state)
+
+    def _make_root_node(self, node, player, state):
+        """
+        Updates `player`'s root node to be `node`.
+        :param MCTSNode node: New root for `player`
+        :param Player player: Player whose root we are changing
+        :param State state: Current game state
+        """
+
+        node.parent_action = None
+        node.parent = None
+        new_children = []
+        for child in node.children:
             if child.parent_action not in state.already_played:
                 new_children.append(child)
-        current_root.children = new_children
+        node.children = new_children
+
         untried_actions = set()
         tried_actions = set()
-        for action in current_root.untried_actions:
+        for action in node.untried_actions:
             if action not in state.already_played:
                 untried_actions.add(action)
             else:
                 tried_actions.add(action)
-        current_root._untried_actions = untried_actions
-        current_root._tried_actions.update(tried_actions)
-        self.roots[state.curr_player] = current_root
 
+        node._untried_actions = untried_actions
+        node._tried_actions.update(tried_actions)
+        self.roots[player] = node
 
-    def _tree_policy(self, root):
+    def explore(self, root):
         """
-        selects node to run rollout/playout for
-        Returns
-        -------
+        Explores tree, choosing a leaf node for rollout stage. Expands leaf node if not terminal.
+        :param MCTSNode root: Root to explore
+        :returns MCTSNode: node on which to perform rollout
         """
+
         current_node = root
-        while not current_node.is_terminal_node():
-            if not current_node.is_fully_expanded():
+        while not current_node.is_terminal:
+            if not current_node.is_fully_expanded:
                 return current_node.expand()
             else:
                 current_node = current_node.best_child()
         return current_node
 
 class MCTSNode:
+    """ Node in search tree for Pure MCTS"""
 
-    def __init__(self, state: State, parent=None, parent_action=None):
+    def __init__(self, state, parent=None,
+                 parent_action=None, action_chooser_func='random_action'):
+        """
+
+        :param State state: current game state
+        :param MCTSNode parent: Parent of node. If None, this node is assumed to be a root node.
+        :param Card parent_action: If `parent` is not None,
+            this is the action made by parent that lead to this node. Else, value is ignored.
+        :param str action_chooser_function: See `super().__init__()` docstring
+        """
+
+        if isinstance(action_chooser_func, str):
+            self.action_chooser_func = lookup(action_chooser_func, globals())
+        else:
+            self.action_chooser_func = action_chooser_func
+
         self.state = copy(state)
         self.parent = parent
         self.children = []
-        if not self.parent:
-            assert parent_action is None
+        if not self.parent:  # Is root node
             self.parent_action = None
             if self.state.teams[0].has_player(self.state.curr_player):
                 self.team = self.state.teams[0]
             else:
                 self.team = self.state.teams[1]
+
         else:
             self.team = parent.team
             self.parent_action = parent_action
-        self._number_of_visits = 0.
-        self._results = defaultdict(int)
-        self._untried_actions = None
-        self._tried_actions = set()
-        self.max_player = 1 if self.team.has_player(self.state.curr_player) else -1
 
-    def best_child(self, c_param=1.4):
-        choices_weights = [
-            (c.q / c.n) + c_param * np.sqrt((2 * np.log(self.n) / c.n))
-            # Chooses according to UCT upper bound value
-            for c in self.children
-        ]
-        return self.children[int(np.argmax(choices_weights))]
+        self._number_of_visits = 0.
+        self._results = defaultdict(lambda: 0)  # type: Dict[int, int]  # maps team# to no. of wins
+        self._untried_actions = None  # type: Set[Card]
+        self._tried_actions = set()  # type: Set[Card]
+        self.max_player = 1 if self.team.has_player(self.state.curr_player) else -1
+        self.player_pos = state.curr_player.position
+
+
+    def best_child(self, uct_param=1.4):
+        """
+        Returns child node with best UCT upper bound value
+        :param float uct_param: Scaling factor for UCT value calculation. Default 1.4 ~ sqrt(2)
+        :returns MCTSNode: best child node
+        """
+
+        choices_weights = [self.UCT_value(child, uct_param) for child in self.children]
+        child_idx = int(np.argmax(choices_weights))
+        return self.children[child_idx]
+
+    def UCT_value(self, node, uct_param):
+        """
+        Calculates UCT value for node
+        :param MCTSNode node: node for calculation
+        :param float uct_param: Scaling factor for UCT value calculation
+        :returns float: UCT value
+        """
+
+        return (node.q_value / node.num_visits) + \
+               uct_param * np.sqrt((2 * np.log(self.num_visits) / node.num_visits))
 
     def rollout_policy(self, possible_moves):
+        """
+        Chooses "arm" of root node on which to perform rollout
+            ("arm" as in the "Multi armed bandit" problem).
+        Action is chosen at random.
+        :param List[Card] possible_moves: List of "arms"
+        :returns Card: chosen "arm", i.e. action to take for rollout
+        """
+
         return np.random.choice(possible_moves)
 
     @property
-    def untried_actions(self):
+    def untried_actions(self) -> List[Card]:
+        """ List of actions still unexplored"""
+
         if self._untried_actions is None:
             self._untried_actions = set(self.state.curr_player.hand.cards)
         return list(self._untried_actions.intersection(self.state.get_legal_actions()))
 
     @property
-    def q(self):
+    def q_value(self) -> int:
+        """ Difference between wins and losses count for current node"""
+
         wins = self._results[self.max_player]
         loses = self._results[-1 * self.max_player]
         return wins - loses
 
     @property
-    def n(self):
+    def num_visits(self) -> float:
+        """ Number of time node was visited, updated each rollout"""
+
         return self._number_of_visits
 
     def expand(self):
+        """ Expands a child node that wasn't explored yet.
+            Assumes not all children were explored.
+        :returns MCTSNode: Child node for exploration
+        """
+
         action = self.untried_actions.pop()
         next_state = self.state.get_successor(action)
-
+        assert action not in self.state.already_played
+        assert action in self.state.curr_player.hand.cards
         child_node = MCTSNode(next_state, parent=self, parent_action=action)
         self.children.append(child_node)
         self._untried_actions.remove(action)
         self._tried_actions.add(action)
         return child_node
 
-    def is_terminal_node(self):
+    @property
+    def is_terminal(self) -> bool:
+        """ Is current node a terminal node"""
         return self.state.is_game_over
 
     def rollout(self):
-        if self.is_terminal_node():
+        """ Performs single rollout on current node -
+            i.e. simulates a single game with current state as initial state. """
+
+        if self.is_terminal:
             reward = 1 if self.team.has_player(self.state.curr_player) else -1
             return reward
+
         current_rollout_state = self.state
         possible_moves = current_rollout_state.get_legal_actions()
         action = self.rollout_policy(possible_moves)
-        game = SimulatedGame(SimpleAgent('random_action'),
+        game = SimulatedGame(SimpleAgent(self.action_chooser_func),
                              SimpleAgent('random_action'), False,
                              current_rollout_state, action)
         assert game.run()
@@ -519,10 +667,17 @@ class MCTSNode:
         reward = 1 if self.team == winning_team else -1
         return reward
 
-    def is_fully_expanded(self):
+    @property
+    def is_fully_expanded(self) -> bool:
+        """ Whether all children of node were previously expanded"""
         return len(self.untried_actions) == 0
 
-    def backpropagate(self, result):
+    def backpropagate(self, result) -> None:
+        """
+        Backpropogates result of single rollout up the tree.
+        :param int result: 1 if max player won in rollout, -1 if min player won.
+        """
+
         self._number_of_visits += 1.
         self._results[result] += 1.
         if self.parent is not None:
