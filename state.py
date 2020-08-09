@@ -45,12 +45,13 @@ class State:
         successor.apply_action(action)
         return successor
 
-    def apply_action(self, card: Card, is_real_game: bool = False) -> None:
+    def apply_action(self, card: Card, is_real_game: bool = False) -> Trick:
         """
 
         :param card: Action to apply on current state
         :param is_real_game: indicator to differentiate a state used in simulation of a game
         by the object Game, from a state used within tree search.
+        :returns Trick: Trick status after applying card.
         """
         assert (len(self.trick) < len(self.players_pos))
         assert card not in self.already_played
@@ -63,7 +64,7 @@ class State:
         self.trick.add_card(self.curr_player, card)
         self.already_played.add(card)
         assert self.already_played.isdisjoint(self.curr_player.hand.cards)
-
+        curr_trick = self.trick
         if len(self.trick) == len(self.players_pos):  # last card played - open new trick
             if is_real_game:
                 self.prev_tricks.append(copy(self.trick))
@@ -79,6 +80,7 @@ class State:
             self.curr_player = self.players_pos[PLAYERS_CYCLE[self.curr_player.position]]
             assert self.curr_player in self.players_pos.values()
             assert self.curr_player in self.players
+        return curr_trick
 
     def get_legal_actions(self) -> List[Card]:
         legal_actions = self.curr_player.get_legal_actions(self.trick, self.already_played)
