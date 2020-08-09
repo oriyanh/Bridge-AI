@@ -199,7 +199,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         if self.depth == 0:
             scores = [self.evaluation_function(successor)
-                      for successor in successors]  # TODO [oriyan] Maryna,
+                      for successor in successors]
             best_score = max(scores)
             best_indices = [index for index in range(len(scores))
                             if scores[index] == best_score]

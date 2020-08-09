@@ -92,7 +92,7 @@ class TrumpType(Enum):
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: TrumpType = TrumpType.NT  # TODO [oriyan] need to take trump into consideration in each game, and set it accordingly.
+    trump_suit: TrumpType = TrumpType.NT
 
     @property
     def is_trump(self):
