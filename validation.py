@@ -35,12 +35,14 @@ class DataGame:
         self.winner = winner
         self.trump = trump
 
-    def snapshot(self, trick_idx: int, position: PositionEnum):
+    def snapshot(self, trick_idx: int, position: PositionEnum) -> \
+            Tuple[List[Player], Trick, Card]:
         """
         Image of one moment in game, in trick_idx trick, when player should play
         :param trick_idx: first trick is 0
         :param position: the player to commit its turn now
-        :return: current hands situation and trick on desk
+        :return: current hands situation (ordered list of players), trick on
+            desk and the chosen card (by player in given position).
         """
         if trick_idx >= len(self.tricks):
             raise IndexError(f"trick_idx argument has to be smaller then "
@@ -65,8 +67,9 @@ class DataGame:
                 curr_player, self.tricks[trick_idx].trick[curr_player])
             curr_player = self.players[PLAYERS_DICT[
                 PLAYERS_CYCLE[curr_player.position].name]]
+        chosen_card = self.tricks[trick_idx].trick[curr_player]
 
-        return curr_hands, curr_trick
+        return curr_hands, curr_trick, chosen_card
 
 
 class Parser:
