@@ -35,11 +35,18 @@ class DataGame:
         self.winner = winner
         self.trump = trump
 
-    def snapshot(self, trick_idx: int, player: PositionEnum):
+    def player_from_position(self, position: PositionEnum):
+        for p in self.players:
+            if p.position == position:
+                return p
+        else:
+            raise ValueError("List of self.players is wrong")
+
+    def snapshot(self, trick_idx: int, position: PositionEnum):
         """
         Image of one moment in game, in trick_idx trick, when player should play
         :param trick_idx: first trick is 0
-        :param player: the player to commit its turn now
+        :param position: the player to commit its turn now
         :return: current hands situation and trick on desk
         """
         if trick_idx >= len(self.tricks):
@@ -56,16 +63,17 @@ class DataGame:
 
         # Remove cards of current trick from hands of all players which play
         # before given player. In addition, store these cards
-        curr_player = self.tricks[trick_idx].first_player  # todo: first player Enum
+        curr_player = self.tricks[trick_idx].first_player
         curr_trick = Trick({})
-        while curr_player != player:
-            curr_hands[PLAYERS_DICT[curr_player]].play_card(
+        while curr_player.position != position:
+            curr_hands[PLAYERS_DICT[curr_player.position.name]].play_card(
                 self.tricks[trick_idx].trick[curr_player])
             curr_trick.add_card(
                 curr_player, self.tricks[trick_idx].trick[curr_player])
-            curr_player = PLAYERS_CYCLE[curr_player]
+            curr_player = self.players[PLAYERS_DICT[
+                PLAYERS_CYCLE[curr_player.position].name]]
 
-        return [curr_hands[p] for p in POSITIONS], curr_trick
+        return curr_hands, curr_trick
 
 
 def parse_file(file_name: str) -> List[DataGame]:
@@ -150,7 +158,7 @@ def parse_tricks(player_line: str, f: TextIO, players: List[Player]) -> \
     :param players: list of 4 Player objects, sorted by (N, E, S, W)
     :return: list of all tricks of a game
     """
-    first_position = POSITIONS[PLAYERS_DICT[player_line[7]]]
+    first_player = players[PLAYERS_DICT[player_line[7]]]
     iter_num = islice(cycle([0, 1, 2, 3]), 0, None)
     curr_player = players[next(iter_num)]
     tricks = []
@@ -164,25 +172,9 @@ def parse_tricks(player_line: str, f: TextIO, players: List[Player]) -> \
         for c in cards:
             curr_trick.add_card(curr_player, Card(face=c[1], suit=c[0]))
             curr_player = players[next(iter_num)]
-            curr_trick.add_first_player(first_position)
+            curr_trick.add_first_player(first_player)
         tricks.append(curr_trick)
-        first_position = curr_trick.get_winner()
+        first_player = curr_trick.get_winner()
         trick_line = f.readline()
 
     return tricks
-
-
-def test_snapshot():
-    file = "bridge_data_1/Aulpll23.pbn"
-    # file = "bridge_data_1/Dkofro20.pbn"
-    games = parse_file(file)
-    # out = games[0].snapshot(0, POSITIONS[0])
-    # out = games[0].snapshot(0, POSITIONS[2])
-    # out = games[0].snapshot(1, POSITIONS[2])
-    out = games[0].snapshot(1, POSITIONS[0])
-    # out = games[0].snapshot(6, POSITIONS[0])
-    return out
-
-
-if __name__ == '__main__':
-    test_snapshot()
