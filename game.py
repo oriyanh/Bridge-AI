@@ -1,10 +1,9 @@
 import os
-from copy import copy
-
 import numpy as np
+from copy import copy
 from typing import List
 
-from cards import Deck, trump_singleton, SUITS_ALT, TrumpType
+from cards import Deck, trump_singleton, TrumpType
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
 from trick import Trick

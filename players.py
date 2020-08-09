@@ -39,15 +39,14 @@ class Player:
     def play_card(self, card: Card) -> None:
         """ Plays card from hand. card is no longer available."""
         assert card not in self.played
-        # print(f"[{self.position}: {repr(self)}] Playing card {card}. Previous hand: {self.hand.cards}")
         self.hand.play_card(card)
-        # print(f"[{self.position}: {repr(self)}]Current hand: {self.hand.cards}")
         self.played.add(card)
 
     def get_legal_actions(self, trick, already_played) -> List[Card]:
         """ Returns list of legal actions for player in current trick
 
         :param Trick trick: Current trick
+        :param already_played: Set of cards already used in state, used for unit testing.
         :returns: legal actions for player:
         """
         legal_actions = self.hand.get_cards_from_suite(trick.starting_suit, already_played)
