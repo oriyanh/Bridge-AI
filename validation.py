@@ -85,7 +85,7 @@ class DataGame:
 
 class Parser:
     def __init__(self, file_paths: List[str]):
-        self.games = []
+        self.games: List[DataGame] = []
         for file in file_paths:
             self.games += (self.parse_file(file))
 
@@ -144,6 +144,10 @@ class Parser:
         :param f: TextIO object, of the PBN file that read
         :return: tuple of Enums of winners, and the trump suit.
         """
+        # Irregular situations
+        if line[11] == '\"' or line[11] == '^':
+            return None, None
+
         declarer = POSITIONS[PLAYERS_DICT[line[11]]]
         declare_team = TEAMS[0] if declarer in TEAMS[0] else TEAMS[1]
 
@@ -155,7 +159,7 @@ class Parser:
             trump = TrumpType[bid_line[12]]
 
         res_line = f.readline()
-        result = int(res_line[8:-2].split('\"')[1])
+        result = int(res_line[8:-2].split('\"')[1][-1])
         win_team = declare_team if result >= obligation else TEAMS_CYCLE[declare_team]
         return win_team, trump
 
@@ -183,7 +187,8 @@ class Parser:
         while trick_line[0] != '*':
             curr_trick = TrickValidation()
             cards = trick_line.split(' ')
-            if '-' in cards:  # last trick in game, some players give up
+            # # Irregular situations
+            if '-' in cards or '-\n' in cards or len(cards) != 4:
                 break
             for c in cards:
                 curr_trick.add_card(curr_player, Card(face=c[1], suit=c[0]))
