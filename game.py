@@ -3,7 +3,7 @@ import numpy as np
 from copy import copy
 from typing import List
 
-from cards import Deck, trump_singleton, TrumpType
+from cards import Deck, TrumpType
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
 from trick import Trick
@@ -27,8 +27,12 @@ class Game:
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode
-
-        self.deck = Deck()
+        if trump is None:
+            trump = np.random.choice(TrumpType)
+        else:
+            trump = TrumpType.from_str(trump)
+        self.trump = trump  # type: TrumpType
+        self.deck = Deck(self.trump)
         hands = self.deck.deal()
         self.players = {pos: Player(pos, hand) for pos, hand in
                         zip(POSITIONS, hands)}
@@ -56,7 +60,7 @@ class Game:
         ret += f"Game score: " \
                f"{self.teams[0]}:{self.tricks_counter[0]:02} - " \
                f"{self.teams[1]}:{self.tricks_counter[1]:02}\n"
-
+        ret += f"Trump Suite: {self.trump.value}\n"
         ret += f"Current trick:  "
         for player, card in self.curr_trick.items():
             ret += f"{player}:{card}  "
@@ -78,7 +82,7 @@ class Game:
         initial_state = State(self.curr_trick, self.teams,
                               list(self.players.values()),
                               self.previous_tricks, score,
-                              self.curr_player)
+                              self.curr_player, trump=self.trump)
         self._state = initial_state
         self.previous_tricks = self._state.prev_tricks
         self.game_loop()
@@ -93,7 +97,7 @@ class Game:
                     self.show()
             if self.verbose_mode:
                 self.show()
-
+        self.show()
         # Game ended, calc result.
         self.winning_team = int(np.argmax(self.tricks_counter))
 
@@ -147,8 +151,8 @@ class SimulatedGame(Game):
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = [0, 0]
         self.verbose_mode = verbose_mode
-        self.trump = trump_singleton
-        self.deck = Deck()
+        self.trump = state_copy.trump
+        self.deck = Deck(self.trump)
         self.curr_trick = state_copy.trick
         self.previous_tricks = state_copy.prev_tricks
         self.winning_team: int = -1

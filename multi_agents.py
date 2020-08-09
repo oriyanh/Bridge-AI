@@ -732,7 +732,7 @@ class HumanAgent(IAgent):
                 continue
             try:
                 card_suit, card_number = inp[:-1], inp[-1]
-                action = Card(card_number, card_suit)
+                action = Card(card_number, card_suit, state.trump)
                 legal_moves = state.get_legal_actions()
                 if action in legal_moves:
                     return action
