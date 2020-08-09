@@ -45,11 +45,12 @@ class State:
         successor.apply_action(action)
         return successor
 
-    def apply_action(self, card: Card, is_real_game:bool = False) -> None:
+    def apply_action(self, card: Card, is_real_game: bool = False) -> None:
         """
 
         :param card: Action to apply on current state
-        :param is_real_game: TODO [oriyan] Maryna, what is this?
+        :param is_real_game: indicator to differentiate a state used in simulation of a game
+        by the object Game, from a state used within tree search.
         """
         assert (len(self.trick) < len(self.players_pos))
         assert card not in self.already_played
@@ -86,8 +87,9 @@ class State:
 
     def get_score(self, curr_team_indicator) -> int:
         """ Returns score of team
-
-        :param curr_team_indicator: [oriyan] is this for determining if player is max/min player? clarification needed
+        :param curr_team_indicator: if true return the score of the team of the current player,
+        else return the score of the opposite player. used in alpha-beta search tree to indicate
+        score of max-min players
         :returns: current score of team
         """
         # assume there are 2 teams
