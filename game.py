@@ -127,9 +127,17 @@ class Game:
         input()
 
 class SimulatedGame(Game):
+    """ Simulates a game with a non-empty state"""
 
     def __init__(self, agent, other_agent,
                  verbose_mode: bool = True, state: State = None, starting_action=None):
+        """
+
+        :param State state: Initial game state.
+        :param Card starting_action: Initial play of current player.
+            If None, chosen according to `agent`'s policy.
+        """
+
         state_copy = copy(state)
         self.players = {player.position: player for player in state_copy.players}
         self.teams = state_copy.teams
@@ -137,25 +145,17 @@ class SimulatedGame(Game):
                                state_copy.score[state_copy.teams[1]]]
         self.starting_action = starting_action
         self.first_play = True
-
         self.agent = agent  # type: IAgent
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = [0, 0]
         self.verbose_mode = verbose_mode
         self.trump = trump_singleton
-
         self.deck = Deck()
-
         self.curr_trick = state_copy.trick
         self.previous_tricks = state_copy.prev_tricks
         self.winning_team: int = -1
-
-        # todo(maryna): adjust the next player if it is the middle of the game
-        #  taken from db
         self.curr_player = state_copy.curr_player
         self._state = state_copy
-        # for player in self.players.values():
-        #     print(f"[{repr(player)}:{player}] initial hand: {player.hand.cards}")
 
 
 
@@ -175,23 +175,16 @@ class SimulatedGame(Game):
                                self._state.score[self._state.teams[1]]]
 
     def game_loop(self) -> None:
-        # print("new game")
         if len(self.curr_trick.cards()) > 0:
-            # print(f"Previous number of tricks: {len(self.curr_trick.cards())}")
             for card in self.curr_trick.cards():
                 self._state.already_played.add(card)
-        # print(f"total number of tricks to play: {13 - len(self._state.prev_tricks)}")
         for _ in range(13 - len(self._state.prev_tricks)):
-            # print(f"total number of tricks remaining: {13 - _}")
-            # print(f"Number of cards left in trick: {4 - len(self.curr_trick.cards())}")
             for __ in range(4 - len(self.curr_trick.cards())):  # Play all hands
                 self.play_single_move()
                 if self.verbose_mode:
                     self.show()
             if max(self.tricks_counter) >= 7:  # Winner is determined.
                 break
-        # print("game over")
-        # Game ended, calc result.
         self.winning_team = int(np.argmax(self.tricks_counter))
 
     def run(self) -> bool:
