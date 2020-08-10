@@ -102,6 +102,8 @@ class Parser:
                     win_team, trump = self._parse_winners_and_trump(line, f)
                 elif line[1:5] == "Play":
                     tricks = self._parse_tricks(line, f, players)
+                    if len(tricks) == 0:  # delete empty games
+                        continue
                     games.append(DataGame(players, tricks, win_team, trump))
         return games
 
@@ -168,18 +170,19 @@ class Parser:
             List[TrickValidation]:
         """
         Helper for parse_file.
-        Example: for sequential lines [Play "S"], CA C2 CT C4, H8 H2 H4 HJ, ..., *
-            the meaning is that S starts the first trick with card 10♣, then W with
-            4♣, N with A♣ and E with 2♣. The winner was N, so he starts the next
-            trick with 8♥ and so on. (Order of cards in file is not the order of
-            game! N is written first, and the winner is inferred from line before)
+        Example: for sequential lines [Play "W"], HT H3 HA H6, C2 C3 C9 CJ, ..., *
+            the meaning is that W starts the first trick with card 10♥, then N with
+            3♥, E with A♥ and S with 6♥. The winner was E, so he starts the next
+            trick with 9♣ and so on. (Order of cards in file is not the order of
+            game! First player in every line is [Play <>], and the winner is
+            inferred from line before)
         :param player_line: line from PBN file, which starts with "["Play"
         :param f: TextIO object, of the PBN file that read
         :param players: list of 4 Player objects, sorted by (N, E, S, W)
         :return: list of all tricks of a game
         """
         first_position = POSITIONS[PLAYERS_DICT[player_line[7]]]
-        iter_num = islice(cycle([0, 1, 2, 3]), 0, None)
+        iter_num = islice(cycle([0, 1, 2, 3]), PLAYERS_DICT[player_line[7]], None)
         curr_player = players[next(iter_num)]
         tricks = []
 
@@ -187,7 +190,7 @@ class Parser:
         while trick_line[0] != '*':
             curr_trick = TrickValidation()
             cards = trick_line.split(' ')
-            # # Irregular situations
+            # Irregular situations
             if '-' in cards or '-\n' in cards or len(cards) != 4:
                 break
             for c in cards:
@@ -207,15 +210,15 @@ def validate_agent_action(dg: DataGame,
                           agent: IAgent) -> bool:
     curr_hands, curr_trick, chosen_card = dg.snapshot(trick_idx, position)
 
-    teams = [Team(dg.players[0], dg.players[2]),
-             Team(dg.players[1], dg.players[3])]
+    teams = [Team(curr_hands[0], curr_hands[2]),
+             Team(curr_hands[1], curr_hands[3])]
 
     curr_state = State(trick=curr_trick,
                        teams=teams,
                        players=curr_hands,
                        prev_tricks=dg.tricks[:trick_idx],
                        score=dict.fromkeys(teams),
-                       curr_player=dg.players[0])
+                       curr_player=curr_hands[position.value - 1])
 
     sg = SimulatedGame(agent=agent,
                        other_agent=None,
