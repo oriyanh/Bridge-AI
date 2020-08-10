@@ -21,9 +21,11 @@ class Game:
                  previous_tricks: List[Trick] = None,
                  curr_trick: Trick = None,
                  starting_pos: PositionEnum = None,
-                 trump=None):
+                 trump=None,
+                 cards_in_hand=13):
         # todo(oriyan/maryna): think how to reproduce game from database -
         #  or randomly generate new game
+        self.cards_in_hand=cards_in_hand
         self.agent = agent  # type: IAgent
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = games_counter
@@ -34,7 +36,7 @@ class Game:
             trump = TrumpType.from_str(trump)
         self.trump = trump  # type: TrumpType
         self.deck = Deck(self.trump)
-        hands = self.deck.deal()
+        hands = self.deck.deal(cards_in_hand=cards_in_hand)
         self.players = {pos: Player(pos, hand) for pos, hand in
                         zip(POSITIONS, hands)}
         self.teams = [Team(self.players[pos1], self.players[pos2]) for
@@ -90,7 +92,7 @@ class Game:
         return True
 
     def game_loop(self) -> None:
-        while max(self.tricks_counter) < 7:  # Winner is determined.
+        while max(self.tricks_counter) < self.cards_in_hand // 2:  # Winner is determined.
 
             for i in range(len(POSITIONS)):  # Play all hands
                 self.play_single_move()
@@ -131,6 +133,7 @@ class Game:
         os.system('clear' if 'linux' in sys.platform else 'cls')
         print(self)
         input()
+
 
 class SimulatedGame(Game):
     """ Simulates a game with a non-empty state"""
