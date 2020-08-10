@@ -16,6 +16,11 @@ PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
                  PositionEnum.S: PositionEnum.W,
                  PositionEnum.W: PositionEnum.N}
 
+TEAMMATES = {PositionEnum.N: PositionEnum.S,
+             PositionEnum.S: PositionEnum.N,
+             PositionEnum.E: PositionEnum.W,
+             PositionEnum.W: PositionEnum.E}
+
 
 class Player:
     """ Represents one of the 4 players in the game."""
@@ -67,6 +72,16 @@ class Player:
         return hash(self.position)
 
 
+def get_legal_actions(suit, player, already_played) -> List[Card]:
+    legal_actions = player.hand.get_cards_from_suite(suit, already_played)
+    if not legal_actions:
+        legal_actions = player.hand.cards
+    else:
+        trump_cards = [card for card in player.hand.cards if card.is_trump]
+        legal_actions.extend(trump_cards)
+    return legal_actions
+
+
 class Team:
     """ Team of two players sitting on opposite sides of table."""
 
@@ -91,6 +106,7 @@ class Team:
     def get_players(self) -> List[Player]:
         return self.players
 
+    # more useful to be outside as static method.
     def get_teammate(self, p: Player) -> Player:
         assert (p in self.players)
         return self.teammate[p.position]
