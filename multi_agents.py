@@ -468,7 +468,7 @@ def greedy_evaluation_function1(state, is_max=True, target=None):
         return value
 
     greedy_moves_count = greedy_legal_moves_count1(state)
-    return 6 * value + greedy_moves_count
+    return 13 * value + greedy_moves_count
 
 
 def greedy_evaluation_function2(state, is_max=True, target=None):
@@ -482,7 +482,7 @@ def greedy_evaluation_function2(state, is_max=True, target=None):
     """
     value = state.get_score(is_max)
     greedy_moves_count = greedy_legal_moves_count2(state)
-    return 6 * value + greedy_moves_count
+    return 13 * value + greedy_moves_count
 
 
 def greedy_legal_moves_count1(state):
@@ -513,7 +513,7 @@ def greedy_legal_moves_count2(state):
             teammate = state.players_pos[PLAYERS_CYCLE[PLAYERS_CYCLE[state.curr_player.position]]]
             teammate_legal_moves = get_legal_actions(state.trick.starting_suit, teammate, state.already_played)
             teammate_wining_moves = list(filter(lambda move: move > card_to_win, teammate_legal_moves))
-            wining_moves_count = len(wining_moves) + 2 * len(teammate_wining_moves)
+            wining_moves_count = 2 * len(wining_moves) + len(teammate_wining_moves)
         if i == 3:
             best_move = max(legal_moves)
             if best_move > best_in_current_trick:
@@ -534,7 +534,7 @@ def hand_evaluation_heuristic(state, is_max=True, target=None):
     """
     value = state.get_score(is_max)
     hand_value = state.curr_player.hand.get_hand_value(state.already_played)
-    return value + hand_value
+    return 13 * value + hand_value
 
 
 # ---------------------------------MCTSAgent--------------------------------- #

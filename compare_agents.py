@@ -6,9 +6,9 @@ from match import *
 GAMES_PER_MATCH = 100
 
 all_simple_agents_names = [
-                           # 'HighestFirstAgent',
-                           # 'LowestFirstAgent',
-                           # 'RandomAgent',
+                           'HighestFirstAgent',
+                           'LowestFirstAgent',
+                           'RandomAgent',
                            'HardGreedyAgent',
                            'HardGreedyAllPlayersAgent',
                            'SoftGreedyAgent',
@@ -16,25 +16,28 @@ all_simple_agents_names = [
                            ]
 
 all_simple_action_funcs_names = [
-                          # 'highest_first_action',
-                          # 'lowest_first_action',
-                          # 'random_action',
+                          'highest_first_action',
+                          'lowest_first_action',
+                          'random_action',
                           'hard_greedy_action',
                           'hard_greedy_all_players_action',
                           'soft_greedy_action',
                           'soft_greedy_all_players_action'
                           ]
 
-all_ab_evaluation_func = ['greedy_evaluation_function1',
+all_ab_evaluation_func = [
+                          'greedy_evaluation_function1',
                           'greedy_evaluation_function2',
                           'hand_evaluation_heuristic',
                           'count_tricks_won_evaluation_function',
                           ]
 
-all_ab_evaluation_names = ['GreedyEvaluationCurrPlayer',
+all_ab_evaluation_names = [
+                           'GreedyEvaluationCurrPlayer',
                            'GreedyEvaluationAllPlayers',
                            'HandEvaluation',
-                           'CountOfTricksWon']
+                           'CountOfTricksWon'
+                          ]
 
 results = np.empty((len(all_simple_action_funcs_names),
                     len(all_simple_action_funcs_names)))
@@ -126,23 +129,6 @@ def run_all_simple_agents_vs_ab_matches(depth):
             # when single agent starts the game.
 
 
-def run_all_simple_agents_vs_ab_matches_ab_first(depth):
-    for i in range(len(all_simple_action_funcs_names)):
-        for j in range(len(all_ab_evaluation_func)):
-            agent0 = all_simple_action_funcs_names[i]
-            print(f"AlphaBeta({all_ab_evaluation_names[j]}) vs. {all_simple_agents_names[i]}")
-            curr_match = Match(AlphaBetaAgent(evaluation_function=all_ab_evaluation_func[j],
-                                              depth=depth), SimpleAgent(agent0),
-                               GAMES_PER_MATCH, False, cards_in_hand=5)
-            curr_match.run()
-            print(f"Score: {curr_match.games_counter[0]:02} -"
-                  f" {curr_match.games_counter[1]:02}\n")
-            results[i, j] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-            # taking the score of the first agent curr_match.games_counter[0] to fill the left
-            # column of the table, which containing the win rate of the single agent vs. alpha-beta
-            # when single agent starts the game.
-
-
 def display_table_simple_agents_vs_ab(depth):
     fig, ax = plt.subplots(dpi=300)
     im = ax.imshow(results, cmap='plasma', vmin=0, vmax=100)
@@ -169,18 +155,10 @@ def display_table_simple_agents_vs_ab(depth):
 
 def compare_simple_agents_vs_ab_agents():
     print()
-    depth = 20
+    depth = 15
     run_all_simple_agents_vs_ab_matches(depth)
     display_table_simple_agents_vs_ab(depth)
 
 
-def compare_simple_agents_vs_ab_agents_ab_first():
-    print()
-    depth = 20
-    run_all_simple_agents_vs_ab_matches_ab_first(depth)
-    display_table_simple_agents_vs_ab(depth)
-
-
-compare_simple_agents_vs_ab_agents_ab_first()
-# compare_simple_agents_vs_ab_agents()
+compare_simple_agents_vs_ab_agents()
 # compare_simple_agents()
