@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 100
+GAMES_PER_MATCH = 1000
 
 all_simple_agents_names = [
                            # 'HighestFirstAgent',
@@ -167,5 +167,5 @@ def compare_simple_agents_vs_ab_agents():
     display_table_simple_agents_vs_ab(depth)
 
 
-compare_simple_agents_vs_ab_agents()
-# compare_simple_agents()
+# compare_simple_agents_vs_ab_agents()
+compare_simple_agents()
