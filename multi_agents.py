@@ -135,15 +135,15 @@ def hard_greedy_all_players_action(state):
     """
     legal_moves = state.get_legal_actions()
     best_move = max(legal_moves)
+    worst_move = min(legal_moves)
 
     if len(state.trick) == 0:  # Trick is empty - play best action.
         cards = starting_trick_cards(state)
         if len(cards) > 0:
-            return np.random.choice(cards)
-        return np.random.choice(legal_moves)
+            return max(cards)
+        return worst_move
 
     best_in_current_trick = max(state.trick.cards())
-    worst_move = min(legal_moves)
 
     op_cards = get_opponents_legal_card(state)
     if op_cards is not None:
@@ -196,8 +196,8 @@ def soft_greedy_all_players_action(state):
     if len(state.trick) == 0:  # Trick is empty - play worst action.
         cards = starting_trick_cards(state)
         if len(cards) > 0:
-            return np.random.choice(cards)
-        return np.random.choice(legal_moves)
+            return min(cards)
+        return worst_move
 
     best_in_current_trick = max(state.trick.cards())
 
@@ -473,19 +473,18 @@ def greedy_legal_moves_count2(state):
             teammate = state.players_pos[PLAYERS_CYCLE[PLAYERS_CYCLE[state.curr_player.position]]]
             teammate_legal_moves = get_legal_actions(state.trick.starting_suit, teammate, state.already_played)
             teammate_wining_moves = list(filter(lambda move: move > card_to_win, teammate_legal_moves))
-            wining_moves_count = len(wining_moves) + len(teammate_wining_moves)
+            wining_moves_count = len(wining_moves) + 2 * len(teammate_wining_moves)
         if i == 3:
             best_move = max(legal_moves)
             if best_move > best_in_current_trick:
                 wining_moves_count = len(list(filter(lambda move: move > best_in_current_trick,
                                                      legal_moves)))
-                factor = 3
+                factor = 4
     return factor * wining_moves_count
 
 
 def hand_evaluation_heuristic(state, is_max=True, target=None):
     return state.curr_player.hand.get_hand_value(state.already_played)
-
 
 
 # ---------------------------------MCTSAgent--------------------------------- #

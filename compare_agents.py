@@ -27,11 +27,13 @@ all_simple_action_funcs_names = [
 
 all_ab_evaluation_func = ['greedy_evaluation_function1',
                           'greedy_evaluation_function2',
+                          'hand_evaluation_heuristic',
                           'count_tricks_won_evaluation_function',
                           ]
 
 all_ab_evaluation_names = ['GreedyEvaluationCurrPlayer',
                            'GreedyEvaluationAllPlayers',
+                           'HandEvaluation',
                            'CountOfTricksWon']
 
 results = np.empty((len(all_simple_action_funcs_names),
@@ -111,7 +113,7 @@ def run_all_simple_agents_vs_ab_matches(depth):
         agent0 = all_simple_action_funcs_names[i]
         print(f"{all_simple_agents_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
-                           AlphaBetaAgent(evaluation_function='hand_evaluation_heuristic',
+                           AlphaBetaAgent(evaluation_function='greedy_evaluation_function2',
                                           depth=depth),
                            GAMES_PER_MATCH, False)
         curr_match.run()
