@@ -94,19 +94,14 @@ class DataGame:
         all_indices = [0, 1, 2, 3]
         # List of hands and trick for every winner
         hands_list_1: List[List[Player]] = []
-        hands_list_2: List[List[Player]] = []
 
         curr_hands = deepcopy(self.players)
         for trick_idx in range(len(self.tricks)):
-            indices = np.roll(all_indices, -(self.tricks[trick_idx].
-                                             first_position.value - 1))
-            for player_idx in indices:
-                if player_idx == winners_indices[0]:
-                    hands_list_1.append(deepcopy(curr_hands))
-                elif player_idx == winners_indices[1]:
-                    hands_list_2.append(deepcopy(curr_hands))
+            hands_list_1.append(deepcopy(curr_hands))
+            for player_idx, player in enumerate(curr_hands):
                 curr_hands[player_idx].hand.play_card(
-                    self.tricks[trick_idx].trick[curr_hands[player_idx]])
+                    self.tricks[trick_idx].trick[player])
+        hands_list_2 = deepcopy(hands_list_1)
 
         trick_list_1: List[Trick] = []
         trick_list_2: List[Trick] = []
@@ -117,8 +112,7 @@ class DataGame:
 
         for winner_idx, winner_list in enumerate([hands_list_1, hands_list_2]):
             for trick_idx, hands in enumerate(winner_list):
-                curr_player = self.position_to_player(
-                    POSITIONS[winners_indices[winner_idx]])
+                curr_player = self.position_to_player(self.tricks[trick_idx].first_position)
                 curr_trick = Trick({})
                 while curr_player.position != POSITIONS[winners_indices[winner_idx]]:
                     winner_list[trick_idx][
