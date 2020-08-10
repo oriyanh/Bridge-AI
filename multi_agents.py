@@ -266,7 +266,9 @@ def starting_trick_cards(state):
                 best_curr = max([teammate_trump_cards[-1], card])
             if teammate_reg_cards.get(card.suit.suit_type):
                 best_curr = max([teammate_reg_cards[card.suit.suit_type][-1], best_curr])
-            best_opp = max(opp_reg_cards[card.suit.suit_type][-1], opp_trump_cards[-1])
+            best_opp = opp_reg_cards[card.suit.suit_type][-1]
+            if len(opp_trump_cards) > 0:
+                best_opp = max(best_opp, opp_trump_cards[-1])
             # if the best card of curr team is winning against the strongest legal card of the
             # opponent- the card suggested to open the trick
             if best_curr > best_opp:
@@ -454,7 +456,7 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
 
 def greedy_evaluation_function1(state, is_max=True, target=None):
     """
-    returns a value for the gives state, calculated by count of legal moves of the current
+    returns a value for the gives state, calculated by count of legal moves of the current 
     player, ignoring the hands of other players.
     :param State state: game state
     :param bool is_max: is max player
@@ -471,7 +473,7 @@ def greedy_evaluation_function1(state, is_max=True, target=None):
 
 def greedy_evaluation_function2(state, is_max=True, target=None):
     """
-    returns a value for the gives state, calculated by count of legal winning moves by observing
+    returns a value for the gives state, calculated by count of legal winning moves by observing 
     the hands of all the players in the game.
     :param State state: game state
     :param bool is_max: is max player
@@ -525,10 +527,10 @@ def hand_evaluation_heuristic(state, is_max=True, target=None):
     """
     returns the value of the hand, evaluated by giving highest value for each card, and taking
     advantage of hands containing more cards of a same suit.
-    :param state:
+    :param state: 
     :param is_max: 
-    :param target:
-    :return:
+    :param target: 
+    :return: 
     """
     return state.curr_player.hand.get_hand_value(state.already_played)
 
