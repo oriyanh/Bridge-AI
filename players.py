@@ -10,16 +10,16 @@ PositionEnum = Enum("PlayersEnum", ['N', 'E', 'S', 'W'])
 POSITIONS = list(PositionEnum)
 
 TEAMS = [(PositionEnum.N, PositionEnum.S), (PositionEnum.W, PositionEnum.E)]
-TEAMMATE = {PositionEnum.N: PositionEnum.S,
-            PositionEnum.S: PositionEnum.N,
-            PositionEnum.E: PositionEnum.W,
-            PositionEnum.W: PositionEnum.E}
 
 PLAYERS_CYCLE = {PositionEnum.N: PositionEnum.E,
                  PositionEnum.E: PositionEnum.S,
                  PositionEnum.S: PositionEnum.W,
                  PositionEnum.W: PositionEnum.N}
 
+TEAMMATES = {PositionEnum.N: PositionEnum.S,
+             PositionEnum.S: PositionEnum.N,
+             PositionEnum.E: PositionEnum.W,
+             PositionEnum.W: PositionEnum.E}
 
 
 class Player:
@@ -33,27 +33,33 @@ class Player:
         """
         self.position = position
         self.hand = hand
+        self.played = set()
 
     def __copy__(self):
         hand = copy(self.hand)
-        return Player(self.position, hand)
+        player = Player(self.position, hand)
+        player.played = set(self.played)
+        return player
 
     def play_card(self, card: Card) -> None:
         """ Plays card from hand. card is no longer available."""
+        assert card not in self.played
         self.hand.play_card(card)
+        self.played.add(card)
 
-    def get_legal_actions(self, trick) -> List[Card]:
+    def get_legal_actions(self, trick, already_played) -> List[Card]:
         """ Returns list of legal actions for player in current trick
 
         :param Trick trick: Current trick
+        :param already_played: Set of cards already used in state, used for unit testing.
         :returns: legal actions for player:
         """
-        legal_actions = self.hand.get_cards_from_suite(trick.starting_suit)
+        legal_actions = self.hand.get_cards_from_suite(trick.starting_suit, already_played)
+        assert self.played.isdisjoint(legal_actions)
+        assert already_played.isdisjoint(legal_actions)
         if not legal_actions:
             legal_actions = self.hand.cards
-        else:
-            trump_cards = [card for card in self.hand.cards if card.is_trump]
-            legal_actions.extend(trump_cards)
+            assert already_played.isdisjoint(legal_actions)
         return legal_actions
 
     def __str__(self):
@@ -66,11 +72,23 @@ class Player:
         return hash(self.position)
 
 
+def get_legal_actions(suit, player, already_played) -> List[Card]:
+    legal_actions = player.hand.get_cards_from_suite(suit, already_played)
+    if not legal_actions:
+        legal_actions = player.hand.cards
+    else:
+        trump_cards = [card for card in player.hand.cards if card.is_trump]
+        legal_actions.extend(trump_cards)
+    return legal_actions
+
+
 class Team:
     """ Team of two players sitting on opposite sides of table."""
 
     def __init__(self, p0: Player, p1: Player):
         self.players = [p0, p1]
+        self.teammate = {p0.position: p1,  # todo [ORIYAN] Possibly remove?
+                         p1.position: p0}
         # todo(maryna): maybe add the score directly into the team object?
 
     def __copy__(self):
@@ -88,8 +106,19 @@ class Team:
     def get_players(self) -> List[Player]:
         return self.players
 
+    # more useful to be outside as static method.
     def get_teammate(self, p: Player) -> Player:
-        """ Returns teammmate of player `p`"""
-        # todo(oriyan): Possibly remove?
         assert (p in self.players)
-        return TEAMMATE[p.position]
+        return self.teammate[p.position]
+
+    def __hash__(self) -> int:
+        return hash(frozenset(self.players))
+
+    def __eq__(self, other) -> bool:
+        return frozenset(self.teammate.keys()).issubset(other.teammate.keys())
+
+
+def is_players_in_same_team(p1: Player, p2: Player) -> bool:
+    if (p1.position, p2.position) in TEAMS or (p2.position, p1.position) in TEAMS:
+        return True
+    return False

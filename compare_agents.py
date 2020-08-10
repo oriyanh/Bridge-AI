@@ -3,25 +3,38 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 10
+GAMES_PER_MATCH = 1000
 
-all_simple_agents_names = ['HighestFirstAgent',
-                           'LowestFirstAgent',
-                           'RandomAgent',
+all_simple_agents_names = [
+                           # 'HighestFirstAgent',
+                           # 'LowestFirstAgent',
+                           # 'RandomAgent',
                            'HardGreedyAgent',
-                           'SoftGreedyAgent', ]
+                           'HardGreedyAllPlayersAgent',
+                           'SoftGreedyAgent',
+                           'SoftGreedyAllPlayersAgent'
+                           ]
 
-all_simple_action_funcs_names = ['highest_first_action',
-                          'lowest_first_action',
-                          'random_action',
+all_simple_action_funcs_names = [
+                          # 'highest_first_action',
+                          # 'lowest_first_action',
+                          # 'random_action',
                           'hard_greedy_action',
-                          'soft_greedy_action', ]
+                          'hard_greedy_all_players_action',
+                          'soft_greedy_action',
+                          'soft_greedy_all_players_action'
+                          ]
 
-all_ab_evaluation_func = ['is_target_reached_evaluation_function',
-                          'count_tricks_won_evaluation_function']
+all_ab_evaluation_func = ['greedy_evaluation_function1',
+                          'greedy_evaluation_function2',
+                          'hand_evaluation_heuristic',
+                          'count_tricks_won_evaluation_function',
+                          ]
 
-all_ab_evaluation_names = ['reach target',
-                           'count of tricks won']
+all_ab_evaluation_names = ['GreedyEvaluationCurrPlayer',
+                           'GreedyEvaluationAllPlayers',
+                           'HandEvaluation',
+                           'CountOfTricksWon']
 
 results = np.empty((len(all_simple_action_funcs_names),
                     len(all_simple_action_funcs_names)))
@@ -100,12 +113,16 @@ def run_all_simple_agents_vs_ab_matches(depth):
         agent0 = all_simple_action_funcs_names[i]
         print(f"{all_simple_agents_names[i]} vs. AlphaBeta")
         curr_match = Match(SimpleAgent(agent0),
-                           AlphaBetaAgent(depth=depth),
+                           AlphaBetaAgent(evaluation_function='greedy_evaluation_function2',
+                                          depth=depth),
                            GAMES_PER_MATCH, False)
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
               f" {curr_match.games_counter[1]:02}\n")
         results[i, 0] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
+        # taking the score of the first agent curr_match.games_counter[0] to fill the left
+        # column of the table, which containing the win rate of the single agent vs. alpha-beta
+        # when single agent starts the game.
 
         print(f"AlphaBeta vs. {all_simple_agents_names[i]}")
         curr_match = Match(AlphaBetaAgent(depth=depth),
@@ -114,9 +131,10 @@ def run_all_simple_agents_vs_ab_matches(depth):
         curr_match.run()
         print(f"Score: {curr_match.games_counter[0]:02} -"
               f" {curr_match.games_counter[1]:02}\n")
-        results[i, 1] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-
-        # Print match result and update scores table
+        results[i, 1] = 100 * curr_match.games_counter[1] / GAMES_PER_MATCH
+        # taking the score of the second agent curr_match.games_counter[1] to fill the right
+        # column of the table, which containing the win rate of the single agent vs. alpha-beta
+        # when alpha-beta agent starts the game.
 
 
 def display_table_simple_agents_vs_ab(depth):
@@ -149,4 +167,5 @@ def compare_simple_agents_vs_ab_agents():
     display_table_simple_agents_vs_ab(depth)
 
 
-compare_simple_agents_vs_ab_agents()
+# compare_simple_agents_vs_ab_agents()
+compare_simple_agents()
