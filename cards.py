@@ -215,15 +215,16 @@ class Deck:
                 card = Card(face, suit, self.trump)
                 self.cards.append(card)
 
-    def deal(self, recreate_game=''):
+    def deal(self, cards_in_hand=13, recreate_game=''):
         """
         Returns 4 randomly dealt Hands, one for each player in the game.
         :param recreate_game: if supplied, will allow recreating a set of hands from a database. Currently unsupported.
         :returns List[Hand]: 4 hands
         """
         if not recreate_game:
+            cards = np.random.choice(self.cards, 4*cards_in_hand, replace=False)
             shuffled_deck = \
-                np.random.permutation(self.cards).reshape(4, 13).tolist()
+                np.random.permutation(cards).reshape(4, cards_in_hand).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # todo(oriyan/mar): create new deck from database representation
@@ -285,23 +286,48 @@ class Hand:
         return sorted_hand, trump
 
     def get_hand_value(self, already_played):
+        """
+        calculated following the steps:
+        1. HCP value of the hand
+        2. adjust of HCP
+        3. adjust suit lenght
+        4. adjust hands with top five cards of a suit
+        5. total starting points (added in the heuristic)
+        :param already_played:
+        :return:
+        """
+        hand_value = 0
+        adjust_suit_lenght = 0
+        aces_10s_count = 0
+        queens_jecks_count = 0
+
         hand_values_by_suits = dict()
-        trump = []
         for card in self.cards:
             if not hand_values_by_suits.get(card.suit.suit_type):
                 card_of_suit = self.get_cards_from_suite(card.suit, already_played)
+                if len(card_of_suit) > 0:
+                    adjust_suit_lenght += max([0, len(card_of_suit) - 4])
                 values_of_card = [face_value[card.face] for card in card_of_suit
                                   if face_value[card.face] != 0]
-                if card.is_trump:
-                    trump = values_of_card
-                else:
-                    hand_values_by_suits[card.suit.suit_type] = values_of_card
-        hand_value = 0
+                hand_values_by_suits[card.suit.suit_type] = values_of_card
+
         for suit, values in hand_values_by_suits.items():
             if len(values) > 0:
-                hand_value += len(values) * sum(values)
-        if len(trump) > 0:
-            hand_value += 2 * len(trump) * sum(trump)
+                hand_value += sum(values)
+                aces_10s_count += values.count(0.25)  # tens
+                aces_10s_count += values.count(4.5)  # aces
+                queens_jecks_count += values.count(1.5)  # queens
+                queens_jecks_count += values.count(0.75)  # jecks
+                if len(values) == 5:  # adjust rule 4
+                    hand_value += 3
+
+        adjust_hand_value_value = abs(aces_10s_count - queens_jecks_count)
+        sign = 1 if aces_10s_count > queens_jecks_count else -1
+        if adjust_hand_value_value > 2:
+            hand_value += sign
+            if adjust_hand_value_value > 5:
+                hand_value += sign
+
         return hand_value
 
     def __str__(self):
