@@ -1,6 +1,5 @@
-from os import system
-from sys import stdout
-from typing import List
+import os
+import sys
 from argparse import ArgumentParser
 from numpy.random import seed
 from tqdm import tqdm
@@ -43,14 +42,14 @@ class Match:
         :return: None
         """
         for _ in tqdm(range(self.num_games),
-                      leave=False, disable=self.verbose_mode, file=stdout):
+                      leave=False, disable=self.verbose_mode, file=sys.stdout):
             curr_game = create_game(self.agent, self.other_agent,
                                     self.games_counter, self.verbose_mode)
             curr_game.run()
             self.games_counter[curr_game.winning_team] += 1
 
         if self.verbose_mode:
-            system('cls')
+            os.system('clear' if 'linux' in sys.platform else 'cls')
             print(self)
 
 

@@ -1,4 +1,5 @@
 import os
+import sys
 import numpy as np
 from copy import copy
 from typing import List
@@ -124,7 +125,7 @@ class Game:
         :return: None
         """
 
-        os.system('cls')
+        os.system('clear' if 'linux' in sys.platform else 'cls')
         print(self)
         input()
 
