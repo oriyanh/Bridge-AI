@@ -468,7 +468,7 @@ def greedy_evaluation_function1(state, is_max=True, target=None):
         return value
 
     greedy_moves_count = greedy_legal_moves_count1(state)
-    return 10 * value + greedy_moves_count
+    return 6 * value + greedy_moves_count
 
 
 def greedy_evaluation_function2(state, is_max=True, target=None):
@@ -482,7 +482,7 @@ def greedy_evaluation_function2(state, is_max=True, target=None):
     """
     value = state.get_score(is_max)
     greedy_moves_count = greedy_legal_moves_count2(state)
-    return 10 * value + greedy_moves_count
+    return 6 * value + greedy_moves_count
 
 
 def greedy_legal_moves_count1(state):
@@ -532,7 +532,9 @@ def hand_evaluation_heuristic(state, is_max=True, target=None):
     :param target: 
     :return: 
     """
-    return state.curr_player.hand.get_hand_value(state.already_played)
+    value = state.get_score(is_max)
+    hand_value = state.curr_player.hand.get_hand_value(state.already_played)
+    return value + hand_value
 
 
 # ---------------------------------MCTSAgent--------------------------------- #

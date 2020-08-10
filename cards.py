@@ -215,15 +215,16 @@ class Deck:
                 card = Card(face, suit, self.trump)
                 self.cards.append(card)
 
-    def deal(self, recreate_game=''):
+    def deal(self, cards_in_hand=13, recreate_game=''):
         """
         Returns 4 randomly dealt Hands, one for each player in the game.
         :param recreate_game: if supplied, will allow recreating a set of hands from a database. Currently unsupported.
         :returns List[Hand]: 4 hands
         """
         if not recreate_game:
+            cards = np.random.choice(self.cards, 4*cards_in_hand, replace=False)
             shuffled_deck = \
-                np.random.permutation(self.cards).reshape(4, 13).tolist()
+                np.random.permutation(cards).reshape(4, cards_in_hand).tolist()
             hands = [Hand(cards) for cards in shuffled_deck]
             return hands
         # todo(oriyan/mar): create new deck from database representation
@@ -301,7 +302,7 @@ class Hand:
             if len(values) > 0:
                 hand_value += len(values) * sum(values)
         if len(trump) > 0:
-            hand_value += 2 * len(trump) * sum(trump)
+            hand_value += 4 * len(trump) * sum(trump)
         return hand_value
 
     def __str__(self):
