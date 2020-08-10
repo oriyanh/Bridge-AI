@@ -112,6 +112,9 @@ class Game:
             card = self.agent.get_action(self._state)
         else:
             card = self.other_agent.get_action(self._state)
+        if card is None:
+            pass
+        assert(card is not None)
 
         curr_trick = self._state.apply_action(card, True)
         self.curr_trick = curr_trick
