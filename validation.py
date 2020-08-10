@@ -1,6 +1,7 @@
-from copy import copy
+from copy import deepcopy
 from itertools import cycle, islice
 from typing import Tuple, List, TextIO
+import numpy as np
 
 from cards import Card, SUITS, SuitType, TrumpType, Hand
 from game import SimulatedGame
@@ -59,7 +60,7 @@ class DataGame:
                              f"{len(self.tricks)}")
 
         # Load initial hands situation
-        curr_hands = copy(self.players)
+        curr_hands = deepcopy(self.players)
 
         # Remove cards from all last tricks from hands
         for i in range(trick_idx):
@@ -81,6 +82,57 @@ class DataGame:
         chosen_card = self.tricks[trick_idx].trick[curr_player]
 
         return curr_hands, curr_trick, chosen_card
+
+    def all_relevant_snapshots(self) -> \
+            Tuple[List[List[Player]], List[Trick], List[Card]]:
+        """
+        Get all relevant data from DataGame: snapshots from all tricks, for the
+            positions of both winners.
+        :return: todo
+        """
+        winners_indices = [w.value - 1 for w in self.winner]
+        all_indices = [0, 1, 2, 3]
+        # List of hands and trick for every winner
+        hands_list_1: List[List[Player]] = []
+        hands_list_2: List[List[Player]] = []
+
+        curr_hands = deepcopy(self.players)
+        for trick_idx in range(len(self.tricks)):
+            indices = np.roll(all_indices, -(self.tricks[trick_idx].
+                                             first_position.value - 1))
+            for player_idx in indices:
+                if player_idx == winners_indices[0]:
+                    hands_list_1.append(deepcopy(curr_hands))
+                elif player_idx == winners_indices[1]:
+                    hands_list_2.append(deepcopy(curr_hands))
+                curr_hands[player_idx].hand.play_card(
+                    self.tricks[trick_idx].trick[curr_hands[player_idx]])
+
+        trick_list_1: List[Trick] = []
+        trick_list_2: List[Trick] = []
+        trick_list = [trick_list_1, trick_list_2]
+        chosen_cards_list_1: List[Card] = []
+        chosen_cards_list_2: List[Card] = []
+        chosen_cards_list = [chosen_cards_list_1, chosen_cards_list_2]
+
+        for winner_idx, winner_list in enumerate([hands_list_1, hands_list_2]):
+            for trick_idx, hands in enumerate(winner_list):
+                curr_player = self.position_to_player(
+                    POSITIONS[winners_indices[winner_idx]])
+                curr_trick = Trick({})
+                while curr_player.position != POSITIONS[winners_indices[winner_idx]]:
+                    winner_list[trick_idx][
+                        PLAYERS_DICT[curr_player.position.name]].play_card(
+                        self.tricks[trick_idx].trick[curr_player])
+                    curr_trick.add_card(
+                        curr_player, self.tricks[trick_idx].trick[curr_player])
+                    curr_player = self.players[PLAYERS_DICT[
+                        PLAYERS_CYCLE[curr_player.position].name]]
+                trick_list[winner_idx].append(curr_trick)
+                chosen_cards_list[winner_idx].append(self.tricks[trick_idx].trick[curr_player])
+
+        return hands_list_1 + hands_list_2, trick_list_1 + trick_list_2, \
+            chosen_cards_list_1 + chosen_cards_list_2
 
 
 class Parser:
