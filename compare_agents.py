@@ -169,48 +169,51 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
           f"{int(time.time() - start_time)} seconds ---")
 
 def run_all_simple_agents_vs_mcts(agent_cls, num_cards=13, **kwargs):
-    for i in range(len(all_simple_action_funcs_names)):
-        for j in range(len(all_simple_action_funcs_names)):
-            agent0 = all_simple_action_funcs_names[i]
-            print(f"{all_simple_agents_names[i]} vs. {agent_cls.__name__} ({all_simple_action_funcs_names[j]} rule)")
+    results = np.empty((len(ab_evaluation_func_names),
+                        len(simple_func_names)))
+    results[:] = np.nan
+    for i in range(len(simple_func_names)):
+        for j in range(len(simple_func_names)):
+            agent0 = simple_func_names[i]
+            print(f"{simple_agent_names[i]} vs. {agent_cls.__name__} ({simple_func_names[j]} rule)")
             curr_match = Match(SimpleAgent(agent0),
-                               agent_cls(all_simple_action_funcs_names[j], **kwargs),
+                               agent_cls(simple_func_names[j], **kwargs),
                                GAMES_PER_MATCH, False, cards_in_hand=num_cards)
             curr_match.run()
             print(f"Score: {curr_match.games_counter[0]:02} -"
                   f" {curr_match.games_counter[1]:02}\n")
             results[j, i] = 100 * curr_match.games_counter[1] / GAMES_PER_MATCH
     display_table_simple_agents_vs_MCTS(False, agent_cls, **kwargs)
-    for i in range(len(all_simple_action_funcs_names)):
-        for j in range(len(all_simple_action_funcs_names)):
-            agent0 = all_simple_action_funcs_names[i]
-            print(f"{agent_cls.__name__} ({all_simple_action_funcs_names[j]} rule) vs. {all_simple_agents_names[i]}")
-            curr_match = Match(agent_cls(all_simple_action_funcs_names[j], **kwargs),
+    for i in range(len(simple_func_names)):
+        for j in range(len(simple_func_names)):
+            agent0 = simple_func_names[i]
+            print(f"{agent_cls.__name__} ({simple_func_names[j]} rule) vs. {simple_agent_names[i]}")
+            curr_match = Match(agent_cls(simple_func_names[j], **kwargs),
                                SimpleAgent(agent0),
                                GAMES_PER_MATCH, False, cards_in_hand=num_cards)
             curr_match.run()
             print(f"Score: {curr_match.games_counter[0]:02} -"
                   f" {curr_match.games_counter[1]:02}\n")
             results[j, i] = 100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-    display_table_simple_agents_vs_MCTS(True, agent_cls, num_cards=num_cards, **kwargs)
+    display_table_simple_agents_vs_MCTS(results, True, agent_cls, num_cards=num_cards, **kwargs)
 
-def display_table_simple_agents_vs_MCTS(mcts_first, agent_cls, num_simulations=1, epsilon=None, num_cards=13):
+def display_table_simple_agents_vs_MCTS(results, mcts_first, agent_cls, num_simulations=1, epsilon=None, num_cards=13):
     fig, ax = plt.subplots(dpi=300)
     im = ax.imshow(results, cmap='plasma', vmin=0, vmax=100)
-    ax.set_xticks(np.arange(len(all_simple_agents_names)))
-    ax.set_yticks(np.arange(len(all_simple_agents_names)))
-    mcts_agent_names = [f"{agent_cls.__name__}({name})" for name in all_simple_agents_names]
+    ax.set_xticks(np.arange(len(simple_agent_names)))
+    ax.set_yticks(np.arange(len(simple_agent_names)))
+    mcts_agent_names = [f"{agent_cls.__name__}({name})" for name in simple_agent_names]
     if mcts_first:
         title = f"Win % of {agent_cls.__name__} \nvs normal agent - MCTS first, {num_simulations} sims."
     else:
         title = f"Win % of {agent_cls.__name__} \nvs normal agent - normal agent first, {num_simulations} sims."
     ax.set_title(title, fontsize=12, fontweight="bold")
-    ax.set_xticklabels(all_simple_agents_names, fontsize=8)
+    ax.set_xticklabels(simple_agent_names, fontsize=8)
     ax.set_yticklabels(mcts_agent_names, fontsize=8)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
              rotation_mode="anchor")
-    for i in range(len(all_simple_agents_names)):
-        for j in range(len(all_simple_agents_names)):
+    for i in range(len(simple_agent_names)):
+        for j in range(len(simple_agent_names)):
             text = ax.text(
                 j, i, f"{results[i, j]:3.0f}%",
                 ha="center", va="center", color="w", fontsize=8)
@@ -226,6 +229,8 @@ def display_table_simple_agents_vs_MCTS(mcts_first, agent_cls, num_simulations=1
     plt.fill()
     plt.savefig(plot_fname)
     plt.show()
+
+
 
 if __name__ == '__main__':
     # compare_simple_agents_vs_ab_agents(depth=5, ab_first=True)
