@@ -646,19 +646,21 @@ class PureMCTSAgent(SimpleMCTSAgent):
                                               globals())
         super().__init__(action_chooser_function, num_simulations)
         # self.root = None  # type: MCTSNode
-        self.roots = {}  # type: Dict[Player, MCTSNode]  # One root for each of the agent's team players.
+        self.root = None  # type: MCTSNode
 
     def get_action(self, state):
         if not state.prev_tricks:
             # New game, first play for current player, create new root
-            self.roots[state.curr_player] = MCTSNode(state)
+            # self.roots[state.curr_player] = MCTSNode(state)
+            self.root = MCTSNode(state)
 
         else:
             # Need to remove impossible paths from tree
             self.prune_tree(state)
 
         # Prepare tree for evaluation of best move
-        root = self.roots[state.curr_player]
+        # root = self.roots[state.curr_player]
+        root = self.root
         for _ in range(0, self.num_simulations):
             # Exploration stage
             expanded_node = self.explore(root)
@@ -672,18 +674,18 @@ class PureMCTSAgent(SimpleMCTSAgent):
         best_action = best_child.parent_action
 
         return best_action
-
     def prune_tree(self, state):
         """
-        Removes unreachable paths from tree, and updates root node.
-        :param State state: current game state
-        """
+                Removes unreachable paths from tree, and updates root node.
+                :param State state: current game state
+                """
 
         if not state.prev_tricks:  # new game, no need for pruning
             return
 
         # Evaluates plays since last time current player played
         prev_trick = state.prev_tricks[-1]
+
         curr_trick = state.trick
         actions = []
         for player in state.players:
@@ -693,46 +695,40 @@ class PureMCTSAgent(SimpleMCTSAgent):
             assert action is not None
             actions.append(action)
 
-        current_root = self.roots[state.curr_player]
+        current_root = self.root
         next_root = None
         # Traverse tree according to order of play.
         # Tree may not contain this path due to nature of MCTS, in which case we create a new tree.
-        for turn in range(3):
-            for child in current_root.children:
-                if child.parent_action in actions:
-                    next_root = child
-                    break
-            if next_root is None:
+        for child in current_root.children:
+            if child.parent_action in actions:
+                next_root = child
                 break
-            current_root = next_root
-            actions.remove(current_root.parent_action)
-            next_root = None
-
-        if len(actions) != 1:
-            # This means last three plays traversed down an unexpanded path
-            self.roots[state.curr_player] = MCTSNode(state)
+        if next_root is None:
+            self.root = MCTSNode(state)
             return
+        current_root = next_root
+        actions.remove(current_root.parent_action)
+        next_root = None
 
-        action = actions[0]
         for child in current_root.children:
             if child.player_pos == state.curr_player.position \
-                and child.parent_action == action:
+                    and child.parent_action in actions:
                 next_root = child
                 break
 
         if next_root is None:
             # This means the last move did not lead to current player,
             # so we need to create a new tree
-            self.roots[state.curr_player] = MCTSNode(state)
+            self.root = MCTSNode(state)
             return
 
         # This path exists in old tree, make this node the root,
         # and eliminate illegal paths
         current_root = next_root
         assert current_root.player_pos == state.curr_player.position
-        self._make_root_node(current_root, state.curr_player, state)
+        self._make_root_node(current_root, state)
 
-    def _make_root_node(self, node, player, state):
+    def _make_root_node(self, node, state):
         """
         Updates `player`'s root node to be `node`.
         :param MCTSNode node: New root for `player`
@@ -758,7 +754,7 @@ class PureMCTSAgent(SimpleMCTSAgent):
 
         node._untried_actions = untried_actions
         node._tried_actions.update(tried_actions)
-        self.roots[player] = node
+        self.root = node
 
     def explore(self, root):
         """
@@ -774,6 +770,7 @@ class PureMCTSAgent(SimpleMCTSAgent):
             else:
                 current_node = current_node.best_child()
         return current_node
+
 
 class MCTSNode:
     """ Node in search tree for Pure MCTS"""
