@@ -21,22 +21,24 @@ simple_agent_names = [
     'HighestFirst',
     'LowestFirst',
     'Random',
-    'HardShortGreedy',
-    'HardLongGreedy',
-    'SoftShortGreedy',
-    'SoftLongGreedy'
+    'HardGreedy',
+    'HardGreedyExtended',
+    'SoftGreedy',
+    'SoftGreedyExtended'
 ]
 
-ab_evaluation_func_names = ['greedy_evaluation_function1',
+ab_evaluation_func_names = [
+                            'count_tricks_won_evaluation_function',
+                            'greedy_evaluation_function1',
                             'greedy_evaluation_function2',
                             'hand_evaluation_heuristic',
-                            'count_tricks_won_evaluation_function',
                             ]
 
-ab_evaluation_agent_names = ['AlphaBeta(#legal moves)',
+ab_evaluation_agent_names = ['AlphaBeta(#tricks won)',
+                             'AlphaBeta(#legal moves)',
                              'AlphaBeta(#winning moves)',
                              'AlphaBeta(hand evaluation)',
-                             'AlphaBeta(#tricks won)']
+                             ]
 
 
 def compare_simple_agents():
