@@ -4,39 +4,10 @@ import matplotlib.patheffects as path_effects
 import matplotlib.pyplot as plt
 
 from match import *
+from multi_agents import simple_func_names, simple_agent_names, \
+    ab_evaluation_func_names, ab_evaluation_agent_names
 
-GAMES_PER_MATCH = 100
-
-simple_func_names = [
-    'highest_first_action',
-    'lowest_first_action',
-    'random_action',
-    'hard_short_greedy_action',
-    'hard_long_greedy_action',
-    'soft_short_greedy_action',
-    'soft_long_greedy_action'
-]
-
-simple_agent_names = [
-    'HighestFirst',
-    'LowestFirst',
-    'Random',
-    'HardShortGreedy',
-    'HardLongGreedy',
-    'SoftShortGreedy',
-    'SoftLongGreedy'
-]
-
-ab_evaluation_func_names = ['greedy_evaluation_function1',
-                            'greedy_evaluation_function2',
-                            'hand_evaluation_heuristic',
-                            'count_tricks_won_evaluation_function',
-                            ]
-
-ab_evaluation_agent_names = ['ShortGreedyEvaluation',
-                             'LongGreedyEvaluation',
-                             'HandEvaluation',
-                             'CountOfTricksWon']
+GAMES_PER_MATCH = 1
 
 
 def compare_simple_agents():
@@ -176,5 +147,3 @@ compare_simple_agents_vs_ab_agents(depth=10, ab_first=True)
 compare_simple_agents_vs_ab_agents(depth=10, ab_first=False)
 compare_simple_agents_vs_ab_agents(depth=15, ab_first=True)
 compare_simple_agents_vs_ab_agents(depth=15, ab_first=False)
-
-

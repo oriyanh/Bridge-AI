@@ -1,15 +1,50 @@
-import numpy as np
 from abc import ABC, abstractmethod
 from collections import defaultdict
+from concurrent.futures.thread import ThreadPoolExecutor
 from copy import copy
 from queue import Queue
 from typing import Dict, List, Set
-from concurrent.futures.thread import ThreadPoolExecutor
+
+import numpy as np
 
 from cards import Card
 from game import SimulatedGame
-from state import State
 from players import is_players_in_same_team, get_legal_actions, PLAYERS_CYCLE
+from state import State
+
+simple_func_names = [
+    'highest_first_action',
+    'lowest_first_action',
+    'random_action',
+    'hard_short_greedy_action',
+    'hard_long_greedy_action',
+    'soft_short_greedy_action',
+    'soft_long_greedy_action',
+]
+
+simple_agent_names = [
+    'HighestFirst',
+    'LowestFirst',
+    'Random',
+    'HardShortGreedy',
+    'HardLongGreedy',
+    'SoftShortGreedy',
+    'SoftLongGreedy',
+]
+
+ab_evaluation_func_names = [
+    'greedy_evaluation_function1',
+    'greedy_evaluation_function2',
+    'hand_evaluation_heuristic',
+    'count_tricks_won_evaluation_function',
+]
+
+ab_evaluation_agent_names = [
+    'ShortGreedyEvaluation',
+    'LongGreedyEvaluation',
+    'HandEvaluation',
+    'CountOfTricksWon',
+]
 
 
 def lookup(name, namespace):
