@@ -164,8 +164,8 @@ def compare_simple_agents_vs_ab_agents(depth, hand_size):
 
 
 # compare_simple_agents()
-compare_simple_agents_vs_ab_agents(depth=5, hand_size=4)
-compare_simple_agents_vs_ab_agents(depth=10, hand_size=4)
+# compare_simple_agents_vs_ab_agents(depth=5, hand_size=4)
+# compare_simple_agents_vs_ab_agents(depth=10, hand_size=4)
 compare_simple_agents_vs_ab_agents(depth=15, hand_size=4)
 compare_simple_agents_vs_ab_agents(depth=5, hand_size=8)
 compare_simple_agents_vs_ab_agents(depth=10, hand_size=8)
