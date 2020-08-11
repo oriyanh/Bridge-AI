@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from match import *
 
 GAMES_PER_MATCH = 1000
+CARDS_IN_HAND = 5
 
 simple_func_names = [
     'highest_first_action',
@@ -83,9 +84,9 @@ def compare_simple_agents():
 
         title = "Simple vs Simple Agents\n" + \
                 f"y-axis win %, higher is better"
-        ax.set_title(title, fontsize=16, fontweight="bold")
+        ax.set_title(title, fontsize=14)
         fig.tight_layout()
-        plt.show()
+        plt.savefig(f"{title}\n#cards in hand: {CARDS_IN_HAND}.png")
 
     print()
     start_time = time.time()
@@ -113,12 +114,12 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
                     curr_match = Match(ab_agent, simple_agent,
                                        num_games=GAMES_PER_MATCH,
                                        verbose_mode=False,
-                                       cards_in_hand=5)
+                                       cards_in_hand=CARDS_IN_HAND)
                 else:
                     curr_match = Match(simple_agent, ab_agent,
                                        num_games=GAMES_PER_MATCH,
                                        verbose_mode=False,
-                                       cards_in_hand=5)
+                                       cards_in_hand=CARDS_IN_HAND)
 
                 curr_match.run()
                 print(f"Score: {curr_match.games_counter[0]:02} -"
@@ -152,9 +153,9 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
                 f"{'AlphaBeta' if ab_first else 'Simple'} agent play first\n" \
                 f"y-axis win %, depth={depth}"
 
-        ax.set_title(title, fontsize=16, fontweight="bold")
+        ax.set_title(title, fontsize=12)
         fig.tight_layout()
-        plt.show()
+        plt.savefig(f"{title}\n#cards in hand: {CARDS_IN_HAND}.png")
 
     print()
     start_time = time.time()
