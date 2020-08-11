@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 100
+GAMES_PER_MATCH = 1000
 
 simple_func_names = [
     'highest_first_action',
@@ -33,10 +33,10 @@ ab_evaluation_func_names = ['greedy_evaluation_function1',
                             'count_tricks_won_evaluation_function',
                             ]
 
-ab_evaluation_agent_names = ['ShortGreedyEvaluation',
-                             'LongGreedyEvaluation',
-                             'HandEvaluation',
-                             'CountOfTricksWon']
+ab_evaluation_agent_names = ['AlphaBeta(#legal moves)',
+                             'AlphaBeta(#winning moves)',
+                             'AlphaBeta(hand evaluation)',
+                             'AlphaBeta(#tricks won)']
 
 
 def compare_simple_agents():
