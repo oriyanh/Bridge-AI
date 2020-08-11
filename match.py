@@ -5,7 +5,7 @@ run with the following arguments:
 Where each agent encoding is of in one of the following forms:
 Simple-<simple_agent_names>
 AlphaBeta-<ab_evaluation_agent_names>-<depth>
-MCTS-<'simple'/'stochastic'/'pure'>-<simple_agent_names>-(<epsilon>)
+MCTS-<'simple'/'stochastic'/'pure'>-<simple_agent_names>-<num_simulations>
 Human
 """
 
@@ -86,6 +86,8 @@ def parse_args():
     parser.add_argument('--agent1')
     parser.add_argument('--agent2')
     parser.add_argument('--num_games', type=int, default=100)
+    parser.add_argument('--cards_in_hand', type=int, default=13)
+    parser.add_argument('--verbose_mode', type=bool, default=True)
     return parser.parse_args()
 
 
@@ -122,8 +124,7 @@ def str_to_agent(agent_str):
             return StochasticSimpleMCTSAgent(
                 action_chooser_function=simple_func_names[
                     simple_agent_names.index(agent_str[2])],
-                num_simulations=int(agent_str[3]),
-                epsilon=float(agent_str[4]))
+                num_simulations=int(agent_str[3]))
         elif agent_str[1] == 'pure':
             return PureMCTSAgent(
                 action_chooser_function=simple_func_names[
@@ -132,7 +133,7 @@ def str_to_agent(agent_str):
         else:
             print("Bad arguments for MCTS agent. Should be:\n"
                   "MCTS <'simple'/'stochastic'/'pure'> "
-                  "<simulated agent name> (<epsilon>)")
+                  "<simulated agent name>")
             return -1
 
     elif agent_str[0] == "Human":  # Human agent
@@ -142,19 +143,20 @@ def str_to_agent(agent_str):
         raise ArgumentTypeError()
 
 
-def run_match(a0_str, a1_str, num_games):
+def run_match():
     try:
-        a0 = str_to_agent(a0_str)
-        a1 = str_to_agent(a1_str)
+        a0 = str_to_agent(args.agent1)
+        a1 = str_to_agent(args.agent2)
     except ArgumentTypeError:
         print("ArgumentTypeError: Bad arguments usage")
         return -1
 
-    match = Match(a0, a1, num_games)
+    match = Match(a0, a1,
+                  args.num_games, args.verbose_mode, args.cards_in_hand)
     match.run()
 
 
 if __name__ == '__main__':
     args = parse_args()
-    run_match(args.agent1, args.agent2, args.num_games)
+    run_match()
     input()
