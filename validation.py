@@ -1,7 +1,6 @@
 from copy import deepcopy
 from itertools import cycle, islice
 from typing import Tuple, List, TextIO
-import numpy as np
 
 from cards import Card, SUITS, SuitType, TrumpType, Hand
 from game import SimulatedGame
@@ -88,10 +87,14 @@ class DataGame:
         """
         Get all relevant data from DataGame: snapshots from all tricks, for the
             positions of both winners.
-        :return: todo
+        :return: tuple of 3 elements:
+            1. list of all sets-of-hands during game, one set-of-hands for every trick
+            2. list of all open cards in specific trick, one set-of-cards for every trick
+            3. list of all real cards the player should act, one for every trick
+            all above are *concatenation* of results of both winners. For example,
+            cards_list = [cards_list_winner_1] + [cards_list_winner_2]
         """
         winners_indices = [w.value - 1 for w in self.winner]
-        all_indices = [0, 1, 2, 3]
         # List of hands and trick for every winner
         hands_list_1: List[List[Player]] = []
 
@@ -112,7 +115,8 @@ class DataGame:
 
         for winner_idx, winner_list in enumerate([hands_list_1, hands_list_2]):
             for trick_idx, hands in enumerate(winner_list):
-                curr_player = self.position_to_player(self.tricks[trick_idx].first_position)
+                curr_player = self.position_to_player(
+                    self.tricks[trick_idx].first_position)
                 curr_trick = Trick({})
                 while curr_player.position != POSITIONS[winners_indices[winner_idx]]:
                     winner_list[trick_idx][
@@ -123,7 +127,8 @@ class DataGame:
                     curr_player = self.players[PLAYERS_DICT[
                         PLAYERS_CYCLE[curr_player.position].name]]
                 trick_list[winner_idx].append(curr_trick)
-                chosen_cards_list[winner_idx].append(self.tricks[trick_idx].trick[curr_player])
+                chosen_cards_list[winner_idx].append(
+                    self.tricks[trick_idx].trick[curr_player])
 
         return hands_list_1 + hands_list_2, trick_list_1 + trick_list_2, \
             chosen_cards_list_1 + chosen_cards_list_2
@@ -201,7 +206,7 @@ class Parser:
 
         bid_line = f.readline()
         obligation = int(bid_line[11]) + 6
-        if (bid_line[12:-3] == "NT") or (bid_line[12:-4] == "NT"):  # todo: check all options
+        if (bid_line[12:-3] == "NT") or (bid_line[12:-4] == "NT"):
             trump = TrumpType.NT
         else:
             trump = TrumpType[bid_line[12]]
@@ -275,3 +280,42 @@ def validate_agent_action(dg: DataGame,
     print(f"Expected: {chosen_card}, Actual: {played_card}")
 
     return played_card == chosen_card
+
+
+def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
+        Tuple[int, int]:
+    """
+    Validate a agent by comparing its performances to data.
+    :param agent: IAgent to check vs the data
+    :param dg: DataGame object
+    :return: first integer is number of comperes, and second is num of succeeds
+    """
+    all_hands, all_tricks, chosen_cards = dg.all_relevant_snapshots()
+    tricks_num = len(all_hands) // 2
+    succeeds = 0
+
+    for pos_idx, position in enumerate(dg.winner):
+        for trick_idx in range(tricks_num):
+            curr_hands = all_hands[pos_idx * tricks_num + trick_idx]
+            curr_trick = all_tricks[pos_idx * tricks_num + trick_idx]
+            chosen_card = chosen_cards[pos_idx * tricks_num + trick_idx]
+            teams = [Team(curr_hands[0], curr_hands[2]),
+                     Team(curr_hands[1], curr_hands[3])]
+
+            curr_state = State(trick=curr_trick,
+                               teams=teams,
+                               players=curr_hands,
+                               prev_tricks=dg.tricks[:trick_idx],
+                               score=dict.fromkeys(teams),
+                               curr_player=curr_hands[position.value - 1])
+
+            sg = SimulatedGame(agent=agent,
+                               other_agent=None,
+                               verbose_mode=False,
+                               state=curr_state)
+
+            played_card = sg.play_single_move()
+            if played_card == chosen_card:
+                succeeds += 1
+
+        return len(all_hands), succeeds
