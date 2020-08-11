@@ -148,18 +148,21 @@ class Parser:
         with open(file_name) as f:
             for line in f:
                 if line[1:6] == "Deal ":
-                    players = self._parse_players(line[7:-3])
+                    players_line = line
                 elif line[1:9] == "Declarer":
                     win_team, trump = self._parse_winners_and_trump(line, f)
+                    if trump is None:
+                        continue
+                    players = self._parse_players(players_line[7:-3], trump)
                 elif line[1:5] == "Play":
                     tricks = self._parse_tricks(line, f, players)
-                    if len(tricks) == 0:  # delete empty games
+                    if len(tricks) == 0 or trump is None:  # delete empty games
                         continue
                     games.append(DataGame(players, tricks, win_team, trump))
         return games
 
     @staticmethod
-    def _parse_players(line: str) -> List[Player]:
+    def _parse_players(line: str, trump: TrumpType) -> List[Player]:
         """
         Helper for parse_file.
         Example: line is such -
@@ -180,7 +183,8 @@ class Parser:
             cards = []
             for i, suit in enumerate(cards_str):
                 for face in suit:
-                    cards.append(Card(face=face, suit=SuitType(SUITS[i]).name))
+                    cards.append(Card(face=face, suit=SuitType(SUITS[i]).name,
+                                      trump=trump))
                     next_position = PLAYERS_CYCLE[curr_position]
             players[curr_position.value - 1] = Player(curr_position, Hand(cards))
 
@@ -299,8 +303,11 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
             curr_hands = all_hands[pos_idx * tricks_num + trick_idx]
             curr_trick = all_tricks[pos_idx * tricks_num + trick_idx]
             chosen_card = chosen_cards[pos_idx * tricks_num + trick_idx]
+            # Create teams, such that first team is the winner
             teams = [Team(curr_hands[0], curr_hands[2]),
                      Team(curr_hands[1], curr_hands[3])]
+            if curr_hands[0].position not in dg.winner:
+                teams[0], teams[1] = teams[1], teams[0]
 
             curr_state = State(trick=curr_trick,
                                teams=teams,
@@ -314,7 +321,7 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
                                verbose_mode=False,
                                state=curr_state)
 
-            played_card = sg.play_single_move()
+            played_card = sg.play_single_move(get_card_only=True)
             if played_card == chosen_card:
                 succeeds += 1
 

@@ -166,9 +166,7 @@ class SimulatedGame(Game):
         self.curr_player = state_copy.curr_player
         self._state = state_copy
 
-
-
-    def play_single_move(self) -> None:
+    def play_single_move(self, get_card_only=False) -> None:
         if self.first_play and self.starting_action is not None:
             card = self.starting_action
             self.first_play = False
@@ -176,6 +174,9 @@ class SimulatedGame(Game):
             card = self.agent.get_action(self._state)
         else:
             card = self.other_agent.get_action(self._state)
+
+        if get_card_only:
+            return card
 
         curr_trick = self._state.apply_action(card, True)
         self.curr_trick = curr_trick
