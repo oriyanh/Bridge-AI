@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from match import *
 
-GAMES_PER_MATCH = 1000
+GAMES_PER_MATCH = 100
 
 simple_func_names = [
     'highest_first_action',
@@ -83,7 +83,7 @@ def compare_simple_agents():
                     [path_effects.Stroke(linewidth=2, foreground='black'),
                      path_effects.Normal()])
 
-        title = f"Simple vs Simple Agents, y-axis win %, {NUM_GAMES} games"
+        title = f"Simple vs Simple Agents, y-axis win %, {GAMES_PER_MATCH} games"
         name = f"SingleActionAgent_{NUM_GAMES}games.png"
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
@@ -142,7 +142,7 @@ def compare_simple_agents_vs_ab_agents(depth, hand_size):
                      path_effects.Normal()])
 
         title = f"Simple vs Simple Agents, y-axis win %\n " \
-                f"games:{NUM_GAMES} , hand size:{hand_size}, depth: {depth}"
+                f"games:{GAMES_PER_MATCH} , hand size:{hand_size}, depth: {depth}"
         name = f"SingleActionAgent_{NUM_GAMES}games_{hand_size}cards_{depth}depth.png"
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
@@ -163,7 +163,7 @@ def compare_simple_agents_vs_ab_agents(depth, hand_size):
           f"{int(time.time() - start_time)} seconds ---")
 
 
-compare_simple_agents()
+# compare_simple_agents()
 compare_simple_agents_vs_ab_agents(depth=5, hand_size=4)
 compare_simple_agents_vs_ab_agents(depth=10, hand_size=4)
 compare_simple_agents_vs_ab_agents(depth=15, hand_size=4)
