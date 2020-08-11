@@ -97,14 +97,14 @@ class TrumpType(Enum):
 
 
 
-@dataclass
 class Suit:
     suit_type: SuitType
     trump_suit: TrumpType = TrumpType.NT
 
-    @property
-    def is_trump(self):
-        return self.trump_suit.value == self.suit_type.value
+    def __init__(self, suit_type: SuitType, trump_suit: TrumpType = TrumpType.NT) -> None:
+        self.suit_type = suit_type
+        self.trump_suit = trump_suit
+        self.is_trump = self.trump_suit.value == self.suit_type.value
 
     def __repr__(self) -> str:
         return self.suit_type.value
