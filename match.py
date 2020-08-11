@@ -12,8 +12,8 @@ Human
 import os
 import sys
 from argparse import ArgumentParser, ArgumentTypeError
-
 from numpy.random import seed
+from time import perf_counter
 from tqdm import tqdm
 
 from game import Game
@@ -53,6 +53,8 @@ class Match:
         Main match runner.
         :return: None
         """
+
+        start_t = perf_counter()
         for _ in tqdm(range(self.num_games),
                       leave=False, disable=self.verbose_mode, file=sys.stdout):
             curr_game = create_game(self.agent, self.other_agent,
@@ -60,10 +62,12 @@ class Match:
                                     cards_in_hand=self.cards_in_hand)
             curr_game.run()
             self.games_counter[curr_game.winning_team] += 1
-
+        end_t = perf_counter()
         if self.verbose_mode:
             os.system('clear' if 'linux' in sys.platform else 'cls')
             print(self)
+        print(self)
+        print(f"Total time for match: {end_t - start_t} seconds; Average {(end_t-start_t)/float(self.num_games)} seconds per game")
 
 
 def create_game(agent, other_agent, games_counter, verbose_mode,
