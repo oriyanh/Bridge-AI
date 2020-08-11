@@ -1,6 +1,7 @@
 from copy import deepcopy
 from itertools import cycle, islice
 from typing import Tuple, List, TextIO
+import numpy as np
 
 from cards import Card, SUITS, SuitType, TrumpType, Hand
 from game import SimulatedGame
@@ -287,16 +288,17 @@ def validate_agent_action(dg: DataGame,
 
 
 def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
-        Tuple[int, int]:
+        Tuple[np.ndarray, np.ndarray]:
     """
     Validate a agent by comparing its performances to data.
     :param agent: IAgent to check vs the data
     :param dg: DataGame object
-    :return: first integer is number of comperes, and second is num of succeeds
+    :return: tuple of 2 arrays for experiences and succeeds. each element in
+        each array represents the number of played tricks (== 13 - (#card in hand))
     """
     all_hands, all_tricks, chosen_cards = dg.all_relevant_snapshots()
     tricks_num = len(all_hands) // 2
-    succeeds = 0
+    checks, succeeds = np.zeros(12), np.zeros(12)
 
     for pos_idx, position in enumerate(dg.winner):
         for trick_idx in range(tricks_num):
@@ -323,6 +325,7 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
 
             played_card = sg.play_single_move(get_card_only=True)
             if played_card == chosen_card:
-                succeeds += 1
+                succeeds[trick_idx] += 1
+            checks[trick_idx] += 1
 
-        return len(all_hands), succeeds
+        return checks, succeeds
