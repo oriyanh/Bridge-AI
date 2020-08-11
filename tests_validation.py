@@ -1,7 +1,8 @@
 import os
 
 from validation import *
-from multi_agents import SimpleAgent, AlphaBetaAgent
+from multi_agents import SimpleAgent, AlphaBetaAgent, SimpleMCTSAgent, \
+    StochasticSimpleMCTSAgent, PureMCTSAgent
 from compare_agents import simple_func_names, simple_agent_names, \
     ab_evaluation_func_names, ab_evaluation_agent_names
 import numpy as np
@@ -124,6 +125,7 @@ def run_validation(agents_list: List[IAgent], num_of_games: int,
 
     :param agents_list:
     :param num_of_games: if 0: run all games
+    :param min_tricks: trick index to start validation from (0 for start of game)
     :return: list of arrays, one for every agent. the array is consist of 12
         entries, each represents the score of agent respectivly to the number
         of remaining cards in its hand.
@@ -157,16 +159,28 @@ if __name__ == '__main__':
     # games_length()
     # test_validate_agent_by_the_whole_game()
 
-    simple_agents = [SimpleAgent(kind) for kind in simple_func_names]
-    ab_agents = [AlphaBetaAgent(kind, depth=12) for kind in ab_evaluation_func_names]
-    num_of_games = 20
-    min_tricks_num = 8
+    num_of_games = 20  # how many data_games to use for validation
+    min_tricks_num = 8  # trick index to start validation from (0 for start of game)
 
     # Run Simple agents
-    # agents_scores_list = run_validation(simple_agents, num_of_games, min_tricks_num)
+    # agents_list = [SimpleAgent(kind) for kind in simple_func_names]
+    # agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
     # display_results(agents_scores_list, simple_agent_names, num_of_games)
 
     # Run AB agents
-    agents_scores_list = run_validation(ab_agents, num_of_games, min_tricks_num)
+    # agents_list = [AlphaBetaAgent(kind, depth=12) for kind in ab_evaluation_func_names]
+    # agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
+    # display_results([agent[min_tricks_num:] for agent in agents_scores_list],
+    #                 ab_evaluation_agent_names, num_of_games, min_tricks_num)
+
+    # Run MTCs (choose one agents_list every time not to be a comment)
+    num_of_simulations = 100
+    agents_list = [SimpleMCTSAgent(kind, num_simulations=num_of_simulations)
+                   for kind in simple_func_names]
+    # agents_list = [StochasticSimpleMCTSAgent(kind, num_simulations=num_of_simulations)
+    #                for kind in simple_func_names]
+    # agents_list = [PureMCTSAgent(kind, num_simulations=num_of_simulations)
+    #                for kind in simple_func_names]
+    agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
     display_results([agent[min_tricks_num:] for agent in agents_scores_list],
-                    ab_evaluation_agent_names, num_of_games, min_tricks_num)
+                    simple_agent_names, num_of_games, min_tricks_num)

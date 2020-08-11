@@ -10,6 +10,8 @@ from multi_agents import IAgent, SimpleAgent, AlphaBetaAgent
 from players import Player, PositionEnum, POSITIONS, PLAYERS_CYCLE, TEAMS, Team
 from state import State
 from trick import Trick
+np.seterr(divide='ignore', invalid='ignore')
+
 
 TEAMS_CYCLE = {TEAMS[0]: TEAMS[1], TEAMS[1]: TEAMS[0]}
 PLAYERS_DICT = {'N': 0, 'E': 1, 'S': 2, 'W': 3}
