@@ -2,14 +2,22 @@
 This module holds classes that represent cards and their derivative classes.
 """
 
+import numpy as np
 from copy import copy
+from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
-import numpy as np
-from dataclasses import dataclass
 
-FACES = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A', ]
+FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
+
+face_value = {'A': 4.5,
+              'K': 3,
+              'Q': 1.5,
+              'J': 0.75,
+              '10': 0.25,
+              '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0}
+
 
 SUITS = ['♠', '♥', '♦', '♣', ]
 SUITS_ALT = {'S': '♠', 'H': '♥', 'D': '♦', 'C': '♣'}
@@ -88,32 +96,15 @@ class TrumpType(Enum):
                              f"Must be one of {set(suit.name for suit in list(TrumpType))}")
 
 
-class Trump:
-    """ Class representing the trump in the current game. Initialized as NT (No Trump)"""
-
-    def __init__(self):
-        self._suit_type = TrumpType.NT
-
-    @property
-    def suit(self):
-        return self._suit_type.value
-
-    @suit.setter
-    def suit(self, new_suit: TrumpType):
-        self._suit_type = new_suit
-
-
-trump_singleton = Trump()
-
 
 @dataclass
 class Suit:
     suit_type: SuitType
-    trump_suit: Trump = trump_singleton  # TODO [oriyan] need to take trump into consideration in each game, and set it accordingly.
+    trump_suit: TrumpType = TrumpType.NT
 
     @property
     def is_trump(self):
-        return self.trump_suit.suit == self.suit_type.value
+        return self.trump_suit.value == self.suit_type.value
 
     def __repr__(self) -> str:
         return self.suit_type.value
@@ -151,13 +142,12 @@ class Suit:
     def __hash__(self) -> int:
         return hash(self.suit_type)
 
-
 class Card:
     """
     A playing card.
     """
 
-    def __init__(self, face: str, suit: str):
+    def __init__(self, face: str, suit: str, trump: TrumpType = TrumpType.NT):
         """
 
         :param face: value of card - one of {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'}
@@ -166,7 +156,7 @@ class Card:
         :raises ValueError: If `face` or `suit` are unsupported.
         """
         suit_type = SuitType.from_str(suit)
-        self.suit = Suit(suit_type)
+        self.suit = Suit(suit_type, trump_suit=trump)
         self.is_trump = self.suit.is_trump
         if face.capitalize() not in FACES:
             raise ValueError(
@@ -175,7 +165,7 @@ class Card:
         self.face = face.capitalize()
 
     def __copy__(self):
-        new_card = Card(self.face, self.suit.suit_type.name)
+        new_card = Card(self.face, self.suit.suit_type.name, self.suit.trump_suit)
         new_card.is_trump = self.is_trump
         return new_card
 
@@ -214,26 +204,30 @@ class Card:
     def __hash__(self) -> int:
         return hash((self.suit, self.face))
 
-
 class Deck:
     """ Deck of cards."""
 
-    def __init__(self):
+    def __init__(self, trump: TrumpType = TrumpType.NT):
+        self.trump = trump
         self.cards = []
         for face in FACES:
             for suit in SUITS_ALT:
-                card = Card(face, suit)
+                card = Card(face, suit, self.trump)
                 self.cards.append(card)
 
-    def deal(self):
+    def deal(self, cards_in_hand=13, recreate_game=''):
         """
         Returns 4 randomly dealt Hands, one for each player in the game.
+        :param recreate_game: if supplied, will allow recreating a set of hands from a database. Currently unsupported.
         :returns List[Hand]: 4 hands
         """
-        shuffled_deck = \
-            np.random.permutation(self.cards).reshape(4, 13).tolist()
-        hands = [Hand(cards) for cards in shuffled_deck]
-        return hands
+        if not recreate_game:
+            cards = np.random.choice(self.cards, 4*cards_in_hand, replace=False)
+            shuffled_deck = \
+                np.random.permutation(cards).reshape(4, cards_in_hand).tolist()
+            hands = [Hand(cards) for cards in shuffled_deck]
+            return hands
+        # todo(oriyan/mar): create new deck from database representation
 
 
 class Hand:
@@ -270,6 +264,72 @@ class Hand:
         assert already_played.isdisjoint(cards)
         return cards
 
+    def get_cards_not_from_suite(self, suite: Suit):
+        """ Returns all cards from player's hand that are not from `suite`.
+                If None, returns all cards."""
+        if suite is None:
+            return self.cards
+
+        cards = list(filter(lambda card: card.suit != suite, self.cards))
+        return cards
+
+    def get_cards_sorted_by_suits(self, already_played):
+        sorted_hand = dict()
+        trump = []
+        for card in self.cards:
+            if not sorted_hand.get(card.suit.suit_type):
+                sorted_suit = sorted(self.get_cards_from_suite(card.suit, already_played))
+                if card.is_trump:
+                    trump = sorted_suit
+                else:
+                    sorted_hand[card.suit.suit_type] = sorted_suit
+        return sorted_hand, trump
+
+    def get_hand_value(self, already_played):
+        """
+        calculated following the steps:
+        1. HCP value of the hand
+        2. adjust of HCP
+        3. adjust suit lenght
+        4. adjust hands with top five cards of a suit
+        5. total starting points (added in the heuristic)
+        :param already_played:
+        :return:
+        """
+        hand_value = 0
+        adjust_suit_lenght = 0
+        aces_10s_count = 0
+        queens_jecks_count = 0
+
+        hand_values_by_suits = dict()
+        for card in self.cards:
+            if not hand_values_by_suits.get(card.suit.suit_type):
+                card_of_suit = self.get_cards_from_suite(card.suit, already_played)
+                if len(card_of_suit) > 0:
+                    adjust_suit_lenght += max([0, len(card_of_suit) - 4])
+                values_of_card = [face_value[card.face] for card in card_of_suit
+                                  if face_value[card.face] != 0]
+                hand_values_by_suits[card.suit.suit_type] = values_of_card
+
+        for suit, values in hand_values_by_suits.items():
+            if len(values) > 0:
+                hand_value += sum(values)
+                aces_10s_count += values.count(0.25)  # tens
+                aces_10s_count += values.count(4.5)  # aces
+                queens_jecks_count += values.count(1.5)  # queens
+                queens_jecks_count += values.count(0.75)  # jecks
+                if len(values) == 5:  # adjust rule 4
+                    hand_value += 3
+
+        adjust_hand_value_value = abs(aces_10s_count - queens_jecks_count)
+        sign = 1 if aces_10s_count > queens_jecks_count else -1
+        if adjust_hand_value_value > 2:
+            hand_value += sign
+            if adjust_hand_value_value > 5:
+                hand_value += sign
+
+        return hand_value
+
     def __str__(self):
         ret = ""
         for suit in SUITS:
@@ -280,13 +340,3 @@ class Hand:
             ret += f"\n"
 
         return ret
-
-    def __repr__(self):
-        ret = ""
-        for suit in SUITS:
-            for card in self.cards:
-                if card.suit == suit:
-                    ret += f"{card.face}"
-            ret += f"."
-
-        return ret[:-1]

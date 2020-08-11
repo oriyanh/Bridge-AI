@@ -1,9 +1,10 @@
 import os
+import sys
 import numpy as np
 from copy import copy
 from typing import List
 
-from cards import Deck, trump_singleton, TrumpType, Card
+from cards import Deck, TrumpType
 from players import POSITIONS, Player, PositionEnum, TEAMS, Team
 from state import State
 from trick import Trick
@@ -20,16 +21,22 @@ class Game:
                  previous_tricks: List[Trick] = None,
                  curr_trick: Trick = None,
                  starting_pos: PositionEnum = None,
-                 trump=None):
+                 trump=None,
+                 cards_in_hand=13):
         # todo(oriyan/maryna): think how to reproduce game from database -
         #  or randomly generate new game
+        self.cards_in_hand=cards_in_hand
         self.agent = agent  # type: IAgent
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = games_counter
         self.verbose_mode = verbose_mode
-
-        self.deck = Deck()
-        hands = self.deck.deal()
+        if trump is None:
+            trump = np.random.choice(TrumpType)
+        else:
+            trump = TrumpType.from_str(trump)
+        self.trump = trump  # type: TrumpType
+        self.deck = Deck(self.trump)
+        hands = self.deck.deal(cards_in_hand=cards_in_hand)
         self.players = {pos: Player(pos, hand) for pos, hand in
                         zip(POSITIONS, hands)}
         self.teams = [Team(self.players[pos1], self.players[pos2]) for
@@ -56,7 +63,7 @@ class Game:
         ret += f"Game score: " \
                f"{self.teams[0]}:{self.tricks_counter[0]:02} - " \
                f"{self.teams[1]}:{self.tricks_counter[1]:02}\n"
-
+        ret += f"Trump Suite: {self.trump.value}\n"
         ret += f"Current trick:  "
         for player, card in self.curr_trick.items():
             ret += f"{player}:{card}  "
@@ -78,14 +85,14 @@ class Game:
         initial_state = State(self.curr_trick, self.teams,
                               list(self.players.values()),
                               self.previous_tricks, score,
-                              self.curr_player)
+                              self.curr_player, trump=self.trump)
         self._state = initial_state
         self.previous_tricks = self._state.prev_tricks
         self.game_loop()
         return True
 
     def game_loop(self) -> None:
-        while max(self.tricks_counter) < 7:  # Winner is determined.
+        while max(self.tricks_counter) < self.cards_in_hand // 2:  # Winner is determined.
 
             for i in range(len(POSITIONS)):  # Play all hands
                 self.play_single_move()
@@ -107,6 +114,9 @@ class Game:
             card = self.agent.get_action(self._state)
         else:
             card = self.other_agent.get_action(self._state)
+        if card is None:
+            pass
+        assert(card is not None)
 
         curr_trick = self._state.apply_action(card, True)
         self.curr_trick = curr_trick
@@ -120,7 +130,7 @@ class Game:
         :return: None
         """
 
-        os.system('cls')
+        os.system('clear' if 'linux' in sys.platform else 'cls')
         print(self)
         input()
 
@@ -148,15 +158,17 @@ class SimulatedGame(Game):
         self.other_agent = other_agent  # type: IAgent
         self.games_counter = [0, 0]
         self.verbose_mode = verbose_mode
-        self.trump = trump_singleton
-        self.deck = Deck()
+        self.trump = state_copy.trump
+        self.deck = Deck(self.trump)
         self.curr_trick = state_copy.trick
         self.previous_tricks = state_copy.prev_tricks
         self.winning_team: int = -1
         self.curr_player = state_copy.curr_player
         self._state = state_copy
 
-    def play_single_move(self) -> Card:
+
+
+    def play_single_move(self) -> None:
         if self.first_play and self.starting_action is not None:
             card = self.starting_action
             self.first_play = False
@@ -170,7 +182,6 @@ class SimulatedGame(Game):
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
-        return card
 
     def game_loop(self) -> None:
         if len(self.curr_trick.cards()) > 0:

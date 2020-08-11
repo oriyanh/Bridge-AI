@@ -1,6 +1,5 @@
-from os import system
-from sys import stdout
-from typing import List
+import os
+import sys
 from argparse import ArgumentParser
 from numpy.random import seed
 from tqdm import tqdm
@@ -21,11 +20,13 @@ class Match:
                  agent: IAgent,
                  other_agent: IAgent,
                  num_games: int,
-                 verbose_mode: bool = True):
+                 verbose_mode: bool = True,
+                 cards_in_hand: int = 13):
         self.agent = agent
         self.other_agent = other_agent
         self.num_games = num_games
         self.verbose_mode = verbose_mode
+        self.cards_in_hand = cards_in_hand
 
         self.games_counter: List[int] = [0, 0, ]  # [Team 0, Team 1]
 
@@ -43,19 +44,20 @@ class Match:
         :return: None
         """
         for _ in tqdm(range(self.num_games),
-                      leave=False, disable=self.verbose_mode, file=stdout):
+                      leave=False, disable=self.verbose_mode, file=sys.stdout):
             curr_game = create_game(self.agent, self.other_agent,
-                                    self.games_counter, self.verbose_mode)
+                                    self.games_counter, self.verbose_mode,
+                                    cards_in_hand=self.cards_in_hand)
             curr_game.run()
             self.games_counter[curr_game.winning_team] += 1
 
         if self.verbose_mode:
-            system('cls')
+            os.system('clear' if 'linux' in sys.platform else 'cls')
             print(self)
 
 
 def create_game(agent, other_agent, games_counter, verbose_mode,
-                from_db=False):
+                from_db=False, cards_in_hand=13):
     """ Returns Game object, either new random game or a game initialized from game DB"""
     if from_db:
         pass
@@ -64,7 +66,7 @@ def create_game(agent, other_agent, games_counter, verbose_mode,
     trick_counter = [0, 0, ]  # [Team 0, Team 1]
     previous_tricks = []
     game = Game(agent, other_agent, games_counter, trick_counter, verbose_mode,
-                previous_tricks, Trick({}))
+                previous_tricks, Trick({}), cards_in_hand=cards_in_hand)
     return game
 
 

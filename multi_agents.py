@@ -9,8 +9,7 @@ from concurrent.futures.thread import ThreadPoolExecutor
 from cards import Card
 from game import SimulatedGame
 from state import State
-from players import is_players_in_same_team
-
+from players import is_players_in_same_team, get_legal_actions, PLAYERS_CYCLE
 
 
 def lookup(name, namespace):
@@ -127,6 +126,42 @@ def hard_greedy_action(state):
         return worst_move
 
 
+def hard_greedy_all_players_action(state):
+    """
+    If can beat current trick cards - picks highest value action available.
+    If cannot - picks lowest value action.
+    :param State state:
+    :returns Card: action to take
+    """
+    legal_moves = state.get_legal_actions()
+    best_move = max(legal_moves)
+    worst_move = min(legal_moves)
+
+    # pick a first card in trick that possibly could lead to win
+    if len(state.trick) == 0:  # Trick is empty - play best action.
+        cards = starting_trick_cards(state)
+        if len(cards) > 0:
+            return max(cards)
+        return worst_move
+
+    best_in_current_trick = max(state.trick.cards())
+
+    # if there are cards in the trick- try to play a winning card against the hands of the
+    # opponent and the cards in the trick
+    op_cards = get_opponents_legal_card(state)
+    if op_cards is not None:
+        opponent_best = max(op_cards)
+        card_to_win = max([opponent_best, best_in_current_trick])
+        if best_move > card_to_win:
+            return best_move
+
+    # if the opponent has no legal card, try to get the trick
+    elif best_move > best_in_current_trick:
+        return best_move
+    # Cannot win - play worst action.
+    return worst_move
+
+
 def soft_greedy_action(state):
     """
     If can beat current trick cards - picks the lowest value action available
@@ -150,6 +185,128 @@ def soft_greedy_action(state):
     return worst_move  # Cannot win - play worst action.
 
 
+def soft_greedy_all_players_action(state):
+    """
+    If can beat current trick cards - picks the lowest value action available
+    that can become the current best in trick.
+    If cannot - picks lowest value action.
+    :param State state:
+    :returns Card: action to take
+    """
+    legal_moves = state.get_legal_actions()
+    worst_move = min(legal_moves)
+    best_move = max(legal_moves)
+
+    # pick a first card in trick that possibly could lead to win
+    if len(state.trick) == 0:  # Trick is empty - play worst action.
+        cards = starting_trick_cards(state)
+        if len(cards) > 0:
+            return min(cards)
+        return worst_move
+
+    best_in_current_trick = max(state.trick.cards())
+
+    # if there are cards in the trick- try to play a winning card against the hands of the
+    # opponent and the cards in the trick
+    op_cards = get_opponents_legal_card(state)
+    if op_cards is not None:
+        opponent_best = max(op_cards)
+        card_to_win = max([opponent_best, best_in_current_trick])
+        wining_moves = list(filter(lambda move: move > card_to_win, legal_moves))
+        if len(wining_moves) > 0:
+            return min(wining_moves)
+
+    # if the opponent has no legal card, try to get the trick
+    elif best_move > best_in_current_trick:
+        weakest_wining_move = min(filter(lambda move: move > best_in_current_trick, legal_moves))
+        return weakest_wining_move
+    # Cannot win - play worst action.
+    return worst_move
+
+
+def get_opponents_legal_card(state):
+    """
+    used unly in case the trick is initialized and the current player in the trick has an
+    opponent that will play the trick later.
+    :param state:
+    :return: the cards of the opponent of the current player
+    """
+    i = len(state.trick)
+    op_cards = None
+    if i == 1 or i == 2:
+        opponent = state.players_pos[PLAYERS_CYCLE[state.curr_player.position]]
+        op_cards = get_legal_actions(state.trick.starting_suit, opponent, state.already_played)
+    return op_cards
+
+
+def starting_trick_cards(state):
+    """
+    pick the cards for openning the trick, trying to win it.
+    The list will hold the following cards:
+    If current player has a winning card against all other hands of player.
+    If the teammate of the current player has a winning card of a suit the current player will play
+    If the other players has no cards in the suit
+    If the other teammate doesn't have cards in suit but can win against other trumps
+    :param state:
+    :return:
+    """
+    curr_player_moves = state.get_legal_actions()
+
+    # all opponent's hands united to single list of cards to observe
+    opp_reg_cards, opp_trump_cards, teammate_reg_cards, teammate_trump_cards = \
+        get_hand_trump_opponent_teammate(state)
+
+    cards = []
+    for card in curr_player_moves:
+        # the opponent has cards of the current suit. trump cards are part of legal cards,
+        # hence the highest card is both from the suit or from trump card.
+        if opp_reg_cards.get(card.suit.suit_type) is not None:
+            best_curr = card
+            if len(teammate_trump_cards) > 0:
+                best_curr = max([teammate_trump_cards[-1], card])
+            if teammate_reg_cards.get(card.suit.suit_type):
+                best_curr = max([teammate_reg_cards[card.suit.suit_type][-1], best_curr])
+            best_opp = opp_reg_cards[card.suit.suit_type][-1]
+            if len(opp_trump_cards) > 0:
+                best_opp = max(best_opp, opp_trump_cards[-1])
+            # if the best card of curr team is winning against the strongest legal card of the
+            # opponent- the card suggested to open the trick
+            if best_curr > best_opp:
+                cards.append(card)
+        else:
+            # the opponent has no cards of the suit. hence he will play trump card or a card
+            # from other suit. only trump card could possibly win the trick
+            if len(teammate_trump_cards) > 0:
+                if len(opp_trump_cards) > 0:
+                    best_curr = teammate_trump_cards[-1]
+                    best_opp = opp_trump_cards[-1]
+                    if best_curr > best_opp:
+                        cards.append(card)
+                else:
+                    cards.append(card)
+            else:
+                if not len(opp_trump_cards) > 0:
+                    cards.append(card)
+    return cards
+
+
+def get_hand_trump_opponent_teammate(state):
+    opp1 = state.players_pos[PLAYERS_CYCLE[state.curr_player.position]]
+    teammate = state.players_pos[PLAYERS_CYCLE[opp1.position]]
+    opp2 = state.players_pos[PLAYERS_CYCLE[teammate.position]]
+
+    # the following hands are sorted. 1st card is the smallest
+    opp1_reg_cards, opp1_trump_cards = opp1.hand.get_cards_sorted_by_suits(state.already_played)
+    opp2_reg_cards, opp2_trump_cards = opp2.hand.get_cards_sorted_by_suits(state.already_played)
+    opp1_reg_cards.update(opp2_reg_cards)
+    opp_reg_cards = opp1_reg_cards
+    opp_trump_cards = opp1_trump_cards + opp2_trump_cards
+
+    teammate_reg_cards, teammate_trump_cards = teammate.hand.get_cards_sorted_by_suits(
+        state.already_played)
+    return opp_reg_cards, opp_trump_cards, teammate_reg_cards, teammate_trump_cards
+
+
 def add_randomness_to_action(func, epsilon):
     """
     Wraps a `State->Card` function with a randomizing factor -
@@ -165,6 +322,8 @@ def add_randomness_to_action(func, epsilon):
         return func(state)
 
     return randomized_action
+
+
 # ---------------------------MultiAgentSearchAgent--------------------------- #
 class MultiAgentSearchAgent(IAgent):
     """Abstract agent implementing IAgent that searches a game tree"""
@@ -199,7 +358,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
         if self.depth == 0:
             scores = [self.evaluation_function(successor)
-                      for successor in successors]  # TODO [oriyan] Maryna,
+                      for successor in successors]
             best_score = max(scores)
             best_indices = [index for index in range(len(scores))
                             if scores[index] == best_score]
@@ -295,8 +454,10 @@ def count_tricks_won_evaluation_function(state, is_max=True, target=None):
     return state.get_score(is_max)
 
 
-def greedy_evaluation_function(state, is_max=True, target=None):
+def greedy_evaluation_function1(state, is_max=True, target=None):
     """
+    returns a value for the gives state, calculated by count of legal moves of the current 
+    player, ignoring the hands of other players.
     :param State state: game state
     :param bool is_max: is max player
     :param target:
@@ -306,11 +467,25 @@ def greedy_evaluation_function(state, is_max=True, target=None):
     if len(state.trick) == 0:  # Trick is empty - play worst action.
         return value
 
-    soft_moves_count = soft_greedy_legal_moves_count(state)
-    return 10 * value + soft_moves_count
+    greedy_moves_count = greedy_legal_moves_count1(state)
+    return 13 * value + greedy_moves_count
 
 
-def soft_greedy_legal_moves_count(state, ):
+def greedy_evaluation_function2(state, is_max=True, target=None):
+    """
+    returns a value for the gives state, calculated by count of legal winning moves by observing 
+    the hands of all the players in the game.
+    :param State state: game state
+    :param bool is_max: is max player
+    :param target:
+    :returns float: score of state
+    """
+    value = state.get_score(is_max)
+    greedy_moves_count = greedy_legal_moves_count2(state)
+    return 13 * value + greedy_moves_count
+
+
+def greedy_legal_moves_count1(state):
     legal_moves = state.get_legal_actions()
     best_move = max(legal_moves)
     best_in_current_trick = max(state.trick.cards())
@@ -320,6 +495,46 @@ def soft_greedy_legal_moves_count(state, ):
         return count_wining_moves
     return -1
 
+
+def greedy_legal_moves_count2(state):
+    legal_moves = state.get_legal_actions()
+    wining_moves_count, factor = 0, 1
+    i = len(state.trick)
+    if i == 0:
+        cards = starting_trick_cards(state)
+        wining_moves_count = len(cards)
+    else:
+        best_in_current_trick = max(state.trick.cards())
+        if i == 1 or i == 2:
+            opponent_legal_cards = get_opponents_legal_card(state)
+            opponent_best = max(opponent_legal_cards)
+            card_to_win = max([opponent_best, best_in_current_trick])
+            wining_moves = list(filter(lambda move: move > card_to_win, legal_moves))
+            teammate = state.players_pos[PLAYERS_CYCLE[PLAYERS_CYCLE[state.curr_player.position]]]
+            teammate_legal_moves = get_legal_actions(state.trick.starting_suit, teammate, state.already_played)
+            teammate_wining_moves = list(filter(lambda move: move > card_to_win, teammate_legal_moves))
+            wining_moves_count = 2 * len(wining_moves) + len(teammate_wining_moves)
+        if i == 3:
+            best_move = max(legal_moves)
+            if best_move > best_in_current_trick:
+                wining_moves_count = len(list(filter(lambda move: move > best_in_current_trick,
+                                                     legal_moves)))
+                factor = 4
+    return factor * wining_moves_count
+
+
+def hand_evaluation_heuristic(state, is_max=True, target=None):
+    """
+    returns the value of the hand, evaluated by giving highest value for each card, and taking
+    advantage of hands containing more cards of a same suit.
+    :param state: 
+    :param is_max: 
+    :param target: 
+    :return: 
+    """
+    value = state.get_score(is_max)
+    hand_value = state.curr_player.hand.get_hand_value(state.already_played)
+    return 13 * value + hand_value
 
 
 # ---------------------------------MCTSAgent--------------------------------- #
@@ -732,7 +947,7 @@ class HumanAgent(IAgent):
                 continue
             try:
                 card_suit, card_number = inp[:-1], inp[-1]
-                action = Card(card_number, card_suit)
+                action = Card(card_number, card_suit, state.trump)
                 legal_moves = state.get_legal_actions()
                 if action in legal_moves:
                     return action
