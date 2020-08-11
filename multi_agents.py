@@ -105,7 +105,7 @@ def highest_first_action(state):
     return max(state.get_legal_actions())
 
 
-def hard_greedy_action(state):
+def hard_short_greedy_action(state):
     """
     If can beat current trick cards - picks highest value action available.
     If cannot - picks lowest value action.
@@ -126,7 +126,7 @@ def hard_greedy_action(state):
         return worst_move
 
 
-def hard_greedy_all_players_action(state):
+def hard_long_greedy_action(state):
     """
     If can beat current trick cards - picks highest value action available.
     If cannot - picks lowest value action.
@@ -162,7 +162,7 @@ def hard_greedy_all_players_action(state):
     return worst_move
 
 
-def soft_greedy_action(state):
+def soft_short_greedy_action(state):
     """
     If can beat current trick cards - picks the lowest value action available
     that can become the current best in trick.
@@ -185,7 +185,7 @@ def soft_greedy_action(state):
     return worst_move  # Cannot win - play worst action.
 
 
-def soft_greedy_all_players_action(state):
+def soft_long_greedy_action(state):
     """
     If can beat current trick cards - picks the lowest value action available
     that can become the current best in trick.
