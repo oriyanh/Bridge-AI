@@ -1,14 +1,24 @@
+"""
+run with the following arguments:
+--agent1 <agent> --agent2 <agent> --num_games <int>
+
+Where each agent encoding is of in one of the following forms:
+Simple-<simple_agent_names>
+AlphaBeta-<ab_evaluation_agent_names>-<depth>
+MCTS-<'simple'/'stochastic'/'pure'>-<simple_agent_names>-(<epsilon>)
+Human
+"""
+
 import os
 import sys
-from argparse import ArgumentParser
+from argparse import ArgumentParser, ArgumentTypeError
+
 from numpy.random import seed
 from tqdm import tqdm
 
 from game import Game
 from multi_agents import *
 from trick import Trick
-
-NUM_GAMES = 3
 
 seed(0)
 
@@ -75,16 +85,76 @@ def parse_args():
     parser = ArgumentParser()
     parser.add_argument('--agent1')
     parser.add_argument('--agent2')
-    parser.add_argument('--rounds', default=100)
-    args = parser.parse_args()
-    return args
+    parser.add_argument('--num_games', type=int, default=100)
+    return parser.parse_args()
 
 
-def run_match():
-    match = Match(SimpleAgent(), SimpleAgent('soft_greedy_action'), NUM_GAMES)
+def str_to_agent(agent_str):
+    agent_str = agent_str.split('-')
+    if agent_str[0] == "Simple":  # Simple agent
+        if agent_str[1] in simple_agent_names:
+            return SimpleAgent(
+                simple_func_names[simple_agent_names.index(
+                    agent_str[1])])
+        else:
+            print("Bad arguments for Simple agent. Should be:\n"
+                  "Simple <agent name>")
+            return -1
+
+    elif agent_str[0] == "AlphaBeta":  # AlphaBeta agent
+        if agent_str[1] in simple_agent_names:
+            return AlphaBetaAgent(
+                evaluation_function=ab_evaluation_func_names[
+                    ab_evaluation_agent_names.index(agent_str[1])],
+                depth=int(agent_str[2]))
+        else:
+            print("Bad arguments for AlphaBeta agent. Should be:\n"
+                  "AlphaBeta <agent name>")
+            return -1
+
+    elif agent_str[0] == "MCTS":  # MCTS agent
+        if agent_str[1] == 'simple':
+            return SimpleMCTSAgent(
+                action_chooser_function=simple_func_names[
+                    simple_agent_names.index(agent_str[2])],
+                num_simulations=int(agent_str[3]))
+        elif agent_str[1] == 'stochastic':
+            return StochasticSimpleMCTSAgent(
+                action_chooser_function=simple_func_names[
+                    simple_agent_names.index(agent_str[2])],
+                num_simulations=int(agent_str[3]),
+                epsilon=float(agent_str[4]))
+        elif agent_str[1] == 'pure':
+            return PureMCTSAgent(
+                action_chooser_function=simple_func_names[
+                    simple_agent_names.index(agent_str[2])],
+                num_simulations=int(agent_str[3]))
+        else:
+            print("Bad arguments for MCTS agent. Should be:\n"
+                  "MCTS <'simple'/'stochastic'/'pure'> "
+                  "<simulated agent name> (<epsilon>)")
+            return -1
+
+    elif agent_str[0] == "Human":  # Human agent
+        return HumanAgent()
+
+    else:
+        raise ArgumentTypeError()
+
+
+def run_match(a0_str, a1_str, num_games):
+    try:
+        a0 = str_to_agent(a0_str)
+        a1 = str_to_agent(a1_str)
+    except ArgumentTypeError:
+        print("ArgumentTypeError: Bad arguments usage")
+        return -1
+
+    match = Match(a0, a1, num_games)
     match.run()
 
 
 if __name__ == '__main__':
-    run_match()
+    args = parse_args()
+    run_match(args.agent1, args.agent2, args.num_games)
     input()
