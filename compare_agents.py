@@ -170,11 +170,12 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
 
 
 # compare_simple_agents()
-compare_simple_agents_vs_ab_agents(depth=5, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=5, ab_first=False)
-compare_simple_agents_vs_ab_agents(depth=10, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=10, ab_first=False)
-compare_simple_agents_vs_ab_agents(depth=15, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=15, ab_first=False)
+if __name__ == '__main__':
+    compare_simple_agents_vs_ab_agents(depth=5, ab_first=True)
+    compare_simple_agents_vs_ab_agents(depth=5, ab_first=False)
+    compare_simple_agents_vs_ab_agents(depth=10, ab_first=True)
+    compare_simple_agents_vs_ab_agents(depth=10, ab_first=False)
+    compare_simple_agents_vs_ab_agents(depth=15, ab_first=True)
+    compare_simple_agents_vs_ab_agents(depth=15, ab_first=False)
 
 

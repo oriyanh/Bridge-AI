@@ -2,6 +2,7 @@ import os
 
 from validation import *
 from multi_agents import SimpleAgent
+from compare_agents import simple_func_names, simple_agent_names
 import numpy as np
 import matplotlib.pyplot as plt
 from time import perf_counter
@@ -93,7 +94,31 @@ def test_validate_agent_by_the_whole_game():
     return validate_agent_per_data_game(agent=curr_agent, dg=files.games[4])
 
 
-def run_validation(agents_list: List[IAgent], num_of_games: int):
+def display_results(agents_scores: List[np.ndarray], names: List[str],
+                    num_of_games: int):
+    labels = [i for i in range(1, 13)]
+    x = np.arange(len(labels))  # the label locations
+    length = len(agents_scores)
+    width = 1 / (length+2)  # the width of the bars
+
+    fig, ax = plt.subplots()
+    rects_list = []
+    for i in range(length):
+        rects_list.append(ax.bar(x + ((i - ((length-1) / 2)) * width),
+                                 agents_scores[i], width, label=names[i]))
+
+    ax.set_ylabel('Percents (%)')
+    ax.set_xlabel('# tricks')
+    ax.set_title(f'Scores by trick and agent\n (data from {num_of_games} games)')
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels)
+    ax.legend()
+    fig.tight_layout()
+    plt.show()
+
+
+def run_validation(agents_list: List[IAgent], num_of_games: int) -> \
+        List[np.ndarray]:
     """
 
     :param agents_list:
@@ -102,7 +127,7 @@ def run_validation(agents_list: List[IAgent], num_of_games: int):
         entries, each represents the score of agent respectivly to the number
         of remaining cards in its hand.
     """
-    agents_scores = [0 for _ in agents_list]
+    agents_scores = [np.zeros(12) for _ in agents_list]
     games = load_all_game()
     if num_of_games == 0:
         num_of_games = len(games.games)
@@ -129,4 +154,8 @@ if __name__ == '__main__':
     # test_all_snapshots()
     # games_length()
     # test_validate_agent_by_the_whole_game()
-    run_validation([SimpleAgent('soft_long_greedy_action')], 100)
+
+    simple_agents = [SimpleAgent(kind) for kind in simple_func_names]
+    num_of_games = 1000
+    agents_scores_list = run_validation(simple_agents, num_of_games)
+    display_results(agents_scores_list, simple_agent_names, num_of_games)
