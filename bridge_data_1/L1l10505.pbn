@@ -1,0 +1,881 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.20"]
+[Board "1"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.AK854.AQ75.4 J765.T.T32.AJ865 98.Q62.964.Q9732 AT32.J973.KJ8.KT"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 110"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "N"]
+1C Pass 1D Pass
+1H Pass 1S Pass
+2D Pass 2H Pass
+Pass Pass
+[Play "E"]
+S6 S8 SA S4
+S5 S9 S2 SK
+DT D4 D8 D5
+S7 D6 ST SQ
+HT H2 H3 HA
+C6 HQ H7 H4
+D2 D9 DJ DA
+D3 C2 DK DQ
+C5 H6 H9 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ4.AK854.AQ75.4 J765.T.T32.AJ865 98.Q62.964.Q9732 AT32.J973.KJ8.KT"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2H Pass Pass Pass
+[Play "E"]
+S7 S8 SA S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "2"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:T2.J2.J762.Q9543 64.AKQ984.K.AJT6 AJ95..AT98543.72 KQ873.T7653.Q.K8"]
+[Declarer "N"]
+[Contract "6H"]
+[Result "11"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass 1C 1D 1H
+Pass 2H 3D 3H
+Pass 3NT Pass 4NT
+5D 5S Pass 6H
+Pass Pass Pass
+[Play "E"]
+D6 DK DA DQ
+S2 S4 SA S3
+ST S6 S5 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:T2.J2.J762.Q9543 64.AKQ984.K.AJT6 AJ95..AT98543.72 KQ873.T7653.Q.K8"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "W"]
+DA DQ D6 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "3"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J643.K2.JT87.963 K52.8.AQ4.QJT852 AQ7.AT765.K32.74 T98.QJ943.965.AK"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS -600"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "S"]
+Pass 1C 1H 1NT
+Pass 2C Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+HK H8 H7 H3
+S3 S2 SQ S9
+S4 S5 SA S8
+S6 SK S7 ST
+C3 C2 C4 CA
+H2 D4 HA HQ
+C6 C5 C7 CK
+- - - HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J643.K2.JT87.963 K52.8.AQ4.QJT852 AQ7.AT765.K32.74 T98.QJ943.965.AK"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "4"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 3NT
+Pass Pass Pass
+[Play "S"]
+DT D4 D2 D5
+D7 DQ DK D6
+D8 DA D3 D9
+C3 C2 C7 CA
+C6 C5 C4 CK
+S4 SK SA ST
+S3 S2 SQ S8
+H2 H8 HA H3
+SJ S5 S7 S9
+DJ C8 H5 H4
+HK CT H6 H9
+S6 CJ H7 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "4"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ84.8532.86.AJ3 K952.AJT4.A72.KQ T7.K976.KQJ43.42 Q63.Q.T95.T98765"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "8"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 90"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "W"]
+Pass 1C 1D Pass
+1NT Pass Pass 2C
+Pass Pass Pass
+[Play "E"]
+DQ D5 D8 DA
+H7 HQ H2 HA
+HK C5 H3 HJ
+C2 C6 CA CK
+DJ D9 D6 D2
+DK DT H8 D7
+ST S3 SA S2
+C4 C7 C3 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AJ84.8532.86.AJ3 K952.AJT4.A72.KQ T7.K976.KQJ43.42 Q63.Q.T95.T98765"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C 1D Pass
+1S Pass Pass 2C
+2H Pass Pass Pass
+[Play "N"]
+CK C2 C7 C3
+CQ C4 C5 CA
+DA D3 D5 D6
+D7 DK D9 D8
+S2 ST SQ SA
+H4 S7 C6 CJ
+D2 DQ DT S4
+HT H6 HQ H2
+S5 H7 S6 S8
+HJ DJ S3 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "5"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K43.KQ9.T8752.92 Q96.A3.93.AQJT43 A872.T8642.AK.K7 JT5.J75.QJ64.865"]
+[Declarer "N"]
+[Contract "2D"]
+[Result "8"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 90"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "N"]
+Pass 1C X Pass
+1D 2C Pass Pass
+2D Pass Pass Pass
+[Play "E"]
+CA C7 C5 C2
+C3 CK C6 C9
+D3 DK D4 D2
+D9 DA D6 D5
+HA H2 H5 HK
+CQ S2 C8 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K43.KQ9.T8752.92 Q96.A3.93.AQJT43 A872.T8642.AK.K7 JT5.J75.QJ64.865"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C X Pass
+1D 2C Pass Pass
+2H Pass 3H Pass
+Pass Pass
+[Play "E"]
+CA C7 C8 C2
+C4 CK C5 C9
+HA H2 H5 HK
+D3 DK D4 D2
+D9 DA D6 D5
+H3 H4 H7 HQ
+C3 H6 DJ D7
+S6 S2 SJ SK
+S9 SA S5 S3
+SQ S7 ST S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "6"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A652.K92.9753.K5 J83.AQ8.KJ62.AJ2 QT9.JT.AQ4.T8763 K74.76543.T8.Q94"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 150"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass 1C Pass 1D
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+C6 C9 CK CA
+DQ D8 D5 D2
+C7 C4 C5 CJ
+DA DT D3 D6
+C8 CQ S2 C2
+HJ H3 H2 HQ
+D4 H4 D7 DK
+C3 S4 D9 DJ
+HT H5 HK HA
+ST H6 H9 H8
+S9 S7 SA S3
+SQ SK S5 S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A652.K92.9753.K5 J83.AQ8.KJ62.AJ2 QT9.JT.AQ4.T8763 K74.76543.T8.Q94"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C Pass 1H
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+HJ H3 H2 HQ
+HT H4 H9 HA
+C6 H5 HK H8
+DQ D8 D7 D2
+DA DT D3 D6
+D4 C4 D5 DJ
+C3 CQ CK C2
+S9 S4 D9 DK
+ST SK SA S3
+C7 C9 C5 CA
+C8 - - CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "7"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT9.AK93.95.K653 65.T542.J432.T92 AJ7.Q8.K876.AQ87 Q8432.J76.AQT.J4"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 600"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "S"]
+1H Pass 2C Pass
+2D Pass 2H Pass
+3D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+S3 S9 S5 S7
+C4 C3 C2 CA
+CJ CK C9 C7
+S2 C5 CT CQ
+H6 C6 S6 C8
+S4 ST D2 SA
+H7 H3 H2 HQ
+HJ HA H4 H8
+S8 SK D3 SJ
+DA D5 D4 DK
+SQ D9 H5 D6
+DT H9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT9.AK93.95.K653 65.T542.J432.T92 AJ7.Q8.K876.AQ87 Q8432.J76.AQT.J4"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H2 H8 HJ HA
+C9 CA C4 C3
+C2 CQ CJ C5
+H4 HQ H6 H3
+S5 SJ S2 S9
+CT C7 H7 CK
+S6 C8 S3 C6
+D2 SA S4 ST
+D3 S7 S8 SK
+H5 D6 - HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "8"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT64.Q952.J9.A94 QJ53.J4.KT543.J6 K982.K8.86.QT875 7.AT763.AQ72.K32"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "10"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 130"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "W"]
+Pass Pass Pass 1H
+Pass 1S Pass 2D
+Pass Pass Pass
+[Play "W"]
+DJ DK D6 D2
+H2 HJ HK HA
+D9 DT D8 D7
+H5 H4 H8 H3
+CA C6 C5 C3
+C9 CJ CQ CK
+H9 D3 C7 H6
+ST S3 S8 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT64.Q952.J9.A94 QJ53.J4.KT543.J6 K982.K8.86.QT875 7.AT763.AQ72.K32"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass Pass 2H
+Pass Pass Pass
+[Play "W"]
+DJ D3 D6 DA
+H2 HJ HK H3
+CA C6 C7 C2
+D9 D4 D8 DQ
+C4 CJ C5 CK
+C9 H4 C8 C3
+ST S3 S2 S7
+SA S5 S8 H6
+S4 DK H8 D2
+H9 D5 CQ H7
+S6 SJ SK HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "9"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:Q97.T3.AJ8.KJT63 K5432.QJ98.43.A4 AJ6.AK762.Q96.Q8 T8.54.KT752.9752"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 460"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "N"]
+1NT Pass 2D Pass
+2S Pass 3NT Pass
+Pass Pass
+[Play "E"]
+S3 S6 ST SQ
+C4 CQ C2 C3
+CA C8 C5 CK
+S2 SJ S8 S7
+D3 DQ DK DA
+S4 H2 C7 CJ
+S5 H6 C9 CT
+H8 D9 D2 C6
+SK SA H4 S9
+H9 HA H5 H3
+HJ HK D5 HT
+D4 D6 D7 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:Q97.T3.AJ8.KJT63 K5432.QJ98.43.A4 AJ6.AK762.Q96.Q8 T8.54.KT752.9752"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1H Pass
+2C Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+D5 D8 D3 D6
+C2 C3 C4 CQ
+C5 CK CA C8
+D2 DJ D4 D9
+C7 CJ S2 H2
+C9 CT S3 H6
+D7 C6 H8 H7
+S8 S7 S4 SJ
+DT DA H9 DQ
+H4 H3 HJ HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "10"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:K3.AJ982.Q983.T6 J8542.K63.72.J85 A6.T5.T54.KQ9732 QT97.Q74.AKJ6.A4"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 140"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass 1C X
+XX 2S Pass 3S
+Pass Pass Pass
+[Play "W"]
+CQ CA CT C5
+SA SQ S3 S4
+CK C4 C6 C8
+C2 S9 SK CJ
+HT HQ H2 H3
+S6 S7 H8 SJ
+D4 DA D3 D2
+D5 DK D8 D7
+DT D6 D9 S2
+C3 ST H9 S5
+H5 H4 HA H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:K3.AJ982.Q983.T6 J8542.K63.72.J85 A6.T5.T54.KQ9732 QT97.Q74.AKJ6.A4"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1C X
+1H 1S Pass 2S
+Pass Pass Pass
+[Play "W"]
+HT H4 H2 HK
+S6 SQ SK S2
+CQ CA CT CJ
+SA S7 S3 S4
+CK C4 C6 C5
+H5 H7 H8 H3
+C2 HQ HA H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "11"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A74.QJ973.Q82.J5 KQT532.KT854.4.2 6.62.AKJT765.AQ3 J98.A.93.KT98764"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "S"]
+1NT 2C 3NT Pass
+Pass Pass
+[Play "W"]
+SQ S6 S9 SA
+D4 DA D3 D2
+H4 D5 D9 DQ
+H5 DK C4 D8
+H8 D6 C6 S4
+S2 D7 C7 H3
+S3 DT C8 H7
+S5 DJ C9 S7
+C2 C3 CT C5
+HT CQ CK CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A74.QJ973.Q82.J5 KQT532.KT854.4.2 6.62.AKJT765.AQ3 J98.A.93.KT98764"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D 3C
+X Pass 3D Pass
+Pass Pass
+[Play "E"]
+HA H3 H4 H2
+CT C5 C2 CQ
+D3 D2 D4 DA
+D9 D8 ST DK
+C4 HJ HK H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "12"]
+[West "Almirall N"]
+[North "Auken S"]
+[East "Almirall M"]
+[South "von Arnem D"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:QT964.T.Q83.QT72 875.6432.6542.A4 J32.AK5.KJ.98653 AK.QJ987.AT97.KJ"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Germany"]
+[Room "Open"]
+[Round "5"]
+[Score "NS -200"]
+[Section "Ladies"]
+[Table "26"]
+[VisitTeam "Spain"]
+[Auction "W"]
+Pass Pass 1C X
+1S Pass Pass 2H
+2S 3H 3S Pass
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+S4 S5 SJ SA
+CQ CA C3 CJ
+HT H2 H5 H9
+SQ S7 S2 SK
+S6 H3 HK HQ
+D3 D2 DK DA
+C2 C4 C5 CK
+S9 H4 HA H7
+D8 D4 DJ D7
+ST S8 S3 H8
+DQ D5 C6 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Nehmert B"]
+[North "Cafranga C"]
+[East "Caesar K"]
+[South "Frances A"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:QT964.T.Q83.QT72 875.6432.6542.A4 J32.AK5.KJ.98653 AK.QJ987.AT97.KJ"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "^9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1NT X
+2S Pass Pass Pass
+[Play "N"]
+H3 HK H7 HT
+S5 S2 SK S4
+H2 HA HQ C2
+S7 S3 SA S6
+H4 H5 HJ S9
+D2 DJ DA D3
+CA C3 CK C7
+C4 C5 CJ CT
+*
+

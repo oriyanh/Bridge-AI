@@ -1,0 +1,1715 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.28"]
+[Board "1"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:732.K86.Q942.KT6 QT95.Q52.A5.Q975 A4.AJT743..AJ832 KJ86.9.KJT8763.4"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 480"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+Pass Pass 1C 4D
+Pass Pass 4H Pass
+Pass Pass
+[Play "W"]
+C4 CT CQ CA
+H9 HK H2 H3
+D8 H6 H5 HA
+D3 CK C5 C2
+D6 C6 C7 CJ
+D7 S2 C9 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:732.K86.Q942.KT6 QT95.Q52.A5.Q975 A4.AJT743..AJ832 KJ86.9.KJT8763.4"]
+[Declarer "S"]
+[Contract "5C"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1S 2S 4S
+Pass Pass X Pass
+4NT Pass 5C Pass
+Pass Pass
+[Play "W"]
+S6 S2 SQ SA
+C4 CK C5 C2
+D3 CT CQ CA
+H9 HK H2 H3
+D6 C6 C7 C8
+D7 S3 C9 CJ
+S8 H6 H5 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "2"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:J865.A4.A54.KQJT 94.T75.QJ3.A9432 QT7.QJ9862.K8.75 AK32.K3.T9762.86"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1NT Pass 4D Pass
+4H Pass Pass Pass
+[Play "S"]
+DJ DK D2 D4
+H5 HQ H3 H4
+H7 H2 HK HA
+D3 D8 D6 DA
+DQ H6 D7 D5
+HT HJ S2 S5
+C2 C5 C6 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:J865.A4.A54.KQJT 94.T75.QJ3.A9432 QT7.QJ9862.K8.75 AK32.K3.T9762.86"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 4C Pass
+4H Pass Pass Pass
+[Play "S"]
+DQ DK DT D4
+H7 HQ H3 H4
+H5 H2 HK HA
+D3 D8 D2 DA
+DJ H6 D6 D5
+HT HJ S2 S5
+C4 C5 C6 CK
+S4 SQ SK S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "3"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QT2.A92.KT8.AQ92 K65.Q8.96432.J75 AJ943.643.AQ.KT8 87.KJT75.J75.643"]
+[Declarer "S"]
+[Contract "5S"]
+[Result "12"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 480"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1NT Pass 2H Pass
+3S Pass 4C Pass
+4D Pass 4S Pass
+4NT Pass 5H X
+5S Pass Pass Pass
+[Play "W"]
+HQ H3 HK HA
+S5 SA S7 S2
+D2 DA D5 D8
+D3 DQ D7 DT
+C5 C8 C3 CA
+D4 H4 DJ DK
+S6 S3 S8 ST
+C7 CK C4 C2
+CJ CT C6 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:QT2.A92.KT8.AQ92 K65.Q8.96432.J75 AJ943.643.AQ.KT8 87.KJT75.J75.643"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 520"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D6 DQ D5 D8
+C5 CT C3 CQ
+SK SA S7 SQ
+D2 DA D7 DT
+S5 S3 S8 ST
+H8 H3 H5 HA
+D3 H4 DJ DK
+S6 SJ H7 S2
+D4 S9 HT H2
+D9 S4 HJ H9
+C7 CK C4 C2
+CJ C8 C6 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "4"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K986.KQ5.AJ432.8 JT2.T62.T6.AT543 Q54.843.Q97.Q962 A73.AJ97.K85.KJ7"]
+[Declarer "W"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1D Pass 2D X
+3D Pass Pass Pass
+[Play "N"]
+ST SQ SA S6
+SJ S4 S3 S9
+S2 S5 S7 SK
+C3 C2 CJ C8
+H2 H3 HA H5
+H6 H4 H7 HK
+D6 D7 D5 DA
+DT DQ DK D2
+HT H8 H9 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K986.KQ5.AJ432.8 JT2.T62.T6.AT543 Q54.843.Q97.Q962 A73.AJ97.K85.KJ7"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass Pass X
+Pass 2C Pass Pass
+X Pass 2S Pass
+Pass Pass
+[Play "N"]
+DT DQ D8 D4
+H6 H3 H7 HK
+S2 SQ SA S6
+H2 H4 HA H5
+CA C2 C7 C8
+C5 C6 CJ S8
+HT H8 H9 HQ
+D6 D7 D5 DA
+C3 D9 DK D2
+C4 C9 CK S9
+ST S4 S3 SK
+CT S5 S7 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "5"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J96.82.KJ954.AJT Q4.AK9763.A7.Q98 AT72.Q4.T63.K432 K853.JT5.Q82.765"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1C 1H X 2H
+Pass 3H Pass Pass
+Pass
+[Play "S"]
+SA S3 S6 S4
+S2 S5 SJ SQ
+H4 H5 H2 HA
+HQ HT H8 HK
+C2 HJ S9 H3
+- SK - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J96.82.KJ954.AJT Q4.AK9763.A7.Q98 AT72.Q4.T63.K432 K853.JT5.Q82.765"]
+[Declarer "E"]
+[Contract "2NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1H Pass 1S
+Pass 2NT Pass Pass
+Pass
+[Play "S"]
+C2 C5 CA C8
+C3 C6 CJ C9
+CK C7 CT CQ
+C4 S3 S6 D7
+DT D2 D5 DA
+H4 HJ H2 HA
+HQ HT H8 HK
+S2 H5 D4 H9
+S7 S5 S9 H3
+ST S8 D9 H6
+D3 D8 DJ H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "6"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J4.A865.J96.Q964 K765.KJ2.T4.JT75 2.Q973.AKQ732.A3 AQT983.T4.85.K82"]
+[Declarer "N"]
+[Contract "4SX"]
+[Result "7"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -500"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+Pass Pass 1D 2S
+Pass 3S X Pass
+4H Pass Pass 4S
+X Pass Pass Pass
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J4.A865.J96.Q964 K765.KJ2.T4.JT75 2.Q973.AKQ732.A3 AQT983.T4.85.K82"]
+[Declarer "W"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1H 1S
+2H 2S 4H 4S
+Pass Pass 5H Pass
+Pass Pass
+[Play "N"]
+SA S4 S5 S2
+SQ SJ SK H3
+H4 HA H2 H7
+HT H5 HJ HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "7"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:87542.7.Q84.AJ74 A96.AKT94.AJT6.6 KJT.8653.75.K852 Q3.QJ2.K932.QT93"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -650"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+Pass 1H Pass 1NT
+Pass 2D Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+ST SQ S2 S6
+SJ S3 S4 SA
+SK HQ S5 S9
+H3 HJ H7 H4
+- H2 S7 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:87542.7.Q84.AJ74 A96.AKT94.AJT6.6 KJT.8653.75.K852 Q3.QJ2.K932.QT93"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1NT
+Pass 2H Pass 4H
+Pass Pass Pass
+[Play "N"]
+H3 H2 H7 H9
+SK S3 S2 S6
+C2 CT CJ C6
+C5 C3 C4 H4
+H5 HJ S4 HT
+D5 D2 D4 DA
+D7 DK D8 D6
+C8 C9 C7 HK
+ST SQ S5 S9
+CK CQ CA HA
+SJ D3 S7 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "8"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:54.KQ54.AKQ.J974 93.AT863.T86.AQ3 AJ82.9.J9732.K62 KQT76.J72.54.T85"]
+[Declarer "W"]
+[Contract "2NT"]
+[Result "8"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -120"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1NT Pass 2C Pass
+2H Pass 2NT Pass
+Pass Pass
+[Play "N"]
+H6 H9 HJ HK
+D6 D2 D4 DA
+D8 D3 D5 DK
+DT D7 S6 DQ
+C3 CK C5 C4
+H3 DJ H2 S4
+H8 D9 C8 H4
+CA C2 CT CJ
+S9 SA S7 S5
+- C6 ST -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:54.KQ54.AKQ.J974 93.AT863.T86.AQ3 AJ82.9.J9732.K62 KQT76.J72.54.T85"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2S X
+Pass Pass 3NT Pass
+Pass Pass
+[Play "N"]
+S3 S2 ST S5
+HA H9 HJ HQ
+H8 C2 H7 HK
+D6 D2 D4 DA
+D8 D3 D5 DK
+DT D7 S7 DQ
+S9 SA S6 S4
+C3 DJ C8 C4
+CQ D9 H2 H4
+- C6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "9"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8732.T2.98.AT6 KT96.J76.AJ65.72 5.K843.3.KQJ9843 J4.AQ95.KQT742.5"]
+[Declarer "W"]
+[Contract "4D"]
+[Result "10"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -130"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1S Pass 2C 2D
+2S 3D Pass Pass
+3S Pass Pass 4D
+Pass Pass Pass
+[Play "N"]
+C6 C2 CJ C5
+CT C7 CK DT
+D8 D5 D3 DK
+D9 DJ C3 DQ
+SA S6 S5 S4
+S7 S9 C4 SJ
+S2 DA C8 D4
+H2 H6 H3 HA
+HT HJ HK H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8732.T2.98.AT6 KT96.J76.AJ65.72 5.K843.3.KQJ9843 J4.AQ95.KQT742.5"]
+[Declarer "W"]
+[Contract "4D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 2C 2D
+2S 3C X XX
+Pass 3D Pass Pass
+4C 4D Pass Pass
+Pass
+[Play "N"]
+SA S6 S5 S4
+S2 SK D3 SJ
+C6 C2 CK C5
+CA C7 C9 D2
+D8 D5 H3 DK
+D9 DJ C4 D4
+H2 HJ HK HA
+S3 DA H4 DT
+HT H6 H8 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "10"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:KQ85.K9876.K8.43 AJT73.T.J95.AK65 92.QJ4.T32.Q9872 64.A532.AQ764.JT"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1H 1S 2H 3D
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+HQ HA H7 HT
+S2 S4 SK S3
+H4 H2 H9 S7
+D2 DQ DK D9
+HJ H3 HK ST
+D3 DA D8 DJ
+S9 S6 S5 SJ
+C7 H5 S8 SA
+C2 CT C3 CA
+C8 CJ C4 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:KQ85.K9876.K8.43 AJT73.T.J95.AK65 92.QJ4.T32.Q9872 64.A532.AQ764.JT"]
+[Declarer "E"]
+[Contract "2HX"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass Pass X
+Pass Pass 2C Pass
+Pass X Pass Pass
+2H Pass Pass X
+Pass Pass Pass
+[Play "S"]
+HT HQ HA H6
+D9 HJ H3 H7
+D5 D2 D4 DK
+DJ D3 DQ D8
+SA S2 S4 SK
+CK C2 CT C3
+CA C7 CJ C4
+C6 C8 H2 H8
+S3 S9 S6 SQ
+ST H4 H5 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "11"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJT8.AQT.942.Q43 A543.8763.AK6.K5 Q92.K94.Q753.862 76.J52.JT8.AJT97"]
+[Declarer "E"]
+[Contract "3C"]
+[Result "7"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1S X Pass 2C
+Pass Pass 2S 3C
+Pass Pass Pass
+[Play "S"]
+ST SA S2 S6
+C3 CK C2 C7
+CQ C5 C6 CJ
+SK S3 S9 S7
+D4 D6 DQ D8
+S8 S4 SQ C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJT8.AQT.942.Q43 A543.8763.AK6.K5 Q92.K94.Q753.862 76.J52.JT8.AJT97"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C X 1NT Pass
+Pass Pass
+[Play "E"]
+CT C3 CK C2
+CA C4 C5 C6
+C7 CQ S3 C8
+S7 S8 S4 SQ
+S6 ST SA S2
+D8 D2 DA D3
+DT D4 DK D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "12"]
+[West "Kwiecen M"]
+[North "Hanlon T"]
+[East "Pszczola J"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KJT.A632.64.AJ95 AQ63.T9874.Q97.8 952.K.A532.76432 874.QJ5.KJT8.KQT"]
+[Declarer "W"]
+[Contract "2CX"]
+[Result "9"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -280"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1C Pass 1D Pass
+1H Pass 2C Pass
+Pass X Pass Pass
+Pass
+[Play "N"]
+C8 C2 CQ CA
+H8 HK H5 H6
+HT C3 CK C9
+SQ S2 S7 SJ
+SA S5 S8 SK
+D7 DA D8 D4
+H4 C4 CT CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "O'Brien M"]
+[North "Balicki C"]
+[East "Garvey D"]
+[South "Zmudzinski A"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:KJT.A632.64.AJ95 AQ63.T9874.Q97.8 952.K.A532.76432 874.QJ5.KJT8.KQT"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1H Pass 1NT Pass
+Pass Pass
+[Play "S"]
+S7 SJ S3 S2
+CT CA C8 C2
+CQ CJ H4 C3
+S4 ST SQ S5
+D8 D4 D9 DA
+CK C5 H7 C4
+S8 SK SA S9
+H5 H2 S6 D2
+DK D6 DQ D3
+DT H3 D7 D5
+DJ H6 H8 C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "13"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J74.J54.KJ96.AJ2 T983.Q.7432.Q983 AKQ5.T96.T5.KT75 62.AK8732.AQ8.64"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 110"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1C Pass 1S 2H
+Pass Pass X Pass
+2S Pass Pass Pass
+[Play "W"]
+HA H4 HQ H9
+HK H5 D2 H6
+H8 HJ S3 HT
+DA D6 D3 D5
+C4 C2 C8 CT
+S2 S4 S8 SA
+S6 S7 S9 SK
+H2 SJ ST SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J74.J54.KJ96.AJ2 T983.Q.7432.Q983 AKQ5.T96.T5.KT75 62.AK8732.AQ8.64"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C 1H
+X Pass 1S 2H
+Pass Pass Pass
+[Play "N"]
+S7 S8 SQ S2
+DK D2 DT DQ
+DJ D3 D5 DA
+H4 HQ H6 H2
+D6 D4 H9 D8
+S4 S3 SA S6
+C2 C3 CK C4
+CA C8 C5 C6
+D9 D7 HT HK
+H5 S9 S5 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "14"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T.85.QJ543.KT982 Q976.632.A6.AJ54 J843.AQJ74.97.73 AK52.KT9.KT82.Q6"]
+[Declarer "W"]
+[Contract "3DX"]
+[Result "5"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 800"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+2NT Pass 3C X
+Pass Pass 3D X
+Pass Pass Pass
+[Play "N"]
+SA ST S6 S4
+DT DJ DA D7
+HK H5 H6 HQ
+HT H8 H3 HA
+H9 C2 H2 HJ
+C6 C8 CJ C3
+CQ C9 CA C7
+S2 CT C5 D9
+S5 D3 S7 S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T.85.QJ543.KT982 Q976.632.A6.AJ54 J843.AQJ74.97.73 AK52.KT9.KT82.Q6"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2S Pass Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "E"]
+CT C4 C7 CQ
+ST S6 S3 SA
+H8 SQ S4 S2
+H5 H2 HA HT
+D3 S9 S8 S5
+C2 S7 SJ SK
+C8 CJ C3 C6
+C9 CA H4 H9
+D4 H3 HQ HK
+D5 DA D7 D2
+DJ D6 D9 DK
+- - - D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "15"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT84.KQ87.T542.T QJ72.95432.73.AK 5.AJ.AKJ8.J85432 K963.T6.Q96.Q976"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+Pass Pass 2C Pass
+2D Pass 3D Pass
+3NT Pass Pass Pass
+[Play "W"]
+SQ S5 S3 SA
+D3 DJ DQ D2
+SJ C2 S6 S4
+CK C3 C6 CT
+CA C4 C9 D4
+S2 C5 SK S8
+- - CQ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT84.KQ87.T542.T QJ72.95432.73.AK 5.AJ.AKJ8.J85432 K963.T6.Q96.Q976"]
+[Declarer "N"]
+[Contract "2C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1C Pass
+1H Pass 2C Pass
+Pass Pass
+[Play "E"]
+HT H7 H2 HA
+C6 CT CK C2
+H6 H8 H9 HJ
+C7 S4 CA C5
+D6 D2 D7 DK
+C9 D4 H5 C3
+D9 D5 D3 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "16"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A64.K864.Q9654.8 Q3.JT52.KJ2.T743 T9852.AQ3.7.KQJ9 KJ7.97.AT83.A652"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass Pass 1S Pass
+2C Pass 2S Pass
+Pass Pass
+[Play "S"]
+H9 H4 H5 HQ
+C5 C8 C3 CJ
+C2 D4 C4 CK
+S7 SA S3 S2
+H7 H6 H2 HA
+C6 S4 C7 C9
+SJ S6 SQ S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A64.K864.Q9654.8 Q3.JT52.KJ2.T743 T9852.AQ3.7.KQJ9 KJ7.97.AT83.A652"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S Pass
+2S Pass Pass Pass
+[Play "S"]
+H7 H4 HT HA
+CA C8 C3 CJ
+H9 H6 H2 HQ
+C2 S4 C4 C9
+S7 SA S3 S2
+SJ S6 SQ S5
+C5 D4 C7 CK
+D3 HK H5 H3
+SK H8 HJ S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "17"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q9743.5.9642.732 J8.K932.853.A986 AK652.Q64.K.JT54 T.AJT87.AQJT7.KQ"]
+[Declarer "W"]
+[Contract "5H"]
+[Result "11"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+2D Pass 2H Pass
+2S Pass 3S 4H
+Pass Pass 4S X
+Pass 5H Pass Pass
+Pass
+[Play "N"]
+S4 S8 SK ST
+D4 D3 DK DA
+H5 HK H4 H7
+- H2 H6 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q9743.5.9642.732 J8.K932.853.A986 AK652.Q64.K.JT54 T.AJT87.AQJT7.KQ"]
+[Declarer "E"]
+[Contract "5H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -480"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S 3C
+4S Pass Pass X
+Pass 5H Pass Pass
+Pass
+[Play "S"]
+SA ST S4 S8
+DK DA D2 D3
+H4 H7 H5 HK
+H6 HJ S3 H2
+HQ HA C2 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "18"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A7632..AQ943.KQ9 K4.A873.65.JT852 QJ8.KQ952.J82.74 T95.JT64.KT7.A63"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1S Pass 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CT C4 CA C9
+D6 D8 D7 D4
+SK SQ S5 S3
+D5 D2 DT DQ
+S4 SJ S9 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A7632..AQ943.KQ9 K4.A873.65.JT852 QJ8.KQ952.J82.74 T95.JT64.KT7.A63"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 1NT Pass
+2D Pass 2S Pass
+4S Pass Pass Pass
+[Play "S"]
+CJ C4 CA C9
+SK S8 S5 S2
+S4 SJ S9 S3
+C2 C7 C3 CQ
+C5 D2 C6 CK
+D5 D8 D7 DA
+D6 DJ DK D3
+H3 SQ ST S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "19"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q2.J972.6.KQT764 AJ.KQ86.AKQT52.2 7653.AT543.87.53 KT984..J943.AJ98"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "13"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -1390"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+3C X Pass 4S
+Pass 4NT Pass 5H
+Pass 6D Pass Pass
+Pass
+[Play "N"]
+HA - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q2.J972.6.KQT764 AJ.KQ86.AKQT52.2 7653.AT543.87.53 KT984..J943.AJ98"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1370"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 2C 2S
+3C 3D Pass 4H
+Pass 4S Pass 5C
+Pass 6D Pass Pass
+Pass
+[Play "N"]
+C3 CA C4 C2
+D7 D3 D6 DA
+D8 D4 C6 DK
+S3 S4 S2 SA
+S5 S8 SQ SJ
+- - CK D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "20"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:92.AQ83.986.K986 QJT4.7642.Q32.Q2 A73.J.K754.AJ754 K865.KT95.AJT.T3"]
+[Declarer "E"]
+[Contract "2C"]
+[Result "9"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass Pass 1D X
+XX Pass Pass 1H
+X Pass 2C Pass
+Pass Pass
+[Play "S"]
+CT C8 CQ CA
+C3 C6 C2 C7
+HK HA H2 HJ
+S5 S2 SQ SA
+S6 S9 ST S3
+DT D6 D2 D4
+H5 HQ H4 D5
+H9 H3 H6 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:92.AQ83.986.K986 QJT4.7642.Q32.Q2 A73.J.K754.AJ754 K865.KT95.AJT.T3"]
+[Declarer "N"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D X
+1NT 2D Pass Pass
+Pass
+[Play "E"]
+CA C3 C6 C2
+D4 DT D6 D2
+SA S5 S2 SQ
+D5 DJ D8 D3
+S3 SK S9 S4
+S7 S6 D9 ST
+C4 CT C8 CQ
+HJ HK HA H2
+C5 H5 HQ H4
+D7 H9 H3 H6
+C7 S8 CK DQ
+CJ HT C9 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "21"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q84.J.A65.AQJ854 AJT6532.AK8.J4.T K9.T74.QT982.K63 7.Q96532.K73.972"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "10"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -170"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "N"]
+2C 2S 3C Pass
+Pass 3S Pass Pass
+Pass
+[Play "S"]
+C3 C2 CA CT
+H4 H2 HJ HA
+S9 S7 S4 SA
+SK C7 S8 S2
+H7 H3 SQ HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q84.J.A65.AQJ854 AJT6532.AK8.J4.T K9.T74.QT982.K63 7.Q96532.K73.972"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C 4S X Pass
+Pass Pass
+[Play "S"]
+C6 C2 CA CT
+H7 H2 HJ HA
+S9 S7 S4 SA
+SK C7 S8 ST
+H4 H3 C4 HK
+C3 D3 SQ S2
+- - DA -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "22"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ2.JT763.A63.T9 854.AQ54.874.643 KT3.98.KQ52.AKJ5 J976.K2.JT9.Q872"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "E"]
+Pass Pass 1NT Pass
+2D Pass 2H Pass
+3NT Pass Pass Pass
+[Play "N"]
+DT DA D4 D2
+CQ C9 C6 C5
+C2 CT C4 CJ
+C7 H3 C3 CA
+C8 D3 S4 CK
+S6 SQ S5 S3
+S7 SA S8 ST
+S9 S2 D7 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ2.JT763.A63.T9 854.AQ54.874.643 KT3.98.KQ52.AKJ5 J976.K2.JT9.Q872"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 2C Pass
+2H Pass 3NT Pass
+Pass Pass
+[Play "N"]
+DJ DA D4 D2
+CQ CT C3 C5
+S6 SQ S8 S3
+C2 C9 C4 CA
+C7 D3 C6 CK
+C8 H6 D7 CJ
+S7 S2 S4 SK
+S9 SA S5 ST
+D9 D6 D8 DK
+DT H3 H4 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "23"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ9.J2.A6.AKT953 K73.543.J742.642 642.AKQT8.985.Q8 JT85.976.KQT3.J7"]
+[Declarer "S"]
+[Contract "6NT"]
+[Result "13"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS 1470"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1C Pass 1H Pass
+2C Pass 2D Pass
+2NT Pass 3D Pass
+3NT Pass 4NT Pass
+6NT Pass Pass Pass
+[Play "W"]
+C6 C8 CJ CA
+C2 CQ C7 C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AQ9.J2.A6.AKT953 K73.543.J742.642 642.AKQT8.985.Q8 JT85.976.KQT3.J7"]
+[Declarer "S"]
+[Contract "6C"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 1390"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C Pass 1H Pass
+3D Pass 3H Pass
+3NT Pass 4C Pass
+4D Pass 4H Pass
+4S Pass 5C Pass
+6C Pass Pass Pass
+[Play "W"]
+S3 S2 ST SQ
+C2 CQ C7 C3
+- C8 CJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.28"]
+[Board "24"]
+[West "Zmudzinski A"]
+[North "Hanlon T"]
+[East "Balicki C"]
+[South "McGann H"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ42.Q2.KJ8642. 9.AKT863.A5.8762 AT863.74.QT9.KJ5 75.J95.73.AQT943"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Ireland"]
+[Room "Open"]
+[Round "35"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "4"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1S 2H 4S Pass
+Pass Pass
+[Play "N"]
+HK H4 H5 H2
+HA H7 H9 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "O'Brien M"]
+[North "Pszczola J"]
+[East "Garvey D"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJ42.Q2.KJ8642. 9.AKT863.A5.8762 AT863.74.QT9.KJ5 75.J95.73.AQT943"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S 2H 4S Pass
+Pass Pass
+[Play "N"]
+HA H4 H9 H2
+HK H7 H5 HQ
+DA D9 D7 D2
+D5 DQ D3 D4
+*
+

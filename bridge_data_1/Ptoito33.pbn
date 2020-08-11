@@ -1,0 +1,1688 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.27"]
+[Board "1"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KT2.KQ8632.4.KJ3 J.T97.AKJT975.62 AQ964.54.Q3.QT94 8753.AJ.862.A875"]
+[Declarer "E"]
+[Contract "4D"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -130"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1H 3D X 4D
+Pass Pass Pass
+[Play "S"]
+H5 HA H3 H7
+D3 D2 D4 DA
+- - - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KT2.KQ8632.4.KJ3 J.T97.AKJT975.62 AQ964.54.Q3.QT94 8753.AJ.862.A875"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2H 3D Pass Pass
+Pass
+[Play "S"]
+H4 HA H2 H7
+D3 D2 D4 DA
+DQ D6 H3 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "2"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK52.K9865.63.43 4.AQ72.AQT5.J985 T83.T4.KJ8.AKQ62 QJ976.J3.9742.T7"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1H Pass 2C Pass
+2H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+SQ SA S4 S3
+D2 D3 D5 DJ
+H3 HK HA H4
+C7 C3 C5 CA
+CT C4 C8 CK
+S6 H5 C9 CQ
+D4 D6 CJ C6
+HJ H6 HQ HT
+D7 S2 DA D8
+- - H2 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK52.K9865.63.43 4.AQ72.AQT5.J985 T83.T4.KJ8.AKQ62 QJ976.J3.9742.T7"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 2C Pass
+2H Pass Pass Pass
+[Play "S"]
+S4 S8 SJ SA
+C5 CA C7 C3
+HA HT HJ HK
+C8 CK CT C4
+C9 CQ H3 H5
+D5 DK D2 D3
+HQ H4 S6 H8
+DQ D8 D4 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "3"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AKQT93.KT65.T.A6 7652.J9.A6.KJ932 8.AQ.Q987532.QT7 J4.87432.KJ4.854"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 450"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+2D Pass 2S Pass
+3S Pass 4S Pass
+Pass Pass
+[Play "E"]
+C5 C6 CK C7
+D4 DT DA D2
+S4 S9 S2 S8
+SJ SA S5 D3
+- SK S6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AKQT93.KT65.T.A6 7652.J9.A6.KJ932 8.AQ.Q987532.QT7 J4.87432.KJ4.854"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 1NT Pass
+2C Pass 2D Pass
+2H Pass 3D Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "E"]
+H2 H5 H9 HA
+H3 H6 HJ HQ
+S4 SA S2 S8
+SJ SK S5 D2
+C4 SQ S6 D3
+H4 ST S7 D5
+H7 HK C2 D7
+C5 S9 C3 C7
+H8 HT C9 D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "4"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A64.7.J65.AKT986 KJ3.Q9542.A983.Q 8752.JT3.KQT4.43 QT9.AK86.72.J752"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+1C 1H Pass 2C
+X 2D Pass 4H
+Pass Pass Pass
+[Play "E"]
+C4 C2 CK CQ
+DT D2 D5 D3
+C3 C5 CT H2
+H3 HA H7 H4
+HT HK C6 H5
+D4 D7 D6 DA
+DQ H6 DJ D9
+S2 S9 S4 SJ
+DK H8 C8 D8
+S5 ST SA S3
+- - CA H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A64.7.J65.AKT986 KJ3.Q9542.A983.Q 8752.JT3.KQT4.43 QT9.AK86.72.J752"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C 1D Pass 2H
+3C 3H Pass 4H
+Pass Pass Pass
+[Play "W"]
+CA CQ C4 C2
+SA S3 S5 S9
+S6 SK S2 ST
+H7 H2 H3 HK
+C9 HQ HT H6
+C6 H4 HJ HA
+D5 D3 DT D7
+S4 SJ S8 SQ
+D6 DA D4 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "5"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9732.JT842.KJ8.6 AK84.5.A53.AKQ73 QT6.AKQ3.T92.J98 J5.976.Q764.T542"]
+[Declarer "E"]
+[Contract "5C"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass 1C Pass 1D
+Pass 1S Pass 2C
+Pass 2H Pass 3C
+Pass 3H Pass 4C
+Pass 5C Pass Pass
+Pass
+[Play "S"]
+HA H6 H2 H5
+HK H7 H4 C3
+C9 C2 C6 CA
+C8 C4 H8 CK
+D2 DQ DK D3
+S6 S5 S7 SA
+CJ C5 HT CQ
+D9 D4 D8 DA
+DT D6 DJ D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:9732.JT842.KJ8.6 AK84.5.A53.AKQ73 QT6.AKQ3.T92.J98 J5.976.Q764.T542"]
+[Declarer "E"]
+[Contract "5C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C 1D Pass
+4H X Pass 5C
+Pass Pass Pass
+[Play "S"]
+HA H6 H8 H5
+HK H7 HT C3
+C8 C2 C6 CA
+DT DQ DK D3
+HQ H9 H4 C7
+S6 S5 S2 SA
+ST SJ S3 SK
+C9 C4 H2 CK
+- - - S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "6"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:K98652.AQT97.6.4 AQ.K5.J874.AT875 JT73.83.KQ932.93 4.J642.AT5.KQJ62"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -790"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1S Pass 2S X
+4S X Pass Pass
+Pass
+[Play "S"]
+HK H3 H2 HA
+D4 DK DA D6
+H5 H8 H4 H7
+D7 DQ D5 C4
+- SJ - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:K98652.AQT97.6.4 AQ.K5.J874.AT875 JT73.83.KQ932.93 4.J642.AT5.KQJ62"]
+[Declarer "E"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 1NT 3S X
+Pass 3NT X Pass
+4S X Pass Pass
+Pass
+[Play "S"]
+CA C3 C6 C4
+C8 C9 CJ S5
+D4 DK DA D6
+HK H3 H2 HQ
+C7 S3 C2 H7
+D7 DQ D5 H9
+H5 H8 H4 HA
+- - - HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "7"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:72.JT8.AQJT64.K9 AJ63.42.K85.A642 KQT5.Q753.73.Q83 984.AK96.92.JT75"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1D Pass 1H Pass
+2D Pass Pass Pass
+[Play "W"]
+H4 H3 HK H8
+CA C3 CJ CK
+SA S5 S8 S2
+H2 H5 HA HJ
+- - H6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:72.JT8.AQJT64.K9 AJ63.42.K85.A642 KQT5.Q753.73.Q83 984.AK96.92.JT75"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1H Pass
+2D Pass Pass Pass
+[Play "W"]
+H4 H3 HK HJ
+CA C3 C7 C9
+H2 H5 HA H8
+D5 H7 H6 HT
+SA S5 S9 S2
+S3 SK S4 S7
+D8 D3 D2 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "8"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:4.KJ75.T7654.T95 JT753.932.K83.J4 AKQ2.AQ8.AQ.AKQ2 986.T64.J92.8763"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "12"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -920"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass 2C Pass
+2D Pass 2H Pass
+2S Pass 2NT Pass
+3C Pass 3D Pass
+3S Pass 4NT Pass
+6D Pass Pass Pass
+[Play "N"]
+S3 SA S6 S4
+H2 H8 H4 HJ
+D3 DQ D2 D4
+D8 DA D9 D5
+S5 S2 S8 D6
+DK - - D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:4.KJ75.T7654.T95 JT753.932.K83.J4 AKQ2.AQ8.AQ.AKQ2 986.T64.J92.8763"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -520"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 2C Pass
+2D Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+D3 DQ D2 D4
+D8 DA D9 D5
+- CA - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "9"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:JT72.A.732.AKT98 A986.KQJ83.K6.Q5 KQ543.T765.T9.62 .942.AQJ854.J743"]
+[Declarer "E"]
+[Contract "4HX"]
+[Result "9"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1C 1H 1S 2D
+3S X Pass 4H
+Pass Pass X Pass
+Pass Pass
+[Play "S"]
+SK H2 S2 S6
+H5 H4 HA H3
+C6 C3 CK CQ
+C2 C4 CA C5
+S3 C7 CT HJ
+- - - H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:JT72.A.732.AKT98 A986.KQJ83.K6.Q5 KQ543.T765.T9.62 .942.AQJ854.J743"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT 2D Pass Pass
+Pass
+[Play "S"]
+C2 C3 CK C5
+C6 C4 CA CQ
+H5 H2 HA H3
+S3 C7 C8 DK
+D9 DA D2 D6
+- DQ D3 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "10"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:QJ3.T64.K942.984 AK64.J732.J3.J52 T9752.Q.AT87.Q73 8.AK985.Q65.AKT6"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 680"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass Pass Pass 1H
+Pass 2C Pass 3C
+Pass 3S Pass 4C
+Pass 4H Pass Pass
+Pass
+[Play "E"]
+H4 H2 HQ HK
+H6 H3 S2 HA
+C4 C2 C3 CA
+HT HJ D8 H8
+C9 C5 C7 CT
+C8 CJ CQ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:QJ3.T64.K942.984 AK64.J732.J3.J52 T9752.Q.AT87.Q73 8.AK985.Q65.AKT6"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1H
+Pass 2D Pass 4H
+Pass Pass Pass
+[Play "E"]
+SQ SA S2 S8
+C4 C2 C3 CT
+H4 H2 HQ HA
+H6 H3 S5 HK
+HT HJ D7 H9
+C8 C5 C7 CK
+C9 CJ CQ CA
+D9 - - C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "11"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ952.983.AKT.52 A.AKQ42.954.T964 K76.J765.QJ76.AK T843.T.832.QJ873"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 430"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1S 2H 3H Pass
+3S Pass 3NT Pass
+Pass Pass
+[Play "E"]
+C3 C2 C9 CK
+S3 SQ SA S6
+HT H3 HQ H5
+C7 H8 HK H6
+C8 C5 C4 CA
+S4 S2 H2 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QJ952.983.AKT.52 A.AKQ42.954.T964 K76.J765.QJ76.AK T843.T.832.QJ873"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 1S
+Pass 2C Pass Pass
+2S Pass Pass Pass
+[Play "W"]
+HA H5 HT H9
+HK H6 D2 H3
+HQ H7 D3 H8
+H4 HJ ST SJ
+SA S6 S3 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "12"]
+[West "Lauria L"]
+[North "Pimenta C"]
+[East "Versace A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:54.J983.AJ8.Q853 Q86.765.Q652.976 AJ9.AQ42.K94.AKJ KT732.KT.T73.T42"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass 2NT Pass
+3C Pass 3D Pass
+3S Pass 4H Pass
+Pass Pass
+[Play "S"]
+C2 C3 C6 CK
+HT H3 H5 HA
+HK H8 H6 H2
+C4 C5 C7 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Mascarenhas N"]
+[North "Buratti A"]
+[East "Antunes M"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:54.J983.AJ8.Q853 Q86.765.Q652.976 AJ9.AQ42.K94.AKJ KT732.KT.T73.T42"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 2NT Pass
+3C Pass 3D Pass
+3S Pass 4H Pass
+Pass Pass
+[Play "S"]
+S3 S4 SQ SA
+HT H3 H5 HA
+HK H8 H6 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "13"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J2.J643.K7532.54 Q743.KT2.QJ8.762 KT865.AQ98.T9.J8 A9.75.A64.AKQT93"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass Pass 1S 3NT
+Pass Pass Pass
+[Play "N"]
+SJ S3 S5 SA
+C4 C2 C8 CA
+DK D8 DT D4
+S2 S4 ST S9
+C5 C6 CJ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J2.J643.K7532.54 Q743.KT2.QJ8.762 KT865.AQ98.T9.J8 A9.75.A64.AKQT93"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S 3NT
+Pass Pass Pass
+[Play "N"]
+D2 DQ D9 D4
+C4 C2 C8 CA
+C5 C6 CJ CK
+H3 C7 H9 CQ
+H4 S3 H8 CT
+D3 D8 HQ C3
+H6 H2 S5 C9
+D5 DJ DT DA
+S2 S4 S6 SA
+SJ SQ SK S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "14"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T82.J943.T3.KT82 QJ.AK7.62.AQ9763 975.QT8.AK8754.4 AK643.652.QJ9.J5"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass 1C 1H 1S
+Pass 3C Pass 3H
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+D5 DQ D3 D2
+C4 CJ CK CA
+S7 SA S2 SJ
+H8 C5 C2 C9
+S5 H2 C8 CQ
+S9 S3 S8 SQ
+HT S4 CT C7
+DK D9 DT D6
+DA DJ - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T82.J943.T3.KT82 QJ.AK7.62.AQ9763 975.QT8.AK8754.4 AK643.652.QJ9.J5"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 520"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C 2D 2S
+Pass 3C Pass 3NT
+Pass Pass Pass
+[Play "E"]
+DT D2 D4 DJ
+CK CA C4 CJ
+S2 SJ S5 S3
+H3 HA H8 H2
+H4 HK HT H5
+S8 SQ S7 SK
+ST H7 S9 SA
+D3 C3 D5 S4
+C2 D6 D7 S6
+C8 C9 - C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "15"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:K92.42.K74.QT742 Q.KQ87.T965.KJ86 A543.J53.AQ32.A9 JT876.AT96.J8.53"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 90"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass Pass 1D Pass
+1NT Pass Pass Pass
+[Play "W"]
+H8 H3 H9 H2
+SQ SA SJ S2
+C6 CA C3 C2
+CJ C9 C5 C4
+H7 H5 HT H4
+HK HJ HA D4
+HQ S3 H6 C7
+D5 D2 D8 DK
+CK S4 S6 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:K92.42.K74.QT742 Q.KQ87.T965.KJ86 A543.J53.AQ32.A9 JT876.AT96.J8.53"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1NT Pass
+2C Pass 2D Pass
+2NT Pass Pass Pass
+[Play "E"]
+SJ S2 SQ SA
+H6 H2 H7 H3
+HT H4 H8 H5
+S8 S9 HK S3
+D8 D4 D5 DA
+HA C2 HQ HJ
+H9 C4 C6 D2
+DJ DK D6 D3
+- SK C8 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "16"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.KQ65.T8432.QT7 Q53.3.QJ75.KJ643 AKJ8742.AJ84..82 T6.T972.AK96.A95"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass 1S Pass
+1NT Pass 4S Pass
+Pass Pass
+[Play "S"]
+DA D2 D5 S2
+S6 S9 S3 SA
+ST D3 S5 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:9.KQ65.T8432.QT7 Q53.3.QJ75.KJ643 AKJ8742.AJ84..82 T6.T972.AK96.A95"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 4S Pass
+Pass Pass
+[Play "S"]
+DA D2 D5 S2
+S6 S9 S3 SA
+ST D3 S5 SK
+D6 D4 SQ SJ
+CA C7 C3 C2
+C9 CQ CK C8
+C5 CT CJ S4
+- - - S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "17"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:9.J973.64.AQ9653 J8743.Q42.875.T8 2.AT8.AKT932.742 AKQT65.K65.QJ.KJ"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "7"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 150"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass Pass 3D X
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "S"]
+DA DJ D6 D8
+DK DQ D4 D5
+DT S5 C3 D7
+S2 SA S9 S3
+C2 S6 C5 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:9.J973.64.AQ9653 J8743.Q42.875.T8 2.AT8.AKT932.742 AKQT65.K65.QJ.KJ"]
+[Declarer "N"]
+[Contract "4C"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1D X
+2C Pass 3C 3S
+4C Pass Pass Pass
+[Play "E"]
+S3 S2 SQ S9
+D8 DA DQ D4
+C8 C2 CJ CQ
+CT C4 CK CA
+D5 DK - D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "18"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AT5.Q43.K943.QJ7 KQ763.872.T.KT64 984.AT5.AJ87.A53 J2.KJ96.Q652.982"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+S3 S8 SJ S5
+S6 S4 S2 SA
+CK CA C2 CQ
+DT D7 D2 DK
+C6 DJ DQ D3
+H2 HT H6 H3
+H7 DA D5 D4
+H8 D8 D6 D9
+C4 C3 C8 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AT5.Q43.K943.QJ7 KQ763.872.T.KT64 984.AT5.AJ87.A53 J2.KJ96.Q652.982"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+SQ S4 S2 S5
+S3 S8 SJ ST
+CK CA C9 CQ
+DT D7 D2 DK
+S6 DA D5 D3
+S7 D8 DQ D4
+C4 C3 C2 CJ
+SK DJ D6 D9
+H2 S9 H9 SA
+CT C5 C8 C7
+C6 H5 H6 H3
+H7 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "19"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AT85.T98.AJ4.A87 J.AKJ74.932.KT32 KQ762.6.Q765.J95 943.Q532.KT8.Q64"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1NT Pass 2H Pass
+3S Pass Pass Pass
+[Play "W"]
+HA H6 H2 H8
+CK C5 C6 CA
+SJ SK S4 S5
+H4 S2 S3 ST
+H7 SQ S9 S8
+D2 D5 D8 DJ
+D3 D6 DT DA
+C2 CJ CQ C8
+C3 C9 C4 C7
+D9 D7 DK D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AT85.T98.AJ4.A87 J.AKJ74.932.KT32 KQ762.6.Q765.J95 943.Q532.KT8.Q64"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C 1H 1S 2H
+3S Pass 4S Pass
+Pass Pass
+[Play "E"]
+H2 H8 HK H6
+H3 H9 HA S2
+S3 S5 SJ SK
+D8 DJ D2 D5
+S4 SA H4 S6
+S9 ST H7 S7
+DT DA D3 D6
+DK D4 D9 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "20"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:QJ876.J2.T9863.J T542.K86.KJ5.AKT 93.T954.A2.95432 AK.AQ73.Q74.Q876"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 660"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1NT Pass 2C
+Pass 2S Pass 3NT
+Pass Pass Pass
+[Play "E"]
+H5 HQ H2 H8
+DA D4 D8 DJ
+S3 SA S6 S5
+C4 C6 CJ CA
+C2 C7 S7 CK
+C3 C8 D3 CT
+D2 DQ D6 D5
+C5 CQ D9 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:QJ876.J2.T9863.J T542.K86.KJ5.AKT 93.T954.A2.95432 AK.AQ73.Q74.Q876"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 660"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1C Pass 1H
+Pass 1S Pass 2C
+Pass 2H Pass 3NT
+Pass Pass Pass
+[Play "W"]
+CJ CA C2 C6
+DT DK DA D4
+S7 S2 S9 SA
+S6 CK C3 C7
+D3 CT C4 C8
+S8 S4 S3 SK
+D6 S5 C5 CQ
+D8 D5 D2 DQ
+D9 DJ C9 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "21"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K62.AJ72.K94.K87 QJ85.KT5.AT5.954 A.Q9864.J63.QT32 T9743.3.Q872.AJ6"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1NT Pass 2D Pass
+2NT Pass 3C Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "E"]
+SQ SA S7 S6
+HK H4 H3 HJ
+H5 H6 S3 H2
+C5 C2 C6 CK
+HT H8 D2 HA
+S5 D3 S4 SK
+C4 CT CJ C8
+C9 C3 CA C7
+S8 H9 ST S2
+D5 CQ S9 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K62.AJ72.K94.K87 QJ85.KT5.AT5.954 A.Q9864.J63.QT32 T9743.3.Q872.AJ6"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1H Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "W"]
+S3 S2 SJ SA
+H3 HJ HK H4
+S4 H2 H5 H8
+D2 HA HT H6
+S7 SK S5 D3
+S9 S6 S8 H9
+C6 CK C4 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "22"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KJ2.J983.AT86.A3 Q83.K74.J42.QT85 A97.65.Q53.KJ974 T654.AQT2.K97.62"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1NT Pass 2C Pass
+2H Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+D2 D3 D9 DT
+C5 C4 C2 CA
+C8 CJ C6 C3
+CT CK S4 D6
+H7 H5 HA H3
+D4 D5 DK DA
+S3 SA S5 S2
+CQ C7 D7 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:KJ2.J983.AT86.A3 Q83.K74.J42.QT85 A97.65.Q53.KJ974 T654.AQT2.K97.62"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1S Pass
+1NT Pass Pass Pass
+[Play "S"]
+H4 H5 HQ H3
+SQ SA S4 S2
+- D3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "23"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT4.K8.K42.T9752 K3.952.QJT.AQJ64 J9.QJ743.A9853.3 A87652.AT6.76.K8"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass 1NT Pass 2H
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "N"]
+C3 CK C2 C4
+S9 S2 ST SK
+SJ SA S4 S3
+D3 S5 SQ H2
+DA D6 D2 DT
+D9 D7 D4 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT4.K8.K42.T9752 K3.952.QJT.AQJ64 J9.QJ743.A9853.3 A87652.AT6.76.K8"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1NT Pass 4S
+Pass Pass Pass
+[Play "S"]
+CT C4 C3 CK
+S4 SK S9 S2
+ST S3 SJ SA
+SQ H2 D3 S5
+DK DT D5 D6
+D4 DJ - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "24"]
+[West "Lanzarotti M"]
+[North "Pimenta C"]
+[East "Buratti A"]
+[South "Goncalves J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T3.Q964.Q83.J854 AKQ762.8.652.Q93 8.AJ53.AT74.AT76 J954.KT72.KJ9.K2"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Portugal"]
+[Room "Open"]
+[Round "33"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "11"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1S X 2NT
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+S8 S4 ST SQ
+HA H2 H4 H8
+DT DK D3 D2
+D4 SJ S3 S2
+H3 HK H6 D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Mascarenhas N"]
+[North "Lauria L"]
+[East "Antunes M"]
+[South "Versace A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T3.Q964.Q83.J854 AKQ762.8.652.Q93 8.AJ53.AT74.AT76 J954.KT72.KJ9.K2"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S X 2NT
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+S8 S4 S3 SQ
+H3 HK H4 H8
+H5 H2 H6 S2
+HJ S5 ST SK
+C6 CK C4 C3
+HA H7 H9 S6
+C7 C2 CJ C9
+D4 HT HQ S7
+D7 DK D3 D2
+*
+

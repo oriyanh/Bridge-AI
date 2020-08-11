@@ -1,0 +1,1734 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.20"]
+[Board "1"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKJT9.Q964.A8.A2 65432.K.KJT92.Q8 8.AJT873.Q4.J943 Q7.52.7653.KT765"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "13"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 510"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+1C 2C 2H Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "W"]
+SQ SA S6 S8
+H2 HQ HK HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKJT9.Q964.A8.A2 65432.K.KJT92.Q8 8.AJT873.Q4.J943 Q7.52.7653.KT765"]
+[Declarer "N"]
+[Contract "6H"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 1010"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 1NT Pass
+2NT Pass 3C Pass
+3H Pass 5H Pass
+6H Pass Pass Pass
+[Play "E"]
+DT DQ D3 D8
+HK HA H2 H4
+DK HJ H5 H6
+S3 S8 S7 SA
+S2 C3 SQ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "2"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQ32.JT5.KT4.AK3 J986.963.AJ53.T5 54.KQ87.862.9642 AT7.A42.Q97.QJ87"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+1NT Pass Pass Pass
+[Play "S"]
+S6 S4 SA S2
+SJ S5 ST SK
+CT C2 C7 C3
+S8 D2 S7 SQ
+H9 H7 H4 HJ
+C5 C4 C8 CA
+H6 C6 CJ CK
+H3 HK HA H5
+D3 C9 CQ S3
+DA D6 DQ DK
+S9 D8 H2 HT
+DJ H8 D7 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQ32.JT5.KT4.AK3 J986.963.AJ53.T5 54.KQ87.862.9642 AT7.A42.Q97.QJ87"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass Pass Pass
+[Play "S"]
+S6 S4 SA S2
+S8 S5 S7 SK
+H3 HK H2 HJ
+H6 H7 H4 HT
+H9 H8 HA H5
+C5 C2 C7 CK
+CT C4 C8 CA
+S9 D2 ST SQ
+SJ D6 CJ S3
+D3 D8 DQ DK
+D5 C6 CQ C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "3"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQJ873.986.32.94 K95.AJ5.A865.Q72 42.T7432.Q94.JT3 T6.KQ.KJT7.AK865"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "4"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -1400"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+3S Pass 4S X
+Pass Pass Pass
+[Play "W"]
+C7 C3 CK C4
+H5 H2 HK H6
+C2 CT CA C9
+HA H3 HQ H8
+HJ H4 ST H9
+CQ CJ C5 S3
+S5 S2 S6 SA
+SK S4 D7 SJ
+DA D4 DT D2
+D5 DQ DK D3
+S9 H7 C8 S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQJ873.986.32.94 K95.AJ5.A865.Q72 42.T7432.Q94.JT3 T6.KQ.KJT7.AK865"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -690"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+2D Pass 2S 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+H8 H5 H2 HK
+D2 DA D9 D7
+D3 D5 D4 DJ
+S3 D6 DQ DK
+S7 D8 HT DT
+C4 CQ C3 C5
+C9 C2 CT CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "4"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A32.82.KJ874.A63 T94.654.A53.K987 K8765.Q7.T92.T54 QJ.AKJT93.Q6.QJ2"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "11"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+1D Pass 1S 2H
+X 3H Pass Pass
+Pass
+[Play "W"]
+H2 H4 HQ HA
+H8 H5 H7 HK
+C6 C7 C5 CJ
+C3 CK C4 C2
+CA C8 CT CQ
+D7 D3 D9 DQ
+D4 DA D2 D6
+- C9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A32.82.KJ874.A63 T94.654.A53.K987 K8765.Q7.T92.T54 QJ.AKJT93.Q6.QJ2"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1D 1H
+Pass 2H 2S 3H
+3S Pass Pass Pass
+[Play "S"]
+HA H2 H6 H7
+HK H8 H4 HQ
+CQ C3 C7 C5
+CJ CA C8 C4
+SQ SA S4 S5
+SJ S2 S9 SK
+D6 D4 D5 D9
+DQ DK DA D2
+C2 C6 CK CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "5"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:QJ.Q85.J6.AJT976 KT75.J6.K85432.8 A8632.AT7.QT9.K4 94.K9432.A7.Q532"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+1D Pass 1S X
+2C Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H3 H8 HJ HA
+S4 SJ SK S3
+HK H5 H6 H7
+H2 HQ D2 HT
+S9 SQ S5 S2
+C5 C6 C8 CK
+D7 D6 S7 SA
+C2 CA D3 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:QJ.Q85.J6.AJT976 KT75.J6.K85432.8 A8632.AT7.QT9.K4 94.K9432.A7.Q532"]
+[Declarer "E"]
+[Contract "3DX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1S Pass
+1NT 3D Pass Pass
+X Pass Pass Pass
+[Play "S"]
+CK C2 C6 C8
+C4 C5 CT D2
+HA H2 H8 H6
+S2 S4 SJ SK
+DT DA D6 D4
+D9 D7 DJ DK
+H7 HK H5 HJ
+HT H3 HQ D3
+S3 S9 SQ S5
+DQ C3 CA D5
+SA CQ C7 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "6"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:87.5.KT8754.AQT9 A.QT7632.Q6.J752 KT64.AJ98.J32.84 QJ9532.K4.A9.K63"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 110"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass Pass 1S
+2D 2H Pass 2S
+Pass Pass Pass
+[Play "E"]
+H5 H2 HA H4
+S7 H3 H8 HK
+C9 C2 C4 CK
+S8 SA S4 S2
+D4 HQ H9 C6
+D5 H6 HJ S3
+CQ C5 C8 C3
+CA C7 D3 S5
+CT H7 SK SQ
+D8 D6 D2 DA
+DK DQ DJ D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:87.5.KT8754.AQT9 A.QT7632.Q6.J752 KT64.AJ98.J32.84 QJ9532.K4.A9.K63"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2D Pass 3D 3S
+Pass Pass Pass
+[Play "E"]
+H5 H2 HA HK
+S7 H3 H8 H4
+D7 DQ DJ D9
+S8 HQ H9 C3
+DK D6 D2 DA
+D4 SA S4 S2
+C9 H6 HJ S3
+CT C2 S6 SQ
+CA C5 C4 CK
+CQ C7 C8 C6
+DT - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "7"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:3.8763.J74.A8654 AQ842.9542.Q8.J9 KJT765.K.95.KQ32 9.AQJT.AKT632.T7"]
+[Declarer "N"]
+[Contract "2SX"]
+[Result "6"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -500"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass Pass 2S X
+Pass Pass Pass
+[Play "E"]
+DA D4 D8 D5
+CT CA CJ C3
+S9 S3 S4 SJ
+D2 H3 SQ ST
+D3 D7 DQ D9
+HA H6 H2 HK
+HQ H7 H4 S5
+C7 C4 C9 CK
+D6 C5 S2 CQ
+HT H8 H5 S7
+DT C6 S8 C2
+DK C8 SA S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:3.8763.J74.A8654 AQ842.9542.Q8.J9 KJT765.K.95.KQ32 9.AQJT.AKT632.T7"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1S 2D
+Pass 2NT Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "S"]
+S3 SA S5 S9
+H3 H2 HK HA
+D7 DQ D5 D3
+D4 D8 D9 DA
+H6 H4 S6 HQ
+DJ C9 S7 DK
+H7 H9 C2 D6
+H8 H5 ST HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "8"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:QT986.AT84.KJ.QT 73.J63.Q82.AK984 K42.Q75.T7654.53 AJ5.K92.A93.J762"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "6"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+1S Pass 2S Pass
+Pass Pass
+[Play "N"]
+S3 S2 SJ SQ
+H6 HQ HK H4
+HJ H5 H9 HT
+H3 H7 H2 HA
+CK C3 C2 CQ
+S7 S4 SA S9
+C4 SK S5 S6
+DQ D4 D9 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:QT986.AT84.KJ.QT 73.J63.Q82.AK984 K42.Q75.T7654.53 AJ5.K92.A93.J762"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass 1NT Pass
+2H Pass 2S Pass
+Pass Pass
+[Play "N"]
+CK C3 C7 CT
+CA C5 C2 CQ
+D2 D4 DA DJ
+D8 D5 D9 DK
+S3 S2 SJ S8
+DQ D6 D3 S9
+S7 S4 S5 ST
+H6 HQ HK H4
+C4 SK SA S6
+C8 H5 CJ SQ
+- - - HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "9"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:T52.Q95.KJT9.K52 KQ63.63.A85.A983 A984.AK4.Q4.QT64 J7.JT872.7632.J7"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+Pass 1C 1NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+HJ H5 H3 HA
+D6 D9 DA D4
+SJ S2 S3 S4
+S7 S5 SQ SA
+D7 ST SK S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:T52.Q95.KJT9.K52 KQ63.63.A85.A983 A984.AK4.Q4.QT64 J7.JT872.7632.J7"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C 1NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+HJ H5 H6 HK
+D2 D9 DA D4
+SJ S2 S6 S4
+S7 S5 SQ SA
+H8 ST SK S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "10"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:6.T964.JT97.AKJ8 A975.K8732..9652 T4.QJ.K86543.QT3 KQJ832.A5.AQ2.74"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 650"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass Pass 1C
+X 1D 2C 2S
+Pass 4D Pass 4S
+Pass Pass Pass
+[Play "E"]
+CA C2 C3 C4
+CK C5 CT C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:6.T964.JT97.AKJ8 A975.K8732..9652 T4.QJ.K86543.QT3 KQJ832.A5.AQ2.74"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1S
+Pass 2C Pass 2D
+Pass 4D Pass 4S
+Pass Pass Pass
+[Play "E"]
+CA C2 C3 C4
+CK C5 CT C7
+C8 C6 CQ S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "11"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:K987.T4.9642.A42 J3.KQ753.A7.K975 T62.92.QJ83.QT86 AQ54.AJ86.KT5.J3"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -480"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+Pass 1H Pass 1S
+Pass 1NT Pass 4H
+Pass Pass Pass
+[Play "N"]
+DQ D5 D6 DA
+H2 HJ H4 H5
+H9 H6 HT HK
+D8 DT D4 D7
+C8 C3 C4 CK
+CT CJ CA C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:K987.T4.9642.A42 J3.KQ753.A7.K975 T62.92.QJ83.QT86 AQ54.AJ86.KT5.J3"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -480"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 2NT
+Pass 3C Pass 3D
+Pass 4C Pass 4H
+Pass Pass Pass
+[Play "N"]
+DJ D5 D6 DA
+H2 HJ H4 H3
+H9 H6 HT HQ
+D3 DT D2 D7
+C6 C3 C2 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "12"]
+[West "Wasik A"]
+[North "Nilsland M"]
+[East "Knap A"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKT2.AT53.J.AK87 86.K76.KT9732.43 Q975.QJ982.6.J65 J43.4.AQ854.QT92"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+1C 1D X 2C
+4D Pass 4H Pass
+Pass Pass
+[Play "S"]
+DA DJ D2 D6
+D5 H3 D9 C5
+H4 HA H7 H2
+D4 H5 H6 HQ
+S4 SA S8 S5
+S3 S2 S6 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Fredin P"]
+[North "Goded F"]
+[East "Eriksson M"]
+[South "Lanteron L"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKT2.AT53.J.AK87 86.K76.KT9732.43 Q975.QJ982.6.J65 J43.4.AQ854.QT92"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1D Pass
+1H Pass 2H Pass
+4H Pass Pass Pass
+[Play "N"]
+D9 D6 DA DJ
+HK H2 H4 H3
+H7 H8 D4 HA
+H6 HQ D5 H5
+S6 S5 S3 SA
+S8 S7 S4 SK
+C3 C5 C2 CA
+C4 C6 C9 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "13"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AK4.T975.J72.654 932.A62.84.KQT98 JT75.QJ843.Q6.J3 Q86.K.AKT953.A72"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+Pass Pass Pass 1D
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+H4 HK HT H6
+C3 C2 C6 CK
+CJ CA C4 CT
+D6 DA D7 D4
+S7 C7 C5 CQ
+S5 D3 S4 C9
+DQ D5 H9 C8
+H3 D9 H5 HA
+ST DK D2 D8
+SJ DT DJ H2
+- - H7 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AK4.T975.J72.654 932.A62.84.KQT98 JT75.QJ843.Q6.J3 Q86.K.AKT953.A72"]
+[Declarer "E"]
+[Contract "4C"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass Pass 2D
+Pass 3C Pass 4C
+Pass Pass Pass
+[Play "S"]
+HQ HK H5 H2
+C3 C2 C5 CK
+CJ C7 C4 CQ
+D6 DA D2 D4
+DQ DK D7 D8
+S5 D3 DJ CT
+H3 CA C6 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "14"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J64.AJT96.86.AT6 Q85.Q.KJ73.Q9752 AK73.875.Q952.43 T92.K432.AT4.KJ8"]
+[Declarer ""]
+[Contract "Pass"]
+[Result ""]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 0"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass Pass Pass
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J64.AJT96.86.AT6 Q85.Q.KJ73.Q9752 AK73.875.Q952.43 T92.K432.AT4.KJ8"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 2H Pass
+Pass 2NT Pass 3C
+Pass Pass Pass
+[Play "E"]
+S4 S5 SK S9
+S6 S8 SA S2
+HA HQ H5 H4
+HJ D3 H7 HK
+C6 C2 C3 CJ
+CA C5 C4 CK
+HT C7 H8 H2
+CT CQ S3 C8
+SJ SQ S7 ST
+D6 DK D2 D4
+D8 D7 D5 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "15"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:T976432.85.6.AJ2 Q.AJT3.AK52.T853 AK85.974.QJ84.K9 J.KQ62.T973.Q764"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+Pass 1D Pass 1H
+Pass 2H Pass Pass
+2S 3H Pass Pass
+Pass
+[Play "S"]
+D6 DA D4 D7
+H5 HA H4 H2
+H8 H3 H7 HK
+ST HT H9 H6
+C2 C3 CK C6
+S2 SQ SK SJ
+CA C5 C9 CQ
+CJ C8 S5 C4
+S3 CT S8 HQ
+S4 D2 SA C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:T976432.85.6.AJ2 Q.AJT3.AK52.T853 AK85.974.QJ84.K9 J.KQ62.T973.Q764"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C X Pass
+4S Pass Pass Pass
+[Play "W"]
+DA D4 D9 D6
+HA H4 H2 H8
+H3 H7 HK H5
+HT H9 HQ S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "16"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:AKQ63.AQJ95..T72 J2.764.AKJ874.K9 84.K832.T95.Q643 T975.T.Q632.AJ85"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+1S 2D Pass 2S
+3H Pass 4H 5D
+Pass Pass Pass
+[Play "E"]
+S8 S5 SQ SJ
+S4 S7 SA S2
+H8 HT HA H4
+H2 S9 S6 DA
+H3 D2 H5 H6
+D5 DQ S3 D4
+D9 D3 H9 DK
+HK D6 HJ H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:AKQ63.AQJ95..T72 J2.764.AKJ874.K9 84.K832.T95.Q643 T975.T.Q632.AJ85"]
+[Declarer "E"]
+[Contract "5H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D 2D Pass 3D
+4D Pass 4H 5D
+Pass Pass 5H Pass
+Pass Pass
+[Play "S"]
+D2 H5 D4 D5
+HT HA H4 H2
+D3 HQ H6 H3
+C5 HJ H7 H8
+S5 SA S2 S4
+S7 SK SJ S8
+S9 SQ D7 D9
+ST S3 D8 HK
+D6 H9 DJ DT
+C8 S6 DK C3
+CA C7 C9 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "17"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ9742.Q5.94.743 83.AJT8632.53.85 T6.K94.KJT862.JT KJ5.7.AQ7.AKQ962"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -400"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+Pass 3D Pass 3NT
+Pass Pass Pass
+[Play "N"]
+D9 D3 D2 DQ
+C7 C5 CT CA
+C4 C8 CJ CK
+C3 H2 DK CQ
+S2 H3 H4 C9
+HQ H6 D6 C6
+H5 H8 S6 C2
+S4 HA H9 H7
+SQ S3 ST SJ
+D4 D5 DT DA
+S7 - - D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ9742.Q5.94.743 83.AJT8632.53.85 T6.K94.KJT862.JT KJ5.7.AQ7.AKQ962"]
+[Declarer "W"]
+[Contract "5C"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2S Pass 3S 3NT
+Pass 4D Pass 5C
+Pass Pass Pass
+[Play "N"]
+D4 D3 DT DQ
+H5 HA H4 H7
+SQ S3 S6 SJ
+C3 C5 CT CQ
+D9 D5 DK DA
+S2 C8 D2 D7
+SA S8 ST SK
+S9 H2 CJ S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "18"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:9.J52.T74.A87542 K832.K84.Q852.93 AQ6.AT9.AKJ6.QJT JT754.Q763.93.K6"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -430"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass 2NT Pass
+3C Pass 3NT Pass
+Pass Pass
+[Play "N"]
+SJ S9 S2 SQ
+CK C2 C3 CQ
+S5 H2 SK SA
+C6 C4 C9 CJ
+H3 CA S3 CT
+D3 C5 S8 S6
+D9 C7 D2 H9
+H6 C8 H4 HT
+S4 DT D5 DA
+S7 D4 D8 DK
+H7 H5 H8 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:9.J52.T74.A87542 K832.K84.Q852.93 AQ6.AT9.AKJ6.QJT JT754.Q763.93.K6"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1D Pass
+1H Pass 1NT Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+S5 S9 SK SA
+C6 C2 C9 CT
+CK C4 C3 CQ
+H3 H2 HK HA
+D3 D4 D2 DA
+HQ H5 H4 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "19"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A763.A.Q432.JT42 QJ.K98764.985.K9 K84.QT532.J7.A76 T952.J.AKT6.Q853"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+1D 1H 1S Pass
+1NT Pass Pass Pass
+[Play "W"]
+H7 H2 HJ HA
+CK CA C3 CT
+C9 C6 C8 CJ
+SQ S4 S2 S3
+D9 D7 D6 DQ
+SJ SK S5 S6
+H4 S8 S9 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:A763.A.Q432.JT42 QJ.K98764.985.K9 K84.QT532.J7.A76 T952.J.AKT6.Q853"]
+[Declarer "W"]
+[Contract "2HX"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1H Pass 1S
+Pass 2H Pass Pass
+X Pass Pass Pass
+[Play "N"]
+DJ DA D2 D8
+SK S2 S3 SQ
+D7 DK D4 D5
+S4 S5 SA SJ
+C7 D6 DQ D9
+CA C3 C2 CK
+C6 CQ CJ C9
+H2 HJ HA H4
+HT - CT H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "20"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:32.Q.T9852.KJ873 KQT976.JT5.3.A95 AJ4.K84.QJ64.QT4 85.A97632.AK7.62"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+Pass 1S Pass 2D
+Pass 2H Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "E"]
+DJ DA DT D3
+SA S8 S2 SQ
+D4 DK D2 C5
+S4 S5 S3 SK
+H4 HA HQ HJ
+DQ D7 D5 HT
+SJ H2 C3 ST
+C4 C2 C7 CA
+- - - S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:32.Q.T9852.KJ873 KQT976.JT5.3.A95 AJ4.K84.QJ64.QT4 85.A97632.AK7.62"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 2H
+Pass 3H Pass 3S
+Pass 4D Pass 4H
+Pass Pass Pass
+[Play "W"]
+C3 CA C4 C6
+HQ HJ H4 HA
+DT D3 D4 DA
+D2 H5 D6 D7
+C7 HT HK H6
+CK C5 CQ C2
+CJ C9 CT H2
+- - - H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "21"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T95.JT843.8.AT93 KQJ6.KQ2.Q9742.2 A732.A76.T5.Q875 84.95.AKJ63.KJ64"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "N"]
+Pass 1D Pass 2D
+Pass 2H Pass 3D
+Pass 5D Pass Pass
+Pass
+[Play "S"]
+C5 CK CA C2
+HA H5 HJ HK
+SA S4 S5 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T95.JT843.8.AT93 KQJ6.KQ2.Q9742.2 A732.A76.T5.Q875 84.95.AKJ63.KJ64"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C Pass 1D
+Pass 1S Pass 2C
+Pass 2D Pass 3C
+Pass 3D Pass 3H
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+S2 S4 S9 SQ
+D5 DA D8 D7
+DT D3 C3 DQ
+C5 DK C9 D2
+SA S8 ST SK
+C7 CJ CA C2
+HA H5 HJ HK
+H7 H9 HT HQ
+H6 DJ H3 D4
+C8 CK CT H2
+CQ D6 H4 D9
+S3 C4 S5 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "22"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q652.J92.75.AJT9 J43.A876.AJT4.83 AT9.KQ.KQ3.KQ654 K87.T543.9862.72"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "E"]
+Pass Pass 1C Pass
+1H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+S7 S2 SJ SA
+SK S5 S3 ST
+D9 D5 D4 DK
+S8 S6 S4 S9
+C2 CA C3 C4
+H3 SQ H6 HQ
+C7 C9 C8 C5
+H4 CT H7 CK
+D2 CJ H8 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q652.J92.75.AJT9 J43.A876.AJT4.83 AT9.KQ.KQ3.KQ654 K87.T543.9862.72"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1D Pass
+1S Pass 1NT Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "N"]
+H3 H2 HA HQ
+H4 H9 H6 HK
+C2 CJ C3 C4
+D2 D5 D4 DK
+C7 CT C8 C5
+SK S2 S3 ST
+D6 D7 DA D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "23"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.J32.T94.KT652 A85.QT65.J832.J4 QJT73.A7.Q6.A983 K96.K984.AK75.Q7"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "S"]
+Pass Pass 1S X
+Pass 2H Pass Pass
+Pass
+[Play "N"]
+DQ DA DT D3
+HA H4 H2 HQ
+SQ S6 S2 SA
+H7 HK H3 H5
+CA C7 C6 CJ
+D6 D5 D9 DJ
+S3 DK D4 D2
+S7 SK S4 S5
+C3 CQ CK C4
+SJ H8 HJ H6
+C8 H9 CT S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:42.J32.T94.KT652 A85.QT65.J832.J4 QJT73.A7.Q6.A983 K96.K984.AK75.Q7"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1S X
+Pass 2H Pass 3H
+Pass Pass Pass
+[Play "N"]
+SQ S6 S2 SA
+H7 HK H2 H5
+HA H4 H3 HT
+SJ SK S4 S5
+S3 H8 HJ HQ
+ST S9 C2 S8
+C3 C7 CT CJ
+D6 DA D4 D2
+DQ D5 D9 D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.20"]
+[Board "24"]
+[West "Lanteron L"]
+[North "Nilsland M"]
+[East "Goded F"]
+[South "Fallenius B"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJT6.J83.95.J63 542.K2.K743.AQ84 A3.765.JT2.KT952 987.AQT94.AQ86.7"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Sweden"]
+[Room "Open"]
+[Round "14"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "15"]
+[VisitTeam "Spain"]
+[Auction "W"]
+2D X 2S X
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "E"]
+SA S7 SK S2
+S3 S8 ST S4
+C2 S9 SQ S5
+H7 H4 SJ C4
+H5 D6 S6 C8
+C5 C7 CJ CA
+H6 H9 H3 HK
+C9 HA H8 H2
+CT HQ HJ CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Andersson L"]
+[North "Knap A"]
+[East "Gothe H"]
+[South "Wasik A"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJT6.J83.95.J63 542.K2.K743.AQ84 A3.765.JT2.KT952 987.AQT94.AQ86.7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass Pass 2H
+Pass 2S Pass 3D
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "W"]
+SK S2 SA S7
+ST S4 S3 S8
+SQ S5 C2 S9
+SJ H2 H6 H9
+H3 HK H5 H4
+D5 D3 D2 DA
+H8 C4 H7 HA
+HJ D4 C5 HQ
+S6 C8 C9 HT
+D9 DK DT D6
+C3 D7 DJ DQ
+*
+

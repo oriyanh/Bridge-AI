@@ -1,0 +1,1725 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.24"]
+[Board "1"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:762.J862.QJT9.52 KJT.743.K76.AKQT AQ843.KT.A82.874 95.AQ95.543.J963"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -120"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass 1C 1S X
+Pass 1NT Pass Pass
+Pass
+[Play "S"]
+S4 S5 S7 SJ
+HK HA H6 H4
+C7 C3 C2 CA
+HT HQ H2 H3
+C4 C6 C5 CK
+C8 C9 DQ CQ
+D8 CJ H8 CT
+SQ S9 S2 ST
+SA H5 S6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:762.J862.QJT9.52 KJT.743.K76.AKQT AQ843.KT.A82.874 95.AQ95.543.J963"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1NT Pass Pass
+Pass
+[Play "S"]
+S3 S5 S6 ST
+C8 C3 C2 CA
+C7 C6 C5 CK
+C4 CJ S7 CT
+D8 C9 DQ CQ
+HT HQ H2 H3
+HK HA H6 H4
+D2 D3 DJ D7
+S4 H5 HJ H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "2"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K4.AK754.AQ4.A53 AT83.JT63.2.KJ84 J765.Q9.JT7653.Q Q92.82.K98.T9762"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+2C Pass 2D Pass
+2H Pass 2S Pass
+3D Pass 3H Pass
+3S Pass 4H Pass
+Pass Pass
+[Play "S"]
+D2 DJ D8 D4
+SA S5 S2 SK
+HJ H9 H2 HA
+S3 SJ SQ S4
+^R H3 ^R HQ S9 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K4.AK754.AQ4.A53 AT83.JT63.2.KJ84 J765.Q9.JT7653.Q Q92.82.K98.T9762"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2NT Pass 3C Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "S"]
+C4 CQ CT C5
+D2 D3 D8 DQ
+S3 D5 D9 DA
+S8 D6 DK D4
+CJ S5 C2 CA
+H3 HQ H2 H4
+CK DJ H8 C3
+ST DT C7 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "3"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:JT3.AJ5.J864.K87 754.Q643.KQ5.AQT A8.K92.A93.J9653 KQ962.T87.T72.42"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass 1NT Pass 2H
+Pass 2S Pass Pass
+Pass
+[Play "N"]
+C3 C4 CK CA
+S8 SK S3 S5
+H9 H7 H5 H3
+HK H8 HJ H4
+D9 D2 D4 DQ
+SA S2 ST S4
+H2 HT HA H6
+C5 C2 C8 CQ
+C6 SQ SJ S7
+DA D7 D6 DK
+D3 DT DJ D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:JT3.AJ5.J864.K87 754.Q643.KQ5.AQT A8.K92.A93.J9653 KQ962.T87.T72.42"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "^7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C Pass 1S
+Pass 1NT Pass 2S
+Pass Pass Pass
+[Play "S"]
+D6 DK DA D7
+DJ DQ D3 DT
+SJ S4 S8 SK
+C7 CT CJ C2
+S3 S5 SA S2
+D8 D5 D9 D2
+HA H3 H2 H8
+HJ HQ HK H7
+H5 H4 H9 HT
+ST S7 C3 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "4"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:85.KQ42.A95.JT64 AJ7642.T5.KT7.A7 Q93.A763.82.K853 KT.J98.QJ643.Q92"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 110"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass 2S Pass Pass
+Pass
+[Play "E"]
+D2 D3 D9 DT
+S3 SK S5 S2
+S9 ST S8 SA
+D8 D4 D5 DK
+SQ D6 C4 S4
+H3 H8 HQ H5
+C3 DJ DA D7
+HA H9 H2 HT
+H6 HJ HK S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:85.KQ42.A95.JT64 AJ7642.T5.KT7.A7 Q93.A763.82.K853 KT.J98.QJ643.Q92"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass 2S Pass Pass
+Pass
+[Play "E"]
+D8 D3 DA DT
+D2 D4 D9 DK
+S3 SK S5 S2
+S9 ST S8 SA
+SQ C2 H2 S4
+HA H8 H4 H5
+H3 H9 HQ HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "5"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J94.953.T85.KQ97 AKQT76.64.J2.JT3 532.QJ8.AK973.65 8.AKT72.Q64.A842"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -430"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass 1S Pass 2D
+Pass 2S Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+CK C3 C5 CA
+S9 SA S2 S8
+S4 SK S3 C2
+- SQ S5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J94.953.T85.KQ97 AKQT76.64.J2.JT3 532.QJ8.AK973.65 8.AKT72.Q64.A842"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1S Pass 2H
+Pass 2S Pass 3C
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "S"]
+DA D4 D8 D2
+C6 C2 CQ C3
+DK D6 D5 DJ
+C5 CA C7 CJ
+S2 S8 S4 SA
+S3 C4 S9 SK
+S5 C8 SJ SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "6"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:9.T6532.AJ62.752 AQ2.74.T943.AK94 KJT73.AJ9.Q85.86 8654.KQ8.K7.QJT3"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass 1C 1S X
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+D8 DK DA D3
+S3 S4 S9 SA
+HA H8 H2 H4
+SK S5 H3 S2
+DQ D7 D2 D4
+D5 S6 DJ D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:9.T6532.AJ62.752 AQ2.74.T943.AK94 KJT73.AJ9.Q85.86 8654.KQ8.K7.QJT3"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C 1S X
+Pass 1NT Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+D5 DK DA D3
+DQ D7 D2 DT
+D8 S4 DJ D4
+S3 S5 D6 D9
+H9 HK H2 H4
+C6 C3 C2 CK
+C8 CT C5 C4
+S7 CJ C7 CA
+HA H8 H3 H7
+HJ HQ H5 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "7"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:97543.A.AK84.862 AQT8.K852.J53.75 6.JT7.T962.QJT93 KJ2.Q9643.Q7.AK4"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1S Pass Pass 2H
+Pass 2S Pass 3NT
+Pass 4H Pass Pass
+Pass
+[Play "S"]
+DA D3 DT D7
+S3 S8 S6 SJ
+HA H2 HT H3
+S9 ST H7 S2
+DK D5 D2 DQ
+S4 SQ HJ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:97543.A.AK84.862 AQT8.K852.J53.75 6.JT7.T962.QJT93 KJ2.Q9643.Q7.AK4"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass Pass X
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "N"]
+S6 SK S9 ST
+HT H3 HA H2
+H7 S2 S7 S8
+DT D7 DK D3
+HJ SJ S3 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "8"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:94.AJ9.T973.Q852 K7.73.KQ654.KJ94 T86.T842.AJ8.A76 AQJ532.KQ65.2.T3"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 1NT Pass 2C
+Pass 3C Pass 4S
+Pass Pass Pass
+[Play "W"]
+S4 S7 ST SQ
+D3 DK DA D2
+S9 SK S6 S2
+D7 DQ D8 H5
+HA H3 H2 HK
+HJ H7 H4 HQ
+H9 D4 S8 SA
+C2 CJ CA CT
+D9 - HT H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:94.AJ9.T973.Q852 K7.73.KQ654.KJ94 T86.T842.AJ8.A76 AQJ532.KQ65.2.T3"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 2C Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+C2 C4 C7 CT
+C5 CJ C6 C3
+HA H3 H2 HK
+DT DK D8 D2
+S4 SK S6 S2
+S9 S7 S8 SA
+D3 H7 ST SQ
+D7 D4 H4 SJ
+C8 D5 H8 S5
+CQ - - S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "9"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:J63.JT2.T32.A987 AQ42.K7.QJ865.42 KT75.86543..KJT5 98.AQ9.AK974.Q63"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass 1D Pass 2C
+Pass 2D Pass 2H
+Pass 3C Pass 3D
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Play "N"]
+HJ HK H6 H9
+D2 D5 H3 DA
+D3 D6 H4 DK
+DT DQ H5 D4
+C7 DJ S5 D7
+C8 D8 C5 D9
+H2 H7 H8 HA
+HT S2 S7 HQ
+S3 SA ST S8
+S6 S4 SK S9
+- - CJ C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:J63.JT2.T32.A987 AQ42.K7.QJ865.42 KT75.86543..KJT5 98.AQ9.AK974.Q63"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 1H X
+2H Pass 3H 3NT
+Pass Pass Pass
+[Play "N"]
+HJ HK H4 H9
+D2 D5 H6 DA
+D3 D6 H3 DK
+DT DQ S5 D9
+H2 DJ H5 D7
+S6 D8 S7 D4
+HT H7 H8 HA
+- - - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "10"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J76.83.T98642.J5 A98.J542.Q3.QT64 KT43.AT6.AJ75.A3 Q52.KQ97.K.K9872"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass Pass 1C 1H
+Pass 3H Pass Pass
+Pass
+[Play "E"]
+CJ C4 CA C9
+D2 D3 DA DK
+D4 DQ D5 S2
+H3 H2 H6 HK
+H8 H4 HA HQ
+D6 HJ HT H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J76.83.T98642.J5 A98.J542.Q3.QT64 KT43.AT6.AJ75.A3 Q52.KQ97.K.K9872"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1NT Pass
+Pass Pass
+[Play "N"]
+C9 CJ CQ CA
+DK D2 D3 DA
+S2 D4 DQ D7
+C7 C5 C4 C3
+CK H3 C6 S3
+C2 S6 CT H6
+H7 H8 HJ HA
+S5 D6 - DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "11"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:Q94.KJ75.K76.832 765.A982.QJ8.Q75 AT3.QT4.AT952.J9 KJ82.63.43.AKT64"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass Pass 1D 1S
+X 2S Pass Pass
+Pass
+[Play "S"]
+D6 DQ DA D4
+C8 CQ CJ C6
+SQ S5 S3 SJ
+C2 C5 C9 CA
+DK D8 D2 D3
+C3 C7 ST C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:Q94.KJ75.K76.832 765.A982.QJ8.Q75 AT3.QT4.AT952.J9 KJ82.63.43.AKT64"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D 1S
+X 2D Pass 2S
+Pass Pass Pass
+[Play "S"]
+D6 DQ DA D4
+HJ HA H4 H6
+SQ S5 S3 SJ
+HK H2 HT H3
+DK D8 D2 D3
+S4 S6 SA S2
+S9 S7 ST SK
+C2 C5 C9 CA
+- - - S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "12"]
+[West "Duboin G"]
+[North "Eidi M"]
+[East "Bocchi N"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.T943.Q95.AQT5 Q92.KQ82.643.J64 AT83.6.AKJ72.K93 KJ64.AJ75.T8.872"]
+[Declarer "E"]
+[Contract "2D"]
+[Result "12"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -170"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass 1D Pass
+1H Pass 1S Pass
+2D Pass Pass Pass
+[Play "S"]
+C7 C5 CJ CK
+SJ S5 S9 S3
+C8 CA C4 C3
+S4 S7 S2 SA
+S6 D9 SQ S8
+D8 DQ D3 D2
+DT D5 D4 DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Hamdan F"]
+[North "Versace A"]
+[East "Fahs B"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.T943.Q95.AQT5 Q92.KQ82.643.J64 AT83.6.AKJ72.K93 KJ64.AJ75.T8.872"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1D Pass
+1H Pass 1S Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+C6 C3 C8 CQ
+D3 DA D8 D5
+D4 D2 DT DQ
+D6 DK - D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "13"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J964.7642.4.K985 KQ5.K5.A9875.T32 7.AQT98.KJ63.J74 AT832.J3.QT2.AQ6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "7"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass 1D 1H 1S
+3H Pass Pass X
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "N"]
+H7 H5 HQ H3
+H2 HK HA HJ
+CK C2 C4 CQ
+C9 CT CJ CA
+S4 SK S7 S2
+S6 SQ H8 S3
+C8 C3 C7 C6
+D4 D5 DK D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:J964.7642.4.K985 KQ5.K5.A9875.T32 7.AQT98.KJ63.J74 AT832.J3.QT2.AQ6"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D 1H 1S
+3H X Pass 4S
+Pass Pass Pass
+[Play "N"]
+H2 H5 HQ H3
+H6 HK HA HJ
+CK C2 C4 CQ
+C5 CT CJ CA
+S4 SK S7 S3
+S6 SQ H8 S2
+S9 S5 D3 SA
+D4 DA D6 D2
+H4 D5 DK DT
+C8 C3 C7 C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "14"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:94.KT5.QT543.KQ2 AQ865.Q64.K8.J86 KT3.98732.J976.5 J72.AJ.A2.AT9743"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass 1S Pass 2C
+Pass 2NT Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+C5 CA C2 C8
+SK S2 S9 SQ
+D6 D2 DQ DK
+S3 SJ S4 S6
+ST S7 D4 SA
+H2 C3 CQ CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:94.KT5.QT543.KQ2 AQ865.Q64.K8.J86 KT3.98732.J976.5 J72.AJ.A2.AT9743"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass 2C
+Pass 2S Pass 3C
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "W"]
+C5 C3 CQ C6
+D9 DA D3 D8
+SK S2 S4 SQ
+D6 D2 DQ DK
+S3 SJ S9 S5
+ST S7 D4 SA
+H2 C4 CK CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "15"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:986.AKT8743.A4.8 2.Q5.T763.AKT964 AJT74.2.Q952.QJ2 KQ53.J96.KJ8.753"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1H 2C X XX
+4H Pass Pass Pass
+[Play "W"]
+CA C2 C3 C8
+D7 DQ DK DA
+H5 H2 H9 HK
+HQ S4 H6 HA
+S2 SJ SK S6
+C4 CJ C7 H7
+C6 - - S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:986.AKT8743.A4.8 2.Q5.T763.AKT964 AJT74.2.Q952.QJ2 KQ53.J96.KJ8.753"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1H Pass 1NT Pass
+2H Pass 2S Pass
+4H Pass Pass Pass
+[Play "W"]
+CA C2 C7 C8
+S2 SJ SQ S8
+H5 S4 S5 S6
+D7 DQ DK DA
+HQ H2 H6 HA
+C6 D2 H9 HK
+C4 SA S3 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "16"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A6.932.KT3.KT864 Q9.KQ864.752.AQ9 JT84.T5.QJ986.J3 K7532.AJ7.A4.752"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1H Pass 1S
+Pass 1NT Pass 4H
+Pass Pass Pass
+[Play "E"]
+DQ DA D3 D7
+S4 S2 S6 SQ
+S8 SK SA S9
+D6 D4 DT D5
+D8 H7 DK D2
+CJ C2 C4 C9
+SJ S3 C6 H4
+H5 HA H2 H6
+HT HJ H3 H8
+C3 C5 C8 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:A6.932.KT3.KT864 Q9.KQ864.752.AQ9 JT84.T5.QJ986.J3 K7532.AJ7.A4.752"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass 2C
+Pass 2H Pass 2S
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "E"]
+DQ D4 DK D2
+CJ C2 C4 C9
+C3 C5 CK CA
+D6 DA D3 D5
+S4 S2 SA S9
+HT C7 CT CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "17"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:765.AT73.764.872 A92.954.A832.Q64 KQJ4.6.KQ9.AJ953 T83.KQJ82.JT5.KT"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "8"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+Pass Pass 1C 1H
+Pass 2C X 2H
+3C Pass Pass Pass
+[Play "W"]
+HK HA H5 H6
+D5 D4 D2 DK
+S8 S5 SA SQ
+H2 H3 H9 C3
+S3 S6 S2 SK
+ST S7 S9 SJ
+DT D6 C4 S4
+DJ D7 DA D9
+CT H7 D8 DQ
+HQ HT H4 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:765.AT73.764.872 A92.954.A832.Q64 KQJ4.6.KQ9.AJ953 T83.KQJ82.JT5.KT"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C 1H
+Pass 2H Pass Pass
+Pass
+[Play "N"]
+S7 S2 SJ S8
+S6 SA SK S3
+HA H4 H6 HQ
+D7 D2 DQ D5
+S5 S9 SQ ST
+C8 C4 C3 CT
+H3 H5 C5 HK
+H7 H9 C9 HJ
+C2 C6 CA CK
+HT D3 S4 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "18"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:Q6.K987.43.A8654 AKT43.A543.A6.KJ 72.J6.KJT872.QT9 J985.QT2.Q95.732"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass 1S 3D Pass
+Pass X Pass 3S
+Pass Pass Pass
+[Play "W"]
+CT C2 CA CJ
+C9 C3 C5 CK
+S2 S5 S6 SA
+D7 D5 D3 DA
+DK D9 D4 D6
+D2 DQ SQ SK
+S7 S8 C4 S3
+CQ C7 C6 S4
+H6 HT HK H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:Q6.K987.43.A8654 AKT43.A543.A6.KJ 72.J6.KJT872.QT9 J985.QT2.Q95.732"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1S Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+HJ HQ HK HA
+S2 S5 S6 SA
+S7 S8 SQ SK
+D2 D5 D3 DA
+DK D9 D4 D6
+C9 C2 CA CJ
+CT C3 C6 CK
+H6 HT H7 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "19"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQT862.AKQT7..32 .532.QJT653.KQT4 K974.J6.AK974.A7 J53.984.82.J9865"]
+[Declarer "S"]
+[Contract "7S"]
+[Result "13"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 1510"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1S 2D Pass Pass
+4H Pass 4NT Pass
+5NT Pass 6D Pass
+7H Pass 7S Pass
+Pass Pass
+[Play "W"]
+CK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQT862.AKQT7..32 .532.QJT653.KQT4 K974.J6.AK974.A7 J53.984.82.J9865"]
+[Declarer "S"]
+[Contract "7S"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 1510"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 2D Pass
+3H Pass 3S Pass
+4D Pass 4NT Pass
+6D Pass 6H Pass
+7S Pass Pass Pass
+[Play "W"]
+CK CA C5 C2
+D3 S4 S3 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "20"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:9732.AQ6.T53.J73 QJT6.8432.97.KQT K4.K9.Q642.98652 A85.JT75.AKJ8.A4"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass Pass 1NT
+Pass 2C Pass 2H
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+S7 SQ SK SA
+HQ H2 H9 HJ
+S3 SJ S4 S5
+H6 H3 HK H5
+D5 D7 D2 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:9732.AQ6.T53.J73 QJT6.8432.97.KQT K4.K9.Q642.98652 A85.JT75.AKJ8.A4"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1D Pass 2H
+Pass 4H Pass Pass
+Pass
+[Play "W"]
+S7 SQ SK SA
+HQ H2 H9 HJ
+C3 CK C9 C4
+H6 H3 HK H5
+D3 D7 D6 DA
+S2 SJ S4 S5
+S3 ST C2 ^R D8
+- S6 C5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "21"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:KQ543.K76.3.A432 87.QT92.KQ98.KQ5 J92.J3.JT6542.T9 AT6.A854.A7.J876"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1S X Pass 2S
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "S"]
+CT C6 CA C5
+C9 C7 C4 CK
+H3 HA H6 H2
+HJ H4 HK HT
+S9 SA SK S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:KQ543.K76.3.A432 87.QT92.KQ98.KQ5 J92.J3.JT6542.T9 AT6.A854.A7.J876"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S X Pass 2S
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "S"]
+SJ SA S3 S8
+H3 HA H6 H2
+HJ H4 H7 HQ
+DT DA D3 D9
+D2 D7 S4 DQ
+D4 S6 S5 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "22"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:T86.KQ97.T9.A654 J52.J4.AJ64.QJ83 73.AT853.K2.T972 AKQ94.62.Q8753.K"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass Pass Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "E"]
+HK H4 H8 H6
+DT D4 DK D8
+H7 HJ HA H2
+D9 DJ D2 D5
+CA C3 C2 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:T86.KQ97.T9.A654 J52.J4.AJ64.QJ83 73.AT853.K2.T972 AKQ94.62.Q8753.K"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass Pass 1S
+Pass 1NT Pass 2D
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+HK H4 H8 H2
+HQ HJ HA H6
+CA C3 C2 CK
+C4 CQ C7 D3
+S6 S2 S3 SA
+S8 S5 S7 SK
+ST SJ H3 S4
+C5 CJ C9 D5
+C6 C8 CT S9
+D9 DJ DK D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "23"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:JT94.K92.KQ53.QT A63.A643.A42.AJ5 Q8752.QT.J76.763 K.J875.T98.K9842"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1D X 1S 2H
+2S 4H Pass Pass
+Pass
+[Play "S"]
+SJ S3 S7 SK
+H2 HA HT H5
+H9 H3 HQ H8
+DQ DA D6 D8
+S9 SA S2 D9
+S4 S6 S8 H7
+CQ CA C7 C4
+CT CJ C3 C2
+HK C5 C6 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:JT94.K92.KQ53.QT A63.A643.A42.AJ5 Q8752.QT.J76.763 K.J875.T98.K9842"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1NT Pass 2C
+Pass 2H Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+D7 D8 DQ DA
+S8 SK S9 S6
+C3 C2 CT CJ
+S2 D9 S4 SA
+HQ H5 H2 H3
+DJ DT D3 D2
+D6 H7 D5 D4
+HT H8 H9 HA
+S5 HJ ST S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "24"]
+[West "Versace A"]
+[North "Eidi M"]
+[East "Lauria L"]
+[South "Harfouche G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQ65.K987.AJ5.73 JT3.A2.T86.KJ642 9842.63.Q74.AQT5 K7.QJT54.K932.98"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "Lebanon"]
+[Room "Open"]
+[Round "24"]
+[Score "NS -170"]
+[Section "Open"]
+[Table "17"]
+[VisitTeam "Italy"]
+[Auction "W"]
+1C Pass 1S Pass
+2S Pass Pass Pass
+[Play "S"]
+HQ H7 H2 H3
+D3 D5 DT DQ
+HT H8 HA H6
+C8 C3 C6 CQ
+S7 SQ S3 S2
+SK SA ST S4
+- HK - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Hamdan F"]
+[North "Buratti A"]
+[East "Fahs B"]
+[South "Lanzarotti M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQ65.K987.AJ5.73 JT3.A2.T86.KJ642 9842.63.Q74.AQT5 K7.QJT54.K932.98"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D Pass 1S Pass
+2S Pass Pass Pass
+[Play "S"]
+HQ H7 H2 H6
+C8 C3 CK CA
+D2 DJ D6 D7
+H4 H8 HA H3
+C9 C7 C2 CQ
+S7 SQ S3 S2
+SK SA ST S4
+H5 HK C4 D4
+D3 DA D8 DQ
+D9 D5 DT S8
+- - - C5
+*
+
