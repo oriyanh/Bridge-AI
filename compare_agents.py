@@ -86,7 +86,7 @@ def compare_simple_agents():
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
         plt.plot()
-        plt.savefig(f"{name}.png")
+        plt.savefig(f"graphs/simple_agent/{name}.png")
 
     print()
     start_time = time.time()
@@ -145,7 +145,7 @@ def compare_simple_agents_vs_ab_agents(depth, hand_size):
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
         plt.plot()
-        plt.savefig(f"{name}.png")
+        plt.savefig(f"graphs/alpha_beta/{name}.png")
 
 
     print()
