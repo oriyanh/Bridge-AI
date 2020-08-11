@@ -1,9 +1,10 @@
+import os
+
 from validation import *
 from multi_agents import SimpleAgent
-from os import walk
 import numpy as np
 import matplotlib.pyplot as plt
-from time import time
+from time import perf_counter
 
 
 def test_snapshot():
@@ -29,16 +30,16 @@ def test_all_snapshots_single_game():
 
 
 def load_all_game():
-    games_dir = "C:\\Users\\User\\OneDrive - mail.huji.ac.il\\" \
-                "67842-project-bridge\\bridge_data_1"
-    files_name = []
-    for (dirpath, dirnames, filenames) in walk(games_dir):
-        files_name.extend(filenames)
-        break
+    games_dir = os.path.join(os.getcwd(), 'bridge_data_1')
+    files_name = os.listdir(games_dir)
+    # files_name = []
+    # for (dirpath, dirnames, filenames) in walk(games_dir):
+    #     files_name.extend(filenames)
+    #     break
     pbn_files = []
     for file in files_name:
         if file[-3:] == 'pbn':
-            pbn_files.append("bridge_data_1/" + file)
+            pbn_files.append(os.path.join('bridge_data_1', file))
     files = Parser(pbn_files)
     print("succeed loading")
     return files
@@ -93,20 +94,28 @@ def test_validate_agent_by_the_whole_game():
 
 
 def run_validation(agents_list: List[IAgent], num_of_games: int):
+    """
+
+    :param agents_list:
+    :param num_of_games: if 0: run all games
+    :return: list of arrays, one for every agent. the array is consist of 12
+        entries, each represents the score of agent respectivly to the number
+        of remaining cards in its hand.
+    """
     agents_scores = [0 for _ in agents_list]
     games = load_all_game()
     if num_of_games == 0:
         num_of_games = len(games.games)
 
     for agent_idx, agent in enumerate(agents_list):
-        start = time()
-        all_checks, all_succeeds = 0, 0
+        start = perf_counter()
+        all_checks, all_succeeds = np.zeros(12), np.zeros(12)
         for i in range(num_of_games):
             curr_checks, curr_succeeds = validate_agent_per_data_game(agent, games.games[i])
             all_checks += curr_checks
             all_succeeds += curr_succeeds
         agents_scores[agent_idx] = (all_succeeds / all_checks) * 100
-        print(f"agent {agent_idx}: {time() - start}, {num_of_games} games")
+        print(f"agent {agent_idx}: {(perf_counter() - start)/num_of_games} seconds/game, {num_of_games} games")
     print(agents_scores)
     return agents_scores
 
@@ -120,4 +129,4 @@ if __name__ == '__main__':
     # test_all_snapshots()
     # games_length()
     # test_validate_agent_by_the_whole_game()
-    run_validation([SimpleAgent('highest_first_action')], 0)
+    run_validation([SimpleAgent('soft_long_greedy_action')], 100)
