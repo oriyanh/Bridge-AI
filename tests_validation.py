@@ -1,8 +1,9 @@
 import os
 
 from validation import *
-from multi_agents import SimpleAgent
-from compare_agents import simple_func_names, simple_agent_names
+from multi_agents import SimpleAgent, AlphaBetaAgent
+from compare_agents import simple_func_names, simple_agent_names, \
+    ab_evaluation_func_names, ab_evaluation_agent_names
 import numpy as np
 import matplotlib.pyplot as plt
 from time import perf_counter
@@ -95,8 +96,8 @@ def test_validate_agent_by_the_whole_game():
 
 
 def display_results(agents_scores: List[np.ndarray], names: List[str],
-                    num_of_games: int):
-    labels = [i for i in range(1, 13)]
+                    num_of_games: int, min_tricks_num: int=0):
+    labels = [i for i in range(min_tricks_num + 1, 13)]
     x = np.arange(len(labels))  # the label locations
     length = len(agents_scores)
     width = 1 / (length+2)  # the width of the bars
@@ -117,8 +118,8 @@ def display_results(agents_scores: List[np.ndarray], names: List[str],
     plt.show()
 
 
-def run_validation(agents_list: List[IAgent], num_of_games: int) -> \
-        List[np.ndarray]:
+def run_validation(agents_list: List[IAgent], num_of_games: int,
+                   min_tricks: int=0) -> List[np.ndarray]:
     """
 
     :param agents_list:
@@ -136,7 +137,8 @@ def run_validation(agents_list: List[IAgent], num_of_games: int) -> \
         start = perf_counter()
         all_checks, all_succeeds = np.zeros(12), np.zeros(12)
         for i in range(num_of_games):
-            curr_checks, curr_succeeds = validate_agent_per_data_game(agent, games.games[i])
+            curr_checks, curr_succeeds = validate_agent_per_data_game(
+                agent, games.games[i], min_tricks)
             all_checks += curr_checks
             all_succeeds += curr_succeeds
         agents_scores[agent_idx] = (all_succeeds / all_checks) * 100
@@ -156,6 +158,15 @@ if __name__ == '__main__':
     # test_validate_agent_by_the_whole_game()
 
     simple_agents = [SimpleAgent(kind) for kind in simple_func_names]
-    num_of_games = 1000
-    agents_scores_list = run_validation(simple_agents, num_of_games)
-    display_results(agents_scores_list, simple_agent_names, num_of_games)
+    ab_agents = [AlphaBetaAgent(kind, depth=12) for kind in ab_evaluation_func_names]
+    num_of_games = 20
+    min_tricks_num = 8
+
+    # Run Simple agents
+    # agents_scores_list = run_validation(simple_agents, num_of_games, min_tricks_num)
+    # display_results(agents_scores_list, simple_agent_names, num_of_games)
+
+    # Run AB agents
+    agents_scores_list = run_validation(ab_agents, num_of_games, min_tricks_num)
+    display_results([agent[min_tricks_num:] for agent in agents_scores_list],
+                    ab_evaluation_agent_names, num_of_games, min_tricks_num)

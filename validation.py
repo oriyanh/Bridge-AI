@@ -2,10 +2,11 @@ from copy import deepcopy
 from itertools import cycle, islice
 from typing import Tuple, List, TextIO
 import numpy as np
+from collections import defaultdict
 
 from cards import Card, SUITS, SuitType, TrumpType, Hand
 from game import SimulatedGame
-from multi_agents import IAgent
+from multi_agents import IAgent, SimpleAgent, AlphaBetaAgent
 from players import Player, PositionEnum, POSITIONS, PLAYERS_CYCLE, TEAMS, Team
 from state import State
 from trick import Trick
@@ -287,12 +288,13 @@ def validate_agent_action(dg: DataGame,
     return played_card == chosen_card
 
 
-def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
-        Tuple[np.ndarray, np.ndarray]:
+def validate_agent_per_data_game(agent: IAgent, dg: DataGame, min_tricks: int=0)\
+        -> Tuple[np.ndarray, np.ndarray]:
     """
     Validate a agent by comparing its performances to data.
     :param agent: IAgent to check vs the data
     :param dg: DataGame object
+    :param min_tricks: minimum tricks index to start validation from
     :return: tuple of 2 arrays for experiences and succeeds. each element in
         each array represents the number of played tricks (== 13 - (#card in hand))
     """
@@ -301,7 +303,7 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
     checks, succeeds = np.zeros(12), np.zeros(12)
 
     for pos_idx, position in enumerate(dg.winner):
-        for trick_idx in range(tricks_num):
+        for trick_idx in range(min_tricks, tricks_num):
             curr_hands = all_hands[pos_idx * tricks_num + trick_idx]
             curr_trick = all_tricks[pos_idx * tricks_num + trick_idx]
             chosen_card = chosen_cards[pos_idx * tricks_num + trick_idx]
@@ -315,15 +317,16 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame) -> \
                                teams=teams,
                                players=curr_hands,
                                prev_tricks=dg.tricks[:trick_idx],
-                               score=dict.fromkeys(teams),
+                               score=defaultdict.fromkeys(teams, 0),
                                curr_player=curr_hands[position.value - 1])
 
             sg = SimulatedGame(agent=agent,
-                               other_agent=None,
+                               other_agent=SimpleAgent('lowest_first_action'),
                                verbose_mode=False,
                                state=curr_state)
 
-            played_card = sg.play_single_move(get_card_only=True)
+            validation = 'simple' if isinstance(agent, SimpleAgent) else ''
+            played_card = sg.play_single_move(validation=validation)
             if played_card == chosen_card:
                 succeeds[trick_idx] += 1
             checks[trick_idx] += 1
