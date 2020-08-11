@@ -84,7 +84,7 @@ def compare_simple_agents():
                      path_effects.Normal()])
 
         title = f"Simple vs Simple Agents, y-axis win %, {GAMES_PER_MATCH} games"
-        name = f"SingleActionAgent_{NUM_GAMES}games.png"
+        name = f"SingleActionAgent_{GAMES_PER_MATCH}games.png"
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
         plt.plot()
@@ -143,7 +143,7 @@ def compare_simple_agents_vs_ab_agents(depth, hand_size):
 
         title = f"Simple vs Simple Agents, y-axis win %\n " \
                 f"games:{GAMES_PER_MATCH} , hand size:{hand_size}, depth: {depth}"
-        name = f"SingleActionAgent_{NUM_GAMES}games_{hand_size}cards_{depth}depth.png"
+        name = f"SingleActionAgent_{GAMES_PER_MATCH}games_{hand_size}cards_{depth}depth.png"
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
         plt.plot()
