@@ -1,0 +1,1707 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.21"]
+[Board "1"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:QT42.T65.J975.Q8 A93.J92.Q64.T962 65.KQ.AKT832.KJ7 KJ87.A8743..A543"]
+[Declarer "S"]
+[Contract "4D"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+Pass Pass 1D 2D
+Pass 2S 3D Pass
+Pass 3S Pass Pass
+3NT Pass 4C Pass
+4D Pass Pass Pass
+[Play "W"]
+S8 ST SA S6
+HA H5 H2 HK
+H3 H6 H9 HQ
+H4 D5 D4 DA
+C3 CQ C2 C7
+H7 D7 D6 D2
+- DJ DQ DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:QT42.T65.J975.Q8 A93.J92.Q64.T962 65.KQ.AKT832.KJ7 KJ87.A8743..A543"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1D X
+2D Pass 2NT Pass
+3D Pass Pass 3H
+Pass Pass Pass
+[Play "N"]
+D7 D4 D3 H3
+CQ C2 C7 C3
+D9 D6 DT H4
+C8 C6 CJ CA
+DJ C9 CK C4
+D5 DQ DA H7
+S2 SA S5 S7
+SQ S3 S6 SJ
+S4 S9 HQ S8
+- - DK H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "2"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKQJ3.AK7.AKJ3.A 4.T65.Q98765.Q74 T965.J98.T42.KT9 872.Q432..J86532"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "12"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -980"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+1C Pass 1D Pass
+1H Pass 1S Pass
+2C Pass 3C Pass
+3S Pass 4C Pass
+4D Pass 4S Pass
+4NT Pass 5C Pass
+5NT Pass 6S Pass
+Pass Pass
+[Play "N"]
+S7 SA S4 S5
+S2 SK D6 S6
+C2 CA C4 C9
+S8 S3 H6 S9
+C3 DA D5 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKQJ3.AK7.AKJ3.A 4.T65.Q98765.Q74 T965.J98.T42.KT9 872.Q432..J86532"]
+[Declarer "E"]
+[Contract "6S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -980"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1D Pass
+2D Pass 2H Pass
+2S Pass 3S Pass
+4C Pass 4S Pass
+6D Pass 6S Pass
+Pass Pass
+[Play "S"]
+C4 C9 C5 CA
+S4 S5 S2 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "3"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KT3.K4.KJ62.J854 64.87532.A5.AKQ6 A5.AT96.743.T973 QJ9872.QJ.QT98.2"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -110"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+Pass 1H Pass 1S
+X 2C X 2S
+Pass Pass Pass
+[Play "S"]
+C4 CA C3 C2
+C5 CK C7 HJ
+CJ CQ C9 HQ
+ST S4 S5 S9
+HK H2 H6 S2
+D2 DA D7 D8
+DJ D5 D4 DT
+S3 S6 SA S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KT3.K4.KJ62.J854 64.87532.A5.AKQ6 A5.AT96.743.T973 QJ9872.QJ.QT98.2"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C 1H 1NT 2S
+Pass Pass X Pass
+3D 3S Pass Pass
+Pass
+[Play "S"]
+C5 CA C7 C2
+C4 CQ C3 HQ
+C8 CK C9 HJ
+SK S4 S5 SJ
+HK H2 H6 S2
+DK DA D3 DQ
+DJ D5 D4 D8
+H4 H5 HA S7
+D2 C6 D7 DT
+D6 S6 SA D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "4"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT.732.KJT842.95 J7432.J8.A7.AKQ6 6.AT954.Q93.JT74 AQ985.KQ6.65.832"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 650"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass 2C Pass 4S
+Pass Pass Pass
+[Play "E"]
+CJ C2 C9 CA
+HA H6 H7 HJ
+C4 C3 C5 C6
+S6 SA ST S2
+H4 HK H2 H8
+H5 HQ H3 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KT.732.KJT842.95 J7432.J8.A7.AKQ6 6.AT954.Q93.JT74 AQ985.KQ6.65.832"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 2NT
+Pass 3C Pass 4S
+Pass Pass Pass
+[Play "E"]
+D3 D5 D2 DA
+S6 SA ST S2
+C4 C2 C5 CQ
+C7 C3 C9 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "5"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.J762.J97.AQT85 872.K43.AKT43.62 QJ96543.98.2.J94 AK.AQT5.Q865.K73"]
+[Declarer "W"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -400"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+Pass 1NT Pass 2D
+Pass 3D Pass 3H
+Pass 3S Pass 4C
+X Pass Pass 4D
+Pass 4NT Pass 5C
+Pass 5D Pass Pass
+Pass
+[Play "N"]
+ST S2 S6 SA
+D7 DA D2 D5
+D9 D3 S3 DQ
+DJ DK S5 D6
+H2 H3 H8 HA
+H7 HK H9 H5
+H6 H4 S4 HQ
+HJ D4 S9 HT
+- C2 C4 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.J762.J97.AQT85 872.K43.AKT43.62 QJ96543.98.2.J94 AK.AQT5.Q865.K73"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 2S X
+Pass 3S Pass 3NT
+Pass Pass Pass
+[Play "N"]
+ST - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "6"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J3.KT7.97652.A84 AQ95.Q52.QT3.KQ2 K864.A9864.A4.96 T72.J3.KJ8.JT753"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+H6 H3 HT HQ
+C9 C3 C8 CK
+C6 C5 CA CQ
+H9 HJ HK H5
+SK S2 S3 SQ
+HA S7 H7 H2
+H8 D8 D7 D3
+H4 ST D2 S5
+DA DJ D5 DT
+S4 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:J3.KT7.97652.A84 AQ95.Q52.QT3.KQ2 K864.A9864.A4.96 T72.J3.KJ8.JT753"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1NT Pass Pass
+Pass
+[Play "W"]
+H6 H3 HT HQ
+C6 C3 C4 CK
+C9 C5 C8 CQ
+D4 CJ CA C2
+H9 HJ HK H5
+SK S2 S3 SQ
+HA S7 H7 H2
+H8 D8 D7 S5
+H4 C7 D6 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "7"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KJ652.43.743.KQ2 T3.A87.J65.J7653 984.KQ92.A92.A84 AQ7.JT65.KQT8.T9"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+Pass Pass 1C X
+XX Pass Pass 1D
+1S Pass Pass Pass
+[Play "W"]
+H7 HK H6 H4
+S3 S4 S7 SJ
+C3 CA CT C2
+ST S8 SA S5
+C5 C4 C9 CK
+C6 S9 SQ SK
+C7 C8 D8 S6
+CJ D2 DT CQ
+D5 DA DQ D3
+D6 D9 DK D4
+HA H2 HJ H3
+DJ H9 H5 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KJ652.43.743.KQ2 T3.A87.J65.J7653 984.KQ92.A92.A84 AQ7.JT65.KQT8.T9"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1H Pass
+1S Pass 1NT Pass
+Pass Pass
+[Play "E"]
+DK D3 D5 D2
+D8 D4 DJ D9
+DQ D7 D6 DA
+S7 SJ S3 S4
+C9 C2 C7 CA
+SA S2 ST S9
+DT H3 C6 C4
+H5 H4 HA H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "8"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T932.Q42.JT7.753 AJ87.AKT6.Q432.K Q4.J873.K965.JT9 K65.95.A8.AQ8642"]
+[Declarer "N"]
+[Contract "6NT"]
+[Result "12"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 990"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+Pass 1D Pass 2C
+Pass 2D Pass 2S
+Pass 3S Pass 4S
+Pass 5C Pass 6C
+Pass 6NT Pass Pass
+Pass
+[Play "E"]
+H7 H5 HQ HA
+CT C2 C3 CK
+S4 SK S2 S7
+C9 CA C5 D2
+CJ CQ C7 D3
+HJ H9 H4 H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T932.Q42.JT7.753 AJ87.AKT6.Q432.K Q4.J873.K965.JT9 K65.95.A8.AQ8642"]
+[Declarer "N"]
+[Contract "4NT"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 490"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 2C
+Pass 3NT Pass 4C
+Pass 4NT Pass Pass
+Pass
+[Play "E"]
+H3 H5 HQ HA
+C9 C2 C3 CK
+HJ H9 H2 H6
+CJ CA C5 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "9"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:K96.AJ74.74.KQ93 QT53.QT.KJ653.A6 J42.9532.AQT.J84 A87.K86.982.T752"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+1C 1D 1H 2D
+2H Pass Pass Pass
+[Play "W"]
+D9 D4 DK DA
+H6 H7 HT H3
+D2 D7 D5 DT
+D8 S6 D3 DQ
+H8 HA HQ H2
+HK H4 D6 H5
+S7 SK S5 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:K96.AJ74.74.KQ93 QT53.QT.KJ653.A6 J42.9532.AQT.J84 A87.K86.982.T752"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C 1D 1NT 2D
+Pass Pass 2H Pass
+Pass Pass
+[Play "W"]
+D8 D4 DJ DQ
+H6 H7 HT H5
+SA S6 S3 S2
+S8 SK S5 SJ
+H8 HA HQ H2
+C2 CK CA C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "10"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:A8543.AK53.54.J2 K.T2.KQT7.A98654 72.QJ94.AJ983.KT QJT96.876.62.Q73"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+1S 2C X Pass
+2H Pass 3H Pass
+4H Pass Pass Pass
+[Play "S"]
+DK D3 D2 D5
+CA CT C7 C2
+C4 CK C3 CJ
+H2 HQ H7 H3
+HT H4 H8 HA
+C5 H9 H6 HK
+D7 DJ D6 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:A8543.AK53.54.J2 K.T2.KQT7.A98654 72.QJ94.AJ983.KT QJT96.876.62.Q73"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 2C X Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+DK DA D2 D4
+H2 H4 H6 HK
+DQ D3 D6 D5
+CA CT C3 C2
+C4 CK C7 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "11"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:J964.AJ84.85.942 Q873.K53.AKJ73.K A5.T9.T964.T8765 KT2.Q762.Q2.AQJ3"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -460"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+Pass 1C Pass 1NT
+Pass 2C Pass 2D
+Pass 2H Pass 2NT
+Pass 3D Pass 3S
+Pass 3NT Pass Pass
+Pass
+[Play "S"]
+S4 S7 SA S2
+C9 CK C8 C3
+HA H3 H9 HQ
+H4 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:J964.AJ84.85.942 Q873.K53.AKJ73.K A5.T9.T964.T8765 KT2.Q762.Q2.AQJ3"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D Pass 1H
+Pass 1S Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S4 S3 SA S2
+SJ SQ S5 ST
+C2 CK C5 C3
+S6 S7 HT SK
+C4 H3 C6 CA
+C9 H5 C7 CQ
+D5 S8 - CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "12"]
+[West "Grotheim G"]
+[North "Pszczola J"]
+[East "Aa T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:K75.Q4.QJT7.A432 T9832.A76.862.T5 A.K9853.A43.K987 QJ64.JT2.K95.QJ6"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+1NT Pass 2D Pass
+2NT Pass 3H Pass
+3NT Pass Pass Pass
+[Play "N"]
+S9 SA SQ S5
+C5 CK C6 C2
+CT C7 CJ C3
+S8 H3 S4 S7
+S2 H5 SJ SK
+D2 D3 DK DJ
+ST H8 S6 H4
+S3 C8 D5 D7
+HA H9 H2 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Zmudzinski A"]
+[North "Helness T"]
+[East "Balicki C"]
+[South "Helgemo G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:K75.Q4.QJT7.A432 T9832.A76.862.T5 A.K9853.A43.K987 QJ64.JT2.K95.QJ6"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1H Pass
+1NT Pass 2C Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "N"]
+ST SA S4 S5
+C5 C7 CQ CA
+D2 D3 DK DQ
+S2 H3 SQ S7
+S3 H5 SJ SK
+D6 DA D5 D7
+D8 D4 D9 DJ
+H6 H8 H2 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "13"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T.AQ9753.K4.QJ75 KJ7.6.QT9.AKT843 AQ92.JT42.652.92 86543.K8.AJ873.6"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 500"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+1H 2C 2H 2S
+3H 4S X Pass
+Pass Pass
+[Play "N"]
+DK D9 D5 DA
+C5 CA C2 C6
+C7 CK C9 H8
+ST S7 S2 S4
+HA H6 H2 HK
+D4 DQ D6 D3
+H3 SK SA S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:T.AQ9753.K4.QJ75 KJ7.6.QT9.AKT843 AQ92.JT42.652.92 86543.K8.AJ873.6"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H 2C 2H 2S
+3H 4S X Pass
+Pass Pass
+[Play "N"]
+C7 CA C9 C6
+C5 CK C2 H8
+DK DQ D2 D3
+D4 D9 D5 DA
+ST SJ SQ S4
+HA H6 HJ HK
+HQ DT H2 S3
+H3 C3 D6 DJ
+H5 S7 S9 D8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "14"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J4.T65.K754.KJT7 5.AQJ82.Q98.A982 AKQT9732.3.A2.65 86.K974.JT63.Q43"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+Pass 1H 1S 2H
+X 3H 4S Pass
+Pass Pass
+[Play "N"]
+H4 H5 HA H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J4.T65.K754.KJT7 5.AQJ82.Q98.A982 AKQT9732.3.A2.65 86.K974.JT63.Q43"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1H 4S Pass
+Pass Pass
+[Play "N"]
+HK H5 H2 H3
+H4 H6 HQ S2
+S6 S4 S5 SA
+S8 SJ H8 SK
+H7 C7 C8 SQ
+C3 CT CA C6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "15"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT.AQT5.7652.K83 QJ9.K.AK983.AQT2 K87653.3.JT.J965 42.J987642.Q4.74"]
+[Declarer "E"]
+[Contract "4HX"]
+[Result "8"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+1C X 1S 3H
+Pass 3NT Pass 4H
+X Pass Pass Pass
+[Play "S"]
+SA S9 S3 S4
+ST SJ SK S2
+C8 SQ S5 H6
+HA HK H3 H2
+C3 CQ C5 C4
+CK CA C6 C7
+D2 DA DT D4
+D5 D3 DJ DQ
+HQ C2 S6 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AT.AQT5.7652.K83 QJ9.K.AK983.AQT2 K87653.3.JT.J965 42.J987642.Q4.74"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D X 2S 3H
+Pass 3NT Pass 4H
+Pass Pass Pass
+[Play "S"]
+C3 CQ C5 C7
+D5 D3 DT DQ
+D2 DA DJ D4
+D6 DK H3 H4
+C8 CA C6 C4
+D7 D8 S3 S4
+H5 D9 S5 S2
+HA HK S6 H2
+CK C2 C9 H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "16"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:8732.QT.KQ3.AKQJ QJT.A8632.T542.9 A65.KJ5.J876.872 K94.974.A9.T6543"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -630"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+H3 HJ H9 HT
+D2 D6 DA D3
+C9 C2 C4 CA
+D4 D7 D9 DK
+D5 D8 H7 DQ
+HA H5 H4 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:8732.QT.KQ3.AKQJ QJT.A8632.T542.9 A65.KJ5.J876.872 K94.974.A9.T6543"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "N"]
+H2 H5 H9 HT
+D5 D6 DA DK
+H3 HJ H7 HQ
+C9 C2 C3 CA
+- - - CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "17"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK7.T.QJ642.K752 542.975.KT8.JT64 QJT8.J862.7.A983 963.AKQ43.A953.Q"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+1D Pass 1H 2H
+Pass Pass Pass
+[Play "N"]
+SA S2 SQ S6
+SK S4 S8 S3
+S7 S5 ST S9
+DJ DK D7 D5
+HT H9 H2 HA
+D4 H5 H6 HK
+C2 H7 H8 HQ
+D2 D8 - DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK7.T.QJ642.K752 542.975.KT8.JT64 QJT8.J862.7.A983 963.AKQ43.A953.Q"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass 1H Pass
+2C Pass 3C Pass
+Pass Pass
+[Play "E"]
+S4 S8 S9 SK
+H7 H2 HQ HT
+C4 CA CQ C2
+H9 H6 H3 C7
+C6 C3 S3 CK
+S2 ST S6 S7
+H5 H8 HA C5
+S5 SJ D3 SA
+DK D7 D5 DJ
+CJ C8 D9 D2
+CT C9 H4 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "18"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:2.8763.QJ63.AKQ2 QJT87.K92.T8.J96 AK64.A4.972.8754 953.QJT5.AK54.T3"]
+[Declarer "E"]
+[Contract "2NT"]
+[Result "8"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -120"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+1C Pass 1S Pass
+1NT Pass 2NT Pass
+Pass Pass
+[Play "S"]
+SQ SA S5 S2
+D8 D2 D4 DQ
+C6 C4 C3 CK
+C9 C5 CT CA
+CJ C7 D5 CQ
+S7 C8 S3 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:2.8763.QJ63.AKQ2 QJT87.K92.T8.J96 AK64.A4.972.8754 953.QJT5.AK54.T3"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D Pass 1S Pass
+2C Pass 2H Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "N"]
+HQ H3 H2 HA
+DK D3 DT D2
+H5 H6 HK H4
+HT H7 H9 S4
+HJ H8 D8 S6
+DA D6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "19"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q42.764.KT5432.5 AK93.KJ985.A9.AJ JT7.AT.QJ.KT9764 865.Q32.876.Q832"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+2S X Pass 2NT
+Pass 3H Pass Pass
+Pass
+[Play "N"]
+DQ D6 D2 D9
+DJ D7 DK DA
+HA H2 H6 HK
+HT H3 H4 HJ
+C4 C2 C5 CA
+CK C3 D3 CJ
+CT C8 D4 H8
+C6 HQ H7 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:Q42.764.KT5432.5 AK93.KJ985.A9.AJ JT7.AT.QJ.KT9764 865.Q32.876.Q832"]
+[Declarer "S"]
+[Contract "3CX"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 2S Pass
+3C X Pass Pass
+Pass
+[Play "W"]
+SA S7 S6 S4
+SK ST S5 S2
+S9 SJ S8 SQ
+CA C4 C2 C5
+H5 HT HQ H7
+DA DJ D7 D4
+S3 C6 C8 D2
+D9 DQ D6 D3
+CJ CK C3 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "20"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:7.AT742.Q854.AJ6 AJ984..T632.KT92 KT65.QJ983.AJ7.5 Q32.K65.K9.Q8743"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS -650"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+1H 1S 2NT 3S
+X Pass 4C Pass
+4H Pass Pass Pass
+[Play "N"]
+SA S5 S3 S7
+S9 SK S2 D5
+C2 C5 C4 CA
+C9 H8 C3 C6
+S4 HQ H6 H2
+D2 HJ H5 H4
+CT H3 HK HA
+CK H9 C7 CJ
+S8 S6 SQ H7
+D6 DJ DK D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:7.AT742.Q854.AJ6 AJ984..T632.KT92 KT65.QJ983.AJ7.5 Q32.K65.K9.Q8743"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1H 1S 4C Pass
+4H Pass Pass Pass
+[Play "N"]
+D6 D7 DK D8
+D3 DA D9 DQ
+S4 HQ H5 HA
+SA S5 SQ S7
+S8 SK S3 D4
+- H3 HK H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "21"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:743.JT52.AQJ.AQ9 AT98.Q643.75.T63 J5.A987.432.KJ75 KQ62.K.KT986.842"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "N"]
+1C Pass 1H X
+2H 2S Pass Pass
+3H Pass Pass Pass
+[Play "W"]
+SK S3 S8 S5
+S2 S4 SA SJ
+S6 S7 ST H7
+D6 DJ D7 D4
+HK H2 H4 H8
+C8 CA C6 C5
+D8 H5 H3 H9
+C2 CQ C3 C7
+C4 C9 CT CK
+D9 HT H6 HA
+SQ DQ HQ CJ
+DK DA D5 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:743.JT52.AQJ.AQ9 AT98.Q643.75.T63 J5.A987.432.KJ75 KQ62.K.KT986.842"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT Pass 2C Pass
+2H Pass 3H Pass
+Pass Pass
+[Play "E"]
+D5 D2 DT DQ
+H4 H7 HK HJ
+D7 D3 D9 DA
+H3 H8 D8 H2
+C3 C5 C8 CA
+H6 H9 S2 H5
+C6 C7 C2 CQ
+HQ - - HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "22"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q8.K54.A93.K8742 KJT9743.Q.K765.T 652.J9873.84.AQ6 A.AT62.QJT2.J953"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 450"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "E"]
+1C 4S Pass Pass
+Pass
+[Play "W"]
+CA C3 C8 CT
+D8 D2 DA DK
+C6 C5 CK S3
+S2 SA S8 S4
+H3 HA H4 HQ
+H7 H2 HK S7
+S5 H6 SQ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q8.K54.A93.K8742 KJT9743.Q.K765.T 652.J9873.84.AQ6 A.AT62.QJT2.J953"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C 4S Pass Pass
+Pass
+[Play "W"]
+H7 HA H5 HQ
+S2 SA S8 S3
+H3 H2 HK S7
+S5 - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "23"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT9.K9.Q9542.KQ9 AJ42.65432.8.T72 85.AJT7.KJT7.A63 Q763.Q8.A63.J854"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 600"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "S"]
+1D Pass 1H Pass
+1NT Pass 2C Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S4 S5 SQ SK
+D8 DJ DA D5
+SJ S8 S7 S9
+SA H7 S3 ST
+S2 HT S6 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT9.K9.Q9542.KQ9 AJ42.65432.8.T72 85.AJT7.KJT7.A63 Q763.Q8.A63.J854"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D Pass 1H Pass
+1NT Pass 2C Pass
+2D Pass 2H Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S2 S5 SQ SK
+D8 DJ DA D2
+SJ S8 S3 ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.21"]
+[Board "24"]
+[West "Helgemo G"]
+[North "Pszczola J"]
+[East "Helness T"]
+[South "Kwiecen M"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AJ7.85.8763.Q864 T852.KT32.Q5.J32 K963.J976.K92.75 Q4.AQ4.AJT4.AKT9"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Poland"]
+[Room "Open"]
+[Round "17"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "16"]
+[VisitTeam "Norway"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1D Pass 1NT
+Pass 2C Pass 2D
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+C6 CJ C7 CT
+D3 DQ DK DA
+H8 H2 H7 HQ
+C8 C2 C5 CA
+C4 C3 D9 CK
+D6 D5 D2 DJ
+D8 S2 S3 DT
+H5 H3 H6 HA
+S7 HK H9 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Romanski J"]
+[North "Aa T"]
+[East "Kowalski A"]
+[South "Grotheim G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AJ7.85.8763.Q864 T852.KT32.Q5.J32 K963.J976.K92.75 Q4.AQ4.AJT4.AKT9"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1D Pass 1H
+Pass 2C Pass 3NT
+Pass Pass Pass
+[Play "W"]
+D7 DQ DK DA
+CQ C2 C5 CT
+D3 D5 D9 DJ
+H5 H2 H6 HA
+H8 H3 H9 HQ
+C6 HK H7 H4
+C4 CJ C7 CA
+C8 C3 S3 CK
+S7 S2 S6 C9
+D6 S5 D2 DT
+D8 - - D4
+*
+

@@ -1,0 +1,1691 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.24"]
+[Board "1"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T.AQ2.KT42.K9754 A943.K6.AQ75.862 752.JT5.963.AJT3 KQJ86.98743.J8.Q"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1D Pass Pass 1S
+Pass 2D Pass 2H
+Pass 4S Pass Pass
+Pass
+[Play "N"]
+C4 C2 CA CQ
+C5 C6 CJ S6
+H2 HK H5 H3
+HA H6 HT H4
+CK C8 C3 S8
+HQ S9 HJ H7
+ST S3 S2 SJ
+- - - DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T.AQ2.KT42.K9754 A943.K6.AQ75.862 752.JT5.963.AJT3 KQJ86.98743.J8.Q"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1NT 2S
+3C 4S Pass Pass
+Pass
+[Play "N"]
+C5 C2 CA CQ
+C4 C6 CT S6
+HA H6 HJ H4
+CK C8 C3 S8
+DK DA D3 DJ
+H2 HK H5 H3
+ST S3 S2 SJ
+HQ S9 HT H7
+- SA - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "2"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A6542.8.A73.A973 JT3.AJ9753.K2.J4 KQ7.42.QJT9865.Q 98.KQT6.4.KT8652"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1S Pass 2H Pass
+3C Pass 4S Pass
+Pass Pass
+[Play "S"]
+SJ SK S8 S2
+S3 SQ S9 S4
+ST S7 C2 SA
+D2 D5 D4 DA
+DK D6 C5 D3
+HA - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A6542.8.A73.A973 JT3.AJ9753.K2.J4 KQ7.42.QJT9865.Q 98.KQT6.4.KT8652"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 2S Pass
+3C Pass 3D Pass
+4S Pass Pass Pass
+[Play "S"]
+HA H2 HT H8
+H9 H4 HQ S2
+S3 SK S9 S4
+DK DQ D4 D3
+H3 D5 HK S5
+ST - - SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "3"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T65.AJ843.A63.93 QJ2.K97.9.AJ8765 AK874.QT2.874.K4 93.65.KQJT52.QT2"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 170"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass 1C 1S 2C
+2H Pass Pass 3D
+3S Pass Pass Pass
+[Play "E"]
+DK DA D9 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T65.AJ843.A63.93 QJ2.K97.9.AJ8765 AK874.QT2.874.K4 93.65.KQJT52.QT2"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 2C 2S Pass
+3C Pass 3S Pass
+Pass Pass
+[Play "E"]
+DK D3 D9 D4
+DQ DA S2 D7
+C2 C3 CA C4
+CT C9 C5 CK
+S3 S5 SJ SA
+S9 S6 SQ SK
+H5 H3 HK HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "4"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:94.T98.Q42.AQT42 KJ5.J632.J9876.5 AQ632.A74.AT5.97 T87.KQ5.K3.KJ863"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -170"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass Pass 1S Pass
+1NT Pass 2D Pass
+2S Pass Pass Pass
+[Play "S"]
+S7 S4 SK SA
+S8 S9 S5 SQ
+ST C2 SJ S2
+C3 C4 C5 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:94.T98.Q42.AQT42 KJ5.J632.J9876.5 AQ632.A74.AT5.97 T87.KQ5.K3.KJ863"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -180"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S Pass
+1NT Pass Pass Pass
+[Play "N"]
+D9 DT DK D2
+C5 C7 C3 C2
+D7 C9 C6 CT
+S5 SQ S7 S4
+SJ S2 S8 S9
+H3 HA HK H8
+- SA ST H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "5"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q.Q3.KQ97642.KQ6 AK642.765.T.9742 9875.KT92.3.AT83 JT3.AJ84.AJ85.J5"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1D 1S X XX
+2D 2S Pass Pass
+3D Pass Pass Pass
+[Play "E"]
+SA S5 S3 SQ
+SK S7 ST D2
+C2 CA C5 C6
+DT D3 D5 DK
+S2 H2 DA DQ
+C4 C3 CJ CK
+S4 S8 DJ D9
+- - D8 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q.Q3.KQ97642.KQ6 AK642.765.T.9742 9875.KT92.3.AT83 JT3.AJ84.AJ85.J5"]
+[Declarer "N"]
+[Contract "2D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D Pass 1H Pass
+2D Pass Pass Pass
+[Play "E"]
+SA S5 SJ SQ
+S4 S9 ST D2
+C2 CA C5 C6
+DT D3 D5 DK
+S6 C3 DA DQ
+C4 C8 CJ CK
+H5 H2 - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "6"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:83.QJ52.JT83.A74 AQT7.A3.KQ62.QJ3 KJ6.K.A975.K9865 9542.T98764.4.T2"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass 1C Pass 2H
+Pass Pass Pass
+[Play "E"]
+DJ DQ DA D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:83.QJ52.JT83.A74 AQT7.A3.KQ62.QJ3 KJ6.K.A975.K9865 9542.T98764.4.T2"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 2D Pass 2NT
+Pass 3C Pass 3D
+Pass 3H Pass Pass
+Pass
+[Play "W"]
+C5 C2 CA C3
+SK S2 S8 SQ
+CK CT C4 CJ
+DA D4 D3 D2
+C9 S4 C7 CQ
+HK H4 H2 HA
+D5 S5 D8 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "7"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J82.543.K2.KQJ96 AT93.K.8643.T874 Q7.A876.QJ75.A32 K654.QJT92.AT9.5"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "6"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass Pass 1H Pass
+2C Pass 2NT Pass
+Pass Pass
+[Play "E"]
+HQ H3 HK H6
+SK S2 S3 S7
+HJ H4 D4 H7
+HT H5 S9 HA
+DA D2 D3 D5
+H9 C6 C4 H8
+H2 C9 C7 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J82.543.K2.KQJ96 AT93.K.8643.T874 Q7.A876.QJ75.A32 K654.QJT92.AT9.5"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D 1H
+2C Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "E"]
+HQ H3 HK H6
+SK S2 S9 S7
+H9 H4 S3 HA
+C5 CK C4 C3
+H2 C6 C7 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "8"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T52.J875.85.AK74 A76.K4.AK743.T83 K4.932.QJ92.J962 QJ983.AQT6.T6.Q5"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1NT Pass 2C
+Pass 2NT Pass 3S
+Pass 4D Pass 4S
+Pass Pass Pass
+[Play "W"]
+CA C3 C2 C5
+CK C8 C6 CQ
+C4 CT CJ S3
+S5 S6 SK SQ
+D5 DA DQ D6
+S2 SA S4 S8
+ST S7 C9 SJ
+D8 DK D2 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T52.J875.85.AK74 A76.K4.AK743.T83 K4.932.QJ92.J962 QJ983.AQT6.T6.Q5"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass 2D
+Pass 2H Pass 3H
+Pass 3S Pass 4S
+Pass Pass Pass
+[Play "E"]
+DQ D6 D8 DA
+H2 HQ H5 H4
+SK SQ S2 S6
+S4 S3 S5 S7
+D2 DT D5 DK
+D9 C5 C7 D3
+C6 CQ CK C3
+H3 S8 ST SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "9"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KQ752.64.AK9.J94 J83.93.43.KQT732 64.K87.T8652.865 AT9.AQJT52.QJ7.A"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1S Pass Pass X
+Pass 2C Pass 3H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+DA D3 DT D7
+SK S3 S4 SA
+SQ S8 S6 S9
+DK D4 D2 DJ
+S2 SJ H7 ST
+C4 C2 C5 CA
+D9 H3 D5 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KQ752.64.AK9.J94 J83.93.43.KQT732 64.K87.T8652.865 AT9.AQJT52.QJ7.A"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 1NT X
+Pass 2C Pass 2H
+Pass 3C Pass 3H
+Pass Pass Pass
+[Play "N"]
+C4 C2 C5 CA
+DK D3 D2 DQ
+H4 H9 HK HA
+DA D4 D5 DJ
+H6 H3 H7 HJ
+CJ C3 H8 HQ
+D9 C7 DT D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "10"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J732.AJT7.AQ9.K5 9654.KQ65.K85.94 KQT.92.T76.AT732 A8.843.J432.QJ86"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1NT Pass 2C Pass
+2H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "S"]
+S5 SK S8 S2
+HQ H9 H8 H7
+D5 D6 DJ DQ
+S4 SQ SA S3
+DK D7 D2 D9
+D8 DT D3 DA
+S6 ST C6 S7
+HK H2 H3 HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J732.AJT7.AQ9.K5 9654.KQ65.K85.94 KQT.92.T76.AT732 A8.843.J432.QJ86"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -630"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1D Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+HQ H2 H3 HA
+S4 SK S8 S2
+S6 SQ SA S3
+H5 H9 H4 H7
+S5 ST D2 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "11"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:97.Q3.KQ532.A876 AT4.AJ74..QJT943 8.K9862.9874.K52 KQJ6532.T5.AJT6."]
+[Declarer "E"]
+[Contract "7S"]
+[Result "13"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -1510"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass 1C Pass 1H
+2D Pass 4D 5D
+Pass 5NT Pass 6S
+Pass 7S Pass Pass
+Pass
+[Play "S"]
+CA C3 C2 S2
+S7 SA S8 SK
+C6 C4 C5 SQ
+- - - S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:97.Q3.KQ532.A876 AT4.AJ74..QJT943 8.K9862.9874.K52 KQJ6532.T5.AJT6."]
+[Declarer "E"]
+[Contract "5S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -480"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D X 2H 3H
+Pass 4C Pass 4S
+Pass 5C Pass 5S
+Pass Pass Pass
+[Play "S"]
+DK H4 D8 DA
+D2 C3 D4 DJ
+D3 ST D7 D6
+C6 C4 CK S2
+D5 SA D9 DT
+- S4 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "12"]
+[West "Duboin G"]
+[North "Koistinen K"]
+[East "Bocchi N"]
+[South "Juuri Oja J"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.J98.5.KQ98642 AKQ6.K752.876.A5 JT4.AT.AQT94.T73 9832.Q643.KJ32.J"]
+[Declarer "W"]
+[Contract "5CX"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+3C X 3NT 4C
+Pass 4S 5C X
+Pass Pass Pass
+[Play "N"]
+SA S4 S9 S5
+SK ST S2 S7
+SQ SJ S3 C2
+D8 DA D2 D5
+D6 DQ DK C8
+C5 C3 CJ CQ
+CA C7 H3 C4
+H2 HA H4 H8
+- D4 D3 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Viitasalo P"]
+[North "Versace A"]
+[East "Salomaa M"]
+[South "Lauria L"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.J98.5.KQ98642 AKQ6.K752.876.A5 JT4.AT.AQT94.T73 9832.Q643.KJ32.J"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 620"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+3C X Pass 4C
+Pass 4H Pass Pass
+Pass
+[Play "E"]
+C3 CJ CQ CA
+HT HQ HJ H2
+HA H3 H8 H5
+DA D2 D5 D6
+D9 DJ H9 D7
+S4 S2 S7 SA
+C7 H4 C2 C5
+- S9 S5 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "13"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K8642.QT6.K8.AJ4 T3.AK92.97542.Q6 Q9.J54.AQT3.T752 AJ75.873.J6.K983"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1S Pass 1NT Pass
+Pass Pass
+[Play "W"]
+C3 C4 CQ C5
+H8 HT H2 H5
+SA S2 S3 SQ
+H3 H6 HK H4
+H7 HQ HA HJ
+C8 S4 H9 C7
+S5 SK ST S9
+D6 DK D5 D3
+DJ D8 D9 DA
+- - - DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K8642.QT6.K8.AJ4 T3.AK92.97542.Q6 Q9.J54.AQT3.T752 AJ75.873.J6.K983"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 1NT Pass
+Pass Pass
+[Play "W"]
+C8 C4 CQ C2
+DJ DK D2 D3
+SA S2 S3 SQ
+D6 D8 D9 DT
+H8 S4 D4 DQ
+S5 S6 D5 DA
+C3 CJ C6 C5
+H3 HT HK H4
+S7 S8 D7 C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "14"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A82.KT76.J97.A43 Q7.8532.A85.KJ96 KJ943.Q.QT6432.2 T65.AJ94.K.QT875"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -420"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+1NT Pass 2H Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "S"]
+H3 HQ HA H7
+C6 C2 C5 CA
+S7 S3 S6 SA
+SQ SK S5 S2
+H2 SJ ST S8
+D5 D2 DK D7
+C9 S4 C7 C3
+- D3 H4 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A82.KT76.J97.A43 Q7.8532.A85.KJ96 KJ943.Q.QT6432.2 T65.AJ94.K.QT875"]
+[Declarer "W"]
+[Contract "3D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2NT Pass
+3C Pass 3D Pass
+Pass Pass
+[Play "N"]
+S6 S2 S7 SK
+DK D7 D5 D6
+S5 SA SQ S3
+C5 DJ DA D2
+HA H6 H8 HQ
+ST S8 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "15"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:J2.T7542.Q632.97 9.K93.K984.KT863 AT843.86.75.AJ54 KQ765.AQJ.AJT.Q2"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -400"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass Pass Pass 1S
+Pass 1NT Pass 2C
+Pass 2D Pass 2NT
+Pass 3C Pass 3D
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+H8 HJ H5 H3
+C4 CQ C7 C3
+CJ C2 C9 CT
+H6 HQ H2 HK
+CA S5 D2 CK
+S3 SK S2 S9
+D5 DT D6 DK
+C5 S6 H4 C8
+S4 S7 H7 C6
+D7 HA HT H9
+- DA D3 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:J2.T7542.Q632.97 9.K93.K984.KT863 AT843.86.75.AJ54 KQ765.AQJ.AJT.Q2"]
+[Declarer "N"]
+[Contract "1SX"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1D 1S Pass
+Pass X Pass Pass
+Pass
+[Play "E"]
+CQ C7 C3 C4
+S5 SJ S9 S3
+C2 C9 CT CJ
+S6 H2 C6 C5
+SK S2 H9 S4
+HJ H4 HK H6
+- - C8 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "16"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:T86.A987.A74.KQT AQ9543..982.A875 K72.6532.KT65.J6 J.KQJT4.QJ3.9432"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+1NT 2S Pass 3H
+Pass 3S Pass Pass
+Pass
+[Play "E"]
+CJ C2 CQ CA
+C6 C3 CT C5
+H5 C4 CK C7
+D5 D3 DA D2
+DK DJ D4 D8
+D6 DQ D7 D9
+SK SJ S6 S3
+DT H4 ST SQ
+S2 HT S8 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:T86.A987.A74.KQT AQ9543..982.A875 K72.6532.KT65.J6 J.KQJT4.QJ3.9432"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT 2S Pass 2NT
+Pass 3C Pass Pass
+Pass
+[Play "E"]
+D6 DQ DA D2
+DK D3 D7 D8
+H3 HT HA C5
+CJ C2 CT C7
+D5 DJ D4 D9
+- C3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "17"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:.AKQT3.AT97.KQ76 Q98.J75.K852.JT8 J754.984..A95432 AKT632.62.QJ643."]
+[Declarer "W"]
+[Contract "7SX"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 1100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1C Pass 1D 1S
+X 2S 4C 4S
+5S Pass 7C 7S
+X Pass Pass Pass
+[Play "N"]
+HA H5 H9 H2
+HK H7 H8 H6
+CK C8 C2 S2
+C6 ^R CT S4 SA
+H3 SQ S5 S3
+HT S9 S7 S6
+D7 S8 SJ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:.AKQT3.AT97.KQ76 Q98.J75.K852.JT8 J754.984..A95432 AKT632.62.QJ643."]
+[Declarer "N"]
+[Contract "6C"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 940"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 2H 2S
+4C Pass 4D Pass
+4S Pass 5C Pass
+6C Pass Pass Pass
+[Play "E"]
+S8 S4 SK C6
+C8 C2 S3 CK
+H5 H4 H2 HA
+H7 H8 H6 HK
+D2 C4 D3 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "18"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K963.Q64.Q82.K72 T75.AK97.T953.Q6 A82.J8532.AK4.T8 QJ4.T.J76.AJ9543"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -150"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass Pass 1NT Pass
+Pass Pass
+[Play "N"]
+C4 C2 CQ C8
+CJ CK C6 CT
+D7 D2 D3 DA
+HT HQ HA H2
+SJ SK S5 S2
+CA H4 H7 H8
+D6 DQ D5 D4
+C3 H6 HK H3
+S4 S3 S7 SA
+DJ - - HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K963.Q64.Q82.K72 T75.AK97.T953.Q6 A82.J8532.AK4.T8 QJ4.T.J76.AJ9543"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 2S Pass
+Pass Pass
+[Play "S"]
+HA H2 HT H4
+H7 H3 S4 HQ
+C6 C8 C3 CK
+S7 SA SQ S3
+CQ CT C9 C2
+H9 HJ SJ H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "19"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQ752..Q84.Q8652 T63.82.AKT93.JT3 KJ4.KQ965.762.74 98.AJT743.J5.AK9"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+1S Pass 2S 3H
+4S Pass Pass Pass
+[Play "W"]
+DA D2 D5 D4
+DK D6 DJ D8
+D3 D7 S8 DQ
+CJ C4 CA C5
+C3 C7 CK C6
+CT S4 C9 C2
+S3 SK S9 S2
+S6 SJ H3 S5
+- H5 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQ752..Q84.Q8652 T63.82.AKT93.JT3 KJ4.KQ965.762.74 98.AJT743.J5.AK9"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 2H X
+3C Pass 3H Pass
+3S Pass Pass Pass
+[Play "W"]
+DA D2 DJ D4
+DK D6 D5 D8
+S3 S4 S8 SQ
+C3 C4 CA CQ
+H2 H5 HA S5
+S6 SJ S9 SA
+ST SK H3 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "20"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:52.T753.AQ3.QJ83 KQ3.AJ6.T94.AKT6 AJT74.KQ982.8.54 986.4.KJ7652.972"]
+[Declarer "N"]
+[Contract "3NTX"]
+[Result "4"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -1400"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+Pass 1C X 3D
+Pass 3NT Pass Pass
+X Pass Pass Pass
+[Play "E"]
+HK H4 H5 H6
+D8 DK DA DT
+H8 S6 H7 HA
+S4 D2 D3 D9
+C4 C2 C3 CA
+C5 C7 C8 CK
+S7 C9 CJ C6
+ST D5 DQ D4
+SJ - CQ CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:52.T753.AQ3.QJ83 KQ3.AJ6.T94.AKT6 AJT74.KQ982.8.54 986.4.KJ7652.972"]
+[Declarer "W"]
+[Contract "4HX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1H 1NT 4H Pass
+Pass X Pass Pass
+Pass
+[Play "N"]
+CA C4 C2 C3
+CK C5 C7 C8
+SK SA S6 S2
+D4 D8 D2 DA
+H6 HK H4 H5
+SQ SJ S8 S5
+D9 H2 D5 D3
+S3 S4 S9 H3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "21"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K8.AJT764.QT74.7 AT96.Q2.J53.J953 Q75432.9.92.AQ64 J.K853.AK86.KT82"]
+[Declarer "E"]
+[Contract "3C"]
+[Result "8"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "N"]
+1H Pass 1S X
+Pass 1NT 2S Pass
+Pass 3C Pass Pass
+Pass
+[Play "S"]
+S3 SJ SK SA
+C4 C8 C7 C3
+H9 H3 HA H2
+C6 H5 H4 HQ
+D9 DA D4 D3
+CQ C2 H6 C5
+CA CT H7 C9
+D2 D6 DQ D5
+SQ CK S8 S9
+- HK HT -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K8.AJT764.QT74.7 AT96.Q2.J53.J953 Q75432.9.92.AQ64 J.K853.AK86.KT82"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 1NT Pass
+2H Pass Pass Pass
+[Play "E"]
+C5 CA C2 C7
+D3 D2 D6 DQ
+DJ D9 DK D4
+H2 H9 H3 HA
+HQ S2 H5 HT
+C3 C4 C8 H4
+D5 S3 D8 D7
+S6 S4 DA DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "22"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q85.763.K763.J54 T643.A5.J8.AQ876 J7.JT2.A952.KT93 AK92.KQ984.QT4.2"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "E"]
+Pass Pass Pass 1H
+Pass 1S Pass 4S
+Pass Pass Pass
+[Play "W"]
+DA D4 D3 D8
+D5 DQ DK DJ
+C3 C2 C5 CA
+S7 SA S5 S4
+SJ SK S8 S6
+- H4 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q85.763.K763.J54 T643.A5.J8.AQ876 J7.JT2.A952.KT93 AK92.KQ984.QT4.2"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C Pass 1D
+Pass 1S Pass 4C
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+DA D4 D3 D8
+D2 DT DK DJ
+D5 DQ D7 C6
+S7 SA S5 S3
+SJ SK S8 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "23"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AK3.JT53.J964.85 T642.97.72.AQ762 J95.KQ62.A83.K93 Q87.A84.KQT5.JT4"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "S"]
+Pass Pass 1H Pass
+2H Pass Pass Pass
+[Play "E"]
+H4 H3 H7 HQ
+HA H5 H9 H2
+H8 HT C6 HK
+DQ D4 D2 D8
+CJ C5 CA C3
+SQ SA S2 S9
+DK DJ D7 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AK3.JT53.J964.85 T642.97.72.AQ762 J95.KQ62.A83.K93 Q87.A84.KQT5.JT4"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1NT Pass
+Pass Pass
+[Play "E"]
+DQ D4 D2 DA
+H4 HJ H7 H2
+H8 H3 H9 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "24"]
+[West "Mosca C"]
+[North "Juuri Oja E"]
+[East "Mosca C"]
+[South "Juuri Oja E"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:92.A953.K74.AKT9 QJ.7642.65.J8762 KT65.KT.AQ83.543 A8743.QJ8.JT92.Q"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Finland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -430"]
+[Section "Open"]
+[Table "1"]
+[VisitTeam "Italy"]
+[Auction "W"]
+1C Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+SQ SK SA S2
+SJ S5 S4 S9
+C2 C3 CQ CA
+D5 DQ D2 D7
+CJ C4 S3 C9
+C6 C5 H8 CT
+H6 HK HJ H3
+D6 ST S7 H5
+H2 D3 DJ DK
+C7 HT - CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Juuri Oja E"]
+[North "Mosca C"]
+[East "Juuri Oja E"]
+[South "Mosca C"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:92.A953.K74.AKT9 QJ.7642.65.J8762 KT65.KT.AQ83.543 A8743.QJ8.JT92.Q"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1NT Pass 2D Pass
+2H Pass 2NT Pass
+3C Pass 3NT Pass
+Pass Pass
+[Play "N"]
+SQ SK S3 S2
+C2 C3 CQ CA
+D5 DQ D2 D7
+CJ C4 S4 CT
+D6 D3 D9 DK
+C6 C5 S7 CK
+C7 DA DT D4
+H2 HK H8 H3
+H4 HT HJ HA
+*
+

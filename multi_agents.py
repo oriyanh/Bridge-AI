@@ -105,7 +105,7 @@ def highest_first_action(state):
     return max(state.get_legal_actions())
 
 
-def hard_greedy_action(state):
+def hard_short_greedy_action(state):
     """
     If can beat current trick cards - picks highest value action available.
     If cannot - picks lowest value action.
@@ -126,7 +126,7 @@ def hard_greedy_action(state):
         return worst_move
 
 
-def hard_greedy_all_players_action(state):
+def hard_long_greedy_action(state):
     """
     If can beat current trick cards - picks highest value action available.
     If cannot - picks lowest value action.
@@ -162,7 +162,7 @@ def hard_greedy_all_players_action(state):
     return worst_move
 
 
-def soft_greedy_action(state):
+def soft_short_greedy_action(state):
     """
     If can beat current trick cards - picks the lowest value action available
     that can become the current best in trick.
@@ -185,7 +185,7 @@ def soft_greedy_action(state):
     return worst_move  # Cannot win - play worst action.
 
 
-def soft_greedy_all_players_action(state):
+def soft_long_greedy_action(state):
     """
     If can beat current trick cards - picks the lowest value action available
     that can become the current best in trick.
@@ -388,7 +388,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         :param float b: Current beta score
         :returns float: Score for current state (the node)
         """
-        if curr_depth == max_depth:
+        if curr_depth >= max_depth:
             return self.evaluation_function(state, is_max, self.target)
 
         # get current player moves
@@ -405,8 +405,10 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
                 next_player = next_state.curr_player
                 is_next_max = True if is_players_in_same_team(curr_player, next_player) else False
                 next_depth = curr_depth if is_next_max else curr_depth + 1
-                a = max((a, self.score(next_state, max_depth, next_depth,
-                                       is_next_max, a, b)))
+                if not is_next_max:
+                    b = min((b, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
+                else:
+                    a = max((a, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
                 if b <= a:
                     break
             return a
@@ -415,8 +417,10 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
             next_player = next_state.curr_player
             is_next_max = False if is_players_in_same_team(curr_player, next_player) else True
             next_depth = curr_depth + 1 if is_next_max else curr_depth
-            b = min((b, self.score(next_state, max_depth,
-                                   next_depth, is_next_max, a, b)))
+            if is_next_max:
+                a = max((a, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
+            else:
+                b = min((b, self.score(next_state, max_depth, next_depth, is_next_max, a, b)))
             if b <= a:
                 break
         return b
@@ -493,16 +497,16 @@ def greedy_legal_moves_count1(state):
         count_wining_moves = len(list(filter(lambda move: move > best_in_current_trick,
                                              legal_moves)))
         return count_wining_moves
-    return -1
+    return 0
 
 
 def greedy_legal_moves_count2(state):
     legal_moves = state.get_legal_actions()
-    wining_moves_count, factor = 0, 1
+    wining_moves_count= 0
     i = len(state.trick)
     if i == 0:
         cards = starting_trick_cards(state)
-        wining_moves_count = len(cards)
+        wining_moves_count = 1 if len(cards) > 0 else 0
     else:
         best_in_current_trick = max(state.trick.cards())
         if i == 1 or i == 2:
@@ -514,13 +518,14 @@ def greedy_legal_moves_count2(state):
             teammate_legal_moves = get_legal_actions(state.trick.starting_suit, teammate, state.already_played)
             teammate_wining_moves = list(filter(lambda move: move > card_to_win, teammate_legal_moves))
             wining_moves_count = 2 * len(wining_moves) + len(teammate_wining_moves)
+            wining_moves_count = 1 if wining_moves_count > 0 else 0
         if i == 3:
             best_move = max(legal_moves)
             if best_move > best_in_current_trick:
                 wining_moves_count = len(list(filter(lambda move: move > best_in_current_trick,
                                                      legal_moves)))
-                factor = 4
-    return factor * wining_moves_count
+                wining_moves_count = 1 if wining_moves_count > 0 else 0
+    return wining_moves_count
 
 
 def hand_evaluation_heuristic(state, is_max=True, target=None):

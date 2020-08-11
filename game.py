@@ -92,7 +92,7 @@ class Game:
         return True
 
     def game_loop(self) -> None:
-        while max(self.tricks_counter) < self.cards_in_hand // 2:  # Winner is determined.
+        while max(self.tricks_counter) < np.ceil(self.cards_in_hand / 2):  # Winner is determined.
 
             for i in range(len(POSITIONS)):  # Play all hands
                 self.play_single_move()

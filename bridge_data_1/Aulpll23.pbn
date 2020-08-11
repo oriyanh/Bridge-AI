@@ -1,0 +1,1745 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.27"]
+[Board "1"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:J8.Q62.AQ54.5432 4.K9875.98762.K8 A75.AJ43.J3.QJT9 KQT9632.T.KT.A76"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+Pass Pass 1H 4S
+Pass Pass Pass
+[Play "N"]
+H2 H5 HA HT
+DA D2 DJ DK
+DQ D6 D3 DT
+C5 CK CQ C7
+H6 HK H4 C6
+SJ S4 S5 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:J8.Q62.AQ54.5432 4.K9875.98762.K8 A75.AJ43.J3.QJT9 KQT9632.T.KT.A76"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -590"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C 4S
+X Pass Pass Pass
+[Play "N"]
+H6 H5 HA HT
+DA D2 DJ DK
+C4 CK CQ C6
+H2 HK H3 DT
+C2 C8 C9 CA
+C3 S4 CT C7
+D4 D6 D3 S2
+S8 H7 SA SK
+C5 D7 CJ S9
+SJ D8 S5 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "2"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK872.KQJT.K.Q94 QT95.85.AQJ2.AK7 4.A962.96.J86532 J63.743.T87543.T"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -420"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1S Pass 1NT Pass
+2C Pass 2D Pass
+2H Pass 3C Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "S"]
+CA C2 CT C4
+H8 H2 H4 HJ
+H5 H6 H3 HK
+D2 H9 H7 HQ
+S5 S4 S3 SA
+S9 D6 S6 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK872.KQJT.K.Q94 QT95.85.AQJ2.AK7 4.A962.96.J86532 J63.743.T87543.T"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1D Pass
+1H Pass 2C Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "S"]
+H5 H2 H3 HT
+H8 H6 H4 HJ
+D2 HA H7 HQ
+CK C2 CT CQ
+DA D6 D5 DK
+DQ D9 D3 HK
+C7 C3 D4 C9
+CA C5 D7 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "3"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:5432.AK8.AJ.9872 Q98.J73.942.AK64 KJ6.Q652.KQT63.J AT7.T94.875.QT53"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1S Pass 2D Pass
+2NT Pass 3S Pass
+4S Pass Pass Pass
+[Play "W"]
+CA CJ C3 C7
+CK S6 C5 C2
+D2 D3 D7 DA
+C4 SJ CT C8
+D4 DK D5 DJ
+D9 DQ D8 H8
+H3 H2 H9 HA
+H7 H5 H4 HK
+C6 SK CQ C9
+HJ HQ HT S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:5432.AK8.AJ.9872 Q98.J73.942.AK64 KJ6.Q652.KQT63.J AT7.T94.875.QT53"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C Pass 2D Pass
+2S Pass 3NT Pass
+Pass Pass
+[Play "E"]
+C5 C2 CK CJ
+C3 C7 CA H2
+CQ C8 C6 S6
+CT C9 C4 H5
+SA S2 S8 SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "4"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A853.7.43.KQJT75 KQ964.J85.AQ62.A J.AKQ632.T95.863 T72.T94.KJ87.942"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -140"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1C 1S 2H Pass
+3C Pass 3H Pass
+Pass Pass
+[Play "S"]
+S2 SA S6 SJ
+H9 H7 H8 HA
+H4 S3 H5 HK
+HT D3 HJ HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A853.7.43.KQJT75 KQ964.J85.AQ62.A J.AKQ632.T95.863 T72.T94.KJ87.942"]
+[Declarer "W"]
+[Contract "5CX"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass 2H Pass
+3C Pass 3H Pass
+4C Pass 5C Pass
+Pass X Pass Pass
+Pass
+[Play "N"]
+CA C3 C2 C5
+DA D5 D7 D3
+D2 D9 DK D4
+D6 DT DJ CT
+S4 SJ S2 SA
+S6 C6 S7 S3
+DQ C8 C4 CK
+S9 H2 C9 CQ
+H5 H3 D8 CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "5"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ8.64.A94.JT532 J75.AK852.Q.A974 T432.Q973.JT2.K8 K96.JT.K87653.Q6"]
+[Declarer "W"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+Pass 1H Pass 1NT
+X 2C Pass 2D
+Pass Pass Pass
+[Play "N"]
+C2 C4 CK C6
+SQ S5 S4 S6
+SA S7 S3 S9
+C5 C7 C8 CQ
+DA DQ D2 D3
+CJ C9 DT DK
+D4 H2 DJ D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ8.64.A94.JT532 J75.AK852.Q.A974 T432.Q973.JT2.K8 K96.JT.K87653.Q6"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1H Pass 1NT
+Pass 2C Pass 2D
+Pass 2H Pass Pass
+Pass
+[Play "S"]
+S2 S6 SQ S7
+H3 HT H4 H2
+D2 D3 DA DQ
+HQ HJ H6 H5
+S3 S9 SA S5
+S4 SK S8 SJ
+DJ DK D4 C4
+DT D5 D9 H8
+H7 D6 C2 HK
+H9 D7 C3 HA
+CK C6 C5 C7
+ST D8 CT C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "6"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ976.98.AKQ.643 T852.AJ.J9843.75 .K5432.T765.Q982 KJ43.QT76.2.AKJT"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1S Pass 1NT X
+Pass 2D Pass 2H
+Pass Pass Pass
+[Play "E"]
+DA D3 D5 D2
+H9 HJ HK H6
+H8 HA H2 H7
+C3 C5 C2 CT
+C4 C7 H3 HQ
+S6 S2 H4 HT
+C6 S5 C8 CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ976.98.AKQ.643 T852.AJ.J9843.75 .K5432.T765.Q982 KJ43.QT76.2.AKJT"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 1NT Pass
+2NT Pass 3H Pass
+3NT Pass Pass Pass
+[Play "N"]
+CA C3 C7 C2
+D2 DQ D8 D5
+H6 DK D3 D6
+H7 H8 HA H2
+CT C4 C5 C9
+CK C6 D4 C8
+CJ S6 S2 CQ
+S3 DA D9 D7
+HT H9 HJ HK
+S4 S7 DJ DT
+SJ SQ S5 H3
+SK SA S8 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "7"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT3.J3.KQ654.KT9 A74.AT8642.AJ7.5 Q652.97.9.QJ8764 J98.KQ5.T832.A32"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -650"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1D 1H Pass 2C
+Pass 3H Pass 4H
+Pass Pass Pass
+[Play "N"]
+D9 D2 D5 DJ
+H7 HK H3 H2
+H9 H5 HJ HA
+C7 HQ D4 H4
+C6 D3 D6 D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT3.J3.KQ654.KT9 A74.AT8642.AJ7.5 Q652.97.9.QJ8764 J98.KQ5.T832.A32"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D 1H Pass 2H
+Pass 4H Pass Pass
+Pass
+[Play "N"]
+D9 D2 DQ DA
+H7 HK H3 H2
+H9 HQ HJ H4
+C7 D3 D4 DJ
+C4 D8 DK D7
+S2 S8 S3 SA
+C6 CA C9 C5
+S5 DT D5 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "8"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQT72.QJ.JT2.K74 4.AK64.A87.JT832 A65.T8753.Q43.96 J983.92.K965.AQ5"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "7"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass 1H Pass 1S
+X 2C 2S 3C
+3S Pass Pass Pass
+[Play "S"]
+H9 HQ HK H7
+DK D2 D7 D4
+CA C4 C8 C9
+D5 DT DA D3
+H2 HJ HA H3
+D6 DJ D8 DQ
+C5 CK C2 C6
+CQ C7 C3 S5
+S3 SK S4 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQT72.QJ.JT2.K74 4.AK64.A87.JT832 A65.T8753.Q43.96 J983.92.K965.AQ5"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S 1NT Pass 2C
+Pass Pass 2S 3C
+Pass Pass Pass
+[Play "W"]
+SK S4 S5 S3
+DJ D7 D3 DK
+S7 C2 S6 S8
+HQ HA H5 H2
+HJ HK H7 H9
+C7 H4 H8 C5
+DT DA D4 D5
+CK H6 HT CQ
+D2 D8 DQ D6
+C4 C3 C6 CA
+S2 CJ SA S9
+ST CT C9 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "9"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AK8.AKQ8.Q76.KT4 5.64.AJ9852.8762 J32.T9752.4.J953 QT9764.J3.KT3.AQ"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 450"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1C Pass 1D 1S
+X Pass 2H Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "W"]
+ST S8 S5 SJ
+H3 HA H6 H2
+HJ HK H4 H5
+DT D6 D8 D4
+DK D7 D2 H7
+CA C4 C2 C9
+D3 DQ D5 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AK8.AKQ8.Q76.KT4 5.64.AJ9852.8762 J32.T9752.4.J953 QT9764.J3.KT3.AQ"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1D 1S
+1NT Pass 2D Pass
+2NT Pass 3C Pass
+4H Pass Pass Pass
+[Play "E"]
+S5 S2 S9 SA
+H4 H2 H3 HA
+H6 H5 HJ HK
+D5 H9 S4 H8
+C6 C3 CA C4
+D9 SJ S6 S8
+C2 C5 CQ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "10"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q3.T9.QJ973.QT95 J96.K754.T2.K842 KT8542.AJ3.854.A A7.Q862.AK6.J763"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+Pass Pass 1S X
+Pass 2H Pass Pass
+Pass
+[Play "W"]
+S5 SA S3 S6
+HA H2 H9 HK
+CA C3 C5 C2
+S2 S7 SQ S9
+H3 C6 C9 C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q3.T9.QJ973.QT95 J96.K754.T2.K842 KT8542.AJ3.854.A A7.Q862.AK6.J763"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1S X
+Pass 2H 2S Pass
+Pass Pass
+[Play "N"]
+H2 H9 HK HA
+S7 SQ S6 S2
+SA S3 S9 ST
+HQ HT H4 H3
+H8 C5 H5 HJ
+D6 D3 SJ SK
+DK D7 D2 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "11"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT953.J6.AJ2.T84 A8.8.QT3.AKQ7652 KJ62.A7542.K85.9 74.KQT93.9764.J3"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+Pass 1C X 1H
+1S 3NT Pass Pass
+4S Pass Pass Pass
+[Play "W"]
+CA C9 CJ C4
+H8 HA H9 H6
+SA S2 S7 SQ
+S8 SK S4 S3
+C7 H2 HQ HJ
+C5 S6 C3 C8
+C2 H4 HK S5
+C6 SJ H3 CT
+DQ D5 D4 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT953.J6.AJ2.T84 A8.8.QT3.AKQ7652 KJ62.A7542.K85.9 74.KQT93.9764.J3"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 1H Pass
+1S 2C 2S 3S
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+H4 HK H6 H8
+C9 CJ C8 C2
+H5 C3 C4 CA
+H2 D4 CT CK
+H7 H3 S5 CQ
+S2 S4 S3 C7
+S6 D6 D2 C6
+D5 H9 DJ C5
+SJ S7 S9 SA
+DK D7 DA D3
+SK D9 SQ S8
+HA HT HJ DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "12"]
+[West "Hocheker D"]
+[North "Fischer D"]
+[East "Harasimovicz"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKJ2.J84.2.J7432 Q7653.72.J76.AT8 84.AQT96.Q9.KQ96 T9.K53.AKT8543.5"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass Pass 1H 3D
+4D Pass 4H Pass
+Pass Pass
+[Play "S"]
+C5 C2 CA C6
+H3 C3 CT CK
+DA D2 D6 D9
+ST SA S3 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Gyimesi H"]
+[North "Brewiak G"]
+[East "Terraneo S"]
+[South "Soboloewska E"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKJ2.J84.2.J7432 Q7653.72.J76.AT8 84.AQT96.Q9.KQ96 T9.K53.AKT8543.5"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S Pass 2H 3D
+4H Pass Pass Pass
+[Play "S"]
+DA D2 D6 D9
+C5 C2 CA C9
+H3 C3 CT CK
+ST SA S5 S4
+HK H8 H7 H6
+S9 SK S3 S8
+H5 H4 H2 HA
+- - - HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "13"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K853.A3.AJ.KT984 QT2.J86.T7632.A6 AJ97.K942.K.QJ75 64.QT75.Q9854.32"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 680"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1NT Pass 2D Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "E"]
+CA C5 C2 CT
+C6 CQ C3 C4
+S2 S7 S6 SK
+ST SJ S4 S3
+SQ SA D5 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K853.A3.AJ.KT984 QT2.J86.T7632.A6 AJ97.K942.K.QJ75 64.QT75.Q9854.32"]
+[Declarer "S"]
+[Contract "6C"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 1370"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1NT Pass 2C Pass
+2S Pass 3C Pass
+3NT Pass 4C Pass
+4D Pass 5C Pass
+6C Pass Pass Pass
+[Play "W"]
+C2 C4 CA C5
+C3 C8 C6 CJ
+D4 DJ D2 DK
+H7 HA H6 H4
+D5 DA D3 H2
+H5 H3 H8 HK
+HT C9 HJ H9
+S4 S3 ST SJ
+S6 SK S2 S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "14"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9863.KJ65.7.AT93 T72.T8.KJ98.K654 AK5.Q432.T5.Q872 QJ4.A97.AQ6432.J"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -140"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+Pass Pass 1C 1D
+1H 2D 2H 3D
+3H Pass Pass Pass
+[Play "S"]
+DK D5 D2 D7
+C5 C8 CJ CA
+H8 HQ HA H5
+D8 DT D3 H6
+HT H2 H7 HK
+D9 H3 H9 HJ
+CK C2 D4 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9863.KJ65.7.AT93 T72.T8.KJ98.K654 AK5.Q432.T5.Q872 QJ4.A97.AQ6432.J"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1H 2D
+3H X Pass 3NT
+Pass 4D Pass 5D
+Pass Pass Pass
+[Play "E"]
+H6 H8 HQ HA
+CA C4 C7 CJ
+HK HT H4 H7
+S9 S2 SK SJ
+S3 S7 SA SQ
+S6 ST S5 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "15"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:KQ7.QJ7.Q9832.74 A6.K962.KJ.KJ865 4.AT843.AT64.QT9 JT98532.5.75.A32"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "8"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+Pass 1C 1H 4S
+Pass Pass Pass
+[Play "S"]
+HQ HK HA H5
+H7 H2 H4 S2
+S7 SA S4 SJ
+SQ S6 H3 S8
+SK H6 HT S3
+D2 DJ DA D5
+D3 DK D4 D7
+HJ H9 H8 S5
+C4 CJ CQ C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:KQ7.QJ7.Q9832.74 A6.K962.KJ.KJ865 4.AT843.AT64.QT9 JT98532.5.75.A32"]
+[Declarer "W"]
+[Contract "5CX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 300"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1NT 2D 4D
+4H X Pass 4S
+X 5C X Pass
+Pass Pass
+[Play "N"]
+S4 SJ SQ SA
+H4 ST SK S6
+DA D5 D3 DJ
+HA H5 HQ H2
+D4 D7 DQ DK
+C9 C2 C4 CK
+CT CA C7 C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "16"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K.Q985.AQJ6.AQT4 9765.AK43.T.J632 AJ3.JT7.K9843.K5 QT842.62.752.987"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+1C Pass 2D Pass
+3D Pass 3NT Pass
+4C Pass 4S Pass
+5D Pass Pass Pass
+[Play "S"]
+H6 H5 HK HT
+H2 H8 HA H7
+D2 H9 H4 HJ
+C7 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K.Q985.AQJ6.AQT4 9765.AK43.T.J632 AJ3.JT7.K9843.K5 QT842.62.752.987"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C 1D 1NT 2S
+Pass Pass 3D 3S
+4D 4H 4S Pass
+5C Pass 5D Pass
+Pass Pass
+[Play "S"]
+H2 H5 HK H7
+H6 H8 HA HT
+D7 H9 H3 HJ
+S2 SK S5 S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "17"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ96.A9765.K5.42 A53.QT83.AQ.K753 842.KJ2.9876.AQ9 JT7.4.JT432.JT86"]
+[Declarer "W"]
+[Contract "2DX"]
+[Result "8"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -180"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+1S X XX 2D
+Pass Pass X Pass
+Pass Pass
+[Play "N"]
+SK SA S4 S7
+D5 DA D6 D2
+DK DQ D7 D3
+C4 C3 CQ C6
+SQ S3 S2 ST
+S9 S5 S8 SJ
+H7 H3 D8 DJ
+H5 H8 D9 DT
+C2 CK CA C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ96.A9765.K5.42 A53.QT83.AQ.K753 842.KJ2.9876.AQ9 JT7.4.JT432.JT86"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 2H Pass
+Pass Pass
+[Play "E"]
+SA S2 S7 S6
+S5 S4 ST SK
+H3 H2 H4 HA
+H8 HK D2 H5
+S3 S8 SJ SQ
+HT HJ D3 S9
+DA D6 D4 DK
+HQ D7 C6 H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "18"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQJ8.85.65.AK873 A76.T7.QJ73.QT54 9543.Q932.AT.J96 T2.AKJ64.K9842.2"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "10"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 130"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1C Pass 1H Pass
+1S Pass 2S 2NT
+Pass 3C Pass 3D
+3S 4D Pass Pass
+Pass
+[Play "E"]
+CA C4 C6 C2
+SK S6 S3 S2
+SQ SA S4 ST
+D5 DQ DA D2
+H5 H7 H2 HA
+D6 D3 DT DK
+H8 HT H3 HK
+C7 D7 H9 H4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQJ8.85.65.AK873 A76.T7.QJ73.QT54 9543.Q932.AT.J96 T2.AKJ64.K9842.2"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S Pass 2S 3H
+3S Pass Pass Pass
+[Play "S"]
+HT HQ HK H5
+C4 C6 C2 CA
+S6 S3 S2 SJ
+SA S4 ST SQ
+H7 H2 HA H8
+DJ DA D8 D6
+S7 S5 H4 S8
+CQ C9 D2 C3
+DQ DT D4 D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "19"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T98632.A.A976.KJ AJ5.76542.842.94 K.QJ98.KQT53.T52 Q74.KT3.J.AQ8763"]
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+1S Pass 2D Pass
+2S Pass 2NT Pass
+3D Pass 3NT Pass
+4D Pass 5D Pass
+Pass Pass
+[Play "E"]
+CA CJ C9 C2
+S7 S2 SA SK
+C3 CK C4 C5
+HT HA H4 H9
+S4 S3 S5 D3
+HK D6 H5 HQ
+SQ S6 SJ D5
+DJ D7 D2 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T98632.A.A976.KJ AJ5.76542.842.94 K.QJ98.KQT53.T52 Q74.KT3.J.AQ8763"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 2D Pass
+2S Pass 3H Pass
+4D Pass Pass Pass
+[Play "E"]
+CA CJ C9 C2
+C3 CK C4 C5
+S4 S2 SA SK
+H3 HA H2 H8
+S7 S3 S5 D3
+DJ D6 D2 DK
+C6 DA D4 DT
+SQ S6 SJ DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "20"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQT83.K53.T4.J86 KJ942.Q2.K52.K92 76.A7.AQ73.QT743 5.JT9864.J986.A5"]
+[Declarer "W"]
+[Contract "3C"]
+[Result "11"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -150"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass 1S Pass 2H
+Pass Pass 2NT Pass
+3C Pass Pass Pass
+[Play "N"]
+HQ H7 H4 HK
+D5 DQ D6 D4
+D2 DA D8 DT
+DK D3 DJ C6
+H2 HA H6 H3
+CK D7 D9 CJ
+S2 S6 S5 S8
+S4 C3 H8 H5
+C2 CQ CA C8
+S9 C4 HJ S3
+C9 CT C5 ST
+SJ S7 H9 SA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQT83.K53.T4.J86 KJ942.Q2.K52.K92 76.A7.AQ73.QT743 5.JT9864.J986.A5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass Pass Pass
+[Play "W"]
+H3 HQ HA H4
+CJ CK C3 C5
+HK H2 H7 HJ
+C8 C2 C4 CA
+H5 S2 D3 HT
+S3 S4 D7 H6
+S8 C9 S6 H8
+ST D2 S7 H9
+SA S9 DQ S5
+DT - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "21"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJT32.A754.Q5.T7 65.KQ632.K8762.8 9874.T8.J4.Q9532 KQ.J9.AT93.AKJ64"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "N"]
+2S Pass 3S 3NT
+Pass Pass Pass
+[Play "N"]
+ST S5 S4 SQ
+D5 DK D4 DT
+DQ D2 DJ DA
+H5 D6 S7 D9
+H7 D7 H8 D3
+H4 D8 HT H9
+C7 C8 C5 CJ
+CT H2 C2 CA
+S2 H3 C3 CK
+HA - - HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJT32.A754.Q5.T7 65.KQ632.K8762.8 9874.T8.J4.Q9532 KQ.J9.AT93.AKJ64"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 3S 3NT
+Pass Pass Pass
+[Play "N"]
+CT C8 C3 CJ
+DQ D2 D4 DA
+D5 DK DJ DT
+HA H2 H8 HJ
+C7 H3 C5 CA
+SA S5 S4 SK
+SJ S6 S7 SQ
+- - - CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "22"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A6.K.AKT83.T7542 T542.QJ952.7.AQ9 Q983.T73.J954.83 KJ7.A864.Q62.KJ6"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "E"]
+1D 1H 3D 4H
+Pass Pass Pass
+[Play "W"]
+C3 C6 CT CA
+H3 H4 HK HJ
+C8 CK C7 C9
+H7 HA C2 H2
+HT H6 D8 HQ
+S3 SJ SA S2
+D4 D2 DA D7
+D5 D6 DK H5
+S8 SK S6 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A6.K.AKT83.T7542 T542.QJ952.7.AQ9 Q983.T73.J954.83 KJ7.A864.Q62.KJ6"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 1H Pass 4H
+Pass Pass Pass
+[Play "W"]
+D5 D2 DK D7
+D4 D6 DA H5
+C8 CK C2 C9
+D9 DQ D3 S2
+H3 HA HK H2
+H7 H4 D8 HQ
+HT H6 C4 HJ
+C3 C6 C5 CA
+DJ CJ C7 CQ
+S3 SJ SA S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "23"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT762.K63.Q6.Q92 53.Q85.AJ32.J754 KJ4.AJT7.K954.63 A98.942.T87.AKT8"]
+[Declarer "E"]
+[Contract "2CX"]
+[Result "7"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "S"]
+Pass Pass 1H Pass
+1S Pass Pass X
+XX 1NT X Pass
+Pass XX Pass 2C
+X Pass Pass Pass
+[Play "S"]
+H3 H5 HT H2
+ST S3 S4 S9
+S7 S5 SK SA
+SQ C4 SJ S8
+D6 DJ DK D8
+H6 H8 HA H4
+HK HQ H7 H9
+DQ DA D4 D7
+CQ C5 C3 CT
+C2 CJ C6 C8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT762.K63.Q6.Q92 53.Q85.AJ32.J754 KJ4.AJT7.K954.63 A98.942.T87.AKT8"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1C Pass
+1S Pass Pass Pass
+[Play "W"]
+H5 HJ H2 H3
+C4 C3 CK C2
+DA D4 D7 D6
+D2 D5 D8 DQ
+S3 SJ SA S6
+D3 DK DT CQ
+S5 SK S8 S2
+C5 S4 S9 SQ
+C7 C6 C8 ST
+H8 H7 H4 HK
+HQ HA H9 H6
+CJ HT CT C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "24"]
+[West "Soboloewska E"]
+[North "Fischer D"]
+[East "Brewiak G"]
+[South "Bamberger G"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q65.K632.9742.63 932.AQJ5.QJ.J982 874.874.53.AKT54 AKJT.T9.AKT86.Q7"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Austria"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "27"]
+[VisitTeam "Poland"]
+[Auction "W"]
+Pass Pass Pass 1C
+Pass 1H Pass 1S
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C5 C7 C3 C2
+D3 D6 D4 DQ
+D5 D8 D2 DJ
+S7 SA S5 S2
+H4 DA D7 S3
+H7 DK D9 H5
+H8 DT H2 S9
+S4 SK S6 C8
+C4 H9 H3 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Gyimesi H"]
+[North "Harasimovicz"]
+[East "Terraneo S"]
+[South "Hocheker D"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q65.K632.9742.63 932.AQJ5.QJ.J982 874.874.53.AKT54 AKJT.T9.AKT86.Q7"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1D
+Pass 1H Pass 1S
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C4 C7 C6 C2
+H4 H9 H3 H5
+H7 HT H2 HQ
+S4 SA S5 S2
+D3 D6 D4 DQ
+D5 - - DJ
+*
+

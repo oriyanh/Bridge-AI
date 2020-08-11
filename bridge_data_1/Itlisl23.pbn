@@ -1,0 +1,1770 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.27"]
+[Board "1"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:J8.Q62.AQ54.5432 4.K9875.98762.K8 A75.AJ43.J3.QJT9 KQT9632.T.KT.A76"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+Pass Pass 1C 4S
+Pass Pass Pass
+[Play "N"]
+C5 CK CQ C6
+C2 C8 C9 CA
+C3 S4 CT C7
+DA D2 D3 DK
+C4 H5 CJ S2
+S8 D6 SA SK
+DQ D7 DJ DT
+D5 D8 S7 S9
+SJ H7 S5 SQ
+D4 H8 H3 ST
+H2 HK HA HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:J8.Q62.AQ54.5432 4.K9875.98762.K8 A75.AJ43.J3.QJT9 KQT9632.T.KT.A76"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1C 4S
+Pass Pass Pass
+[Play "N"]
+C4 CK CQ C6
+C2 C8 CJ CA
+C3 S4 C9 C7
+DA D2 D3 DK
+DQ D6 DJ DT
+D5 D7 S7 S9
+S8 H5 SA SK
+H2 H7 HA HT
+C5 H8 CT ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "2"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK872.KQJT.K.Q94 QT95.85.AQJ2.AK7 4.A962.96.J86532 J63.743.T87543.T"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -170"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+1S 1NT Pass 2D
+2H Pass 3H Pass
+Pass Pass
+[Play "S"]
+H8 H2 H4 HK
+H5 H6 H3 HQ
+C7 CJ CT C9
+CK C2 D7 C4
+DA D6 D8 DK
+DQ D9 D3 HT
+D2 H9 H7 HJ
+CA C3 D4 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AK872.KQJT.K.Q94 QT95.85.AQJ2.AK7 4.A962.96.J86532 J63.743.T87543.T"]
+[Declarer "S"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1S 1NT Pass 2C
+Pass 2D Pass Pass
+Pass
+[Play "W"]
+S4 S3 SK S9
+C8 S6 SA ST
+D6 SJ S8 S5
+H2 H3 HT H8
+D9 H4 S7 SQ
+H6 H7 HJ H5
+H9 CT S2 DJ
+C2 D3 DK DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "3"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:5432.AK8.AJ.9872 Q98.J73.942.AK64 KJ6.Q652.KQT63.J AT7.T94.875.QT53"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+1C Pass 1D Pass
+1S Pass 2C Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+C4 CJ CQ C2
+C6 S6 CT C7
+CK H2 C5 C8
+CA H5 C3 C9
+HJ HQ HT H8
+D2 D3 D8 DA
+D4 DK D5 DJ
+D9 DQ D7 S2
+H7 DT S7 S3
+H3 D6 H9 S4
+- H6 H4 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:5432.AK8.AJ.9872 Q98.J73.942.AK64 KJ6.Q652.KQT63.J AT7.T94.875.QT53"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C Pass 1D Pass
+1S Pass 2NT Pass
+Pass Pass
+[Play "E"]
+C3 C2 CK CJ
+C5 C7 CA H2
+SA S2 S9 SK
+CQ C8 C4 H5
+CT C9 C6 H6
+ST S3 SQ S6
+H4 H8 H3 HQ
+D5 DA D4 D3
+H9 HA H7 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "4"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A853.7.43.KQJT75 KQ964.J85.AQ62.A J.AKQ632.T95.863 T72.T94.KJ87.942"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -230"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+1C 1S 2H Pass
+3C Pass 3H Pass
+Pass Pass
+[Play "S"]
+S2 SA S4 SJ
+C9 CK CA C8
+S7 S3 SQ H2
+H4 H7 H5 HA
+H9 S5 H8 HK
+HT S8 HJ HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:A853.7.43.KQJT75 KQ964.J85.AQ62.A J.AKQ632.T95.863 T72.T94.KJ87.942"]
+[Declarer "W"]
+[Contract "3C"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S 2H Pass
+3C Pass Pass Pass
+[Play "N"]
+SK SJ S2 SA
+S4 C3 S7 S3
+H5 HA H4 H7
+H8 HK H9 D3
+HJ HQ HT D4
+D2 D5 DK C5
+S6 C8 ST S5
+D6 D9 D7 C7
+S9 C6 C9 S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "5"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ8.64.A94.JT532 J75.AK852.Q.A974 T432.Q973.JT2.K8 K96.JT.K87653.Q6"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+Pass 1H Pass 1NT
+Pass 2C Pass 2H
+Pass Pass Pass
+[Play "S"]
+S2 S6 SQ S7
+HQ HT H4 H2
+H3 HJ H6 H5
+D2 D3 DA DQ
+CK C6 C5 C4
+C8 CQ C3 C7
+DJ DK D9 C9
+S3 SK SA S5
+H7 D5 CJ CA
+DT D6 D4 H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ8.64.A94.JT532 J75.AK852.Q.A974 T432.Q973.JT2.K8 K96.JT.K87653.Q6"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1H Pass 1NT
+Pass 2C Pass 2D
+Pass 2H Pass Pass
+Pass
+[Play "S"]
+S4 S6 SQ S7
+HQ HT H6 H2
+H3 HJ H4 H5
+D2 D3 D4 DQ
+H7 D5 C2 HA
+H9 D6 C3 HK
+CK C6 C5 C4
+DJ D7 D9 C7
+S2 SK SA S5
+DT D8 DA H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "6"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ976.98.AKQ.643 T852.AJ.J9843.75 .K5432.T765.Q982 KJ43.QT76.2.AKJT"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 200"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass Pass Pass
+[Play "S"]
+D4 D5 D2 DK
+HA H2 H6 H9
+D8 D6 H7 DA
+C5 C2 CK C3
+C7 C8 CA C4
+HJ C9 CT C6
+D9 D7 HT DQ
+D3 CQ CJ S6
+- DT HQ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:AQ976.98.AKQ.643 T852.AJ.J9843.75 .K5432.T765.Q982 KJ43.QT76.2.AKJT"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass Pass Pass
+[Play "S"]
+D4 D5 D2 DA
+HA H2 H6 H9
+C7 C8 CT C4
+C5 C2 CA C3
+S2 C9 CK C6
+HJ CQ CJ H8
+D3 D6 H7 DK
+S5 D7 S3 SA
+S8 H3 S4 S6
+D8 HK HT S7
+D9 DT SJ DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "7"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT3.J3.KQ654.KT9 A74.AT8642.AJ7.5 Q652.97.9.QJ8764 J98.KQ5.T832.A32"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -650"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+1D 1H Pass 2H
+Pass 2S Pass 2NT
+Pass 3C Pass 4H
+Pass Pass Pass
+[Play "N"]
+D9 DT DQ DA
+H7 HK H3 H2
+H9 HQ HJ H4
+C8 D2 DK DJ
+SQ S8 S3 S4
+S6 S9 ST SA
+C4 D3 D4 D7
+- - - C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:KT3.J3.KQ654.KT9 A74.AT8642.AJ7.5 Q652.97.9.QJ8764 J98.KQ5.T832.A32"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D 1H Pass 2H
+Pass 3D Pass 4H
+Pass Pass Pass
+[Play "N"]
+D9 D2 DQ DA
+H9 HK H3 H2
+H7 HQ HJ H4
+C4 D3 DK DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "8"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQT72.QJ.JT2.K74 4.AK64.A87.JT832 A65.T8753.Q43.96 J983.92.K965.AQ5"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+1S X 2C X
+2S Pass Pass 3D
+Pass 3H Pass Pass
+Pass
+[Play "E"]
+SA S3 S7 S4
+S6 S8 ST H4
+C6 CQ CK C8
+S5 S9 SQ H6
+D3 D5 D2 DA
+D4 DK DT D7
+C9 CA C4 C2
+H3 C5 C7 CJ
+H5 H2 HJ HA
+HT SJ DJ CT
+H7 H9 HQ HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQT72.QJ.JT2.K74 4.AK64.A87.JT832 A65.T8753.Q43.96 J983.92.K965.AQ5"]
+[Declarer "N"]
+[Contract "4HX"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -500"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1S X 2S X
+Pass 4H X Pass
+Pass Pass
+[Play "E"]
+SA S3 S2 S4
+S6 S8 ST D7
+S5 S9 SQ H4
+C6 CQ CK C2
+H7 SJ SK H6
+C9 CA C4 C3
+H3 H2 HJ HA
+H5 H9 HQ HK
+H8 C5 C7 CJ
+HT D5 S7 C8
+DQ D6 D2 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "9"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AK8.AKQ8.Q76.KT4 5.64.AJ9852.8762 J32.T9752.4.J953 QT9764.J3.KT3.AQ"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 170"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+2C Pass 2D Pass
+2NT Pass 3D Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "E"]
+S5 SJ SQ SA
+H4 H2 H3 HA
+H6 H5 HJ HQ
+D8 D4 DT D7
+D5 S2 S9 SK
+D2 H7 D3 D6
+C2 C3 CA C4
+D9 S3 ST S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AK8.AKQ8.Q76.KT4 5.64.AJ9852.8762 J32.T9752.4.J953 QT9764.J3.KT3.AQ"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2NT Pass 3D Pass
+3NT Pass 4D Pass
+4H Pass Pass Pass
+[Play "E"]
+S5 SJ SQ SK
+H4 H2 H3 HA
+H6 H5 HJ HK
+D5 S2 S4 SA
+DA D4 D3 DQ
+D2 H7 DT D6
+C2 CJ CA C4
+D8 S3 ST S8
+C6 C3 CQ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "10"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q3.T9.QJ973.QT95 J96.K754.T2.K842 KT8542.AJ3.854.A A7.Q862.AK6.J763"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+Pass Pass 1S X
+Pass 2H Pass Pass
+Pass
+[Play "W"]
+S2 S7 SQ S9
+D5 DA DQ D2
+D4 DK D3 DT
+D8 D6 D7 H4
+H3 HQ H9 H5
+CA C3 C5 C2
+S4 SA S3 S6
+HJ H2 HT H7
+HA H6 D9 HK
+SK H8 C9 SJ
+S5 C6 CT CK
+- - - C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:Q3.T9.QJ973.QT95 J96.K754.T2.K842 KT8542.AJ3.854.A A7.Q862.AK6.J763"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1S X
+Pass 2H Pass Pass
+Pass
+[Play "W"]
+D8 DA D9 D2
+D5 DK D7 DT
+D4 D6 D3 H4
+H3 HQ H9 H5
+S2 SA S3 S6
+CA C3 C9 C8
+SK S7 SQ S9
+S4 C6 HT SJ
+S5 C7 C5 C2
+HJ CJ CQ CK
+HA H2 DJ H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "11"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT953.J6.AJ2.T84 A8.8.QT3.AKQ7652 KJ62.A7542.K85.9 74.KQT93.9764.J3"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+Pass 1C X 1H
+X 3NT Pass Pass
+4S Pass Pass X
+Pass Pass Pass
+[Play "W"]
+CA C9 CJ C4
+SA S2 S4 S3
+S8 S6 S7 S9
+H8 HA H3 H6
+C2 H2 HQ HJ
+C5 H4 HT S5
+C6 SJ C3 C8
+C7 H5 H9 ST
+CQ SK D4 CT
+D3 DK D6 D2
+DQ D5 D7 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT953.J6.AJ2.T84 A8.8.QT3.AKQ7652 KJ62.A7542.K85.9 74.KQT93.9764.J3"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C X 1H
+1S 3C 3S Pass
+Pass Pass
+[Play "W"]
+CA C9 C3 C4
+H8 HA H3 H6
+C2 H2 HQ HJ
+C5 H4 HK S9
+C6 S2 CJ C8
+SA SK S4 S3
+S8 S6 S7 SQ
+CQ SJ D4 CT
+C7 H5 H9 S5
+D3 DK D6 D2
+DQ D5 D7 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "12"]
+[West "Levit Porat R"]
+[North "Olivieri G"]
+[East "Migri Zur A"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKJ2.J84.2.J7432 Q7653.72.J76.AT8 84.AQT96.Q9.KQ96 T9.K53.AKT8543.5"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -140"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+Pass Pass 1H 2D
+X 3D Pass Pass
+3H Pass Pass Pass
+[Play "S"]
+C5 C2 CA C9
+H3 C3 CT CK
+DK D2 D7 D9
+ST SA S3 S4
+H5 H4 H2 HA
+DA HJ D6 DQ
+HK H8 H7 H9
+S9 SK - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Rovera L"]
+[North "Barber A"]
+[East "Gianardi C"]
+[South "Barnes I"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKJ2.J84.2.J7432 Q7653.72.J76.AT8 84.AQT96.Q9.KQ96 T9.K53.AKT8543.5"]
+[Declarer "S"]
+[Contract "4D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1H 2D
+X 3D Pass Pass
+3H Pass Pass 4D
+Pass Pass Pass
+[Play "W"]
+SA S3 S4 S9
+H8 H2 HA H3
+SK S5 S8 ST
+C7 CA C6 C5
+D2 D6 D9 DA
+- - - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "13"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K853.A3.AJ.KT984 QT2.J86.T7632.A6 AJ97.K942.K.QJ75 64.QT75.Q9854.32"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 680"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+1NT Pass 2C Pass
+2S Pass 4D Pass
+4H Pass 4S Pass
+Pass Pass
+[Play "E"]
+CA C5 C3 C9
+C6 CQ C2 C8
+S2 S7 S4 SK
+ST SJ S6 S3
+SQ SA D5 S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K853.A3.AJ.KT984 QT2.J86.T7632.A6 AJ97.K942.K.QJ75 64.QT75.Q9854.32"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 1H Pass
+1S Pass 2D Pass
+3C Pass 4S Pass
+Pass Pass
+[Play "E"]
+D7 DK D5 DJ
+S2 SA S6 S3
+ST S7 S4 S5
+H8 H2 H5 HA
+SQ S9 D9 SK
+C6 CQ C2 C4
+CA CJ C3 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "14"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9863.KJ65.7.AT93 T72.T8.KJ98.K654 AK5.Q432.T5.Q872 QJ4.A97.AQ6432.J"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+Pass Pass 1C 1D
+X 2D Pass 3D
+X Pass 3H Pass
+Pass Pass
+[Play "N"]
+CJ CA C4 C7
+S4 S3 S2 SA
+H7 HJ H8 H2
+HA H5 HT HQ
+D2 D7 DK D5
+D6 C3 CK C8
+H9 C9 C5 CQ
+SQ S6 S7 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:9863.KJ65.7.AT93 T72.T8.KJ98.K654 AK5.Q432.T5.Q872 QJ4.A97.AQ6432.J"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1C 1D
+X 2D Pass 3D
+Pass Pass Pass
+[Play "E"]
+H5 H8 HQ HA
+D7 DK D5 D2
+- D8 DT DA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "15"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:KQ7.QJ7.Q9832.74 A6.K962.KJ.KJ865 4.AT843.AT64.QT9 JT98532.5.75.A32"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+Pass 1C 1H 1S
+2C X 2D 2S
+3H Pass Pass Pass
+[Play "E"]
+S2 SK SA S4
+CA C4 C6 C9
+SJ SQ S6 CT
+H5 HQ H2 H4
+S5 H7 H9 HT
+D7 D2 DJ DA
+D5 D3 DK D4
+C2 C7 CK CQ
+C3 HJ C5 D6
+S3 DQ H6 DT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:KQ7.QJ7.Q9832.74 A6.K962.KJ.KJ865 4.AT843.AT64.QT9 JT98532.5.75.A32"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1NT Pass 4D
+Pass 4S Pass Pass
+Pass
+[Play "N"]
+CT C2 C4 CJ
+S4 S2 S7 SA
+C9 SJ SQ S6
+CQ S3 SK H6
+HA H5 HQ HK
+DA D5 D2 DJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "16"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K.Q985.AQJ6.AQT4 9765.AK43.T.J632 AJ3.JT7.K9843.K5 QT842.62.752.987"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+1C 1H 2D Pass
+2H Pass 3H X
+4D Pass 5D Pass
+Pass Pass
+[Play "S"]
+H6 H5 HK HJ
+H2 H8 HA H7
+D2 H9 H4 HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K.Q985.AQJ6.AQT4 9765.AK43.T.J632 AJ3.JT7.K9843.K5 QT842.62.752.987"]
+[Declarer "E"]
+[Contract "6D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1D Pass
+3S Pass 4D Pass
+5C Pass 5S Pass
+6D Pass Pass Pass
+[Play "S"]
+H6 H5 HK HJ
+H2 H8 HA H7
+D2 H9 H3 HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "17"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ96.A9765.K5.42 A53.QT83.AQ.K753 842.KJ2.9876.AQ9 JT7.4.JT432.JT86"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 140"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+1H 1NT X 2D
+Pass Pass 3H Pass
+Pass Pass
+[Play "E"]
+H3 H2 H4 H5
+C3 CQ C8 C2
+SA S2 S7 SK
+H8 HJ D2 H6
+HT HK D3 H7
+S5 S4 SJ SQ
+HQ D6 D4 HA
+S3 S8 ST S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ96.A9765.K5.42 A53.QT83.AQ.K753 842.KJ2.9876.AQ9 JT7.4.JT432.JT86"]
+[Declarer "W"]
+[Contract "2DX"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H 1NT X XX
+Pass 2C X 2D
+Pass Pass X Pass
+Pass Pass
+[Play "N"]
+SK SA S8 S7
+D5 DA D8 D2
+DK DQ D7 D3
+H5 HT HJ H4
+SQ S3 S4 SJ
+C2 C3 CQ C6
+H6 H3 HK D4
+H9 C5 D6 DT
+C4 S5 D9 DJ
+H7 C7 CA C8
+HA H8 H2 CT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "18"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQJ8.85.65.AK873 A76.T7.QJ73.QT54 9543.Q932.AT.J96 T2.AKJ64.K9842.2"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+1C Pass 1H Pass
+1S Pass 2S Pass
+Pass Pass
+[Play "S"]
+DQ DT DK D6
+S6 S3 S2 SK
+SA S4 ST SJ
+S7 S9 H4 S8
+C5 C9 C2 CA
+C4 C6 D2 CK
+CQ CJ D8 C3
+D3 DA D4 D5
+H7 H2 HJ H5
+HT H3 HA H8
+D7 S5 D9 C7
+DJ H9 H6 SQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:KQJ8.85.65.AK873 A76.T7.QJ73.QT54 9543.Q932.AT.J96 T2.AKJ64.K9842.2"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1H Pass
+1S Pass 2S Pass
+3C Pass 3S Pass
+Pass Pass
+[Play "S"]
+DQ DA D2 D5
+SA S3 S2 SK
+D3 DT DK D6
+HT H2 HK H5
+H7 H3 HA H8
+S6 H9 H6 C7
+S7 S4 ST SQ
+C4 C6 C2 CA
+C5 S9 H4 S8
+- HQ HJ C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "19"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T98632.A.A976.KJ AJ5.76542.842.94 K.QJ98.KQT53.T52 Q74.KT3.J.AQ8763"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 400"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+1S Pass 1NT 2C
+Pass Pass X Pass
+2D Pass 3C Pass
+3S Pass 4D Pass
+5D Pass Pass Pass
+[Play "W"]
+C9 C2 CA CJ
+C4 C5 C6 CK
+D2 DK DJ D6
+SA SK S4 S2
+D4 D3 C3 D7
+S5 D5 S7 S3
+H2 H8 HT HA
+SJ DT SQ S6
+- DQ - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T98632.A.A976.KJ AJ5.76542.842.94 K.QJ98.KQT53.T52 Q74.KT3.J.AQ8763"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 2D Pass
+3D Pass 3NT Pass
+Pass Pass
+[Play "E"]
+C3 CJ C4 C2
+DJ D6 D4 DK
+HT DA D8 D3
+H3 HA H7 H8
+S4 D7 D2 DT
+HK S2 H2 HJ
+CA CK C9 C5
+CQ S3 S5 CT
+C8 S6 H4 H9
+C6 D9 H5 D5
+C7 S8 H6 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "20"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQT83.K53.T4.J86 KJ942.Q2.K52.K92 76.A7.AQ73.QT743 5.JT9864.J986.A5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "4"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -300"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass Pass Pass
+[Play "W"]
+C6 C2 CQ C5
+C8 C9 C4 CA
+SA S2 S6 S5
+CJ CK C3 H4
+H3 HQ HA H6
+D4 S4 CT H8
+S3 D2 C7 D6
+HK H2 H7 HJ
+DT DK DA D8
+H5 D5 DQ D9
+S8 S9 S7 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:AQT83.K53.T4.J86 KJ942.Q2.K52.K92 76.A7.AQ73.QT743 5.JT9864.J986.A5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1S Pass 1NT
+Pass Pass Pass
+[Play "W"]
+H3 HQ HA H4
+HK H2 H7 HJ
+DT D2 D3 DJ
+H5 S2 C4 HT
+S3 S4 C3 H9
+S8 S9 S6 H8
+ST SJ S7 H6
+C6 C2 C7 CA
+C8 CK CT C5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "21"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJT32.A754.Q5.T7 65.KQ632.K8762.8 9874.T8.J4.Q9532 KQ.J9.AT93.AKJ64"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -400"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "N"]
+Pass Pass Pass 1C
+1S 2H Pass 3NT
+Pass Pass Pass
+[Play "N"]
+SJ S5 S4 SQ
+D5 DK D4 D9
+DQ D2 DJ DA
+H7 D6 S7 DT
+C7 D7 H8 D3
+H4 D8 HT C4
+CT C8 C5 CJ
+H5 S6 C2 CA
+S2 H2 C3 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJT32.A754.Q5.T7 65.KQ632.K8762.8 9874.T8.J4.Q9532 KQ.J9.AT93.AKJ64"]
+[Declarer "E"]
+[Contract "5D"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -400"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 3S Pass
+Pass X Pass 3NT
+Pass 4D Pass 5D
+Pass Pass Pass
+[Play "S"]
+HT HJ HA H3
+S4 SQ SA S6
+H8 H9 H4 H2
+D4 D3 D5 DK
+DJ DA DQ D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "22"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A6.K.AKT83.T7542 T542.QJ952.7.AQ9 Q983.T73.J954.83 KJ7.A864.Q62.KJ6"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 420"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "E"]
+1D 1H Pass 2NT
+Pass 3C Pass 4H
+Pass Pass Pass
+[Play "W"]
+D4 D2 DT D7
+D9 D6 DK H2
+S3 SJ SA S2
+D5 DQ DA H5
+H3 HA HK H9
+H7 H4 C2 HJ
+HT H6 D3 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:A6.K.AKT83.T7542 T542.QJ952.7.AQ9 Q983.T73.J954.83 KJ7.A864.Q62.KJ6"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1D 1H Pass 2D
+Pass 2H Pass Pass
+Pass
+[Play "W"]
+D4 D2 DK D7
+D5 D6 DA H2
+H3 H4 HK HQ
+C3 C6 C7 C9
+H7 HA D3 H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "23"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT762.K63.Q6.Q92 53.Q85.AJ32.J754 KJ4.AJT7.K954.63 A98.942.T87.AKT8"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "9"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 140"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "S"]
+Pass Pass 1D Pass
+1S Pass Pass Pass
+[Play "W"]
+S5 S4 S8 ST
+S3 SJ S9 S2
+HQ HT H2 H3
+D2 D4 D7 DQ
+H5 H7 H4 HK
+H8 HA H9 H6
+C4 HJ D8 D6
+C5 C3 CK C2
+D3 SK SA S6
+C7 C6 C8 CQ
+CJ D5 CT C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:QT762.K63.Q6.Q92 53.Q85.AJ32.J754 KJ4.AJT7.K954.63 A98.942.T87.AKT8"]
+[Declarer "S"]
+[Contract "1S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D Pass
+1S Pass Pass Pass
+[Play "W"]
+C4 C3 CK C2
+S3 SJ S9 S2
+C5 C6 CA C9
+S5 S4 SA S6
+C7 SK S8 S7
+H5 H7 H2 HK
+H8 HT H4 H6
+DA D4 D8 DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.27"]
+[Board "24"]
+[West "Barber A"]
+[North "Olivieri G"]
+[East "Barnes I"]
+[South "Golin C"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q65.K632.9742.63 932.AQJ5.QJ.J982 874.874.53.AKT54 AKJT.T9.AKT86.Q7"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "Italy"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 460"]
+[Section "Ladies"]
+[Table "25"]
+[VisitTeam "Israel"]
+[Auction "W"]
+Pass Pass Pass 1D
+Pass 1H Pass 1S
+Pass 2C X 2S
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C5 C7 C3 C2
+H4 HT H3 H5
+H7 H9 H2 HJ
+D3 D6 D2 DQ
+D5 D8 D4 DJ
+H8 ST H6 HA
+S4 SA S5 S2
+C4 DA D7 S3
+CT DK D9 S9
+- DT C6 HQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Gianardi C"]
+[North "Migri Zur A"]
+[East "Rovera L"]
+[South "Levit Porat R"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q65.K632.9742.63 932.AQJ5.QJ.J982 874.874.53.AKT54 AKJT.T9.AKT86.Q7"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 460"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1D
+Pass 1H Pass 1S
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "E"]
+C4 C7 C3 C2
+D3 D6 D2 DQ
+D5 D8 D4 DJ
+S8 SA S5 S2
+H4 HT H2 H5
+S4 DA D7 S3
+H8 DK D9 S9
+S7 DT C6 C8
+H7 SK S6 C9
+C5 H9 H3 HQ
+*
+

@@ -1,0 +1,1737 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.24"]
+[Board "1"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:9752.T3.A42.J973 AKT.AJ92.K863.A8 QJ63.854.JT7.T42 84.KQ76.Q95.KQ65"]
+[Declarer "E"]
+[Contract "6H"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+Pass 2NT Pass 3C
+Pass 3H Pass 3S
+Pass 3NT Pass 4C
+Pass 4D Pass 4H
+Pass 4S Pass 5C
+Pass 5D Pass 6C
+Pass 6H Pass Pass
+Pass
+[Play "S"]
+H4 H6 HT HJ
+DJ DQ DA D6
+S3 S4 S5 SA
+H5 HK H3 H2
+H8 HQ S2 HA
+S6 S8 S7 SK
+SJ H7 S9 ST
+C2 C5 C3 CA
+C4 D9 D2 H9
+CT CK C7 C8
+SQ CQ C9 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:9752.T3.A42.J973 AKT.AJ92.K863.A8 QJ63.854.JT7.T42 84.KQ76.Q95.KQ65"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1C Pass 1H
+Pass 2D Pass 2S
+Pass 3H Pass 4C
+Pass 4D Pass 4H
+Pass 4NT Pass 5D
+Pass 6H Pass Pass
+Pass
+[Play "N"]
+S7 SA S3 S4
+H3 H2 H4 HK
+HT HJ H5 H6
+S2 SK S6 S8
+S5 ST SQ HQ
+S9 HA H8 H7
+DA D3 DJ DQ
+D2 DK D7 D5
+- H9 SJ D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "2"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:JT74.653.9654.83 K652.KJT.J32.Q76 A83.A72.AT87.A95 Q9.Q984.KQ.KJT42"]
+[Declarer "W"]
+[Contract "2D"]
+[Result "6"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+Pass Pass 1D Pass
+1S Pass 1NT Pass
+2D Pass Pass Pass
+[Play "N"]
+DK D4 D2 D7
+DQ D5 D3 DA
+SQ S4 S2 S3
+C2 C3 CQ CA
+S9 S7 S5 SA
+CT ST SK S8
+H4 D6 DJ D8
+H9 H3 HJ H7
+H8 H5 HT HA
+CJ C8 C6 C9
+HQ H6 HK H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:JT74.653.9654.83 K652.KJT.J32.Q76 A83.A72.AT87.A95 Q9.Q984.KQ.KJT42"]
+[Declarer "W"]
+[Contract "2D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1NT Pass
+2C Pass 2D Pass
+Pass Pass
+[Play "N"]
+H8 H3 HT HA
+H9 H5 HJ H7
+H4 H6 HK H2
+C2 C3 C6 CA
+C4 C8 CQ C5
+CT D4 C7 C9
+DK D9 D3 DA
+DQ D5 D2 D8
+S9 SJ SK SA
+SQ S4 S2 S3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "3"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J97.AKT2.K7.J852 K3.98643.8642.KT QT842.QJ7.QT3.Q6 A65.5.AJ95.A9743"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+1C Pass 1S Pass
+1NT Pass Pass Pass
+[Play "W"]
+H9 H7 H5 HK
+SK S2 S6 S9
+D8 DT DJ DK
+S3 S4 S5 S7
+H3 S8 SA SJ
+CK C6 C7 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:J97.AKT2.K7.J852 K3.98643.8642.KT QT842.QJ7.QT3.Q6 A65.5.AJ95.A9743"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1C Pass 1S Pass
+1NT Pass Pass Pass
+[Play "W"]
+H3 H7 H5 HK
+SK S2 S6 S9
+D4 D3 D9 DK
+S3 S4 SA SJ
+CK C6 C7 C2
+D2 DT DJ D7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "4"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K76.Q8.AK53.AK96 Q2.AKJ9642.8.J53 AT5..Q9642.Q8742 J9843.T753.JT7.T"]
+[Declarer "W"]
+[Contract "6D"]
+[Result "13"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -1390"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+1D 3H X 4H
+X Pass 5D Pass
+6D Pass Pass Pass
+[Play "N"]
+HK D2 H3 H8
+D8 D4 D7 DA
+H2 - - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:K76.Q8.AK53.AK96 Q2.AKJ9642.8.J53 AT5..Q9642.Q8742 J9843.T753.JT7.T"]
+[Declarer "W"]
+[Contract "6C"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -1390"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C 4H 4NT 5H
+5NT Pass 6C Pass
+Pass Pass
+[Play "N"]
+HA - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "5"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.KJ742.A62.A976 64.Q9.QT8754.T82 AK87532.6.3.KQ54 QJ9.AT853.KJ9.J3"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 680"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+1H 3D 4S Pass
+Pass Pass
+[Play "W"]
+DK DA D4 D3
+S9 ST S4 SA
+SJ H2 S6 SK
+SQ D2 D8 S7
+DJ D6 D5 S2
+H3 HK H9 H6
+H5 H4 HQ S3
+H8 H7 D7 S8
+D9 C6 DT S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T.KJ742.A62.A976 64.Q9.QT8754.T82 AK87532.6.3.KQ54 QJ9.AT853.KJ9.J3"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 680"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 1S Pass
+1NT Pass 2C Pass
+2D Pass 3S Pass
+3NT Pass 4S Pass
+Pass Pass
+[Play "W"]
+D9 DA D4 D3
+S9 ST S4 SA
+SJ D2 S6 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "6"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:765.9.A87643.K84 KQJ32.AQ5.QJ92.A AT8.J43.KT5.T632 94.KT8762..QJ975"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 450"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+Pass 1S Pass 1NT
+2D Pass Pass 2H
+Pass 4H Pass Pass
+Pass
+[Play "E"]
+DA D2 D5 H2
+S6 SK SA S4
+C4 CA C6 C5
+H9 HA H3 H6
+D3 H5 H4 HK
+D4 HQ HJ H7
+S5 SQ S8 S9
+S7 SJ ST C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:765.9.A87643.K84 KQJ32.AQ5.QJ92.A AT8.J43.KT5.T632 94.KT8762..QJ975"]
+[Declarer "N"]
+[Contract "6H"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 980"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2C Pass 3D 3H
+Pass 4D Pass 4H
+Pass 4S Pass 5NT
+Pass 6H Pass Pass
+Pass
+[Play "E"]
+C4 CA C2 C5
+S5 SK S8 S4
+H9 HA H3 H2
+S6 SQ SA S9
+CK H5 C6 C9
+D3 HQ H4 H6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "7"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:A932.AQ.AJT73.J9 874.KT632.Q942.5 Q5.J4.K86.Q86432 KJT6.9875.5.AKT7"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+1NT Pass 2NT Pass
+3C Pass Pass Pass
+[Play "W"]
+S8 SQ SK SA
+C5 C2 CK CJ
+S4 S5 SJ S2
+HK H4 H5 HQ
+H2 HJ H9 HA
+H3 C3 CT C9
+DQ DK D5 DT
+H6 CQ CA D3
+- - C7 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:A932.AQ.AJT73.J9 874.KT632.Q942.5 Q5.J4.K86.Q86432 KJT6.9875.5.AKT7"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1NT Pass 2S X
+3C Pass Pass Pass
+[Play "W"]
+S4 S5 ST SA
+C5 C2 CK CJ
+S7 SQ SK S2
+HK H4 H9 HQ
+HT HJ H5 HA
+H2 C3 CT C9
+H3 C4 H8 D3
+D2 CQ CA D7
+H6 C6 H7 S3
+S8 C8 C7 S9
+- D6 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "8"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT863.953.72.Q92 Q752.KQ.AQ4.AT63 K94.J74.JT85.KJ5 J.AT862.K963.874"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 400"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+2D 2NT Pass 3D
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Play "E"]
+S4 SJ SA S5
+S9 C4 S3 S7
+CK C7 C2 C3
+CJ C8 C9 CA
+H4 H2 H3 HK
+H7 H6 H5 HQ
+D5 D3 D2 DA
+D8 D6 D7 DQ
+DT DK CQ D4
+HJ HA H9 S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AT863.953.72.Q92 Q752.KQ.AQ4.AT63 K94.J74.JT85.KJ5 J.AT862.K963.874"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT Pass 2D
+Pass 2H Pass Pass
+2S Pass Pass 3D
+Pass Pass Pass
+[Play "W"]
+C2 CA C5 C8
+H3 HQ H4 H2
+H5 HK H7 H6
+D2 DA D5 D3
+D7 DQ D8 D6
+S6 D4 DT DK
+^R S3 C3 HJ HA
+- - - HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "9"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8.A984.764.J93 J94.QJ753.A.K865 T652.K62.KQ98.Q2 K73.T.JT532.AT74"]
+[Declarer "N"]
+[Contract "1H"]
+[Result "6"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+Pass Pass 1D Pass
+1H Pass Pass Pass
+[Play "E"]
+H3 H2 HT HA
+DA D8 D5 D6
+S9 S2 SK SA
+H7 HK D3 H4
+C5 DK DT D7
+CK C2 C4 C9
+HJ H6 S3 H8
+HQ S5 C7 H9
+C6 CQ CA C3
+S4 S6 S7 SQ
+C8 ST CT CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ8.A984.764.J93 J94.QJ753.A.K865 T652.K62.KQ98.Q2 K73.T.JT532.AT74"]
+[Declarer "N"]
+[Contract "2NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 120"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C 1H X Pass
+1NT Pass 2NT Pass
+Pass Pass
+[Play "E"]
+SJ S2 S7 SQ
+DA D8 D3 D7
+C6 C2 CT CJ
+H5 DK D2 D4
+S4 ST SK SA
+S9 S5 S3 S8
+C5 CQ CA C3
+CK - C4 C9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "10"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J65.643.KQ93.K62 8.KQT8.JT654.AJ4 AKQ732.A97.2.T98 T94.J52.A87.Q753"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 200"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+Pass 1D 1S Pass
+2S Pass 3C Pass
+3NT Pass Pass Pass
+[Play "S"]
+HQ H7 H5 H4
+HK H9 H2 H6
+H8 HA HJ H3
+S8 S2 ST SJ
+D4 SA S4 S6
+D5 SK S9 S5
+D6 SQ D7 D3
+C4 S3 C3 C6
+DT S7 C5 D9
+CJ CT C7 C2
+CA C8 CQ CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J65.643.KQ93.K62 8.KQT8.JT654.AJ4 AKQ732.A97.2.T98 T94.J52.A87.Q753"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D 1S Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+D4 D2 DA D3
+DT - D7 DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "11"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:92.J52.AJ43.AT84 K8763.86.K5.KQJ3 AJT5.AT94.62.752 Q4.KQ73.QT987.96"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+Pass 1S Pass 1NT
+Pass 2C Pass 2D
+Pass 2H Pass 2S
+Pass Pass Pass
+[Play "N"]
+C2 C6 CA C3
+S5 SQ S9 S3
+ST S4 S2 S8
+H4 HK H2 H8
+C5 C9 C4 CJ
+SJ D7 D3 S6
+SA D8 H5 S7
+D6 D9 DA D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:92.J52.AJ43.AT84 K8763.86.K5.KQJ3 AJT5.AT94.62.752 Q4.KQ73.QT987.96"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1S Pass 1NT
+Pass 2C Pass 2S
+Pass Pass Pass
+[Play "N"]
+D2 D7 DJ DK
+S5 SQ S2 S3
+D6 DQ DA D5
+C7 C6 C4 CQ
+ST S4 S9 S6
+C2 C9 CA C3
+C5 H3 C8 CK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "12"]
+[West "Gulyas D"]
+[North "Jansen P"]
+[East "Szalay G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKQJT98.A75.92.T 65.T94.53.KJ8532 732.Q3.AQT84.A64 4.KJ862.KJ76.Q97"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+1S Pass 2D Pass
+3S Pass 4NT Pass
+5C Pass 5D Pass
+5S Pass 6S Pass
+Pass Pass
+[Play "N"]
+C3 CA C7 CT
+S5 S2 S4 SA
+S6 S3 H6 SK
+D3 D4 DJ D9
+C2 C4 C9 S8
+D5 DQ DK D2
+C5 C6 CQ S9
+H4 HQ HK H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Jansma J"]
+[North "Winkler G"]
+[East "Van Cleeff J"]
+[South "Gal P"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:AKQJT98.A75.92.T 65.T94.53.KJ8532 732.Q3.AQT84.A64 4.KJ862.KJ76.Q97"]
+[Declarer "E"]
+[Contract "6S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+4D Pass 4H X
+XX Pass 4NT Pass
+5C Pass 6S Pass
+Pass Pass
+[Play "S"]
+S4 S8 S5 S2
+H2 SA S6 S3
+DJ D9 D3 D4
+CQ CT C3 CA
+C7 ST C2 C4
+H6 SJ C5 S7
+C9 SQ C8 D8
+D6 SK CK H3
+H8 S9 D5 C6
+HJ HA H4 HQ
+- D2 CJ -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "13"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:KJT63.J83.J9.J97 Q982.A952.T86.K5 54.QT64.A5432.AQ A7.K7.KQ7.T86432"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 90"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+Pass Pass 1D Pass
+1S Pass 1NT Pass
+Pass Pass
+[Play "W"]
+C6 C9 CK CA
+S7 SJ S2 S4
+HK H3 H2 HQ
+C2 C7 C5 CQ
+SA S3 S8 S5
+C3 CJ D8 D2
+D7 SK S9 D3
+H7 HJ HA H4
+C4 S6 SQ D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:KJT63.J83.J9.J97 Q982.A952.T86.K5 54.QT64.A5432.AQ A7.K7.KQ7.T86432"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass Pass 1D Pass
+1S Pass 1NT Pass
+Pass Pass
+[Play "W"]
+C3 C7 CK CA
+S7 SJ SQ S5
+C2 C9 C5 CQ
+SA S3 S2 S4
+DK D9 D6 D2
+DQ DJ D8 DA
+H7 HJ HA H4
+D7 S6 DT D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "14"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q96.42.KQ53.T752 8.AJ953.A96.QJ83 JT3.KQ87.T2.AK94 AK7542.T6.J874.6"]
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+Pass 1H Pass 1S
+Pass 2C Pass 3S
+Pass Pass Pass
+[Play "E"]
+D3 D6 DT DJ
+S6 S8 S3 SA
+S9 H3 ST SK
+SQ H5 SJ S2
+DK DA D2 D4
+- D9 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q96.42.KQ53.T752 8.AJ953.A96.QJ83 JT3.KQ87.T2.AK94 AK7542.T6.J874.6"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1H Pass 1S
+Pass 2C Pass 2S
+Pass Pass Pass
+[Play "E"]
+DK DA D2 D4
+S6 S8 ST SA
+S9 H3 SJ SK
+SQ H5 S3 S4
+H4 H9 HQ H6
+DQ D6 DT DJ
+H2 HA H7 HT
+C2 HJ HK S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "15"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AKQ3.T52.Q9.AKQJ 9.43.86432.98764 T7654.Q76.A7.532 J82.AKJ98.KJT5.T"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+2NT Pass 3C Pass
+3D Pass 3H X
+3S Pass 4S Pass
+Pass Pass
+[Play "W"]
+H3 H6 HJ H2
+H4 H7 HK H5
+C7 HQ HA HT
+C4 C2 CT CA
+S9 S4 S2 SA
+D2 - - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AKQ3.T52.Q9.AKQJ 9.43.86432.98764 T7654.Q76.A7.532 J82.AKJ98.KJT5.T"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+2NT Pass 3H X
+4S Pass Pass Pass
+[Play "W"]
+H4 H6 HJ H2
+H3 H7 HA H5
+C8 HQ HK HT
+C4 D7 H9 SA
+S9 S4 S2 SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "16"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K8.A74.JT85.QT62 953.JT32.KQ.J843 JT.Q865.A7643.95 AQ7642.K9.92.AK7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+Pass Pass Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "W"]
+DJ DQ DA D9
+C2 C3 C5 CA
+D5 DK D3 D2
+SK S3 ST SQ
+C6 CJ C9 C7
+S8 S5 SJ SA
+CT C4 H5 CK
+H7 S9 D4 S2
+HA HJ H6 H9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:K8.A74.JT85.QT62 953.JT32.KQ.J843 JT.Q865.A7643.95 AQ7642.K9.92.AK7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "W"]
+DJ DK DA D2
+C2 C3 C9 CA
+D5 DQ D3 D9
+SK S3 ST SQ
+S8 S9 SJ SA
+C6 C4 C5 CK
+CT C8 - C7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "17"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKJ5.T86.J843.42 Q76.K32.AQ52.K83 T84.AJ54.76.J976 932.Q97.KT9.AQT5"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "S"]
+H4 H7 H8 HK
+H5 HQ H6 H2
+D6 DK D3 D2
+D7 D9 D4 DA
+S4 DT D8 DQ
+C6 CA C2 C3
+C7 C5 C4 CK
+C9 CQ S5 C8
+S8 S2 SK S6
+ST S3 SA S7
+HJ H9 DJ D5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKJ5.T86.J843.42 Q76.K32.AQ52.K83 T84.AJ54.76.J976 932.Q97.KT9.AQT5"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 1D Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+SK S6 S8 S2
+S5 SQ S4 S3
+H6 HK HA H7
+SA S7 ST S9
+SJ H2 H4 D9
+HT H3 H5 HQ
+C4 C3 C7 CQ
+C2 CK C6 C5
+D3 C8 C9 CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "18"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A875.KQ983.Q4.JT T.AJ42.T83.KQ864 Q963.T7.9762.975 KJ42.65.AKJ5.A32"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 630"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+1H Pass Pass X
+Pass 3C Pass 3H
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+HT H5 HQ H2
+H7 H6 HK HA
+C5 CA CT C4
+C7 C2 CJ CQ
+D2 DJ DQ D3
+S3 S2 H9 HJ
+D6 D5 D4 DT
+D7 DK S5 D8
+D9 DA S7 ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A875.KQ983.Q4.JT T.AJ42.T83.KQ864 Q963.T7.9762.975 KJ42.65.AKJ5.A32"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1H Pass 1S X
+2S 3C Pass Pass
+Pass
+[Play "W"]
+HT H5 HQ HA
+C7 CA CT C4
+C5 C2 CJ CK
+C9 C3 H3 CQ
+D2 D5 DQ DT
+H7 H6 HK H2
+- - SA -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "19"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KT6.AJ432.82.963 J2.K97.K763.Q874 A875.8.AT954.AJ2 Q943.QT65.QJ.KT5"]
+[Declarer "S"]
+[Contract "1NT"]
+[Result "8"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 120"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+Pass Pass 1D Pass
+1H Pass 1S Pass
+1NT Pass Pass Pass
+[Play "W"]
+SJ SA S3 S6
+D7 D4 DJ D2
+S2 S5 S4 ST
+D3 DA DQ D8
+DK DT H6 H2
+D6 D9 H5 C6
+C4 D5 HT H3
+H7 H8 HQ H4
+C7 S7 S9 SK
+H9 C2 C5 HA
+C8 CA CT C3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KT6.AJ432.82.963 J2.K97.K763.Q874 A875.8.AT954.AJ2 Q943.QT65.QJ.KT5"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D Pass
+1H Pass 1S Pass
+1NT Pass 2C Pass
+2S Pass Pass Pass
+[Play "E"]
+H6 HA H7 H8
+DJ D2 D3 D4
+S3 SK S2 S5
+DQ D8 D6 DA
+SQ C3 D7 D5
+S4 S6 SJ SA
+C5 ST DK D9
+CK C6 C4 CJ
+S9 H2 C7 S7
+H5 H3 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "20"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:7653.Q832..AK976 AKT4.AK6.KT2.T82 QJ.954.Q974.Q543 982.JT7.AJ8653.J"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+Pass 1NT Pass 2C
+X 2S Pass Pass
+Pass
+[Play "E"]
+C4 CJ CK C8
+H4 H7 H8 HA
+C3 S2 C6 CT
+D4 D3 S3 D2
+H5 HT H3 HK
+C5 S8 C7 C2
+SQ S9 S5 SA
+H9 HJ HQ H6
+SJ D5 H2 ST
+CQ D6 C9 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:7653.Q832..AK976 AKT4.AK6.KT2.T82 QJ.954.Q974.Q543 982.JT7.AJ8653.J"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 650"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C X Pass Pass
+3D 3S Pass 4S
+Pass Pass Pass
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "21"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J65.T74.T32.AT92 AT7.AJ.AQ764.KQ8 KQ843.Q53.5.J643 92.K9862.KJ98.75"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -430"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "N"]
+Pass 2NT Pass 3D
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S3 S2 SJ S7
+SQ S9 S6 ST
+S8 H2 S5 SA
+H3 H6 H4 HA
+D5 DK D2 D4
+C3 C5 C2 CK
+H5 DJ D3 D6
+HQ D8 DT DA
+- - - HJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J65.T74.T32.AT92 AT7.AJ.AQ764.KQ8 KQ843.Q53.5.J643 92.K9862.KJ98.75"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+Pass 2C Pass 2D
+Pass 2NT Pass 3D
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Play "S"]
+S4 S2 SJ S7
+SQ S9 S5 ST
+S8 H2 S6 SA
+D5 DJ D2 D7
+H5 D9 D3 DA
+H3 DK DT D4
+HQ H6 H7 HA
+C3 H8 H4 HJ
+C6 D8 CT D6
+- HK HT -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "22"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:.QT8.J863.AKJ843 83.AK3.K2.T97652 QT96.764.AT9754. AKJ7542.J952.Q.Q"]
+[Declarer "N"]
+[Contract "4SX"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 590"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "E"]
+1C Pass 1S 2S
+3C Pass Pass 3S
+Pass 4S X Pass
+Pass Pass
+[Play "E"]
+CA C2 H4 CQ
+D3 D2 D9 DQ
+HQ HA H6 HJ
+C3 S8 ST SJ
+C4 S3 S6 S4
+H8 HK H7 H2
+D6 DK DA S2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:.QT8.J863.AKJ843 83.AK3.K2.T97652 QT96.764.AT9754. AKJ7542.J952.Q.Q"]
+[Declarer "W"]
+[Contract "5DX"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -950"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1S 2S
+Pass Pass 3D 3S
+5D X Pass Pass
+Pass
+[Play "N"]
+SK D3 S8 S6
+CQ CA C2 H6
+DQ DJ D2 DA
+SA D6 S3 SQ
+S2 CK C5 H4
+S4 CJ C6 H7
+S5 C8 C9 D4
+- - - ST
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "23"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K973.864.A5.JT42 .97.JT98764.AQ98 AJT64.AK32.Q2.K5 Q852.QJT5.K3.763"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "S"]
+Pass Pass 1S Pass
+2S Pass 3H Pass
+4S Pass Pass Pass
+[Play "E"]
+C7 C2 CA C5
+DK DA DJ DQ
+S2 S3 D6 SA
+C3 C4 C9 CK
+S5 S7 D4 S4
+C6 CT CQ ST
+S8 S9 D7 S6
+- CJ C8 D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:K973.864.A5.JT42 .97.JT98764.AQ98 AJT64.AK32.Q2.K5 Q852.QJT5.K3.763"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 3D X Pass
+3S Pass 4S Pass
+Pass Pass
+[Play "W"]
+DJ DQ DK DA
+CA C5 C3 CJ
+DT D2 D3 D5
+C8 CK C6 C2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "24"]
+[West "Gal P"]
+[North "Jansen P"]
+[East "Winkler G"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J6.AT87.A765.KJ7 Q72.K52.843.A953 KT953.Q9.KJT2.T8 A84.J643.Q9.Q642"]
+[Declarer "W"]
+[Contract "3D"]
+[Result "11"]
+[HomeTeam "Netherlnd"]
+[Room "Open"]
+[Round "23"]
+[Score "NS -150"]
+[Section "Open"]
+[Table "6"]
+[VisitTeam "Hungary"]
+[Auction "W"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+2H Pass 2S Pass
+2NT Pass 3D Pass
+Pass Pass
+[Play "N"]
+D3 DJ DQ DA
+S7 ST SA S6
+CA C8 C4 C7
+C3 CT C2 CJ
+S2 S3 S4 SJ
+D4 DK D9 D5
+- DT - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Jansma J"]
+[North "Szalay G"]
+[East "Van Cleeff J"]
+[South "Gulyas D"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J6.AT87.A765.KJ7 Q72.K52.843.A953 KT953.Q9.KJT2.T8 A84.J643.Q9.Q642"]
+[Declarer "W"]
+[Contract "2D"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -130"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1D Pass 1S Pass
+1NT Pass 2D Pass
+Pass Pass
+[Play "N"]
+D4 DJ DQ DA
+S7 ST SA S6
+D3 DK D9 D5
+D8 DT C2 D6
+HK HQ H3 H7
+CA C8 C4 C7
+C5 CT CQ CK
+- - - SJ
+*
+

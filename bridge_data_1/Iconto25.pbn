@@ -1,0 +1,1734 @@
+% PBN 1.0
+% EXPORT
+%
+[Event "Generali Euro Team Champs '97"]
+[Site "Montecatini ITA"]
+[Date "1997.06.24"]
+[Board "1"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T.AQ2.KT42.K9754 A943.K6.AQ75.862 752.JT5.963.AJT3 KQJ86.98743.J8.Q"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1D Pass 2C 2S
+3C 4D Pass 4S
+Pass Pass Pass
+[Play "N"]
+C4 C2 CA CQ
+C7 C6 CJ S6
+HA H6 HJ H4
+C9 C8 C3 S8
+D2 DQ D3 D8
+DK DA D6 DJ
+HQ HK H5 H3
+ST S3 S2 SQ
+H2 S9 HT H9
+- SA S5 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "1"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T.AQ2.KT42.K9754 A943.K6.AQ75.862 752.JT5.963.AJT3 KQJ86.98743.J8.Q"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -450"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1C Pass 2C 2S
+3C 4C Pass 4S
+Pass Pass Pass
+[Play "N"]
+C4 C2 CA CQ
+C5 C6 CJ S6
+HA H6 HT H4
+D4 D5 D9 DJ
+H2 HK H5 H3
+ST S3 S2 SK
+HQ S9 HJ H7
+C7 SA S5 S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "2"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A6542.8.A73.A973 JT3.AJ9753.K2.J4 KQ7.42.QJT9865.Q 98.KQT6.4.KT8652"]
+[Declarer "S"]
+[Contract "5HX"]
+[Result "9"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -500"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+1S 2H 4S 5H
+X Pass Pass Pass
+[Play "W"]
+SK S8 S6 S3
+SQ S9 SA ST
+DQ D4 DA D2
+D6 C2 D7 DK
+H2 HK H8 H3
+H4 H6 S2 HJ
+S7 C5 S4 SJ
+CQ CK CA C4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "2"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:A6542.8.A73.A973 JT3.AJ9753.K2.J4 KQ7.42.QJT9865.Q 98.KQT6.4.KT8652"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "13"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -510"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+2S Pass 4S Pass
+Pass Pass
+[Play "S"]
+DK D5 D4 DA
+S3 SK S9 S2
+ST SQ S8 S4
+SJ S7 C2 SA
+H5 H2 C5 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "3"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T65.AJ843.A63.93 QJ2.K97.9.AJ8765 AK874.QT2.874.K4 93.65.KQJT52.QT2"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+Pass 1C 1S 2D
+2H Pass Pass 3D
+Pass Pass Pass
+[Play "S"]
+S5 SQ SK S3
+HJ HK H2 H5
+DA D9 D4 DK
+ST S2 S4 S9
+HA H7 HT H6
+H8 H9 HQ D2
+D3 C5 D7 DQ
+D6 C6 D8 DJ
+C3 CA C4 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "3"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:T65.AJ843.A63.93 QJ2.K97.9.AJ8765 AK874.QT2.874.K4 93.65.KQJT52.QT2"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass 1C 1S 2D
+X Pass 2H 3D
+4H Pass Pass Pass
+[Play "E"]
+DK DA D9 D7
+H5 H3 H7 HQ
+S3 S5 S2 SA
+H6 HA H9 H2
+S9 S6 SJ SK
+D2 ST SQ S4
+C2 C3 C5 CK
+D5 C9 HK S8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "4"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:94.T98.Q42.AQT42 KJ5.J632.J9876.5 AQ632.A74.AT5.97 T87.KQ5.K3.KJ863"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -180"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+Pass Pass 1S Pass
+1NT Pass Pass Pass
+[Play "N"]
+D6 DT DK D4
+D8 DA D3 D2
+C5 C9 CJ CQ
+S5 SA S8 S4
+H2 C7 C8 CT
+SJ SQ S7 S9
+- S2 ST -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "4"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:94.T98.Q42.AQT42 KJ5.J632.J9876.5 AQ632.A74.AT5.97 T87.KQ5.K3.KJ863"]
+[Declarer "S"]
+[Contract "2CX"]
+[Result "5"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -800"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass Pass 1S 2C
+Pass Pass X Pass
+Pass Pass
+[Play "W"]
+S9 S5 SQ S8
+S4 SJ SA S7
+C2 SK S3 ST
+HT H2 HA H5
+D2 D6 DA D3
+CT D7 S6 HQ
+H9 H3 H4 HK
+CA C5 C7 CK
+D4 D8 DT DK
+CQ D9 - CJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "5"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q.Q3.KQ97642.KQ6 AK642.765.T.9742 9875.KT92.3.AT83 JT3.AJ84.AJ85.J5"]
+[Declarer "N"]
+[Contract "4D"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -200"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1D 2S X 3S
+4D Pass Pass Pass
+[Play "E"]
+SA S5 SJ SQ
+H5 HT HA H3
+H7 HK H8 HQ
+DT D3 D5 DK
+S6 - - DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "5"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:Q.Q3.KQ97642.KQ6 AK642.765.T.9742 9875.KT92.3.AT83 JT3.AJ84.AJ85.J5"]
+[Declarer "N"]
+[Contract "3D"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1D 1S X 2D
+3D Pass Pass Pass
+[Play "E"]
+SA S5 SJ SQ
+C7 CA C5 C6
+DT D3 D5 DK
+S4 H2 DA DQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "6"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:83.QJ52.JT83.A74 AQT7.A3.KQ62.QJ3 KJ6.K.A975.K9865 9542.T98764.4.T2"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "6"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -150"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+Pass 1C Pass 1D
+Pass 1H Pass 1S
+Pass 1NT Pass 3H
+Pass Pass Pass
+[Play "W"]
+HK H4 H2 HA
+C8 H6 HJ H3
+SJ S2 S8 ST
+C5 C2 CA C3
+S6 S4 S3 SA
+CK CT C7 CJ
+SK S5 C4 SQ
+DA D4 D3 D2
+C6 H7 D8 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "6"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:83.QJ52.JT83.A74 AQT7.A3.KQ62.QJ3 KJ6.K.A975.K9865 9542.T98764.4.T2"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1D Pass 1H
+Pass 2NT Pass 3D
+Pass 3H Pass Pass
+Pass
+[Play "E"]
+CA C3 C9 C2
+S8 SQ SK S5
+C4 CJ CK CT
+C7 CQ C8 D4
+H2 HA HK H4
+HJ H3 C5 H6
+S3 SA S6 S2
+D3 S7 SJ S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "7"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J82.543.K2.KQJ96 AT93.K.8643.T874 Q7.A876.QJ75.A32 K654.QJT92.AT9.5"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 100"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+Pass Pass 1NT 2C
+2NT 3S Pass Pass
+Pass
+[Play "N"]
+SQ S4 S2 SA
+S7 S5 SJ ST
+D5 S6 S8 S9
+H6 H2 H3 HK
+C3 C5 C6 C4
+D7 D9 DK D6
+DJ DA D2 D3
+H7 HQ H4 D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "7"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:J82.543.K2.KQJ96 AT93.K.8643.T874 Q7.A876.QJ75.A32 K654.QJT92.AT9.5"]
+[Declarer "S"]
+[Contract "2C"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 90"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1D 1H
+2C Pass Pass Pass
+[Play "W"]
+HK HA HQ H4
+C4 C2 C5 CK
+C7 CA H2 C6
+C8 C3 S4 CQ
+CT H6 S5 CJ
+S3 H7 H9 H3
+D8 H8 HT H5
+D3 D5 HJ C9
+D4 D7 - DK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "8"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T52.J875.85.AK74 A76.K4.AK743.T83 K4.932.QJ92.J962 QJ983.AQT6.T6.Q5"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+Pass 1NT Pass 2C
+Pass 2D Pass 3H
+Pass 3S Pass 3NT
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+DQ D6 D8 DA
+SK S3 S2 S6
+C6 C5 CK C3
+C2 CQ CA C8
+CJ S8 C4 CT
+H2 H6 H5 HK
+H3 HA H7 H4
+H9 HT HJ S7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "8"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T52.J875.85.AK74 A76.K4.AK743.T83 K4.932.QJ92.J962 QJ983.AQT6.T6.Q5"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1D Pass 1S
+Pass 2S Pass 3H
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+CA C3 C2 C5
+CK C8 C6 CQ
+D5 DA D2 D6
+S2 S6 SK S3
+D8 DK DQ DT
+S5 S7 S4 SQ
+H5 HK H2 H6
+H7 H4 H3 HA
+H8 SA H9 HT
+- CT - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "9"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KQ752.64.AK9.J94 J83.93.43.KQT732 64.K87.T8652.865 AT9.AQJT52.QJ7.A"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -620"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1S Pass 1NT 4H
+Pass Pass Pass
+[Play "N"]
+DA D3 D6 D7
+SK S3 S4 S9
+DK D4 D2 DJ
+S5 SJ S6 ST
+H4 H9 H7 H2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "9"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KQ752.64.AK9.J94 J83.93.43.KQT732 64.K87.T8652.865 AT9.AQJT52.QJ7.A"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass Pass 3H
+Pass Pass Pass
+[Play "N"]
+SK S3 S4 SA
+H4 H3 H8 HA
+C9 C2 C8 CA
+H6 H9 HK H2
+SQ S8 S6 ST
+S2 SJ H7 S9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "10"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J732.AJT7.AQ9.K5 9654.KQ65.K85.94 KQT.92.T76.AT732 A8.843.J432.QJ86"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -600"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+H5 H2 H8 HJ
+S4 SK SA S2
+HQ H9 H4 HT
+S5 SQ S8 S3
+DK D6 D2 D9
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "10"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "E:J732.AJT7.AQ9.K5 9654.KQ65.K85.94 KQT.92.T76.AT732 A8.843.J432.QJ86"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -600"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1NT Pass 2C Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "S"]
+H5 H2 H8 HJ
+S5 SK SA S2
+HQ H9 H4 HT
+S4 SQ S8 S3
+DK DT DJ DQ
+S6 ST C6 S7
+D5 D6 D2 DA
+D8 D7 D3 D9
+S9 C2 H3 SJ
+C4 C3 C8 CK
+H6 C7 D4 HA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "11"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:97.Q3.KQ532.A876 AT4.AJ74..QJT943 8.K9862.9874.K52 KQJ6532.T5.AJT6."]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -450"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+1D 2C X 2S
+Pass 4S Pass Pass
+Pass
+[Play "S"]
+HQ HA H2 H5
+H3 H4 HK HT
+S7 ST S8 S2
+S9 HJ H6 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "11"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:97.Q3.KQ532.A876 AT4.AJ74..QJT943 8.K9862.9874.K52 KQJ6532.T5.AJT6."]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -480"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1D X 1H 4S
+Pass Pass Pass
+[Play "S"]
+HQ HA H6 H5
+C6 CQ CK S6
+S7 ST S8 S5
+CA CJ C2 HT
+DK H4 D4 DA
+S9 SA H2 SJ
+- CT C5 D6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "12"]
+[West "Jansma J"]
+[North "Baldursson J"]
+[East "Van Cleeff J"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.J98.5.KQ98642 AKQ6.K752.876.A5 JT4.AT.AQT94.T73 9832.Q643.KJ32.J"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 620"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+Pass 1C 2D X
+Pass 2S Pass 4S
+Pass Pass Pass
+[Play "E"]
+C3 CJ CQ CA
+HA H3 H9 H2
+DA D2 D5 D7
+D9 DJ S5 D8
+C7 S2 C2 C5
+S4 S9 S7 SA
+ST S3 C4 SK
+SJ S8 C6 SQ
+DT DK C8 D6
+^R HT D3 C9 S6
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "12"]
+[West "Arnarson G"]
+[North "Jansen P"]
+[East "Jonsson T"]
+[South "Westerhof J"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "W:75.J98.5.KQ98642 AKQ6.K752.876.A5 JT4.AT.AQT94.T73 9832.Q643.KJ32.J"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "6"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 150"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+3C X 3D Pass
+Pass Pass
+[Play "S"]
+H4 H8 HK HA
+HQ H9 H2 HT
+CJ CK CA C3
+S2 S5 SQ S4
+S3 S7 SK ST
+D2 C2 C5 C7
+H3 HJ H5 CT
+DJ C4 D8 DT
+S8 D5 S6 SJ
+DK C6 D7 D9
+S9 C8 SA D4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "13"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K8642.QT6.K8.AJ4 T3.AK92.97542.Q6 Q9.J54.AQT3.T752 AJ75.873.J6.K983"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "6"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 300"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1S Pass 1NT Pass
+2C Pass 2S Pass
+Pass X Pass 3C
+Pass 3D X 3H
+Pass Pass Pass
+[Play "N"]
+S2 S3 SQ SA
+C4 CQ C2 C3
+H6 HA H4 H3
+SK ST S9 S5
+S8 C6 H5 S7
+D8 D2 DT D6
+DK D4 D3 DJ
+S6 D5 HJ SJ
+HT D7 DQ H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "13"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:K8642.QT6.K8.AJ4 T3.AK92.97542.Q6 Q9.J54.AQT3.T752 AJ75.873.J6.K983"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1S Pass 1NT Pass
+2C Pass 2S Pass
+Pass Pass
+[Play "E"]
+HA H4 H8 H6
+D2 D3 DJ DK
+S3 SQ SA S2
+D4 DT D6 D8
+D5 DQ S5 S6
+H2 H5 H3 HQ
+HK HJ H7 HT
+ST S9 S7 SK
+D7 C2 SJ S4
+CQ C5 C3 C4
+H9 C7 C8 S8
+- - - CA
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "14"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A82.KT76.J97.A43 Q7.8532.A85.KJ96 KJ943.Q.QT6432.2 T65.AJ94.K.QT875"]
+[Declarer "W"]
+[Contract "3D"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -130"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+1H Pass 1S Pass
+1NT Pass 2D Pass
+2S Pass 3D Pass
+Pass Pass
+[Play "N"]
+C5 CA C6 C2
+DK DJ D5 D2
+C7 C3 CK D3
+C8 D9 DA D6
+CQ C4 CJ D4
+S5 SA S7 S3
+S6 S2 SQ SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "14"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A82.KT76.J97.A43 Q7.8532.A85.KJ96 KJ943.Q.QT6432.2 T65.AJ94.K.QT875"]
+[Declarer "W"]
+[Contract "2S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+1C Pass 1S Pass
+1NT Pass 2C Pass
+2D Pass Pass X
+Pass 2H 2S Pass
+Pass Pass
+[Play "N"]
+S5 S2 SQ SK
+S6 SA S7 S3
+ST S8 C9 SJ
+DK D7 D8 D2
+C5 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "15"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:J2.T7542.Q632.97 9.K93.K984.KT863 AT843.86.75.AJ54 KQ765.AQJ.AJT.Q2"]
+[Declarer "N"]
+[Contract "1SX"]
+[Result "4"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -800"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+Pass Pass 1S Pass
+Pass X Pass Pass
+Pass
+[Play "E"]
+CQ C7 C3 C4
+SK S2 S9 SA
+C2 C9 C8 CA
+DT SJ C6 C5
+HQ H2 HK H6
+HJ H4 CK CJ
+S5 H5 CT S3
+DA D2 D9 D5
+DJ DQ DK D7
+S6 D3 D8 S4
+HA H7 H3 H8
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "15"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:J2.T7542.Q632.97 9.K93.K984.KT863 AT843.86.75.AJ54 KQ765.AQJ.AJT.Q2"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -430"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass Pass 2D
+Pass 2S Pass 2NT
+Pass 3S Pass 3NT
+Pass Pass Pass
+[Play "S"]
+H2 H3 H6 HQ
+C7 C3 C4 CQ
+C9 CT CJ C2
+S2 S9 ST SK
+H7 HK H8 HJ
+H5 CK CA DT
+SJ D4 SA S5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "16"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:T86.A987.A74.KQT AQ9543..982.A875 K72.6532.KT65.J6 J.KQJT4.QJ3.9432"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 140"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+1C 1S X Pass
+2H 2S Pass Pass
+Pass
+[Play "E"]
+H3 HK HA S3
+SK SJ S6 S4
+D5 DQ DA D2
+C6 C2 CK C5
+CJ C3 CQ CA
+S2 H4 S8 SA
+S7 HT ST SQ
+DK D3 D4 D8
+D6 - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "16"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "W:T86.A987.A74.KQT AQ9543..982.A875 K72.6532.KT65.J6 J.KQJT4.QJ3.9432"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 110"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C 1S X Pass
+2H 2S Pass Pass
+Pass
+[Play "E"]
+CJ C2 CQ CA
+SK SJ S6 S3
+C6 C3 CT C8
+H2 C4 CK C7
+S2 H4 S8 SA
+S7 HT ST SQ
+- - - D2
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "17"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:.AKQT3.AT97.KQ76 Q98.J75.K852.JT8 J754.984..A95432 AKT632.62.QJ643."]
+[Declarer "N"]
+[Contract "6C"]
+[Result "13"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 940"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1C Pass 1D 2S
+X 3S 5C Pass
+6C Pass Pass Pass
+[Play "E"]
+S8 S4 SK C6
+C8 C2 H2 CK
+H5 H4 H6 HA
+D2 C3 D6 D7
+- S5 S6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "17"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:.AKQT3.AT97.KQ76 Q98.J75.K852.JT8 J754.984..A95432 AKT632.62.QJ643."]
+[Declarer "N"]
+[Contract "5HX"]
+[Result "12"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 750"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+1H Pass 2H 2S
+3S X 4H 4S
+Pass Pass 5H X
+Pass Pass Pass
+[Play "E"]
+S8 S4 S2 H3
+D2 H4 D3 D7
+H5 H8 H2 HA
+D5 H9 D4 DT
+C8 C2 H6 C7
+D8 S5 DQ DA
+H7 S7 S3 HK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "18"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K963.Q64.Q82.K72 T75.AK97.T953.Q6 A82.J8532.AK4.T8 QJ4.T.J76.AJ9543"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 50"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+Pass Pass 1H Pass
+1S Pass 2S 3C
+3H Pass Pass Pass
+[Play "N"]
+D6 DQ D3 D4
+HT H4 H7 HJ
+C3 HQ HK H2
+C4 CK CQ C8
+C5 H6 H9 H3
+CJ C2 C6 CT
+CA C7 - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "18"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:K963.Q64.Q82.K72 T75.AK97.T953.Q6 A82.J8532.AK4.T8 QJ4.T.J76.AJ9543"]
+[Declarer "S"]
+[Contract "3D"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass Pass 1H Pass
+2C Pass 2D Pass
+2H Pass Pass X
+Pass 3D Pass Pass
+Pass
+[Play "W"]
+CT C3 CK C6
+C8 C4 C7 CQ
+DK D6 D8 D5
+SA SQ S3 S5
+S8 SJ SK S7
+H5 HT H4 HA
+H2 C5 H6 HK
+H3 D7 HQ H7
+S2 S4 S6 ST
+H8 DJ DQ H9
+DA C9 S9 D9
+HJ CJ D2 D3
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "19"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQ752..Q84.Q8652 T63.82.AKT93.JT3 KJ4.KQ965.762.74 98.AJT743.J5.AK9"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -300"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+2S Pass 3S 4H
+4S X Pass Pass
+Pass
+[Play "W"]
+DK D2 D5 D4
+DA D6 DJ D8
+D3 D7 S8 DQ
+CJ C4 CA C2
+C3 C7 CK C5
+CT H5 C9 CQ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "19"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:AQ752..Q84.Q8652 T63.82.AKT93.JT3 KJ4.KQ965.762.74 98.AJT743.J5.AK9"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -170"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+1S Pass 2S 3H
+Pass Pass Pass
+[Play "S"]
+C2 CJ C4 C9
+S7 H2 H6 HJ
+SQ S3 SK S8
+C6 C3 C7 CA
+D8 D3 D2 DJ
+D4 D9 D6 D5
+DQ DA D7 S9
+S2 DK H5 H7
+C5 CT H9 CK
+S5 S6 S4 H3
+C8 H8 HQ H4
+- - SJ HT
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "20"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:52.T753.AQ3.QJ83 KQ3.AJ6.T94.AKT6 AJT74.KQ982.8.54 986.4.KJ7652.972"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -140"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+Pass 1C X Pass
+1H Pass 2H 3D
+3H Pass Pass Pass
+[Play "N"]
+CA C4 C9 C8
+CK C5 C2 C3
+DT D8 D2 DQ
+H6 HK H4 H3
+S3 SA S6 S2
+SQ SJ S8 S5
+HA H2 D5 H5
+HJ HQ D6 H7
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "20"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:52.T753.AQ3.QJ83 KQ3.AJ6.T94.AKT6 AJT74.KQ982.8.54 986.4.KJ7652.972"]
+[Declarer "W"]
+[Contract "4HX"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 200"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+Pass 1NT 2C 2D
+2H 2NT 3D Pass
+4H X Pass Pass
+Pass
+[Play "N"]
+CA C4 C9 C3
+CK C5 C7 C8
+SK SA S9 S2
+H6 HK H4 H3
+DT D8 D2 DA
+HA H2 - H5
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "21"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K8.AJT764.QT74.7 AT96.Q2.J53.J953 Q75432.9.92.AQ64 J.K853.AK86.KT82"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "8"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -100"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "N"]
+1H Pass 1S 1NT
+Pass 3C 3S Pass
+Pass Pass
+[Play "W"]
+DA D4 D5 D2
+SJ SK SA S2
+D6 S8 S9 SQ
+DK D7 D3 D9
+C2 C7 CJ CQ
+H3 HA H2 H9
+D8 DQ DJ C4
+- DT - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "21"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K8.AJT764.QT74.7 AT96.Q2.J53.J953 Q75432.9.92.AQ64 J.K853.AK86.KT82"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS -100"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "N"]
+2D Pass 2H Pass
+Pass Pass
+[Play "W"]
+DA D4 D3 D2
+DK D7 D5 D9
+D8 DQ DJ S2
+D6 DT S9 S7
+SJ S8 SA S5
+C2 C7 C5 CA
+H3 H4 HQ H9
+H5 SK S6 S3
+CK - - -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "22"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q85.763.K763.J54 T643.A5.J8.AQ876 J7.JT2.A952.KT93 AK92.KQ984.QT4.2"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 420"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "E"]
+Pass 1D Pass 1NT
+Pass 2C Pass 2D
+Pass 3H Pass 3S
+Pass 4C Pass 4S
+Pass Pass Pass
+[Play "E"]
+D6 D8 DA D4
+DK DJ D5 DT
+H7 HA HT H4
+S5 S3 S7 SA
+S8 ST SJ S2
+H3 H5 HJ HK
+SQ S4 - SK
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "22"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:Q85.763.K763.J54 T643.A5.J8.AQ876 J7.JT2.A952.KT93 AK92.KQ984.QT4.2"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 420"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "E"]
+Pass 1C Pass 1H
+Pass 1S Pass 2D
+Pass 3C Pass 4S
+Pass Pass Pass
+[Play "W"]
+D5 DT DK D8
+DA D4 D3 DJ
+D2 DQ D6 H5
+S7 SA S5 S3
+H2 H4 H3 HA
+SJ SK S8 S4
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "23"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AK3.JT53.J964.85 T642.97.72.AQ762 J95.KQ62.A83.K93 Q87.A84.KQT5.JT4"]
+[Declarer "N"]
+[Contract "1NT"]
+[Result "7"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS 90"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "S"]
+Pass Pass 1NT Pass
+Pass Pass
+[Play "E"]
+DQ D4 D2 DA
+H8 H3 H7 HK
+H4 HJ H9 H2
+HA H5 S2 H6
+CJ C5 C7 C3
+CT C8 C2 CK
+D5 HT D7 HQ
+S7 SA S4 S5
+- SK S6 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "23"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AK3.JT53.J964.85 T642.97.72.AQ762 J95.KQ62.A83.K93 Q87.A84.KQT5.JT4"]
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 140"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "S"]
+Pass Pass 1H Pass
+2C X 2H 3C
+3H Pass Pass Pass
+[Play "E"]
+CJ C5 CA C3
+DQ D4 D7 D3
+S7 SA S2 S5
+H4 HJ H7 H2
+HA H3 H9 HK
+S8 S3 ST SJ
+*
+
+[Event "#"]
+[Site "#"]
+[Date "1997.06.24"]
+[Board "24"]
+[West "Westerhof J"]
+[North "Baldursson J"]
+[East "Jansen P"]
+[South "Thorbjorns S"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:92.A953.K74.AKT9 QJ.7642.65.J8762 KT65.KT.AQ83.543 A8743.QJ8.JT92.Q"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "10"]
+[HomeTeam "Iceland"]
+[Room "Open"]
+[Round "25"]
+[Score "NS -430"]
+[Section "Open"]
+[Table "13"]
+[VisitTeam "Netherlnd"]
+[Auction "W"]
+1C Pass 1D 1S
+X XX 3NT Pass
+Pass Pass
+[Play "S"]
+S3 S2 SJ SK
+CQ CA C2 C4
+D2 D4 D5 DA
+H8 C9 CJ C5
+S4 S9 SQ S5
+S7 CT C7 C3
+D9 DK D6 D3
+DT D7 C6 DQ
+HJ H3 H2 HK
+HQ HA H4 HT
+- CK C8 -
+*
+
+[Event "#"]
+[Site "#"]
+[Date "#"]
+[Board "24"]
+[West "Arnarson G"]
+[North "Van Cleeff J"]
+[East "Jonsson T"]
+[South "Jansma J"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:92.A953.K74.AKT9 QJ.7642.65.J8762 KT65.KT.AQ83.543 A8743.QJ8.JT92.Q"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[HomeTeam "#"]
+[Room "Closed"]
+[Round "#"]
+[Score "NS 50"]
+[Section "#"]
+[Table "#"]
+[VisitTeam "#"]
+[Auction "W"]
+1C Pass 1S Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "N"]
+C2 C3 CQ CA
+D5 DQ D2 D7
+CJ C4 S4 CT
+H7 HT HJ HA
+H2 HK H8 H3
+C8 C5 S3 CK
+C6 S5 S8 C9
+SJ SK SA S2
+D6 D3 DT DK
+H4 DA D9 D4
+C7 D8 DJ S9
+- - HQ H5
+*
+
