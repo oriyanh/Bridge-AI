@@ -9,13 +9,13 @@ from enum import Enum
 from typing import List
 
 
-FACES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', ]
+FACES = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A', ]
 
 face_value = {'A': 4.5,
               'K': 3,
               'Q': 1.5,
               'J': 0.75,
-              '10': 0.25,
+              'T': 0.25,
               '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0}
 
 
@@ -97,14 +97,14 @@ class TrumpType(Enum):
 
 
 
-@dataclass
 class Suit:
     suit_type: SuitType
     trump_suit: TrumpType = TrumpType.NT
 
-    @property
-    def is_trump(self):
-        return self.trump_suit.value == self.suit_type.value
+    def __init__(self, suit_type: SuitType, trump_suit: TrumpType = TrumpType.NT) -> None:
+        self.suit_type = suit_type
+        self.trump_suit = trump_suit
+        self.is_trump = self.trump_suit.value == self.suit_type.value
 
     def __repr__(self) -> str:
         return self.suit_type.value
