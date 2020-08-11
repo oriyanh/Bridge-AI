@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from match import *
 
 GAMES_PER_MATCH = 1000
-CARDS_IN_HAND = 5
 
 simple_func_names = [
     'highest_first_action',
@@ -66,7 +65,7 @@ def compare_simple_agents():
 
     def display_table_simple_agents(results_matrix):
         fig, ax = plt.subplots(dpi=600)
-        ax.imshow(results_matrix, cmap='plasma', vmin=0, vmax=100)
+        ax.imshow(results_matrix, cmap='magma', vmin=0, vmax=100)
         ax.set_xticks(np.arange(len(simple_agent_names)))
         ax.set_yticks(np.arange(len(simple_agent_names)))
         ax.set_xticklabels(simple_agent_names)
@@ -82,11 +81,12 @@ def compare_simple_agents():
                     [path_effects.Stroke(linewidth=2, foreground='black'),
                      path_effects.Normal()])
 
-        title = "Simple vs Simple Agents\n" + \
-                f"y-axis win %, higher is better"
-        ax.set_title(title, fontsize=14)
+        title = f"Simple vs Simple Agents, y-axis win %, {NUM_GAMES} games"
+        name = f"SingleActionAgent_{NUM_GAMES}games.png"
+        ax.set_title(title, fontsize=12)
         fig.tight_layout()
-        plt.savefig(f"{title}\n#cards in hand: {CARDS_IN_HAND}.png")
+        plt.plot()
+        plt.savefig(f"{name}.png")
 
     print()
     start_time = time.time()
@@ -100,8 +100,8 @@ def compare_simple_agents():
           f"{int(time.time() - start_time)} seconds ---")
 
 
-def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
-    def run_all_simple_agents_vs_ab_matches(depth, results_matrix):
+def compare_simple_agents_vs_ab_agents(depth, hand_size):
+    def run_all_simple_agents_vs_ab_matches(depth, hand_size, results_matrix):
         for i in range(len(ab_evaluation_func_names)):
             for j in range(len(simple_func_names)):
 
@@ -110,30 +110,20 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
                 print(f"{ab_evaluation_agent_names[i]} vs. "
                       f"{simple_agent_names[j]}")
 
-                if ab_first:
-                    curr_match = Match(ab_agent, simple_agent,
-                                       num_games=GAMES_PER_MATCH,
-                                       verbose_mode=False,
-                                       cards_in_hand=CARDS_IN_HAND)
-                else:
-                    curr_match = Match(simple_agent, ab_agent,
-                                       num_games=GAMES_PER_MATCH,
-                                       verbose_mode=False,
-                                       cards_in_hand=CARDS_IN_HAND)
-
+                curr_match = Match(ab_agent, simple_agent,
+                                   num_games=GAMES_PER_MATCH,
+                                   verbose_mode=False,
+                                   cards_in_hand=hand_size)
                 curr_match.run()
                 print(f"Score: {curr_match.games_counter[0]:02} -"
                       f" {curr_match.games_counter[1]:02}\n")
                 results_matrix[i, j] = \
                     100 * curr_match.games_counter[0] / GAMES_PER_MATCH
-
-        if not ab_first:
-            results_matrix = 100 - results_matrix
         return results_matrix
 
-    def display_table_simple_agents_vs_ab(depth, results_matrix):
+    def display_table_simple_agents_vs_ab(depth, hand_size, results_matrix):
         fig, ax = plt.subplots(dpi=600)
-        ax.imshow(results_matrix, cmap='plasma', vmin=0, vmax=100)
+        ax.imshow(results_matrix, cmap='magma', vmin=0, vmax=100)
         ax.set_xticks(np.arange(len(simple_agent_names)))
         ax.set_yticks(np.arange(len(ab_evaluation_agent_names)))
         ax.set_xticklabels(simple_agent_names)
@@ -149,13 +139,14 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
                     [path_effects.Stroke(linewidth=2, foreground='black'),
                      path_effects.Normal()])
 
-        title = f"AlphaBeta vs Simple Agents\n" \
-                f"{'AlphaBeta' if ab_first else 'Simple'} agent play first\n" \
-                f"y-axis win %, depth={depth}"
-
+        title = f"Simple vs Simple Agents, y-axis win %\n " \
+                f"games:{NUM_GAMES} , hand size:{hand_size}, depth: {depth}"
+        name = f"SingleActionAgent_{NUM_GAMES}games_{hand_size}cards_{depth}depth.png"
         ax.set_title(title, fontsize=12)
         fig.tight_layout()
-        plt.savefig(f"{title}\n#cards in hand: {CARDS_IN_HAND}.png")
+        plt.plot()
+        plt.savefig(f"{name}.png")
+
 
     print()
     start_time = time.time()
@@ -164,18 +155,17 @@ def compare_simple_agents_vs_ab_agents(depth, ab_first=True):
                         len(simple_func_names)))
     results[:] = np.nan
 
-    run_all_simple_agents_vs_ab_matches(depth, results)
-    display_table_simple_agents_vs_ab(depth, results)
+    run_all_simple_agents_vs_ab_matches(depth, hand_size, results)
+    display_table_simple_agents_vs_ab(depth, hand_size, results)
     print(f"--- Graph generation took "
           f"{int(time.time() - start_time)} seconds ---")
 
 
 # compare_simple_agents()
-compare_simple_agents_vs_ab_agents(depth=5, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=5, ab_first=False)
-compare_simple_agents_vs_ab_agents(depth=10, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=10, ab_first=False)
-compare_simple_agents_vs_ab_agents(depth=15, ab_first=True)
-compare_simple_agents_vs_ab_agents(depth=15, ab_first=False)
-
-
+compare_simple_agents_vs_ab_agents(depth=5, hand_size=4)
+compare_simple_agents_vs_ab_agents(depth=10, hand_size=4)
+compare_simple_agents_vs_ab_agents(depth=15, hand_size=4)
+compare_simple_agents_vs_ab_agents(depth=5, hand_size=8)
+compare_simple_agents_vs_ab_agents(depth=10, hand_size=8)
+compare_simple_agents_vs_ab_agents(depth=15, hand_size=8)
+compare_simple_agents_vs_ab_agents(depth=4, hand_size=13)
