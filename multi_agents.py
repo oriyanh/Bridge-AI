@@ -502,11 +502,11 @@ def greedy_legal_moves_count1(state):
 
 def greedy_legal_moves_count2(state):
     legal_moves = state.get_legal_actions()
-    wining_moves_count= 0
+    wining_moves_count = 0
     i = len(state.trick)
     if i == 0:
         cards = starting_trick_cards(state)
-        wining_moves_count = 1 if len(cards) > 0 else 0
+        # wining_moves_count = 1 if len(cards) > 0 else 0
     else:
         best_in_current_trick = max(state.trick.cards())
         if i == 1 or i == 2:
@@ -518,13 +518,13 @@ def greedy_legal_moves_count2(state):
             teammate_legal_moves = get_legal_actions(state.trick.starting_suit, teammate, state.already_played)
             teammate_wining_moves = list(filter(lambda move: move > card_to_win, teammate_legal_moves))
             wining_moves_count = 2 * len(wining_moves) + len(teammate_wining_moves)
-            wining_moves_count = 1 if wining_moves_count > 0 else 0
+            # wining_moves_count = 1 if wining_moves_count > 0 else 0
         if i == 3:
             best_move = max(legal_moves)
             if best_move > best_in_current_trick:
                 wining_moves_count = len(list(filter(lambda move: move > best_in_current_trick,
                                                      legal_moves)))
-                wining_moves_count = 1 if wining_moves_count > 0 else 0
+                # wining_moves_count = 1 if wining_moves_count > 0 else 0
     return wining_moves_count
 
 
