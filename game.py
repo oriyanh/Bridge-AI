@@ -164,10 +164,7 @@ class SimulatedGame(Game):
         self.curr_player = state_copy.curr_player
         self._state = state_copy
 
-
-
-    def play_single_move(self):
-        """ Same as super().play_single_move(), but returns the Card object that was played"""
+    def play_single_move(self, get_card_only=False) -> None:
         if self.first_play and self.starting_action is not None:
             card = self.starting_action
             self.first_play = False
@@ -176,12 +173,14 @@ class SimulatedGame(Game):
         else:
             card = self.other_agent.get_action(self._state)
 
+        if get_card_only:
+            return card
+
         curr_trick = self._state.apply_action(card, True)
         self.curr_trick = curr_trick
         self.curr_player = self._state.curr_player  # Current player of state is trick winner
         self.tricks_counter = [self._state.score[self._state.teams[0]],
                                self._state.score[self._state.teams[1]]]
-        return card
 
     def game_loop(self) -> None:
         if len(self.curr_trick.cards()) > 0:
