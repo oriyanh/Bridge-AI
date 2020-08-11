@@ -165,7 +165,7 @@ def display_table_simple_agents_vs_MCTS(results, agent_cls, num_simulations=1, e
     ax.set_yticks(np.arange(len(simple_agent_names)))
     mcts_agent_names = [f"{agent_cls.__name__}({name})" for name in simple_agent_names]
     title = f"Win % of {agent_cls.__name__} vs normal agent\n" \
-            f"{NUM_GAMES} games, {num_cards} cards, {num_simulations} sims."
+            f"{GAMES_PER_MATCH} games, {num_cards} cards, {num_simulations} sims."
     ax.set_title(title, fontsize=12, fontweight="bold")
     ax.set_xticklabels(simple_agent_names, fontsize=8)
     ax.set_yticklabels(mcts_agent_names, fontsize=8)
@@ -183,7 +183,7 @@ def display_table_simple_agents_vs_MCTS(results, agent_cls, num_simulations=1, e
     plot_dir = os.path.join(os.getcwd(), 'plots')
     os.makedirs(plot_dir, exist_ok=True)
     plot_fname = os.path.join(plot_dir, f"{agent_cls.__name__}_"
-                                        f"_{NUM_GAMES}games_{num_cards}cards_{num_simulations}sims"
+                                        f"_{GAMES_PER_MATCH}games_{num_cards}cards_{num_simulations}sims"
                                         f"{f'_{epsilon:1.2}eps' if epsilon else ''}.jpg")
     plt.tight_layout()
     plt.savefig(plot_fname)
