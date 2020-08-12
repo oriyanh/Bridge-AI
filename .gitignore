@@ -130,3 +130,4 @@ dmypy.json
 
 /.idea/
 /bridge_data_1/
+/plots_old/simple_agents_success_rate_hard_soft_1000games.png

@@ -98,23 +98,26 @@ def test_validate_agent_by_the_whole_game():
 
 def display_results(agents_scores: List[np.ndarray], names: List[str],
                     num_of_games: int, min_tricks_num: int=0):
-    labels = [i for i in range(min_tricks_num + 1, 13)]
+    # labels = [i for i in range(min_tricks_num + 1, 13)]
+    labels = [i for i in range(13 - min_tricks_num, 1, -1)]
     x = np.arange(len(labels))  # the label locations
-    length = len(agents_scores)
-    width = 1 / (length+2)  # the width of the bars
+    num_agents = len(agents_scores)
+    width = 1 / (num_agents+2)  # the width of the bars
 
     fig, ax = plt.subplots()
     rects_list = []
-    for i in range(length):
-        rects_list.append(ax.bar(x + ((i - ((length-1) / 2)) * width),
+    for i in range(num_agents):
+        rects_list.append(ax.bar(x + ((i - ((num_agents-1) / 2)) * width),
                                  agents_scores[i], width, label=names[i]))
 
-    ax.set_ylabel('Percents (%)')
-    ax.set_xlabel('# tricks')
+    ax.set_ylabel('Match success rate (%)')
+    ax.set_xlabel('Hand size (cards)')
     ax.set_title(f'Scores by trick and agent\n (data from {num_of_games} games)')
+    ax.set_title(f'Prediction success rate as func. of # cards in hand\naveraged over {num_of_games} games')
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
-    ax.legend()
+    ax.legend(loc='best')
+    ax.set_ylim([0, 119])
     fig.tight_layout()
     plt.show()
 
@@ -159,8 +162,8 @@ if __name__ == '__main__':
     # games_length()
     # test_validate_agent_by_the_whole_game()
 
-    num_of_games = 20  # how many data_games to use for validation
-    min_tricks_num = 8  # trick index to start validation from (0 for start of game)
+    num_of_games = 1  # how many data_games to use for validation
+    minimum_round = 8  # trick index to start validation from (0 for start of game)
 
     # Run Simple agents
     # agents_list = [SimpleAgent(kind) for kind in simple_func_names]
@@ -174,13 +177,14 @@ if __name__ == '__main__':
     #                 ab_evaluation_agent_names, num_of_games, min_tricks_num)
 
     # Run MTCs (choose one agents_list every time not to be a comment)
-    num_of_simulations = 100
+    num_of_simulations = 10
     agents_list = [SimpleMCTSAgent(kind, num_simulations=num_of_simulations)
                    for kind in simple_func_names]
+    agent_names = [f"{agent_cls.__class__.__name__}({func_name})" for agent_cls, func_name in zip(agents_list, simple_func_names)]
     # agents_list = [StochasticSimpleMCTSAgent(kind, num_simulations=num_of_simulations)
     #                for kind in simple_func_names]
     # agents_list = [PureMCTSAgent(kind, num_simulations=num_of_simulations)
     #                for kind in simple_func_names]
-    agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
-    display_results([agent[min_tricks_num:] for agent in agents_scores_list],
-                    simple_agent_names, num_of_games, min_tricks_num)
+    agents_scores_list = run_validation(agents_list, num_of_games, minimum_round)
+    display_results([agent[minimum_round:] for agent in agents_scores_list],
+                    agent_names, num_of_games, minimum_round)
