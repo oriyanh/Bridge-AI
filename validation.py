@@ -323,7 +323,7 @@ def validate_agent_per_data_game(agent: IAgent, dg: DataGame, min_tricks: int=0)
                                curr_player=curr_hands[position.value - 1])
 
             sg = SimulatedGame(agent=agent,
-                               other_agent=SimpleAgent('lowest_first_action'),
+                               other_agent=SimpleAgent('soft_long_greedy_action'),
                                verbose_mode=False,
                                state=curr_state)
 
