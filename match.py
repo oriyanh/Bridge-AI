@@ -68,8 +68,9 @@ class Match:
             os.system('clear' if 'linux' in sys.platform else 'cls')
             print(self)
         print(self)
-        print(
-            f"Total time for match: {end_t - start_t} seconds; Average {(end_t - start_t) / float(self.num_games)} seconds per game")
+        print(f"Total time for match: {end_t - start_t} seconds; "
+              f"Average {(end_t - start_t) / float(self.num_games)} "
+              f"seconds per game")
 
 
 def create_game(agent, other_agent, games_counter, verbose_mode,
