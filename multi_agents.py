@@ -990,7 +990,7 @@ class HumanAgent(IAgent):
                     return action
                 else:
                     print(f"{card_suit, card_number} "
-                          f"is not in your hand, try again")
+                          f"is not a legal card to play, try again")
 
             except ValueError or IndexError or TypeError:
                 print(f"{inp} is not a valid action, try again")
