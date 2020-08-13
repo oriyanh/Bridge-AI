@@ -12,8 +12,9 @@ Human
 import os
 import sys
 from argparse import ArgumentParser, ArgumentTypeError
-from numpy.random import seed
 from time import perf_counter
+
+from numpy.random import seed
 from tqdm import tqdm
 
 from game import Game
@@ -67,7 +68,9 @@ class Match:
             os.system('clear' if 'linux' in sys.platform else 'cls')
             print(self)
         print(self)
-        print(f"Total time for match: {end_t - start_t} seconds; Average {(end_t-start_t)/float(self.num_games)} seconds per game")
+        print(f"Total time for match: {end_t - start_t} seconds; "
+              f"Average {(end_t - start_t) / float(self.num_games)} "
+              f"seconds per game")
 
 
 def create_game(agent, other_agent, games_counter, verbose_mode,
@@ -91,7 +94,7 @@ def parse_args():
     parser.add_argument('--agent2')
     parser.add_argument('--num_games', type=int, default=100)
     parser.add_argument('--cards_in_hand', type=int, default=13)
-    parser.add_argument('--verbose_mode', type=bool, default=True)
+    parser.add_argument('--verbose_mode', type=int, default=1)
     return parser.parse_args()
 
 
@@ -104,7 +107,7 @@ def str_to_agent(agent_str):
                     agent_str[1])])
         else:
             print("Bad arguments for Simple agent. Should be:\n"
-                  "Simple <agent name>")
+                  "Simple-<agent name>")
             return -1
 
     elif agent_str[0] == "AlphaBeta":  # AlphaBeta agent
@@ -115,7 +118,7 @@ def str_to_agent(agent_str):
                 depth=int(agent_str[2]))
         else:
             print("Bad arguments for AlphaBeta agent. Should be:\n"
-                  "AlphaBeta <agent name>")
+                  "AlphaBeta-<ab_evaluation_agent_names>-<depth>")
             return -1
 
     elif agent_str[0] == "MCTS":  # MCTS agent
@@ -136,8 +139,8 @@ def str_to_agent(agent_str):
                 num_simulations=int(agent_str[3]))
         else:
             print("Bad arguments for MCTS agent. Should be:\n"
-                  "MCTS <'simple'/'stochastic'/'pure'> "
-                  "<simulated agent name>")
+                  "MCTS-<'simple'/'stochastic'/'pure'>-"
+                  "<simulated agent name>-<num_of_simulations>")
             return -1
 
     elif agent_str[0] == "Human":  # Human agent
@@ -155,8 +158,11 @@ def run_match():
         print("ArgumentTypeError: Bad arguments usage")
         return -1
 
-    match = Match(a0, a1,
-                  args.num_games, args.verbose_mode, args.cards_in_hand)
+    match = Match(agent=a0,
+                  other_agent=a1,
+                  num_games=args.num_games,
+                  verbose_mode=bool(args.verbose_mode),
+                  cards_in_hand=args.cards_in_hand)
     match.run()
 
 
