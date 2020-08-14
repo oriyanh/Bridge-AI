@@ -1,6 +1,7 @@
 # Double Dummy Bridge Solver
 In this project we try to create a sophisticated computer agent to play the Contact Bridge card game. Our goal is to develop an agent that is tough to play against,  with fast reaction time so it is able to play in real time against humans. We approached this as a search problem, and implemented search-tree heuristics based on Minimax and Monte Carlo Tree Search.<br>
 Implemented as a final project for the "Introduction to Aritifical Intelligence" course of the Hebrew University of Jerusalem.<br>
+
 # Running Instructions
 * Create a `virtualenv` with `python3.7` - `virtualenv -p python3.7 venv` 
 * `pip install -r requirements.txt` to install project dependencies.
@@ -25,3 +26,10 @@ MCTS vs Simple:
 
 If you wish to run games automatically without seeing each game state and without pressing Enter after each move, add the argument “--verbose_mode 0”.
 For more arguments, refer to `match.py`.
+<br>
+# Authors
+* Ram Friedman
+* Yonny Hammer
+* Maryna Romanchuk
+* Oriyan Hermoni
+<br> 
