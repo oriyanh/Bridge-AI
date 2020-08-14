@@ -35,15 +35,11 @@ def test_all_snapshots_single_game():
 def load_all_game():
     games_dir = os.path.join(os.getcwd(), 'bridge_data_1')
     files_name = os.listdir(games_dir)
-    # files_name = []
-    # for (dirpath, dirnames, filenames) in walk(games_dir):
-    #     files_name.extend(filenames)
-    #     break
     pbn_files = []
     for file in files_name:
         if file[-3:] == 'pbn':
             pbn_files.append(os.path.join('bridge_data_1', file))
-    files = Parser(pbn_files)
+    files = Parser(np.random.permutation(pbn_files).tolist())
     print("succeed loading")
     return files
 
@@ -98,7 +94,6 @@ def test_validate_agent_by_the_whole_game():
 
 def display_results(agents_scores: List[np.ndarray], names: List[str],
                     num_of_games: int, min_tricks_num: int=0):
-    # labels = [i for i in range(min_tricks_num + 1, 13)]
     labels = [i for i in range(13 - min_tricks_num, 1, -1)]
     x = np.arange(len(labels))  # the label locations
     num_agents = len(agents_scores)
@@ -146,6 +141,8 @@ def run_validation(agents_list: List[IAgent], num_of_games: int,
                 agent, games.games[i], min_tricks)
             all_checks += curr_checks
             all_succeeds += curr_succeeds
+            if (i+1) % 25 == 0:
+                print(f"Finished {i+1}/{num_of_games} games for agent {agent.__class__.__name__}")
         agents_scores[agent_idx] = (all_succeeds / all_checks) * 100
         print(f"agent {agent_idx}: {(perf_counter() - start)/num_of_games} seconds/game, {num_of_games} games")
     print(agents_scores)
@@ -153,6 +150,7 @@ def run_validation(agents_list: List[IAgent], num_of_games: int,
 
 
 if __name__ == '__main__':
+    ### Tests
     # test_snapshot()
     # test_all_snapshots_single_game()
     # test_validate_agent_action()
@@ -165,18 +163,18 @@ if __name__ == '__main__':
     num_of_games = 1  # how many data_games to use for validation
     minimum_round = 8  # trick index to start validation from (0 for start of game)
 
-    # Run Simple agents
+    ### Run Simple agents
     # agents_list = [SimpleAgent(kind) for kind in simple_func_names]
     # agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
     # display_results(agents_scores_list, simple_agent_names, num_of_games)
 
-    # Run AB agents
+    ### Run AB agents
     # agents_list = [AlphaBetaAgent(kind, depth=12) for kind in ab_evaluation_func_names]
     # agents_scores_list = run_validation(agents_list, num_of_games, min_tricks_num)
     # display_results([agent[min_tricks_num:] for agent in agents_scores_list],
     #                 ab_evaluation_agent_names, num_of_games, min_tricks_num)
 
-    # Run MTCs (choose one agents_list every time not to be a comment)
+    ### Run MTCs (choose one agents_list every time not to be a comment)
     num_of_simulations = 10
     agents_list = [SimpleMCTSAgent(kind, num_simulations=num_of_simulations)
                    for kind in simple_func_names]

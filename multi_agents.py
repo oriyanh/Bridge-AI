@@ -1,11 +1,10 @@
+import numpy as np
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from concurrent.futures.thread import ThreadPoolExecutor
 from copy import copy
 from queue import Queue
 from typing import Dict, List, Set
-
-import numpy as np
 
 from cards import Card
 from game import SimulatedGame

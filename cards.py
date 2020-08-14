@@ -4,7 +4,6 @@ This module holds classes that represent cards and their derivative classes.
 
 import numpy as np
 from copy import copy
-from dataclasses import dataclass
 from enum import Enum
 from typing import List
 
@@ -317,7 +316,7 @@ class Hand:
                 aces_10s_count += values.count(0.25)  # tens
                 aces_10s_count += values.count(4.5)  # aces
                 queens_jecks_count += values.count(1.5)  # queens
-                queens_jecks_count += values.count(0.75)  # jecks
+                queens_jecks_count += values.count(0.75)  # jacks
                 if len(values) == 5:  # adjust rule 4
                     hand_value += 3
 
