@@ -7,21 +7,23 @@ Simple-<simple_agent_names>
 AlphaBeta-<ab_evaluation_agent_names>-<depth>
 MCTS-<'simple'/'stochastic'/'pure'>-<simple_agent_names>-<num_simulations>
 Human
+
+Optional arguments:
+--name_games - defaults to 100
+--verbose_mode - if 0, will only print end result of match with no user interaction. If 1, enter interactive mode.
+--seed - if a number >= 0, set random seed of match for reproducibility. Else, use system default value.
 """
 
 import os
 import sys
+import numpy as np
 from argparse import ArgumentParser, ArgumentTypeError
 from time import perf_counter
-
-from numpy.random import seed
 from tqdm import tqdm
 
 from game import Game
 from multi_agents import *
 from trick import Trick
-
-seed(0)
 
 
 class Match:
@@ -88,13 +90,15 @@ def create_game(agent, other_agent, games_counter, verbose_mode,
 
 
 def parse_args():
-    """ Parses command line arguments. To be implemented."""
+    """ Parses command line arguments. Returns namespace of arguments."""
     parser = ArgumentParser()
-    parser.add_argument('--agent1')
-    parser.add_argument('--agent2')
+    parser.add_argument('--agent1', required=True)
+    parser.add_argument('--agent2', required=True)
     parser.add_argument('--num_games', type=int, default=100)
     parser.add_argument('--cards_in_hand', type=int, default=13)
     parser.add_argument('--verbose_mode', type=int, default=1)
+    parser.add_argument('--seed', type=int, default=-1)
+
     return parser.parse_args()
 
 
@@ -155,8 +159,15 @@ def run_match():
         a0 = str_to_agent(args.agent1)
         a1 = str_to_agent(args.agent2)
     except ArgumentTypeError:
-        print("ArgumentTypeError: Bad arguments usage")
-        return -1
+        print("ArgumentTypeError: Bad arguments usage", file=sys.stderr)
+        print(f"USAGE: run with the following arguments - ", file=sys.stderr)
+        print("   python3.7 match.py --agent1 <agent> --agent2 <agent> [--cards_in_hand <int> --num_games <int> --verbose_mode <int> --seed <int>]\n"
+                "Where each agent encoding is of in one of the following forms:\n"
+                "* Simple-<simple_agent_names>\n"
+                "* AlphaBeta-<ab_evaluation_agent_names>-<depth>\n"
+                "* MCTS-<'simple'/'stochastic'/'pure'>-<simple_agent_names>-<num_simulations>\n"
+                "* Human", file=sys.stderr)
+        exit(1)
 
     match = Match(agent=a0,
                   other_agent=a1,
@@ -168,5 +179,7 @@ def run_match():
 
 if __name__ == '__main__':
     args = parse_args()
+    if args.seed >= 0:
+        np.random.seed(args.seed)
     run_match()
-    input()
+    input("Press Enter button to exit")

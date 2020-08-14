@@ -1,8 +1,8 @@
+import numpy as np
+from collections import defaultdict
 from copy import deepcopy
 from itertools import cycle, islice
 from typing import Tuple, List, TextIO
-import numpy as np
-from collections import defaultdict
 
 from cards import Card, SUITS, SuitType, TrumpType, Hand
 from game import SimulatedGame
@@ -10,6 +10,7 @@ from multi_agents import IAgent, SimpleAgent, AlphaBetaAgent
 from players import Player, PositionEnum, POSITIONS, PLAYERS_CYCLE, TEAMS, Team
 from state import State
 from trick import Trick
+
 np.seterr(divide='ignore', invalid='ignore')
 
 

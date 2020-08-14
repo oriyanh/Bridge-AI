@@ -199,4 +199,3 @@ class SimulatedGame(Game):
     def run(self) -> bool:
         self.game_loop()
         return True
-
